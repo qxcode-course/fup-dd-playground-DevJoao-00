@@ -1,5 +1,6 @@
 nomeAluno: "João Victor"
 matricula: "599970"
+idadeAluno: "18"
 ---
 
 # Instalando o TKO e configurando o repositório
