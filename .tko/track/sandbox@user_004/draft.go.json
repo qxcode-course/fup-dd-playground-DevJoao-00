@@ -1,0 +1,74 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-10_17-21-59",
+            "content": "@@ -45,18 +45,17 @@\n fmt.\n-Fp\n+P\n rintln(%22\n hell\n@@ -54,19 +54,12 @@\n ln(%22\n-hello world\n+joao\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-10_17-31-51",
+            "content": "@@ -45,9 +45,10 @@\n fmt.\n-P\n+Fp\n rint\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-10_17-32-29",
+            "content": "@@ -68,42 +68,6 @@\n d%22)%0A\n-    fmt.Println(%22FF = frio e fome%22)%0A\n %7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-10_17-35-51",
+            "content": "@@ -37,13 +37,8 @@\n ) %7B%0A\n-    %0A\n     \n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-03-10_17-37-47",
+            "content": "@@ -41,20 +41,8 @@\n     \n-var a, b int\n %0A   \n@@ -71,14 +71,8 @@\n rld%22\n-, a, b\n )%0A  \n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-10_17-40-31",
+            "content": "@@ -50,15 +50,11 @@\n , b \n-float64\n+int\n %0A   \n@@ -72,16 +72,22 @@\n n(%22hello\n+ world\n %22, a, b)\n@@ -87,10 +87,46 @@\n , a, b)%0A\n+    fmt.Println(%22FF = frio e fome%22)%0A\n %7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-10_17-41-38",
+            "content": "@@ -58,25 +58,8 @@\n t64%0A\n-    fmt.Scan(&a)%0A\n     \n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-03-10_17-43-09",
+            "content": "@@ -75,25 +75,8 @@\n &a)%0A\n-    fmt.Scan(&b)%0A\n     \n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-10_17-44-32",
+            "content": "@@ -123,44 +123,6 @@\n  b)%0A\n-    fmt.Println(a)%0A    fmt.Println(b)%0A\n %7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-10_17-49-11",
+            "content": "@@ -57,16 +57,46 @@\n at64%0A   \n+ fmt.Scan(&a)%0A    fmt.Scan(&b)\n %0A    fmt\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-10_17-49-20",
+            "content": "@@ -61,38 +61,8 @@\n %0A   \n- fmt.Scan(&a)%0A    fmt.Scan(&b)\n %0A   \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-10_17-49-30",
+            "content": "@@ -140,11 +140,26 @@\n ln(a\n- + \n+)%0A    fmt.Println(\n b)%0A%7D\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-10_17-57-34",
+            "content": "@@ -104,16 +104,25 @@\n Println(\n+%22hello%22, \n a, b)%0A  \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-10_17-59-01",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b float64\n    fmt.Scan(&a)\n    fmt.Scan(&b)\n    fmt.Println(a, b)\n    fmt.Println(a + b)\n}\n",
+            "lines": "9"
+        }
+    ]
+}

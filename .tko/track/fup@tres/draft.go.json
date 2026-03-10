@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-10_18-04-16",
+            "content": "@@ -37,79 +37,8 @@\n ) %7B%0A\n-    var a, b, c int%0A    fmt.Scan(&a)%0A    fmt.Scan(&b)%0A    fmt.Scan(&c)%0A\n     \n@@ -53,17 +53,16 @@\n tln(\n-a + b + c\n+%22qxcode%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-10_18-08-54",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b, c int\n    fmt.Scan(&a)\n    fmt.Scan(&b)\n    fmt.Scan(&c)\n    fmt.Println(a + b + c)\n}\n",
+            "lines": "9"
+        }
+    ]
+}

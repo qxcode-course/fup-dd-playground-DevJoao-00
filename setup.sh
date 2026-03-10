@@ -7,7 +7,7 @@ set -euo pipefail
 
 GO_VERSION="go1.26.0"
 GO_ARCH="linux-amd64"
-GO_TAR="${GO_VERSION}.${GO_ARCH}.tar.gz"
+GO_TAR="${GO_VERSION}.${GO_ARCH}.tar.gz"r
 GO_URL="https://go.dev/dl/${GO_TAR}"
 CACHE_DIR="${HOME}/.cache/dev-setup"
 
