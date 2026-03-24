@@ -27,8 +27,43 @@
         },
         {
             "label": "2026-03-17_17-04-25",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println( \"Hello, World!\" )\n}\n",
+            "content": "@@ -49,13 +49,29 @@\n Println(\n+ %22Hello, World!%22\n  )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-03-23_17-20-16",
+            "content": "@@ -41,389 +41,21 @@\n     \n-var p1 int = 5%0A    var p2 int = 10%0A    var p3 int = 15%0A    var v1 float32 = 2.50%0A    var v2 float32 = 10.9%0A    var v3 float32 = 8.75%0A    var qtddiero float32 = 1000.0%0A    fmt.Scan(&v1)%0A    fmt.Scan(&v2)%0A    fmt.Scan(&v3)%0A    fmt.Scan(&p1)%0A    fmt.Scan(&p2)%0A    fmt.Scan(&p3)%0A    fmt.Scan(&qtddiero)%0A%0A    fmt.Println(qtddiero - float32(p1) * v1 + float32(p2) * v2 + float32(p3) * v3\n+fmt.Println( \n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-23_18-05-43",
+            "content": "@@ -46,25 +46,25 @@\n ar p1 int = \n-0\n+5\n %0A    var p2 \n@@ -65,24 +65,25 @@\n ar p2 int = \n+1\n 0%0A    var p3\n@@ -89,17 +89,18 @@\n 3 int = \n-0\n+15\n %0A    var\n@@ -105,32 +105,35 @@\n ar v1 float32 = \n+2.5\n 0%0A    var v2 flo\n@@ -131,33 +131,36 @@\n ar v2 float32 = \n-0\n+10.9\n %0A    var v3 floa\n@@ -161,25 +161,28 @@\n 3 float32 = \n-0\n+8.75\n %0A    var qtd\n@@ -197,16 +197,21 @@\n oat32 = \n+1000.\n 0%0A    fm\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-03-23_18-07-22",
+            "content": "@@ -329,28 +329,20 @@\n     \n-var sobra float32 = \n+fmt.Println(\n qtdd\n@@ -406,40 +406,8 @@\n * v3\n- %0A    fmt.Printf(%22%25.2f%5Cn%22, sobra\n )%0A%7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-03-23_18-09-39",
+            "content": "@@ -43,24 +43,28 @@\n   var p1 int\n+ = 0\n %0A    var p2 \n@@ -66,16 +66,20 @@\n r p2 int\n+ = 0\n %0A    var\n@@ -86,16 +86,19 @@\n  p3 int \n+= 0\n %0A    var\n@@ -104,24 +104,28 @@\n r v1 float32\n+ = 0\n %0A    var v2 \n@@ -124,32 +124,35 @@\n  var v2 float32 \n+= 0\n %0A    var v3 floa\n@@ -155,16 +155,19 @@\n float32 \n+= 0\n %0A    var\n@@ -183,16 +183,20 @@\n  float32\n+ = 0\n %0A    fmt\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-03-23_18-11-16",
+            "content": "@@ -406,9 +406,18 @@\n ntf(\n-%25\n+%22%25.2f%5Cn%22, \n sobr\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-03-23_18-13-52",
+            "content": "@@ -177,17 +177,17 @@\n t.Scan(&\n-p\n+v\n 1)%0A    f\n@@ -195,17 +195,17 @@\n t.Scan(&\n-p\n+v\n 2)%0A    f\n@@ -213,17 +213,17 @@\n t.Scan(&\n-p\n+v\n 3)%0A    f\n@@ -223,33 +223,33 @@\n )%0A    fmt.Scan(&\n-v\n+p\n 1)%0A    fmt.Scan(\n@@ -241,33 +241,33 @@\n )%0A    fmt.Scan(&\n-v\n+p\n 2)%0A    fmt.Scan(\n@@ -259,33 +259,33 @@\n )%0A    fmt.Scan(&\n-v\n+p\n 3)%0A    fmt.Scan(\n@@ -406,18 +406,9 @@\n ntf(\n-%22%25.2f%5Cn%22, \n+%25\n sobr\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-03-23_18-17-07",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var p1 int\n    var p2 int\n    var p3 int \n    var v1 float32\n    var v2 float32 \n    var v3 float32 \n    var qtddiero float32\n    fmt.Scan(&p1)\n    fmt.Scan(&p2)\n    fmt.Scan(&p3)\n    fmt.Scan(&v1)\n    fmt.Scan(&v2)\n    fmt.Scan(&v3)\n    fmt.Scan(&qtddiero)\n\n    var sobra float32 = qtddiero - float32(p1) * v1 + float32(p2) * v2 + float32(p3) * v3 \n    fmt.Printf(\"%.2f\\n\", sobra)\n}\n",
+            "lines": "21"
         }
     ]
 }

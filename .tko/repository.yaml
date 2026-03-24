@@ -13,6 +13,8 @@ sources:
   quests: null
   tasks: null
 expanded:
+- fup@projetos
+- fup@jogos-em-modo-texto
 - fup@missão-operações
 - fup@campanha-principal
 tasks:

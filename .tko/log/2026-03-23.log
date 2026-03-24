@@ -1,0 +1,10 @@
+2026-03-23 17:20:14, MOVE, v:1, k:fup@sobrou, mode:PICK
+2026-03-23 17:20:16, EXEC, v:1, k:fup@sobrou, mode:FULL, rate:0, size:5
+2026-03-23 18:05:43, EXEC, v:1, k:fup@sobrou, mode:FULL, rate:0, size:20
+2026-03-23 18:07:22, EXEC, v:1, k:fup@sobrou, mode:FULL, rate:0, size:20
+2026-03-23 18:09:39, EXEC, v:1, k:fup@sobrou, mode:FULL, rate:0, size:21
+2026-03-23 18:11:16, EXEC, v:1, k:fup@sobrou, mode:FULL, rate:0, size:21
+2026-03-23 18:12:48, EXEC, v:1, k:fup@sobrou, mode:FULL, rate:0
+2026-03-23 18:13:20, EXEC, v:1, k:fup@sobrou, mode:FULL, rate:0
+2026-03-23 18:13:52, EXEC, v:1, k:fup@sobrou, mode:FULL, size:21, fail:COMP
+2026-03-23 18:17:07, EXEC, v:1, k:fup@sobrou, mode:FULL, rate:0, size:21
