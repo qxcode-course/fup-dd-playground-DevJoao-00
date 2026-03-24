@@ -92,8 +92,13 @@
         },
         {
             "label": "2026-03-24_17-04-42",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var p1, p2, p3 int\n    var v1, v2, v3 float32 \n    var qtddiero float32\n    fmt.Scan(&p1, &p2, &p3)\n    fmt.Scan(&v1, &v2, &v3)\n    fmt.Scan(&qtddiero)\n\n    total:= float32(p1) * v1 + float32(p2) * v2 + float32(p3) * v3 \n    troco := qtddiero - total\n    fmt.Printf(\"%.2f\\n\", troco)\n}\n",
+            "content": "@@ -33,17 +33,16 @@\n ain() %7B%0A\n-%0A\n     var \n@@ -109,17 +109,16 @@\n float32%0A\n-%0A\n     fmt.\n@@ -292,13 +292,8 @@\n tal%0A\n-    %0A\n     \n",
             "lines": "14"
+        },
+        {
+            "label": "2026-03-24_17-06-26",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n\n    var p1, p2, p3 int\n    var v1, v2, v3 float32 \n    var qtddiero float32\n\n    fmt.Scan(&p1, &p2, &p3)\n    fmt.Scan(&v1, &v2, &v3)\n    fmt.Scan(&qtddiero)\n\n    total:= float32(p1) * v1 + float32(p2) * v2 + float32(p3) * v3 \n    troco := qtddiero - total\n    \n    fmt.Printf(\"%.2f\\n\", troco)\n}\n",
+            "lines": "17"
         }
     ]
 }
