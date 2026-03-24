@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-16_16-34-28",
+            "content": "@@ -41,304 +41,28 @@\n     \n-var a, b, c int%0A    var valorA, valorB, valorC float64%0A    var diero float64%0A    fmt.Scan(&a)%0A    fmt.Scan(&b)%0A    fmt.Scan(&c)%0A    fmt.Scan(&valorA)%0A    fmt.Scan(&valorB)%0A    fmt.Scan(&valorC)%0A    fmt.Scan(&diero)%0A        %0A    fmt.Println(%0A        diero - (a * valorA + b * valorB + c * valorC)\n+fmt.Println(%22qxcode%22\n )%0A%7D%0A\n-%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-16_16-57-57",
+            "content": "@@ -277,13 +277,68 @@\n Println(\n+%0A        diero - (a * valorA + b * valorB + c * valorC)\n )%0A%7D%0A%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-16_17-29-49",
+            "content": "@@ -118,30 +118,8 @@\n t64%0A\n-    var sobra float64%0A\n     \n@@ -131,16 +131,16 @@\n can(&a)%0A\n+\n     fmt.\n@@ -256,192 +256,33 @@\n ro)%0A\n-%0A\n     \n-fmt.Scan(&sobra)%0A    total := float64(a)*valorA + float64(b)*valorB + float64(c)*valorC%0A    remainder := diero - float64(int(diero/total))*total%0A    fmt.Println(sobra == remainder\n+    %0A    fmt.Println(\n )%0A%7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-16_17-34-26",
+            "content": "@@ -41,28 +41,430 @@\n     \n-fmt.Println(%22qxcode%22\n+var a, b, c int%0A    var valorA, valorB, valorC float64%0A    var diero float64%0A    var sobra float64%0A    fmt.Scan(&a)%0A    fmt.Scan(&b)%0A    fmt.Scan(&c)%0A    fmt.Scan(&valorA)%0A    fmt.Scan(&valorB)%0A    fmt.Scan(&valorC)%0A    fmt.Scan(&diero)%0A%0A    fmt.Scan(&sobra)%0A    total := float64(a)*valorA + float64(b)*valorB + float64(c)*valorC%0A    remainder := diero - float64(int(diero/total))*total%0A    fmt.Println(sobra == remainder\n )%0A%7D%0A\n+%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-03-17_16-57-39",
+            "content": "@@ -53,25 +53,16 @@\n tln(\n- %22Hello, World!%22 \n+%22qxcode%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-17_17-04-25",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println( \"Hello, World!\" )\n}\n",
+            "lines": "5"
+        }
+    ]
+}
