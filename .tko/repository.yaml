@@ -18,7 +18,7 @@ expanded:
 tasks:
   fup@tres: '{self:1, rate:100, study:10, guided:1}'
   fup@resto: '{self:1, rate:100, study:8, friend:nao, guided:1}'
-  fup@media: '{self:1, study:6, guided:1}'
+  fup@media: '{self:1, rate:100, study:6, guided:1}'
   fup@sobrou: '{self:1, rate:100, study:60}'
 flags:
   panel: 0
@@ -28,4 +28,4 @@ flags:
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: fup@media
+selected: fup@segundos

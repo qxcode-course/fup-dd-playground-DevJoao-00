@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-24_17-24-19",
+            "content": "@@ -41,200 +41,35 @@\n     \n-var segundos int%0A%0A    fmt.Scan(&segundos)%0A%0A    horas := segundos / 3600%0A    minutos := (segundos %25 3600) / 60%0A    segRest := segundos %25 60%0A%0A    fmt.Printf(%22%25d:%25d:%25d%5Cn%22, horas, minutos, segRest\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-24_17-29-14",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var segundos int\n\n    fmt.Scan(&segundos)\n\n    horas := segundos / 3600\n    minutos := (segundos % 3600) / 60\n    segRest := segundos % 60\n\n    fmt.Printf(\"%d:%d:%d\\n\", horas, minutos, segRest)\n}\n",
+            "lines": "13"
+        }
+    ]
+}
