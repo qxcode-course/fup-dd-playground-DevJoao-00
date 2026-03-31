@@ -112,3 +112,11 @@
 2026-03-24 17:24:18, MOVE, v:1, k:fup@segundos, mode:PICK
 2026-03-24 17:24:19, EXEC, v:1, k:fup@segundos, mode:FULL, rate:0, size:5
 2026-03-24 17:29:14, EXEC, v:1, k:fup@segundos, mode:FULL, rate:100, size:13
+2026-03-24 17:32:46, MOVE, v:1, k:fup@segundos, mode:BACK
+2026-03-24 17:37:02, SELF, v:1, k:fup@segundos, self:1, rate:100, study:15
+2026-03-24 17:37:55, MOVE, v:1, k:fup@celsius, mode:DOWN
+2026-03-24 17:50:29, MOVE, v:1, k:fup@celsius, mode:PICK
+2026-03-24 17:53:30, MOVE, v:1, k:fup@celsius, mode:PICK
+2026-03-24 17:53:31, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0, size:13
+2026-03-24 17:53:38, EXEC, v:1, k:fup@celsius, mode:FULL, rate:14, size:13
+2026-03-24 17:53:53, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0, size:13

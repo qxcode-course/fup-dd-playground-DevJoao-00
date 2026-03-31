@@ -1,0 +1,23 @@
+2026-03-31 16:29:01, MOVE, v:1, k:fup@tres, mode:DOWN
+2026-03-31 16:29:04, MOVE, v:1, k:fup@tres, mode:PICK
+2026-03-31 16:29:13, EXEC, v:1, k:fup@tres, mode:FULL, rate:0, size:5
+2026-03-31 16:35:55, EXEC, v:1, k:fup@tres, mode:FULL, rate:100, size:8
+2026-03-31 16:36:10, MOVE, v:1, k:fup@tres, mode:BACK
+2026-03-31 16:36:49, MOVE, v:1, k:fup@celsius, mode:PICK
+2026-03-31 16:36:50, EXEC, v:1, k:fup@celsius, mode:FULL, rate:14, size:14
+2026-03-31 16:36:52, EXEC, v:1, k:fup@celsius, mode:FULL, rate:14
+2026-03-31 16:36:53, EXEC, v:1, k:fup@celsius, mode:FULL, rate:14
+2026-03-31 16:42:56, EXEC, v:1, k:fup@celsius, mode:FULL, rate:14, size:13
+2026-03-31 16:43:28, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0, size:13
+2026-03-31 16:43:53, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0, size:13
+2026-03-31 16:44:02, EXEC, v:1, k:fup@celsius, mode:FULL, rate:14, size:13
+2026-03-31 16:46:42, EXEC, v:1, k:fup@celsius, mode:FULL, rate:14, size:13
+2026-03-31 16:46:51, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0, size:13
+2026-03-31 16:46:58, EXEC, v:1, k:fup@celsius, mode:FULL, rate:14, size:13
+2026-03-31 16:50:20, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0, size:13
+2026-03-31 16:50:29, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0, size:13
+2026-03-31 16:50:48, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0, size:13
+2026-03-31 16:50:54, EXEC, v:1, k:fup@celsius, mode:FULL, rate:14, size:13
+2026-03-31 16:51:37, EXEC, v:1, k:fup@celsius, mode:FULL, rate:100, size:13
+2026-03-31 16:51:49, EXEC, v:1, k:fup@celsius, mode:FULL, rate:100, size:13
+2026-03-31 16:51:53, MOVE, v:1, k:fup@celsius, mode:BACK
