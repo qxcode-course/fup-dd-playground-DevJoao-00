@@ -23,8 +23,8 @@ tasks:
   fup@media: '{self:1, rate:100, study:6, guided:1}'
   fup@sobrou: '{self:1, rate:100, study:60}'
   fup@segundos: '{self:1, rate:100, study:15}'
-  fup@celsius: '{}'
-  fup@pintando: '{}'
+  fup@celsius: '{self:1, rate:100, study:30}'
+  fup@pintando: '{self:1, rate:100, study:15, concept:1}'
   fup@bala: '{}'
   fup@quebrada: '{}'
   fup@operacoes: '{}'
@@ -249,4 +249,4 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@celsius
+selected: fup@bala
