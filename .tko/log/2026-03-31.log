@@ -36,3 +36,9 @@
 2026-03-31 17:08:42, EXEC, v:1, k:fup@bala, mode:FULL, rate:0
 2026-03-31 17:18:02, EXEC, v:1, k:fup@bala, mode:FULL, rate:100, size:12
 2026-03-31 17:19:53, EXEC, v:1, k:fup@bala, mode:FULL, rate:100
+2026-03-31 17:43:24, EXEC, v:1, k:fup@bala, mode:FULL, rate:100
+2026-03-31 17:43:25, MOVE, v:1, k:fup@bala, mode:BACK
+2026-03-31 17:43:49, SELF, v:1, k:fup@bala, self:1, rate:100, study:20, concept:1
+2026-03-31 17:56:37, MOVE, v:1, k:fup@pr_jokenpo, mode:DOWN
+2026-03-31 17:56:38, MOVE, v:1, k:fup@pr_jokenpo, mode:PICK
+2026-03-31 17:56:39, EXEC, v:1, k:fup@pr_jokenpo, mode:LOCK, rate:0, size:5
