@@ -32,3 +32,36 @@
 2026-04-07 16:40:46, MOVE, v:1, k:fup@abs, mode:EDIT
 2026-04-07 16:41:57, MOVE, v:1, k:fup@abs, mode:EDIT
 2026-04-07 16:43:58, MOVE, v:1, k:fup@abs, mode:BACK
+2026-04-07 16:45:00, SELF, v:1, k:fup@abs, self:1, rate:100, study:16
+2026-04-07 16:45:05, MOVE, v:1, k:fup@max, mode:DOWN
+2026-04-07 16:45:06, MOVE, v:1, k:fup@max, mode:PICK
+2026-04-07 16:45:07, EXEC, v:1, k:fup@max, mode:FULL, rate:0, size:5
+2026-04-07 16:43:22, MOVE, v:1, k:fup@abs, mode:EDIT
+2026-04-07 16:45:05, MOVE, v:1, k:fup@max, mode:EDIT
+2026-04-07 16:45:07, MOVE, v:1, k:fup@max, mode:EDIT
+2026-04-07 16:46:57, MOVE, v:1, k:fup@max, mode:EDIT
+2026-04-07 16:49:06, EXEC, v:1, k:fup@max, mode:FULL, rate:100, size:14
+2026-04-07 16:49:32, MOVE, v:1, k:fup@max, mode:BACK
+2026-04-07 16:49:49, SELF, v:1, k:fup@max, self:1, rate:100, study:6
+2026-04-07 16:49:05, MOVE, v:1, k:fup@max, mode:EDIT
+2026-04-07 16:49:06, MOVE, v:1, k:fup@max, mode:EDIT
+2026-04-07 16:54:39, MOVE, v:1, k:fup@ou, mode:DOWN
+2026-04-07 16:54:41, MOVE, v:1, k:fup@ou, mode:PICK
+2026-04-07 16:54:42, EXEC, v:1, k:fup@ou, mode:FULL, rate:0, size:5
+2026-04-07 16:56:37, EXEC, v:1, k:fup@ou, mode:FULL, rate:100, size:12
+2026-04-07 16:54:39, MOVE, v:1, k:fup@ou, mode:EDIT
+2026-04-07 16:56:36, MOVE, v:1, k:fup@ou, mode:EDIT
+2026-04-07 16:56:37, MOVE, v:1, k:fup@ou, mode:EDIT
+2026-04-07 16:57:10, MOVE, v:1, k:fup@ou, mode:BACK
+2026-04-07 16:57:27, SELF, v:1, k:fup@ou, self:1, rate:100, study:8
+2026-04-07 16:59:29, MOVE, v:1, k:fup@positivo, mode:DOWN
+2026-04-07 16:59:30, MOVE, v:1, k:fup@positivo, mode:PICK
+2026-04-07 17:01:05, EXEC, v:1, k:fup@positivo, mode:FULL, size:7, fail:COMP
+2026-04-07 17:01:16, EXEC, v:1, k:fup@positivo, mode:FULL, rate:0, size:9
+2026-04-07 17:01:37, EXEC, v:1, k:fup@positivo, mode:FULL, rate:100, size:11
+2026-04-07 17:01:42, MOVE, v:1, k:fup@positivo, mode:BACK
+2026-04-07 17:01:55, SELF, v:1, k:fup@positivo, self:1, rate:100, study:5
+2026-04-07 16:58:16, MOVE, v:1, k:fup@bala, mode:EDIT
+2026-04-07 16:59:29, MOVE, v:1, k:fup@positivo, mode:EDIT
+2026-04-07 17:01:36, MOVE, v:1, k:fup@positivo, mode:EDIT
+2026-04-07 17:01:37, MOVE, v:1, k:fup@positivo, mode:EDIT

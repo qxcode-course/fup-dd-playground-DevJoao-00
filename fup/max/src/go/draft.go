@@ -1,0 +1,14 @@
+package main
+import "fmt"
+func main() {
+    var n1, n2 int
+
+    fmt.Scan(&n1, &n2)
+    if n1 > n2{
+        fmt.Println(n1)
+    } else if n2 == n1{
+        fmt.Println(n1)
+    } else {
+        fmt.Println(n2)
+    }
+}
