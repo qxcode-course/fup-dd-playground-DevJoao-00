@@ -7,8 +7,13 @@
         },
         {
             "label": "2026-03-31_17-18-02",
-            "content": "package main\n\nimport (\n\t\"fmt\"\n\t\"math\"\n)\nfunc main() {\n    var x1,y1,x2,y2 float64\n    fmt.Scan(&x1,&y1,&x2,&y2)\n    dAB:= math.Sqrt(math.Pow(x2 - x1, 2) + math.Pow(y2 - y1, 2))\n    fmt.Printf(\"%.2f\\n\", dAB)\n}\n",
+            "content": "@@ -47,17 +47,16 @@\n ain() %7B%0A\n-%0A\n     var \n@@ -75,17 +75,16 @@\n float64%0A\n-%0A\n     fmt.\n@@ -105,17 +105,16 @@\n x2,&y2)%0A\n-%0A\n     dAB:\n@@ -174,13 +174,8 @@\n 2))%0A\n-    %0A\n     \n",
             "lines": "12"
+        },
+        {
+            "label": "2026-04-07_17-10-21",
+            "content": "package main\n\nimport (\n\t\"fmt\"\n\t\"math\"\n)\nfunc main() {\n\n    var x1,y1,x2,y2 float64\n\n    fmt.Scan(&x1,&y1,&x2,&y2)\n\n    dAB:= math.Sqrt(math.Pow(x2 - x1, 2) + math.Pow(y2 - y1, 2))\n    \n    fmt.Printf(\"%.2f\\n\", dAB)\n}\n",
+            "lines": "16"
         }
     ]
 }

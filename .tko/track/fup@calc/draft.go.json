@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-07_17-23-49",
+            "content": "@@ -114,17 +114,17 @@\n   if n1 \n-=\n++\n = n2 %7B%0A \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-07_17-24-05",
+            "content": "@@ -33,17 +33,16 @@\n ain() %7B%0A\n-%0A\n     var \n@@ -51,17 +51,16 @@\n ,n2 int%0A\n-%0A\n     fmt.\n@@ -77,13 +77,8 @@\n n2)%0A\n-    %0A\n     \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-07_17-26-20",
+            "content": "@@ -56,27 +56,8 @@\n int%0A\n-    var car string \n %0A   \n@@ -83,23 +83,8 @@\n     \n-fmt.Scan(&car)%0A\n %0A   \n@@ -122,82 +122,17 @@\n  if \n-car\n+n1\n  == \n-%22+%22 %7B%0A            fmt.Println(n1 + n2)%0A        %7D else if car == %22-%22\n+n2 \n %7B%0A  \n@@ -160,9 +160,9 @@\n (n1 \n--\n++\n  n2)\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-07_17-29-01",
+            "content": "@@ -265,122 +265,8 @@\n n2)%0A\n-        %7D else if car == %22/%22%7B%0A            fmt.Println(n1 / n2)%0A        %7D else %7B%0A            fmt .Println(n1 * n2)%0A\n     \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-07_17-31-04",
+            "content": "@@ -72,17 +72,16 @@\n string %0A\n-%0A\n     fmt.\n@@ -121,16 +121,26 @@\n %0A    if \n+n1 != 0 %7C%7C\n  n2 != 0\n@@ -153,38 +153,23 @@\n     \n-switch car %7B%0A        case\n+if car ==\n  %22+%22\n-:\n+ %7B\n %0A   \n@@ -210,17 +210,29 @@\n     \n-case\n+%7D else if car ==\n  %22-%22\n-:\n+%7B\n %0A   \n@@ -273,17 +273,29 @@\n     \n-case\n+%7D else if car ==\n  %22/%22\n-:\n+%7B\n %0A   \n@@ -336,16 +336,16 @@\n     \n-default:\n+%7D else %7B\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-04-07_17-32-23",
+            "content": "@@ -115,16 +115,37 @@\n (&car)%0A%0A\n+    if  n2 != 0%7B%0A    \n     swit\n@@ -153,16 +153,20 @@\n h car %7B%0A\n+    \n     case\n@@ -171,16 +171,20 @@\n se %22+%22:%0A\n+    \n         \n@@ -204,24 +204,28 @@\n 1 + n2)%0A    \n+  \n+  \n case %22-%22:%0A  \n@@ -222,16 +222,20 @@\n se %22-%22:%0A\n+    \n         \n@@ -251,24 +251,28 @@\n ln(n1 - n2)%0A\n+    \n     case %22/%22\n@@ -277,29 +277,8 @@\n /%22:%0A\n-        if  n2 != 0%7B%0A\n     \n@@ -310,22 +310,16 @@\n n2)%0A    \n-    %7D%0A\n     defa\n@@ -323,16 +323,20 @@\n efault:%0A\n+    \n         \n@@ -353,21 +353,31 @@\n ln(n1 * n2)%0A\n+        %7D%0A\n     %7D%0A%0A%7D%0A\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-04-07_17-33-01",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n\n    var n1,n2 int\n    var car string \n\n    fmt.Scan(&n1,&n2)\n    fmt.Scan(&car)\n\n    switch car {\n    case \"+\":\n        fmt.Println(n1 + n2)\n    case \"-\":\n        fmt.Println(n1 - n2)\n    case \"/\":\n        if  n2 != 0{\n            fmt.Println(n1 / n2)\n        }\n    default:\n        fmt .Println(n1 * n2)\n    }\n\n}\n",
+            "lines": "24"
+        }
+    ]
+}
