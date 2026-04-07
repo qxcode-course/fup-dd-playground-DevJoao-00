@@ -15,8 +15,9 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@games
 - fup@base
+- fup@games
+- fup@if1
 flags:
   inbox: inbox
   panel: help
@@ -24,4 +25,4 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@operacoes
+selected: fup@abs
