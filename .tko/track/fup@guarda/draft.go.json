@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-07_17-44-50",
+            "content": "@@ -37,345 +37,39 @@\n ) %7B%0A\n-%0A    var wifi bool%0A    var login bool%0A    var admin bool%0A%0A    fmt.Scan(&wifi,&login,&admin)%0A%0A    if wifi%7B%0A        fmt.Println(%22you must connect to wifi%22)%0A    %7D else if login%7B%0A        fmt.Println(%22you need to login first%22)%0A    %7D else if admin%7B%0A        fmt.Println(%22you must login as admin%22)%0A    %7D else %7B%0A        fmt.Println(%22done%22)%0A    %7D%0A%0A\n+    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-07_17-56-14",
+            "content": "@@ -137,27 +137,18 @@\n  if wifi\n- == false\n %7B%0A\n+\n         \n@@ -206,25 +206,16 @@\n if login\n- == false\n %7B%0A      \n@@ -278,17 +278,8 @@\n dmin\n- == false\n %7B%0A  \n@@ -368,12 +368,14 @@\n e%22)%0A\n-\n     %7D%0A\n+%0A%0A\n %7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-04-07_17-59-02",
+            "content": "@@ -333,19 +333,16 @@\n ou must \n-to \n login as\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-04-07_17-59-14",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n\n    var wifi bool\n    var login bool\n    var admin bool\n\n    fmt.Scan(&wifi,&login,&admin)\n\n    if wifi == false{\n        fmt.Println(\"you must connect to wifi\")\n    } else if login == false{\n        fmt.Println(\"you need to login first\")\n    } else if admin == false{\n        fmt.Println(\"you must to login as admin\")\n    } else {\n        fmt.Println(\"done\")\n    }\n}\n",
+            "lines": "20"
+        }
+    ]
+}

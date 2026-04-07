@@ -114,3 +114,15 @@
 2026-04-07 17:33:01, MOVE, v:1, k:fup@calc, mode:EDIT
 2026-04-07 17:43:32, MOVE, v:1, k:fup@guarda, mode:DOWN
 2026-04-07 17:43:33, MOVE, v:1, k:fup@guarda, mode:PICK
+2026-04-07 17:44:50, EXEC, v:1, k:fup@guarda, mode:FULL, rate:0, size:5
+2026-04-07 17:43:32, MOVE, v:1, k:fup@guarda, mode:EDIT
+2026-04-07 17:47:00, MOVE, v:1, k:fup@guarda, mode:EDIT
+2026-04-07 17:44:50, MOVE, v:1, k:fup@guarda, mode:EDIT
+2026-04-07 17:50:09, MOVE, v:1, k:fup@guarda, mode:EDIT
+2026-04-07 17:56:14, EXEC, v:1, k:fup@guarda, mode:FULL, rate:0, size:22
+2026-04-07 17:56:13, MOVE, v:1, k:fup@guarda, mode:EDIT
+2026-04-07 17:56:14, MOVE, v:1, k:fup@guarda, mode:EDIT
+2026-04-07 17:59:02, EXEC, v:1, k:fup@guarda, mode:FULL, rate:85, size:20
+2026-04-07 17:59:14, EXEC, v:1, k:fup@guarda, mode:FULL, rate:100, size:20
+2026-04-07 18:00:00, MOVE, v:1, k:fup@guarda, mode:BACK
+2026-04-07 18:00:15, SELF, v:1, k:fup@guarda, self:1, rate:100, study:30
