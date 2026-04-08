@@ -1,0 +1,54 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-07_22-47-47",
+            "content": "@@ -41,147 +41,35 @@\n     \n-var player bool%0A    var nd1,nd2 int%0A%0A    fmt.Scan(&player)%0A    fmt.Scan(&nd1, &nd2)%0A%0A    if player == false %7B%0A        fmt.Println(%221%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-07_22-54-47",
+            "content": "@@ -172,193 +172,9 @@\n ln(%22\n-Alice win%22)%0A    %7D else if player == true %7B%0A        fmt.Println(%22Bob win%22)%0A    %7D else if (nd1 + nd2) %25 2 == 0 %7B%0A        fmt.Println(%22Alice win%22)%0A    %7D else %7B%0A        fmt.Println(%22Bob win\n+1\n %22)%0A \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-07_22-56-00",
+            "content": "@@ -129,16 +129,143 @@\n %0A    if \n+player == false %7B%0A        fmt.Println(%22Alice win%22)%0A    %7D else if player == true %7B%0A        fmt.Println(%22Bob win%22)%0A    %7D else if \n (nd1 + n\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-07_22-56-25",
+            "content": "@@ -173,17 +173,25 @@\n rintln(%22\n-0\n+Alice win\n %22)%0A    %7D\n@@ -219,17 +219,23 @@\n rintln(%22\n-1\n+Bob win\n %22)%0A    %7D\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-07_22-56-46",
+            "content": "@@ -133,26 +133,8 @@\n  if \n-player == false &&\n (nd1\n@@ -187,16 +187,17 @@\n   %7D else\n+ \n %7B%0A      \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-07_23-03-22",
+            "content": "@@ -143,25 +143,24 @@\n  == false &&\n- \n (nd1 + nd2) \n@@ -209,113 +209,32 @@\n else\n- if player == true && (nd1 + nd2) %25 2 != 0 %7B%0A        fmt.Println(%221%22)%0A    %7D else %7B%0A        fmt.Println(%220\n+%7B%0A        fmt.Println(%221\n %22)%0A \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-07_23-04-40",
+            "content": "@@ -48,19 +48,20 @@\n  player \n-int\n+bool\n %0A    var\n@@ -131,33 +131,37 @@\n    if player == \n-0\n+false\n  && (nd1 + nd2) \n@@ -220,17 +220,20 @@\n ayer == \n-0\n+true\n  && (nd1\n@@ -276,16 +276,54 @@\n ln(%221%22)%0A\n+    %7D else %7B%0A        fmt.Println(%220%22)%0A\n     %7D%0A%7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-07_23-43-58",
+            "content": "@@ -215,17 +215,17 @@\n ayer == \n-1\n+0\n  && (nd1\n@@ -228,33 +228,33 @@\n (nd1 + nd2) %25 2 \n-=\n+!\n = 0 %7B%0A        fm\n@@ -272,46 +272,8 @@\n 1%22)%0A\n-    %7D else %7B%0A        fmt.Println(%220%22)%0A\n     \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-07_23-45-17",
+            "content": "@@ -272,85 +272,8 @@\n 1%22)%0A\n-    %7D else if player == 0 && (nd1 + nd2) %25 2 != 0 %7B%0A        fmt.Println(%221%22)%0A\n     \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-07_23-47-46",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var player int\n    var nd1,nd2 int\n\n    fmt.Scan(&player)\n    fmt.Scan(&nd1, &nd2)\n\n    if player == 0 && (nd1 + nd2) % 2 == 0 {\n        fmt.Println(\"0\")\n    } else if player == 1 && (nd1 + nd2) % 2 == 0 {\n        fmt.Println(\"1\")\n    } else if player == 0 && (nd1 + nd2) % 2 != 0 {\n        fmt.Println(\"1\")\n    } else {\n        fmt.Println(\"0\")\n    }\n}\n",
+            "lines": "19"
+        }
+    ]
+}

@@ -2,8 +2,18 @@
     "patches": [
         {
             "label": "2026-04-07_18-17-07",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -41,193 +41,35 @@\n     \n-var a1, a2, a3 int%0A    fmt.Scan(&a1,&a2,&a3)%0A%0A    if a1 == a2 && a1 == a3 && a2 == a3%7B%0A        fmt.Println(%223%22)%0A    %7D else if a1 == a2 && a1 != a3 %7B%0A        fmt.Println(%222%22)%0A    %7D else %0A\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-04-07_21-46-38",
+            "content": "@@ -226,164 +226,8 @@\n lse \n-if a1 == a3 && a1 != a2 %7B%0A        fmt.Println(%222%22)%0A    %7D else if a2 == a3 && a2 != a1 %7B%0A        fmt.Println(%222%22)%0A    %7D else %7B%0A        fmt.Println(%220%22)%0A    %7D\n %0A%0A%7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-07_22-38-04",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a1, a2, a3 int\n    fmt.Scan(&a1,&a2,&a3)\n\n    if a1 == a2 && a1 == a3 && a2 == a3{\n        fmt.Println(\"3\")\n    } else if a1 == a2 && a1 != a3 {\n        fmt.Println(\"2\")\n    } else if a1 == a3 && a1 != a2 {\n        fmt.Println(\"2\")\n    } else if a2 == a3 && a2 != a1 {\n        fmt.Println(\"2\")\n    } else {\n        fmt.Println(\"0\")\n    }\n\n}\n",
+            "lines": "19"
         }
     ]
 }

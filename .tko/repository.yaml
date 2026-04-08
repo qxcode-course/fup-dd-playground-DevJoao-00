@@ -17,6 +17,8 @@ sources:
 expanded:
 - fup@for1
 - fup@if2
+- fup@games
+- fup@base
 - fup@if1
 flags:
   inbox: all
@@ -25,4 +27,4 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@quantos
+selected: fup@round
