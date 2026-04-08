@@ -17,8 +17,13 @@
         },
         {
             "label": "2026-04-07_17-59-14",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n\n    var wifi bool\n    var login bool\n    var admin bool\n\n    fmt.Scan(&wifi,&login,&admin)\n\n    if wifi == false{\n        fmt.Println(\"you must connect to wifi\")\n    } else if login == false{\n        fmt.Println(\"you need to login first\")\n    } else if admin == false{\n        fmt.Println(\"you must to login as admin\")\n    } else {\n        fmt.Println(\"done\")\n    }\n}\n",
+            "content": "@@ -402,10 +402,8 @@\n     %7D%0A%7D%0A\n-%0A%0A\n",
             "lines": "20"
+        },
+        {
+            "label": "2026-04-08_14-30-56",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n\n    var wifi bool\n    var login bool\n    var admin bool\n\n    fmt.Scan(&wifi,&login,&admin)\n\n    if wifi == false{\n        fmt.Println(\"you must connect to wifi\")\n    } else if login == false{\n        fmt.Println(\"you need to login first\")\n    } else if admin == false{\n        fmt.Println(\"you must to login as admin\")\n    } else {\n        fmt.Println(\"done\")\n    }\n}\n\n\n",
+            "lines": "22"
         }
     ]
 }

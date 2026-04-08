@@ -16,3 +16,27 @@
 2026-04-08 14:15:59, MOVE, v:1, k:fup@round, mode:EDIT
 2026-04-08 14:15:59, MOVE, v:1, k:fup@round, mode:EDIT
 2026-04-08 14:19:33, EXEC, v:1, k:fup@round, mode:FULL, rate:0
+2026-04-08 14:20:41, MOVE, v:1, k:fup@round, mode:BACK
+2026-04-08 14:20:46, MOVE, v:1, k:fup@mumia, mode:DOWN
+2026-04-08 14:20:47, MOVE, v:1, k:fup@mumia, mode:PICK
+2026-04-08 14:20:15, MOVE, v:1, k:fup@round, mode:EDIT
+2026-04-08 14:19:33, MOVE, v:1, k:fup@round, mode:EDIT
+2026-04-08 14:20:46, MOVE, v:1, k:fup@mumia, mode:EDIT
+2026-04-08 14:20:46, MOVE, v:1, k:fup@mumia, mode:EDIT
+2026-04-08 14:26:09, MOVE, v:1, k:fup@mumia, mode:EDIT
+2026-04-08 14:29:38, EXEC, v:1, k:fup@mumia, mode:FULL, rate:100, size:20
+2026-04-08 14:29:45, EXEC, v:1, k:fup@mumia, mode:FREE
+2026-04-08 14:30:41, SELF, v:1, k:fup@mumia, self:1, rate:100, study:12
+2026-04-08 14:30:43, MOVE, v:1, k:fup@mumia, mode:BACK
+2026-04-08 14:30:55, MOVE, v:1, k:fup@guarda, mode:PICK
+2026-04-08 14:30:56, EXEC, v:1, k:fup@guarda, mode:FULL, rate:100, size:22
+2026-04-08 14:29:34, MOVE, v:1, k:fup@mumia, mode:EDIT
+2026-04-08 14:30:08, MOVE, v:1, k:fup@mumia, mode:EDIT
+2026-04-08 14:30:56, MOVE, v:1, k:fup@guarda, mode:EDIT
+2026-04-08 14:31:43, SELF, v:1, k:fup@guarda, self:1, rate:100, study:16
+2026-04-08 14:31:46, MOVE, v:1, k:fup@guarda, mode:BACK
+2026-04-08 14:31:50, MOVE, v:1, k:fup@calc, mode:PICK
+2026-04-08 14:31:52, EXEC, v:1, k:fup@calc, mode:FULL, rate:100
+2026-04-08 14:32:03, SELF, v:1, k:fup@calc, self:1, rate:100, study:17, friend:DaviD Sena
+2026-04-08 14:32:05, EXEC, v:1, k:fup@calc, mode:FULL, rate:100
+2026-04-08 14:32:05, MOVE, v:1, k:fup@calc, mode:BACK
