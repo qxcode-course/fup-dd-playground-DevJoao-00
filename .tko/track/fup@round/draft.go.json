@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-08_13-41-40",
+            "content": "@@ -41,62 +41,34 @@\n     \n-var car float64%0A    fmt.Scan(&car)%0A    fmt.Println(car\n+fmt.Println(%22Helo, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-08_13-49-54",
+            "content": "@@ -37,620 +37,66 @@\n ) %7B%0A\n-var op string%0A%09var num float64%0A%0A%09fmt.Scan(&op, &num)%0A%0A%09inteiro := int(num)%0A%0A%09if op == %22f%22 %7B%0A%09%09if num %3C 0 && num != float64(inteiro) %7B%0A%09%09%09fmt.Println(inteiro - 1)%0A%09%09%7D else %7B%0A%09%09%09fmt.Println(inteiro)%0A%09%09%7D%0A%0A%09%7D else if op == %22c%22 %7B%0A%09%09if num %3E 0 && num != float64(inteiro) %7B%0A%09%09%09fmt.Println(inteiro + 1)%0A%09%09%7D else %7B%0A%09%09%09fmt.Println(inteiro)%0A%09%09%7D%0A%0A%09%7D else if op == %22r%22 %7B%0A%09%09fracao := num - float64(inteiro)%0A%0A%09%09if num %3E= 0 %7B%0A%09%09%09if fracao %3E= 0.5 %7B%0A%09%09%09%09fmt.Println(inteiro + 1)%0A%09%09%09%7D else %7B%0A%09%09%09%09fmt.Println(inteiro)%0A%09%09%09%7D%0A%09%09%7D else %7B%0A%09%09%09if fracao %3C= -0.5 %7B%0A%09%09%09%09fmt.Println(inteiro - 1)%0A%09%09%09%7D else %7B%0A%09%09%09%09fmt.Println(inteiro)%0A%09%09%09%7D%0A%09%09%7D%0A%09%7D%0A%7D\n+    var car float64%0A    fmt.Scan(&car)%0A    fmt.Println(car)%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-04-08_14-02-44",
+            "content": "@@ -37,27 +37,22 @@\n ) %7B%0A\n-    \n var \n-car\n+op\n  string%0A\n     \n@@ -47,20 +47,17 @@\n  string%0A\n-    \n+%09\n var num \n@@ -65,20 +65,17 @@\n loat64%0A%0A\n-    \n+%09\n fmt.Scan\n@@ -76,19 +76,18 @@\n t.Scan(&\n-car\n+op\n , &num)%0A\n@@ -87,20 +87,17 @@\n  &num)%0A%0A\n-    \n+%09\n inteiro \n@@ -113,76 +113,167 @@\n m)%0A%0A\n-    if car == %22c%22%7B%0A        if inteiro %25 2 != 0%7B%0A            \n+%09if op == %22f%22 %7B%0A%09%09if num %3C 0 && num != float64(inteiro) %7B%0A%09%09%09fmt.Println(inteiro - 1)%0A%09%09%7D else %7B%0A%09%09%09fmt.Println(inteiro)%0A%09%09%7D%0A%0A%09%7D else if op == %22c%22 %7B%0A%09%09\n if num %3E\n = 0.\n@@ -272,77 +272,385 @@\n um %3E\n-=\n  0\n-.5%7B%0A                fmt.Println(num)%0A            %7D%0A%0A        %7D%0A    %7D%0A%7D%0A\n+ && num != float64(inteiro) %7B%0A%09%09%09fmt.Println(inteiro + 1)%0A%09%09%7D else %7B%0A%09%09%09fmt.Println(inteiro)%0A%09%09%7D%0A%0A%09%7D else if op == %22r%22 %7B%0A%09%09fracao := num - float64(inteiro)%0A%0A%09%09if num %3E= 0 %7B%0A%09%09%09if fracao %3E= 0.5 %7B%0A%09%09%09%09fmt.Println(inteiro + 1)%0A%09%09%09%7D else %7B%0A%09%09%09%09fmt.Println(inteiro)%0A%09%09%09%7D%0A%09%09%7D else %7B%0A%09%09%09if fracao %3C= -0.5 %7B%0A%09%09%09%09fmt.Println(inteiro - 1)%0A%09%09%09%7D else %7B%0A%09%09%09%09fmt.Println(inteiro)%0A%09%09%09%7D%0A%09%09%7D%0A%09%7D%0A%7D\n",
+            "lines": "42"
+        },
+        {
+            "label": "2026-04-08_14-16-00",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var car string\n    var num float64\n\n    fmt.Scan(&car, &num)\n\n    inteiro := int(num)\n\n    if car == \"c\"{\n        if inteiro % 2 != 0{\n            if num >= 0.5{\n                fmt.Println(num)\n            }\n\n        }\n    }\n}\n",
+            "lines": "19"
+        }
+    ]
+}

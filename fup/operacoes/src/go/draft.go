@@ -15,6 +15,6 @@ func main() {
     fmt.Println(soma)
     fmt.Println(sub)
     fmt.Println(mult)
-    fmt.Printf("%.2f\n", float32(div))
+    fmt.Printf("%.2f\n", float64(div))
     fmt.Println(rest)
 }

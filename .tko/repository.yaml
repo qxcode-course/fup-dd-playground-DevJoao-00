@@ -16,9 +16,9 @@ sources:
   tasks: null
 expanded:
 - fup@for1
-- fup@if2
-- fup@games
 - fup@base
+- fup@games
+- fup@if2
 - fup@if1
 flags:
   inbox: all
