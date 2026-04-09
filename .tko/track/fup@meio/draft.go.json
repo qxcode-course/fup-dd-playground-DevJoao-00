@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-09_02-43-33",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var v1, v2, v3 int\n\n    fmt.Scan(&v1, &v2, &v3)\n\n    if v1 > v2 && v1 < v3{\n        fmt.Println(v1)\n    } else if v2 > v1 && v2 < v3 {\n        fmt.Println(v2)\n    } else {\n        fmt.Println(v3)\n    }\n}\n",
+            "lines": "15"
+        }
+    ]
+}
