@@ -1,0 +1,7 @@
+2026-04-11 10:31:09, MOVE, v:1, k:fup@mumia, mode:PICK
+2026-04-11 10:31:13, EXEC, v:1, k:fup@mumia, mode:FULL, rate:100
+2026-04-11 10:31:26, SELF, v:1, k:fup@mumia, self:1, rate:100, study:10
+2026-04-11 10:31:28, MOVE, v:1, k:fup@mumia, mode:BACK
+2026-04-11 10:31:39, MOVE, v:1, k:fup@meio, mode:PICK
+2026-04-11 10:31:41, EXEC, v:1, k:fup@meio, mode:FULL, rate:60
+2026-04-11 10:34:50, EXEC, v:1, k:fup@meio, mode:FULL, rate:100, size:15

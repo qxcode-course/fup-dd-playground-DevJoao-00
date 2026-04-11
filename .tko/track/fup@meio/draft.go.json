@@ -2,7 +2,17 @@
     "patches": [
         {
             "label": "2026-04-09_02-43-33",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var v1, v2, v3 int\n\n    fmt.Scan(&v1, &v2, &v3)\n\n    if v1 > v2 && v1 < v3{\n        fmt.Println(v1)\n    } else if v2 > v1 && v2 < v3 {\n        fmt.Println(v2)\n    } else {\n        fmt.Println(v3)\n    }\n}\n",
+            "content": "@@ -211,29 +211,8 @@\n lse \n-if v3 %3E v1 && v3 %3C v2\n %7B%0A  \n@@ -237,58 +237,8 @@\n v3)%0A\n-    %7D else %7B%0A        fmt.Println(%22eh tudo igual%22)%0A\n     \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-09_14-02-48",
+            "content": "@@ -115,31 +115,8 @@\n %3C v3\n- %7C%7C v1 %3E v3 && v1 %3C v2 \n %7B%0A  \n@@ -174,30 +174,66 @@\n  v3 \n-%7C%7C v2\n+%7B%0A        fmt.Println(v2)%0A    %7D else if v3\n  %3E v\n-3\n+1\n  && v\n-2\n+3\n  %3C v\n-1 \n+2\n %7B%0A  \n@@ -243,33 +243,33 @@\n    fmt.Println(v\n-2\n+3\n )%0A    %7D else %7B%0A \n@@ -283,24 +283,37 @@\n fmt.Println(\n-v3\n+%22eh tudo igual%22\n )%0A    %7D%0A%7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-11_10-34-50",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var v1, v2, v3 int\n\n    fmt.Scan(&v1, &v2, &v3)\n\n    if v1 > v2 && v1 < v3 || v1 > v3 && v1 < v2 {\n        fmt.Println(v1)\n    } else if v2 > v1 && v2 < v3 || v2 > v3 && v2 < v1 {\n        fmt.Println(v2)\n    } else {\n        fmt.Println(v3)\n    }\n}\n",
             "lines": "15"
         }
     ]

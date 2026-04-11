@@ -5,3 +5,7 @@
 2026-04-09 02:38:31, MOVE, v:1, k:fup@meio, mode:EDIT
 2026-04-09 02:41:55, MOVE, v:1, k:fup@meio, mode:EDIT
 2026-04-09 02:43:33, EXEC, v:1, k:fup@meio, mode:FULL, rate:80, size:15
+2026-04-09 14:02:45, MOVE, v:1, k:fup@meio, mode:PICK
+2026-04-09 14:02:48, EXEC, v:1, k:fup@meio, mode:FULL, rate:60, size:17
+2026-04-09 14:02:50, EXEC, v:1, k:fup@meio, mode:FULL, rate:60
+2026-04-09 14:02:51, EXEC, v:1, k:fup@meio, mode:FULL, rate:60

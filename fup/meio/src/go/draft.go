@@ -5,9 +5,9 @@ func main() {
 
     fmt.Scan(&v1, &v2, &v3)
 
-    if v1 > v2 && v1 < v3{
+    if v1 > v2 && v1 < v3 || v1 > v3 && v1 < v2 {
         fmt.Println(v1)
-    } else if v2 > v1 && v2 < v3 {
+    } else if v2 > v1 && v2 < v3 || v2 > v3 && v2 < v1 {
         fmt.Println(v2)
     } else {
         fmt.Println(v3)
