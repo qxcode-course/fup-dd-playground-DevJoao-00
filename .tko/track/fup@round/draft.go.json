@@ -17,8 +17,43 @@
         },
         {
             "label": "2026-04-08_14-16-00",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var car string\n    var num float64\n\n    fmt.Scan(&car, &num)\n\n    inteiro := int(num)\n\n    if car == \"c\"{\n        if inteiro % 2 != 0{\n            if num >= 0.5{\n                fmt.Println(num)\n            }\n\n        }\n    }\n}\n",
+            "content": "@@ -37,12 +37,236 @@\n ) %7B%0A    \n-%0A\n+var car string%0A    var num float64%0A%0A    fmt.Scan(&car, &num)%0A%0A    inteiro := int(num)%0A%0A    if car == %22c%22%7B%0A        if inteiro %25 2 != 0%7B%0A            if num %3E= 0.5%7B%0A                fmt.Println(num)%0A            %7D%0A%0A        %7D%0A    %7D\n %0A%7D%0A\n",
             "lines": "19"
+        },
+        {
+            "label": "2026-04-12_20-01-18",
+            "content": "@@ -41,29 +41,8 @@\n     \n-fmt.Println(%22chibata%22)\n+%0A\n %0A%7D%0A\n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-04-12_20-01-55",
+            "content": "@@ -23,851 +23,47 @@\n mt%22%0A\n-%0A\n func \n-ceil(nota float64) int %7B%0A    inteiro := int(nota)%0A%0A    if inteiro %25 2 != 0 %7B%0A        return inteiro + 1%0A    %7D%0A        return inteiro%0A%7D%0Afunc floor(nota float64) int %7B%0A    inteiro := int(nota)%0A%0A    if inteiro %25 2 != 0 %7B%0A        return inteiro - 1%0A    %7D%0A        return inteiro%0A%7D%0Afunc round(nota float64) int %7B%0A    inteiro := int(nota)%0A    partdecimal := nota - float64(inteiro)%0A%0A    if inteiro %3C 0 && partdecimal != 0%7B%0A        partdecimal = float64 (inteiro) - nota%0A    %7D%0A    if partdecimal %3E 0.5 %7B%0A        return ceil(nota)%0A    %7D else %7B%0A        return floor(nota)%0A    %7D%0A        %0A%7D%0Afunc main() %7B%0A    var car string%0A    var nota float64%0A%0A    fmt.Scan(&car, &nota)%0A%0A    if car == %22c%22 %7B%0A        fmt.Println(ceil(nota))%0A    %7D else if car == %22f%22 %7B%0A        fmt.Println(floor(nota))%0A    %7D else if car == %22r%22 %7B%0A        fmt.Println(round(nota))%0A    %7D\n+main() %7B%0A    fmt.Println(%22chibata%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-12_20-21-27",
+            "content": "@@ -95,31 +95,11 @@\n iro \n-%3E 0 && float64(inteiro)\n+%25 2\n  != \n@@ -236,36 +236,17 @@\n iro \n-%3C 0 && float64(inteiro)\n+%25 2\n  != 0\n+ \n %7B%0A  \n",
+            "lines": "47"
+        },
+        {
+            "label": "2026-04-12_20-23-07",
+            "content": "@@ -83,20 +83,23 @@\n %0A    if \n-nota\n+inteiro\n  %3E 0 && \n@@ -244,20 +244,23 @@\n %0A    if \n-nota\n+inteiro\n  %3C 0 && \n@@ -552,17 +552,17 @@\n decimal \n-%3C\n+%3E\n  0.5 %7B%0A \n",
+            "lines": "47"
+        },
+        {
+            "label": "2026-04-12_20-25-34",
+            "content": "@@ -550,10 +550,9 @@\n mal \n-%3E=\n+%3C\n  0.5\n",
+            "lines": "47"
+        },
+        {
+            "label": "2026-04-12_20-26-05",
+            "content": "@@ -90,32 +90,24 @@\n  nota %3E 0 &&\n- nota !=\n  float64(int\n@@ -103,32 +103,38 @@\n float64(inteiro)\n+ != 0 \n %7B%0A        return\n@@ -256,16 +256,8 @@\n 0 &&\n- nota !=\n  flo\n@@ -269,16 +269,21 @@\n inteiro)\n+ != 0\n %7B%0A      \n",
+            "lines": "47"
+        },
+        {
+            "label": "2026-04-12_20-27-30",
+            "content": "package main\nimport \"fmt\"\n\nfunc ceil(nota float64) int {\n    inteiro := int(nota)\n\n    if nota > 0 && nota != float64(inteiro){\n        return inteiro + 1\n    }\n        return inteiro\n}\nfunc floor(nota float64) int {\n    inteiro := int(nota)\n\n    if nota < 0 && nota != float64(inteiro){\n        return inteiro - 1\n    }\n        return inteiro\n}\nfunc round(nota float64) int {\n    inteiro := int(nota)\n    partdecimal := nota - float64(inteiro)\n\n    if inteiro < 0 && partdecimal != 0{\n        partdecimal = float64 (inteiro) - nota\n    }\n    if partdecimal >= 0.5 {\n        return ceil(nota)\n    } else {\n        return floor(nota)\n    }\n        \n}\nfunc main() {\n    var car string\n    var nota float64\n\n    fmt.Scan(&car, &nota)\n\n    if car == \"c\" {\n        fmt.Println(ceil(nota))\n    } else if car == \"f\" {\n        fmt.Println(floor(nota))\n    } else if car == \"r\" {\n        fmt.Println(round(nota))\n    }\n}\n",
+            "lines": "47"
         }
     ]
 }

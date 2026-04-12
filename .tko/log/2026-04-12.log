@@ -1,0 +1,41 @@
+2026-04-12 19:59:56, MOVE, v:1, k:fup@abs, mode:PICK
+2026-04-12 20:00:00, EXEC, v:1, k:fup@abs, mode:FULL, rate:100
+2026-04-12 20:00:02, MOVE, v:1, k:fup@abs, mode:BACK
+2026-04-12 20:00:09, MOVE, v:1, k:fup@max, mode:PICK
+2026-04-12 20:00:00, MOVE, v:1, k:fup@abs, mode:EDIT
+2026-04-12 20:00:10, EXEC, v:1, k:fup@max, mode:FULL, rate:100
+2026-04-12 20:00:11, MOVE, v:1, k:fup@max, mode:BACK
+2026-04-12 20:00:16, MOVE, v:1, k:fup@positivo, mode:PICK
+2026-04-12 20:00:17, EXEC, v:1, k:fup@positivo, mode:FULL, rate:100
+2026-04-12 20:00:17, MOVE, v:1, k:fup@positivo, mode:BACK
+2026-04-12 20:00:23, MOVE, v:1, k:fup@round, mode:PICK
+2026-04-12 20:00:25, EXEC, v:1, k:fup@round, mode:FULL, rate:0
+2026-04-12 20:00:40, EXEC, v:1, k:fup@round, mode:FULL, rate:0
+2026-04-12 20:01:18, EXEC, v:1, k:fup@round, mode:FULL, size:6, fail:COMP
+2026-04-12 20:01:55, EXEC, v:1, k:fup@round, mode:FULL, rate:0, size:5
+2026-04-12 20:00:10, MOVE, v:1, k:fup@max, mode:EDIT
+2026-04-12 20:00:17, MOVE, v:1, k:fup@positivo, mode:EDIT
+2026-04-12 20:01:55, MOVE, v:1, k:fup@round, mode:EDIT
+2026-04-12 20:05:08, MOVE, v:1, k:fup@round, mode:EDIT
+2026-04-12 20:08:56, MOVE, v:1, k:fup@round, mode:EDIT
+2026-04-12 20:14:57, MOVE, v:1, k:fup@round, mode:EDIT
+2026-04-12 20:20:06, MOVE, v:1, k:fup@round, mode:EDIT
+2026-04-12 20:21:27, EXEC, v:1, k:fup@round, mode:FULL, rate:41, size:47
+2026-04-12 20:23:07, EXEC, v:1, k:fup@round, mode:FULL, rate:75, size:47
+2026-04-12 20:25:09, MOVE, v:1, k:fup@round, mode:EDIT
+2026-04-12 20:23:07, MOVE, v:1, k:fup@round, mode:EDIT
+2026-04-12 20:25:34, EXEC, v:1, k:fup@round, mode:FULL, rate:50, size:47
+2026-04-12 20:26:05, EXEC, v:1, k:fup@round, mode:FULL, rate:91, size:47
+2026-04-12 20:26:11, EXEC, v:1, k:fup@round, mode:FULL, rate:91
+2026-04-12 20:26:12, EXEC, v:1, k:fup@round, mode:FULL, rate:91
+2026-04-12 20:26:13, EXEC, v:1, k:fup@round, mode:FULL, rate:91
+2026-04-12 20:26:13, EXEC, v:1, k:fup@round, mode:FULL, rate:91
+2026-04-12 20:26:13, EXEC, v:1, k:fup@round, mode:FULL, rate:91
+2026-04-12 20:26:14, EXEC, v:1, k:fup@round, mode:FULL, rate:91
+2026-04-12 20:26:14, EXEC, v:1, k:fup@round, mode:FULL, rate:91
+2026-04-12 20:26:15, EXEC, v:1, k:fup@round, mode:FULL, rate:91
+2026-04-12 20:26:15, EXEC, v:1, k:fup@round, mode:FULL, rate:91
+2026-04-12 20:26:15, EXEC, v:1, k:fup@round, mode:FULL, rate:91
+2026-04-12 20:26:16, EXEC, v:1, k:fup@round, mode:FULL, rate:91
+2026-04-12 20:27:30, EXEC, v:1, k:fup@round, mode:FULL, rate:100, size:47
+2026-04-12 20:28:57, EXEC, v:1, k:fup@round, mode:FULL, rate:100
