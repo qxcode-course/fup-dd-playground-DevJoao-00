@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-12_21-48-35",
+            "content": "@@ -41,511 +41,35 @@\n     \n-var dia, hora int%0A%0A    fmt.Scan(&dia, &hora)%0A%0A    if dia == 1 %7B%0A        fmt.Println(%22NAO%22)%0A    %7D else if dia %3E= 2 && dia %3C 7%7B%0A        if hora %3E= 8 && hora %3C 12 %7C%7C hora %3E= 14 && hora %3C 18%7B%0A            fmt.Println(%22SIM%22)%0A        %7D else if hora %3E 11 && hora %3C 14 %7B%0A            fmt.Println(%22NAO%22)%0A        %7D else%7B%0A            fmt.Println(%22NAO%22)%0A        %7D%0A    %7D else if dia == 7%7B%0A        if hora %3E= 8 && hora %3C 12 %7B%0A            fmt.Println(%22SIM%22)%0A        %7D else %7B%0A            fmt.Println(%22NAO%22)%0A        %7D%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-12_22-00-42",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var dia, hora int\n\n    fmt.Scan(&dia, &hora)\n\n    if dia == 1 {\n        fmt.Println(\"NAO\")\n    } else if dia >= 2 && dia < 7{\n        if hora >= 8 && hora < 12 || hora >= 14 && hora < 18{\n            fmt.Println(\"SIM\")\n        } else if hora > 11 && hora < 14 {\n            fmt.Println(\"NAO\")\n        } else{\n            fmt.Println(\"NAO\")\n        }\n    } else if dia == 7{\n        if hora >= 8 && hora < 12 {\n            fmt.Println(\"SIM\")\n        } else {\n            fmt.Println(\"NAO\")\n        }\n    }\n}\n",
+            "lines": "25"
+        }
+    ]
+}
