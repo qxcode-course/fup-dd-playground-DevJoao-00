@@ -15,11 +15,11 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@if2
 - fup@games
+- fup@if2
 - fup@if1
-- fup@base
 - fup@for1
+- fup@base
 flags:
   inbox: all
   panel: help
@@ -27,4 +27,4 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@varetas
+selected: fup@guarda
