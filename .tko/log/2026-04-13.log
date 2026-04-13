@@ -50,3 +50,5 @@
 2026-04-13 02:15:41, EXEC, v:1, k:fup@bhaskara, mode:FULL, rate:100
 2026-04-13 02:15:53, SELF, v:1, k:fup@bhaskara, self:1, rate:100, study:20, concept:1
 2026-04-13 02:15:55, MOVE, v:1, k:fup@bhaskara, mode:BACK
+2026-04-13 02:15:41, MOVE, v:1, k:fup@bhaskara, mode:EDIT
+2026-04-13 02:15:28, MOVE, v:1, k:fup@bhaskara, mode:EDIT
