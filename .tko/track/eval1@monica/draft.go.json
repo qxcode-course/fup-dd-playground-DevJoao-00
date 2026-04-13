@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-13_17-13-34",
+            "content": "@@ -41,58 +41,34 @@\n     \n-var M, a, b int%0A    %0A    fmt.Scan(&M, &a, &b)%0A%0A    \n+fmt.Println(%22Hllo, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-13_17-16-06",
+            "content": "@@ -87,57 +87,12 @@\n &b)%0A\n-    \n %0A    \n-IMV := M - (a + b)%0A%0A    fmt.Println(IMV)%0A\n %0A%7D%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-17-23",
+            "content": "@@ -120,167 +120,24 @@\n     \n-if M %3E= 40 && M %3C= 100%7B%0A        if a %3E= 1 && a %3C M %7B%0A            if b %3E= 1 && b %3C M && a != b %7B%0A                fmt.Println(IMV)%0A            %7D%0A        %7D%0A    %7D  \n+fmt.Println(IMV)%0A\n %0A%7D%0A\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-13_17-21-00",
+            "content": "@@ -82,16 +82,44 @@\n  &a, &b)\n+%0A    %0A    IMV := M - (a + b)\n %0A%0A    if\n@@ -216,25 +216,8 @@\n b %7B%0A\n-                %0A\n     \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-13_17-21-38",
+            "content": "@@ -204,27 +204,8 @@\n     \n- IMV := M - (a + b)\n %0A   \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-13_17-21-43",
+            "content": "@@ -1,293 +1,45 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var M, a, b int%0A    %0A    fmt.Scan(&M, &a, &b)%0A%0A    if M %3E= 40 && M %3C= 100%7B%0A        if a %3E= 1 && a %3C M %7B%0A            if b %3E= 1 && b %3C M && a != b %7B%0A                IMV := M - (a + b)%0A                fmt.Println(IMV)%0A            %7D%0A        %7D%0A    %7D  %0A%7D\n+@@ -200,16 +200,17 @@%0A         %0A+ %0A IMV := M\n %0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2026-04-13_17-21-48",
+            "content": "@@ -239,239 +239,24 @@\n     \n-if a %3E b && a %3E IMV%7B%0A                     fmt.Println(a)%0A                %7D else if b %3E a && b %3E IMV %7B%0A                    fmt.Println(b)%0A                %7D else%7B%0A                    fmt.Println(IMV)%0A                %7D%0A               \n+fmt.Println(IMV)\n %0A   \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-13_17-27-36",
+            "content": "@@ -84,16 +84,128 @@\n a, &b)%0A%0A\n+    if M %3E= 40 && M %3C= 100%7B%0A        if a %3E= 1 && a %3C M %7B%0A            if b %3E= 1 && b %3C M && a != b %7B%0A            \n     IMV \n@@ -223,21 +223,28 @@\n  b)%0A    \n-%0A\n+      \n     \n+  \n if a %3E b\n@@ -256,16 +256,29 @@\n  %3E IMV%7B%0A\n+             \n         \n@@ -292,16 +292,28 @@\n ntln(a)%0A\n+            \n     %7D el\n@@ -337,16 +337,28 @@\n %3E IMV %7B%0A\n+            \n         \n@@ -372,16 +372,28 @@\n ntln(b)%0A\n+            \n     %7D el\n@@ -396,16 +396,28 @@\n %7D else%7B%0A\n+            \n         \n@@ -437,16 +437,72 @@\n MV)%0A\n+            \n     %7D\n+%0A\n     \n+           %0A            %7D%0A        %7D%0A    %7D  \n %0A%7D%0A\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-04-13_17-28-53",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var M, a, b int\n    \n    fmt.Scan(&M, &a, &b)\n\n    IMV := M - (a + b)\n    \n    if a > b && a > IMV{\n        fmt.Println(a)\n    } else if b > a && b > IMV {\n        fmt.Println(b)\n    } else{\n        fmt.Println(IMV)\n    }    \n}\n",
+            "lines": "17"
+        }
+    ]
+}
