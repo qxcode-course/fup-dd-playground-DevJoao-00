@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-13_17-46-26",
+            "content": "@@ -37,78 +37,8 @@\n ) %7B%0A\n-%0A    var N int%0A    %0A    fmt.Scan(&N)%0A%0A    for i:= 0; i %3C 9; i++ %7B%0A    \n     \n@@ -53,15 +53,22 @@\n tln(\n-i)%0A    %7D\n+%22Helo, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-13_17-53-23",
+            "content": "@@ -116,16 +116,18 @@\n mt.Print\n+ln\n (i)%0A    \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-13_17-53-40",
+            "content": "@@ -89,17 +89,16 @@\n = 0; i %3C\n-=\n  9; i++ \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-13_17-53-53",
+            "content": "@@ -100,17 +100,16 @@\n ; i++ %7B%0A\n-%0A\n         \n@@ -123,15 +123,8 @@\n nt(i\n-, %22ceu%22\n )%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-13_17-54-10",
+            "content": "@@ -124,39 +124,21 @@\n nt(i\n+, %22ceu%22\n )%0A    %7D\n-%0A    fmt.Println(%22ceu %5D%22)\n %0A%7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-13_17-54-34",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n\n    var N int\n    \n    fmt.Scan(&N)\n\n    for i:= 0; i <= 9; i++ {\n\n        fmt.Print(i)\n    }\n    fmt.Println(\"ceu ]\")\n}\n",
+            "lines": "14"
+        }
+    ]
+}

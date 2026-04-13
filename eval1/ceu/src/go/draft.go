@@ -1,5 +1,14 @@
 package main
 import "fmt"
 func main() {
-    fmt.Println("Helo, World!")
+
+    var N int
+    
+    fmt.Scan(&N)
+
+    for i:= 0; i <= 9; i++ {
+
+        fmt.Print(i)
+    }
+    fmt.Println("ceu ]")
 }
