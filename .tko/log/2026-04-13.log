@@ -52,3 +52,7 @@
 2026-04-13 02:15:55, MOVE, v:1, k:fup@bhaskara, mode:BACK
 2026-04-13 02:15:41, MOVE, v:1, k:fup@bhaskara, mode:EDIT
 2026-04-13 02:15:28, MOVE, v:1, k:fup@bhaskara, mode:EDIT
+2026-04-13 02:18:53, MOVE, v:1, k:fup@bala, mode:PICK
+2026-04-13 02:18:54, EXEC, v:1, k:fup@bala, mode:FULL, rate:100
+2026-04-13 02:18:55, EXEC, v:1, k:fup@bala, mode:FULL, rate:100
+2026-04-13 02:18:56, MOVE, v:1, k:fup@bala, mode:BACK
