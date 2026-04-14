@@ -25,6 +25,7 @@ expanded:
 - fup@games
 - eval1@teste-1
 - fup@base
+- sandbox@sandbox
 - fup@if1
 - fup@for1
 - fup@if2
@@ -35,4 +36,4 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@cortada
+selected: fup@loop_ii

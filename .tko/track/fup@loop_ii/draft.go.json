@@ -92,8 +92,13 @@
         },
         {
             "label": "2026-04-13_16-44-47",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\nvar A, B int\n\tfmt.Scan(&A, &B)\n\n\t// Criando um slice para armazenar os n\u00fameros\n\tnumeros := []int{}\n\n\t// Preenchendo o slice com valores de A at\u00e9 B-1\n\tfor i := A; i < B; i++ {\n\t\tnumeros = append(numeros, i)\n\t}\n\n\t// Imprimindo no formato solicitado\n\tfmt.Print(\"[\",\"\")\n\tfor i, v := range numeros {\n\t\tif i > 0 {\n\t\t\tfmt.Print(\" \")\n\t\t}\n\t\tfmt.Print(\"\",v)\n\t}\n\tfmt.Println(\"\",\"]\")\n}\n",
+            "content": "@@ -37,99 +37,378 @@\n ) %7B%0A\n-    var a,b int%0A%0A    fmt.Scan(&a,&b)%0A%0A    for a := a; a %3C b; a\n+var A, B int%0A%09fmt.Scan(&A, &B)%0A%0A%09// Criando um slice para armazenar os n%C3%BAmeros%0A%09numeros := %5B%5Dint%7B%7D%0A%0A%09// Preenchendo o slice com valores de A at%C3%A9 B-1%0A%09for i := A; i %3C B; i\n ++\n+ \n %7B%0A\n-        fmt.Print(a)%0A    %7D\n+%09%09numeros = append(numeros, i)%0A%09%7D%0A%0A%09// Imprimindo no formato solicitado%0A%09fmt.Print(%22%5B%22,%22%22)%0A%09for i, v := range numeros %7B%0A%09%09if i %3E 0 %7B%0A%09%09%09fmt.Print(%22 %22)%0A%09%09%7D%0A%09%09fmt.Print(%22%22,v)%0A%09%7D%0A%09fmt.Println(%22%22,%22%5D%22)\n %0A%7D%0A\n",
             "lines": "24"
+        },
+        {
+            "label": "2026-04-14_17-31-01",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a,b int\n\n    fmt.Scan(&a,&b)\n\n    for a := a; a < b; a++{\n        fmt.Print(a)\n    }\n}\n",
+            "lines": "11"
         }
     ]
 }
