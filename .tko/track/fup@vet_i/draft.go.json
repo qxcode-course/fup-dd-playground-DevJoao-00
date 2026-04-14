@@ -1,0 +1,169 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-14_17-53-14",
+            "content": "@@ -41,92 +41,35 @@\n     \n-var N int%0A    fmt.Scan(&N)%0A    var list %5B%5Dint = make(%5B%5Dint, N)%0A%0A    fmt.Print(list)%0A%0A\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-14_17-58-04",
+            "content": "@@ -118,10 +118,8 @@\n rint\n-ln\n (lis\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_17-58-19",
+            "content": "@@ -105,38 +105,8 @@\n N)%0A%0A\n-    for i := range list%7B%0A     \n     \n@@ -121,17 +121,13 @@\n tln(\n-i)%0A    %7D%0A\n+list)\n %0A%0A%0A%7D\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_18-03-57",
+            "content": "@@ -112,11 +112,8 @@\n  for\n- _,\n  i :\n@@ -126,16 +126,17 @@\n e list%7B%0A\n+ \n         \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-04-19",
+            "content": "@@ -108,16 +108,19 @@\n %0A    for\n+ _,\n  i := ra\n@@ -133,27 +133,8 @@\n st%7B%0A\n-        if i != 0%7B%0A\n     \n@@ -158,15 +158,13 @@\n )%0A    %7D%0A\n-%7D%0A\n %0A%0A%0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-05-13",
+            "content": "@@ -110,23 +110,16 @@\n    for i\n-, valor\n  := rang\n@@ -170,15 +170,8 @@\n ln(i\n-, valor\n )%0A  \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-14_18-07-25",
+            "content": "@@ -110,16 +110,23 @@\n    for i\n+, valor\n  := rang\n@@ -141,20 +141,16 @@\n         \n- \n-   \n if i != \n@@ -152,20 +152,16 @@\n i != 0%7B%0A\n-    \n         \n@@ -177,25 +177,26 @@\n ln(i\n-)%0A        %7D%0A    %7D\n+, valor)%0A    %7D%0A%7D%0A%0A\n %0A%0A%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-14_18-08-13",
+            "content": "@@ -113,16 +113,9 @@\n for \n-_, valor\n+i\n  := \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-09-57",
+            "content": "@@ -111,17 +111,22 @@\n   for _,\n-i\n+ valor\n  := rang\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-10-21",
+            "content": "@@ -109,16 +109,18 @@\n     for \n+_,\n i := ran\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-11-08",
+            "content": "@@ -150,12 +150,9 @@\n  != \n-(-1)\n+0\n %7B%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-12-45",
+            "content": "@@ -150,9 +150,12 @@\n  != \n-0\n+(-1)\n %7B%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-12-56",
+            "content": "@@ -151,12 +151,8 @@\n != 0\n- + 1\n %7B%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-13-17",
+            "content": "@@ -110,23 +110,16 @@\n    for i\n-, valor\n  := rang\n@@ -148,16 +148,19 @@\n  i != 0 \n++ 1\n %7B%0A      \n@@ -182,15 +182,8 @@\n ln(i\n-, valor\n )%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-14-26",
+            "content": "@@ -113,9 +113,9 @@\n for \n-_\n+i\n , va\n@@ -148,21 +148,17 @@\n      if \n-valor\n+i\n  != 0 %7B%0A\n@@ -185,12 +185,9 @@\n tln(\n-%22%25v%22\n+i\n , va\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-14-56",
+            "content": "@@ -186,13 +186,14 @@\n rint\n-f(%22%25d\n+ln(%22%25v\n %22, v\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-15-08",
+            "content": "@@ -1,220 +1,49 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var N int%0A    fmt.Scan(&N)%0A    var list %5B%5Dint = make(%5B%5Dint, N)%0A%0A    for valor := range list%7B%0A            if valor != 0 %7B%0A            fmt.Printf(%22%25d%22, valor)%0A        %7D%0A    %7D%0A%0A%7D\n+@@ -108,16 +108,19 @@%0A %250A    for%0A+ _,%0A  valor :\n %0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2026-04-14_18-15-19",
+            "content": "@@ -109,17 +109,21 @@\n     for \n-i\n+valor\n  := rang\n@@ -145,17 +145,21 @@\n      if \n-i\n+valor\n  != 0 %7B%0A\n@@ -183,12 +183,21 @@\n rint\n-ln(i\n+f(%22%25d%22, valor\n )%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-15-47",
+            "content": "@@ -114,15 +114,8 @@\n or i\n-, valor\n  := \n@@ -178,13 +178,9 @@\n tln(\n-valor\n+i\n )%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-16-49",
+            "content": "@@ -108,16 +108,19 @@\n %0A    for\n+ i,\n  valor :\n@@ -141,24 +141,35 @@\n             \n+if i != 0 %7B\n %0A           \n@@ -196,16 +196,17 @@\n         \n+%7D\n %0A    %7D%0A%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-17-05",
+            "content": "@@ -176,12 +176,8 @@\n alor\n- + 1\n )%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-17-14",
+            "content": "@@ -109,17 +109,21 @@\n     for \n-i\n+valor\n  := rang\n@@ -146,19 +146,8 @@\n     \n-if i != 0 %7B\n %0A   \n@@ -167,20 +167,25 @@\n Println(\n-list\n+valor + 1\n )%0A      \n@@ -186,17 +186,16 @@\n         \n-%7D\n %0A    %7D%0A%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-17-57",
+            "content": "@@ -178,13 +178,12 @@\n tln(\n-i + 1\n+list\n )%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-18-29",
+            "content": "@@ -178,13 +178,8 @@\n tln(\n-%221%22, \n i + \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-18-43",
+            "content": "@@ -180,16 +180,20 @@\n n(%221%22, i\n+ + 1\n )%0A      \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-18-50",
+            "content": "@@ -104,28 +104,8 @@\n  N)%0A\n-    fmt.Println(%221%22)\n %0A   \n@@ -174,16 +174,21 @@\n Println(\n+%221%22, \n i)%0A     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-19-12",
+            "content": "@@ -100,16 +100,37 @@\n int, N)%0A\n+    fmt.Println(%221%22)%0A\n     for \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-19-29",
+            "content": "@@ -177,15 +177,9 @@\n tln(\n-list%5Bi%5D\n+i\n )%0A  \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-14_18-20-48",
+            "content": "@@ -124,22 +124,40 @@\n ge list%7B\n+%0A\n       \n+      if i != 0 %7B\n %0A       \n@@ -182,16 +182,26 @@\n ist%5Bi%5D)%0A\n+        %7D%0A\n     %7D%0A%0A%7D\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-14_18-21-01",
+            "content": "@@ -139,66 +139,8 @@\n     \n-        fmt.Scan(&list%5Bi%5D)%0A    %7D%0A    for i := range list%7B%0A\n     \n@@ -155,17 +155,23 @@\n Println(\n-i\n+list%5Bi%5D\n )%0A    %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-14_18-23-19",
+            "content": "@@ -213,23 +213,17 @@\n Println(\n-list%5Bi%5D\n+i\n )%0A    %7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-23-42",
+            "content": "@@ -180,16 +180,9 @@\n for \n-_, valor\n+i\n  := \n@@ -217,13 +217,15 @@\n tln(\n-valor\n+list%5Bi%5D\n )%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_18-25-05",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var N int\n    fmt.Scan(&N)\n    var list []int = make([]int, N)\n    for i := range list{      \n            fmt.Scan(&list[i])\n    }\n    for _, valor := range list{\n        fmt.Println(valor)\n    }\n\n}\n",
+            "lines": "14"
+        }
+    ]
+}
