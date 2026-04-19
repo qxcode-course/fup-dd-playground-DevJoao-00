@@ -1,0 +1,19 @@
+2026-04-19 15:53:25, MOVE, v:1, k:fup@vet_i, mode:PICK
+2026-04-19 15:53:29, EXEC, v:1, k:fup@vet_i, mode:FULL, rate:100
+2026-04-19 21:01:26, MOVE, v:1, k:fup@cortada, mode:PICK
+2026-04-19 21:01:29, EXEC, v:1, k:fup@cortada, mode:FULL, rate:0, size:8
+2026-04-19 21:02:38, EXEC, v:1, k:fup@cortada, mode:FULL, rate:0
+2026-04-19 21:02:38, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-19 21:05:22, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-19 21:10:51, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-19 21:14:14, EXEC, v:1, k:fup@cortada, mode:FULL, rate:42, size:16
+2026-04-19 21:15:27, EXEC, v:1, k:fup@cortada, mode:FULL, rate:15, size:16
+2026-04-19 21:16:07, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-19 21:15:26, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-19 21:16:43, EXEC, v:1, k:fup@cortada, mode:FULL, rate:24, size:16
+2026-04-19 21:17:34, EXEC, v:1, k:fup@cortada, mode:FULL, rate:24, size:16
+2026-04-19 21:20:57, EXEC, v:1, k:fup@cortada, mode:FULL, rate:57, size:20
+2026-04-19 21:20:08, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-19 21:20:57, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-19 21:26:07, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-19 21:28:56, EXEC, v:1, k:fup@cortada, mode:FULL, rate:100, size:21

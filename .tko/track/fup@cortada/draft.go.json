@@ -7,8 +7,43 @@
         },
         {
             "label": "2026-04-14_16-35-43",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hllo, World!\")\n}\n",
+            "content": "@@ -39,38 +39,36 @@\n %7B%0A  \n-var b,t int%0A%0A  fmt.Scan(&b,&t)%0A\n+  fmt.Println(%22Hllo, World!%22)\n %0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-04-19_21-01-29",
+            "content": "@@ -71,161 +71,6 @@\n t)%0A%0A\n-  if b == 80 && t == 80 %7B%0A    fmt.Println(%220%22)%0A  %7D else if b %3E 80 && t %3C 800%7B%0A    fmt.Println(%221%22)%0A  %7Delse if b %3C 80 && t %3E 80 %7B%0A    fmt.Println(%222%22)%0A  %7D%0A%0A\n %7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-19_21-14-14",
+            "content": "@@ -142,16 +142,17 @@\n & t %3C 80\n+0\n %7B%0A    fm\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-19_21-15-27",
+            "content": "@@ -130,17 +130,28 @@\n  if b %3E \n-t\n+80 && t %3C 80\n %7B%0A    fm\n@@ -165,9 +165,9 @@\n ln(%22\n-2\n+1\n %22)%0A \n@@ -180,17 +180,29 @@\n  if b %3C \n-t\n+80 && t %3E 80 \n %7B%0A    fm\n@@ -208,23 +208,23 @@\n mt.Println(%22\n-1\n+2\n %22)%0A  %7D%0A%0A%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-19_21-16-43",
+            "content": "@@ -81,14 +81,15 @@\n  == \n-t\n+80\n  && \n-b\n+t\n  == \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-19_21-17-34",
+            "content": "@@ -120,112 +120,9 @@\n %0A  %7D\n-else if  b == t && b %3C 80 %7B%0A    fmt.Println(%222%22)%0A  %7Delse if  b == t && b %3E 80 %7B%0A    fmt.Println(%221%22)%0A  %7D\n+ \n else\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-19_21-20-57",
+            "content": "@@ -73,75 +73,132 @@\n %0A%0A  \n-met := (160 * 70) / 2%0A  areaF := ((b + t)/2) * 70%0A%0A  if areaF %3E met\n+if b == t && b == 80 %7B%0A    fmt.Println(%220%22)%0A  %7Delse if  b == t && b %3C 80 %7B%0A    fmt.Println(%222%22)%0A  %7Delse if  b == t && b %3E 80\n  %7B%0A \n@@ -232,20 +232,13 @@\n  if \n-areaF %3C met \n+b %3E t\n %7B%0A  \n@@ -263,14 +263,21 @@\n %0A  %7D\n- \n else \n+if b %3C t\n %7B%0A  \n@@ -295,17 +295,17 @@\n ln(%22\n-0\n+1\n %22)%0A  %7D%0A%0A\n %0A%0A%7D%0A\n@@ -300,12 +300,10 @@\n %22)%0A  %7D%0A%0A\n-%0A%0A\n %7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-04-19_21-28-56",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n  var b,t int\n\n  fmt.Scan(&b,&t)\n\n  met := (160 * 70) / 2\n  areaF := ((b + t)/2) * 70\n\n  if areaF > met {\n    fmt.Println(\"1\")\n  }else if areaF < met {\n    fmt.Println(\"2\")\n  } else {\n    fmt.Println(\"0\")\n  }\n\n\n\n}\n",
+            "lines": "21"
         }
     ]
 }

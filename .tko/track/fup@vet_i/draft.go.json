@@ -162,8 +162,63 @@
         },
         {
             "label": "2026-04-14_18-25-05",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var N int\n    fmt.Scan(&N)\n    var list []int = make([]int, N)\n    for i := range list{      \n            fmt.Scan(&list[i])\n    }\n    for _, valor := range list{\n        fmt.Println(valor)\n    }\n\n}\n",
+            "content": "@@ -233,10 +233,11 @@\n )%0A    %7D%0A\n+%0A\n %7D%0A\n",
             "lines": "14"
+        },
+        {
+            "label": "2026-04-14_20-52-49",
+            "content": "@@ -204,35 +204,8 @@\n st%7B%0A\n-        if valor == 0%7B%0A    \n     \n@@ -231,18 +231,8 @@\n or)%0A\n-        %7D%0A\n     \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-14_20-53-47",
+            "content": "@@ -221,9 +221,9 @@\n lor \n-%3E\n+=\n = 0%7B\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-14_20-55-33",
+            "content": "@@ -168,17 +168,16 @@\n )%0A    %7D%0A\n-%0A\n     for \n@@ -200,16 +200,43 @@\n e list%7B%0A\n+        if valor %3E= 0%7B%0A    \n         \n@@ -254,16 +254,26 @@\n (valor)%0A\n+        %7D%0A\n     %7D%0A%7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-14_20-56-15",
+            "content": "@@ -230,12 +230,8 @@\n alor\n- - 1\n )%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_20-56-35",
+            "content": "@@ -64,17 +64,16 @@\n can(&N)%0A\n-%0A\n     var \n@@ -76,16 +76,17 @@\n var list\n+ \n %5B%5Dint = \n@@ -100,17 +100,16 @@\n int, N)%0A\n-%0A\n     for \n@@ -131,16 +131,20 @@\n %7B      %0A\n+    \n         \n@@ -226,16 +226,20 @@\n ln(valor\n+ - 1\n )%0A    %7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-14_20-58-24",
+            "content": "@@ -160,12 +160,8 @@\n st%5Bi\n- - 1\n %5D)%0A \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-14_23-56-35",
+            "content": "@@ -156,16 +156,20 @@\n (&list%5Bi\n+ - 1\n %5D)%0A    %7D\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-14_23-56-43",
+            "content": "@@ -219,15 +219,11 @@\n rint\n-f(%22%25d%22,\n+ln(\n valo\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-14_23-59-57",
+            "content": "@@ -219,61 +219,20 @@\n rint\n-ln(valor)%0A    %7D%0A    if N == 0%7B%0A        fmt.Println(%22%22\n+f(%22%25d%22,valor\n )%0A  \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-15_00-11-34",
+            "content": "@@ -231,20 +231,16 @@\n )%0A    %7D%0A\n-    \n     if N\n@@ -246,20 +246,16 @@\n N == 0%7B%0A\n-    \n         \n@@ -270,20 +270,16 @@\n tln(%22%22)%0A\n-    \n     %7D%0A%7D%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-15_00-16-19",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var N int\n    fmt.Scan(&N)\n\n    var list[]int = make([]int, N)\n\n    for i := range list{      \n        fmt.Scan(&list[i])\n    }\n\n    for _, valor := range list{\n        fmt.Println(valor)\n    }\n        if N == 0{\n            fmt.Println(\"\")\n        }\n}\n",
+            "lines": "19"
         }
     ]
 }
