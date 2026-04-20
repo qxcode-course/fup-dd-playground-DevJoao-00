@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-20_21-04-59",
+            "content": "@@ -41,197 +41,34 @@\n     \n-var ad,bd,cd int%0A    var ac,bc int%0A%0A    fmt.Scan(&ad,&bd,&cd,&ac,&bc)%0A%0A    if ad %3C= ac && bd %3C= bc%7B%0A        fmt.Println(%22S%22)%0A    %7D else if ad %3E ac && bd %3E bc%7B%0A        fmt.Println(%22N%22)%0A    %7D \n+fmt.Println(%22Helo, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-20_21-20-09",
+            "content": "@@ -115,17 +115,17 @@\n %0A    if \n-b\n+a\n d %3C= ac \n@@ -127,17 +127,17 @@\n = ac && \n-c\n+b\n d %3C= bc%7B\n@@ -176,17 +176,17 @@\n else if \n-b\n+a\n d %3E ac &\n@@ -187,17 +187,17 @@\n %3E ac && \n-c\n+b\n d %3E bc%7B%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-20_21-21-17",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var ad,bd,cd int\n    var ac,bc int\n\n    fmt.Scan(&ad,&bd,&cd,&ac,&bc)\n\n    if bd <= ac && cd <= bc{\n        fmt.Println(\"S\")\n    } else if bd > ac && cd > bc{\n        fmt.Println(\"N\")\n    } \n}\n",
+            "lines": "14"
+        }
+    ]
+}

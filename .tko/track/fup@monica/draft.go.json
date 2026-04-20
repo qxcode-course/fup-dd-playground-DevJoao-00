@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-20_21-01-51",
+            "content": "@@ -41,232 +41,35 @@\n     \n-var M, a, b int%0A    %0A    fmt.Scan(&M, &a, &b)%0A%0A    IMV := M - (a + b)%0A    %0A    if a %3E b && a %3E IMV%7B%0A        fmt.Println(a)%0A    %7D else if b %3E a && b %3E IMV %7B%0A        fmt.Println(b)%0A    %7D else%7B%0A        fmt.Println(IMV)%0A    %7D    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-20_21-03-12",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var M, a, b int\n    \n    fmt.Scan(&M, &a, &b)\n\n    IMV := M - (a + b)\n    \n    if a > b && a > IMV{\n        fmt.Println(a)\n    } else if b > a && b > IMV {\n        fmt.Println(b)\n    } else{\n        fmt.Println(IMV)\n    }    \n}\n",
+            "lines": "17"
+        }
+    ]
+}

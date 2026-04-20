@@ -1,0 +1,28 @@
+2026-04-20 21:01:35, SELF, v:1, k:fup@cortada, self:1, rate:100, study:30, concept:1
+2026-04-20 21:01:35, MOVE, v:1, k:fup@cortada, mode:PICK
+2026-04-20 21:01:38, EXEC, v:1, k:fup@cortada, mode:FULL, rate:100, size:19
+2026-04-20 21:01:40, MOVE, v:1, k:fup@cortada, mode:BACK
+2026-04-20 21:01:48, MOVE, v:1, k:fup@monica, mode:DOWN
+2026-04-20 21:01:49, MOVE, v:1, k:fup@monica, mode:PICK
+2026-04-20 21:01:51, EXEC, v:1, k:fup@monica, mode:FULL, rate:0, size:5
+2026-04-20 21:03:12, EXEC, v:1, k:fup@monica, mode:FULL, rate:100, size:17
+2026-04-20 21:04:11, MOVE, v:1, k:fup@monica, mode:BACK
+2026-04-20 21:04:24, SELF, v:1, k:fup@monica, self:1, rate:100, study:15
+2026-04-20 21:04:36, MOVE, v:1, k:fup@drone, mode:DOWN
+2026-04-20 21:04:38, MOVE, v:1, k:fup@drone, mode:PICK
+2026-04-20 21:04:59, EXEC, v:1, k:fup@drone, mode:FULL, rate:0, size:5
+2026-04-20 21:01:37, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-20 21:01:48, MOVE, v:1, k:fup@monica, mode:EDIT
+2026-04-20 21:01:48, MOVE, v:1, k:fup@monica, mode:EDIT
+2026-04-20 21:03:11, MOVE, v:1, k:fup@monica, mode:EDIT
+2026-04-20 21:03:12, MOVE, v:1, k:fup@monica, mode:EDIT
+2026-04-20 21:04:36, MOVE, v:1, k:fup@drone, mode:EDIT
+2026-04-20 21:04:36, MOVE, v:1, k:fup@drone, mode:EDIT
+2026-04-20 21:04:53, MOVE, v:1, k:fup@drone, mode:EDIT
+2026-04-20 21:04:59, MOVE, v:1, k:fup@drone, mode:EDIT
+2026-04-20 21:16:10, MOVE, v:1, k:fup@drone, mode:EDIT
+2026-04-20 21:20:09, EXEC, v:1, k:fup@drone, mode:FULL, rate:71, size:14
+2026-04-20 21:21:09, MOVE, v:1, k:fup@drone, mode:EDIT
+2026-04-20 21:20:09, MOVE, v:1, k:fup@drone, mode:EDIT
+2026-04-20 21:21:17, EXEC, v:1, k:fup@drone, mode:FULL, rate:57, size:14
+2026-04-20 21:22:37, MOVE, v:1, k:fup@drone, mode:BACK

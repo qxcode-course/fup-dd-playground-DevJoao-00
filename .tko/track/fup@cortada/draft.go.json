@@ -42,8 +42,13 @@
         },
         {
             "label": "2026-04-19_21-28-56",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n  var b,t int\n\n  fmt.Scan(&b,&t)\n\n  met := (160 * 70) / 2\n  areaF := ((b + t)/2) * 70\n\n  if areaF > met {\n    fmt.Println(\"1\")\n  }else if areaF < met {\n    fmt.Println(\"2\")\n  } else {\n    fmt.Println(\"0\")\n  }\n\n\n\n}\n",
+            "content": "@@ -243,10 +243,12 @@\n %22)%0A  %7D%0A%0A\n+%0A%0A\n %7D%0A\n",
             "lines": "21"
+        },
+        {
+            "label": "2026-04-20_21-01-38",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n  var b,t int\n\n  fmt.Scan(&b,&t)\n\n  met := (160 * 70) / 2\n  areaF := ((b + t)/2) * 70\n\n  if areaF > met {\n    fmt.Println(\"1\")\n  }else if areaF < met {\n    fmt.Println(\"2\")\n  } else {\n    fmt.Println(\"0\")\n  }\n\n}\n",
+            "lines": "19"
         }
     ]
 }
