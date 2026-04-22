@@ -12,8 +12,28 @@
         },
         {
             "label": "2026-04-20_21-21-17",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var ad,bd,cd int\n    var ac,bc int\n\n    fmt.Scan(&ad,&bd,&cd,&ac,&bc)\n\n    if bd <= ac && cd <= bc{\n        fmt.Println(\"S\")\n    } else if bd > ac && cd > bc{\n        fmt.Println(\"N\")\n    } \n}\n",
+            "content": "@@ -46,12 +46,15 @@\n ar a\n+d\n ,b\n+d\n ,c\n+d\n  int\n@@ -66,11 +66,13 @@\n var \n-h,l\n+ac,bc\n  int\n@@ -92,20 +92,25 @@\n n(&a\n+d\n ,&b\n+d\n ,&c\n+d\n ,&\n-h,&l\n+ac,&bc\n )%0A%0A \n@@ -120,24 +120,27 @@\n if b\n+d\n  %3C= \n-l\n+ac\n  && c\n+d\n  %3C= \n-h \n+bc\n %7B%0A  \n@@ -181,22 +181,25 @@\n if b\n+d\n  %3E \n-l\n+ac\n  && c\n+d\n  %3E \n-h \n+bc\n %7B%0A  \n@@ -226,11 +226,12 @@\n %22)%0A    %7D\n+ \n %0A%7D%0A\n",
             "lines": "14"
+        },
+        {
+            "label": "2026-04-22_01-38-35",
+            "content": "@@ -106,68 +106,27 @@\n     \n-areaC := a * b * c%0A    areaJ := h * l%0A%0A    if areaC %3C= areaJ\n+if b %3C= l && c %3C= h\n  %7B%0A \n@@ -167,21 +167,22 @@\n  if \n-areaC %3E areaJ\n+b %3E l && c %3E h\n  %7B%0A \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-22_01-40-22",
+            "content": "@@ -117,16 +117,19 @@\n = a * b \n+* c\n %0A    are\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-22_01-40-41",
+            "content": "@@ -111,17 +111,17 @@\n reaC := \n-c\n+a\n  * b %0A  \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-22_01-40-55",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a,b,c int\n    var h,l int\n\n    fmt.Scan(&a,&b,&c,&h,&l)\n\n    areaC := c * b \n    areaJ := h * l\n\n    if areaC <= areaJ {\n        fmt.Println(\"S\")\n    } else if areaC > areaJ {\n        fmt.Println(\"N\")\n    }\n}\n",
+            "lines": "17"
         }
     ]
 }

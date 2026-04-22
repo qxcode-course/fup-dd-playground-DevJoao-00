@@ -1,14 +1,17 @@
 package main
 import "fmt"
 func main() {
-    var ad,bd,cd int
-    var ac,bc int
+    var a,b,c int
+    var h,l int
 
-    fmt.Scan(&ad,&bd,&cd,&ac,&bc)
+    fmt.Scan(&a,&b,&c,&h,&l)
 
-    if bd <= ac && cd <= bc{
+    areaC := c * b 
+    areaJ := h * l
+
+    if areaC <= areaJ {
         fmt.Println("S")
-    } else if bd > ac && cd > bc{
+    } else if areaC > areaJ {
         fmt.Println("N")
-    } 
+    }
 }
