@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-22_01-53-40",
+            "content": "@@ -41,51 +41,35 @@\n     \n-var c,a int%0A%0A    fmt.Scan(&c, &a)%0A%0A    %0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-22_02-00-46",
+            "content": "@@ -80,54 +80,8 @@\n     \n-if c == a + 1 %7B%0A        fmt.Println(%221%22)%0A    %7D\n %0A   \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-22_02-08-03",
+            "content": "@@ -121,60 +121,8 @@\n 1%22)%0A\n-    %7D else if c %3E= a + 1 %7B%0A        fmt.Println(%222%22)%0A\n     \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-22_02-10-28",
+            "content": "@@ -138,30 +138,15 @@\n  c %3E\n+=\n  a + 1\n- && c == (a * 2)\n  %7B%0A \n@@ -169,9 +169,9 @@\n ln(%22\n-3\n+2\n %22)%0A \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-22_02-22-52",
+            "content": "@@ -180,17 +180,17 @@\n rintln(%22\n-2\n+3\n %22)%0A    %7D\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-22_02-23-09",
+            "content": "@@ -172,33 +172,33 @@\n    fmt.Println(%22\n-1\n+2\n %22)%0A    %7D%0A    %0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-22_02-23-16",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var c,a int\n\n    fmt.Scan(&c, &a)\n\n    if c == a + 1 {\n        fmt.Println(\"1\")\n    } else if c > a + 1 && c == (a * 2) {\n        fmt.Println(\"1\")\n    }\n    \n}\n",
+            "lines": "14"
+        }
+    ]
+}

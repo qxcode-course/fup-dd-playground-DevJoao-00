@@ -6,3 +6,28 @@
 2026-04-22 01:40:22, EXEC, v:1, k:fup@drone, mode:FULL, rate:57, size:17
 2026-04-22 01:40:41, EXEC, v:1, k:fup@drone, mode:FULL, rate:85, size:17
 2026-04-22 01:40:55, EXEC, v:1, k:fup@drone, mode:FULL, rate:100, size:17
+2026-04-22 01:40:53, MOVE, v:1, k:fup@drone, mode:EDIT
+2026-04-22 01:40:55, MOVE, v:1, k:fup@drone, mode:EDIT
+2026-04-22 01:53:19, SELF, v:1, k:fup@drone, self:1, rate:100, study:15
+2026-04-22 01:53:22, MOVE, v:1, k:fup@drone, mode:BACK
+2026-04-22 01:53:38, MOVE, v:1, k:fup@teleferico, mode:DOWN
+2026-04-22 01:53:39, MOVE, v:1, k:fup@teleferico, mode:PICK
+2026-04-22 01:53:40, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:0, size:5
+2026-04-22 01:53:38, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-04-22 01:53:38, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-04-22 01:54:05, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-04-22 01:53:40, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-04-22 02:00:46, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:0, size:10
+2026-04-22 02:00:30, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-04-22 02:00:45, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-04-22 02:08:03, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:12, size:12
+2026-04-22 02:09:26, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-04-22 02:08:03, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-04-22 02:10:28, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:12, size:14
+2026-04-22 02:11:20, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-04-22 02:10:28, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-04-22 02:22:52, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:12, size:14
+2026-04-22 02:23:09, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:12, size:14
+2026-04-22 02:23:16, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:25, size:14
+2026-04-22 02:23:35, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-04-22 02:23:16, MOVE, v:1, k:fup@teleferico, mode:EDIT
