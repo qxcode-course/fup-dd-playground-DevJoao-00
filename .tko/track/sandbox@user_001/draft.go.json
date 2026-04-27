@@ -97,8 +97,13 @@
         },
         {
             "label": "2026-04-14_17-00-28",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var qtd int\n    fmt.Scan(&qtd)\n\n    var idades []int = make([]int, 10)\n   //var lista []int = []int {1,4,2,5,7}\n   //var nomes []string = []string {\"Jo\u00e3o\",\"Erik\",\"Iago\",\"Arisnaldo\"}\n\n   //nomes = []string {\"banana\",\" kiwi\"}\n   //nomes[2] = \"Senzala\"\n   //nomes[3] = \"Fup endoida eu\"\n\n   //fmt.Println(lista)\n   //fmt.Println(nomes[2], nomes[3])\n   fmt.Print(idades)\n}\n",
+            "content": "@@ -41,50 +41,8 @@\n     \n-fmt.Print(%22hello, world%22)   %0A    %7D%0A%0A    //\n var \n@@ -49,26 +49,24 @@\n qtd int%0A    \n-//\n fmt.Scan(&qt\n@@ -72,273 +72,13 @@\n td)%0A\n+%0A\n     \n-//arr := %5B%5Dint %7B4,5,6,7,8,9%7D%0A        //fmt.Printf(%22%5B %22)%0A        //for _, valor:= range arr%7B%0A            //if i != 0%7B%0A%0A    //for i := 2; i %3C len(arr) - 2; i++%7B%0A    //fmt.Printf(%22%25d %22, arr%5Bi%5D)%0A    //fmt.Printf(%22%25d, %22, valor) %0A%0A%0A       // fmt.Printf(%22%5D%5Cn%22)%0A%0A    //\n var \n@@ -104,19 +104,18 @@\n (%5B%5Dint, \n-qtd\n+10\n )%0A   //v\n@@ -381,26 +381,24 @@\n omes%5B3%5D)%0A   \n-//\n fmt.Print(id\n@@ -403,9 +403,10 @@\n idades)%0A\n+%7D\n %0A\n",
             "lines": "18"
+        },
+        {
+            "label": "2026-04-27_17-03-48",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Print(\"hello, world\")   \n    }\n\n    //var qtd int\n    //fmt.Scan(&qtd)\n    //arr := []int {4,5,6,7,8,9}\n        //fmt.Printf(\"[ \")\n        //for _, valor:= range arr{\n            //if i != 0{\n\n    //for i := 2; i < len(arr) - 2; i++{\n    //fmt.Printf(\"%d \", arr[i])\n    //fmt.Printf(\"%d, \", valor) \n\n\n       // fmt.Printf(\"]\\n\")\n\n    //var idades []int = make([]int, qtd)\n   //var lista []int = []int {1,4,2,5,7}\n   //var nomes []string = []string {\"Jo\u00e3o\",\"Erik\",\"Iago\",\"Arisnaldo\"}\n\n   //nomes = []string {\"banana\",\" kiwi\"}\n   //nomes[2] = \"Senzala\"\n   //nomes[3] = \"Fup endoida eu\"\n\n   //fmt.Println(lista)\n   //fmt.Println(nomes[2], nomes[3])\n   //fmt.Print(idades)\n\n",
+            "lines": "32"
         }
     ]
 }

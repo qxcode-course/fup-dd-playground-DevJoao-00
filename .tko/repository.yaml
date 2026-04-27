@@ -22,19 +22,20 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@list
-- fup@games
+- fup@base
 - sandbox@sandbox
+- fup@list
+- eval1@eval1
+- fup@games
+- fup@if1
 - fup@if2
 - fup@for1
-- fup@if1
-- fup@base
 flags:
-  inbox: all
-  panel: help
+  inbox: inbox
+  panel: skills
   show_panel: 'true'
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@teleferico
-selected_index: 38
+selected: sandbox@sandbox
+selected_index: 0

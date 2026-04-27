@@ -32,8 +32,53 @@
         },
         {
             "label": "2026-04-22_02-23-16",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var c,a int\n\n    fmt.Scan(&c, &a)\n\n    if c == a + 1 {\n        fmt.Println(\"1\")\n    } else if c > a + 1 && c == (a * 2) {\n        fmt.Println(\"1\")\n    }\n    \n}\n",
+            "content": "@@ -131,17 +131,68 @@\n else if \n-%7B\n+c %3E a + 1 && c == (a * 2) %7B%0A        fmt.Println(%221%22)\n %0A    %7D%0A \n",
             "lines": "14"
+        },
+        {
+            "label": "2026-04-26_20-56-25",
+            "content": "@@ -135,43 +135,9 @@\n  if \n-c %3C a + 1%7B%0A        fmt.Println(%222%22)\n+%7B\n %0A   \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-26_20-59-28",
+            "content": "@@ -94,16 +94,8 @@\n + 1 \n-%7C%7C c %3E a\n %7B%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-26_20-59-56",
+            "content": "@@ -98,20 +98,16 @@\n %7C%7C c %3E a\n- + 1\n %7B%0A      \n@@ -147,19 +147,13 @@\n c %3C \n-(\n a + 1\n-) / 2\n %7B%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-26_21-00-53",
+            "content": "@@ -157,17 +157,17 @@\n  + 1) / \n-3\n+2\n %7B%0A      \n@@ -185,9 +185,9 @@\n ln(%22\n-3\n+2\n %22)%0A \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-26_21-01-13",
+            "content": "@@ -149,20 +149,21 @@\n f c \n-%25 \n+%3C (\n a + 1\n- == 1\n+) / 3\n %7B%0A  \n@@ -185,17 +185,17 @@\n ln(%22\n-2\n+3\n %22)%0A    %7D\n  %0A  \n@@ -190,17 +190,16 @@\n %22)%0A    %7D\n- \n %0A    %0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-26_21-42-04",
+            "content": "@@ -160,9 +160,9 @@\n  == \n-0\n+1\n %7B%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-26_21-42-14",
+            "content": "@@ -149,19 +149,20 @@\n f c \n-/\n+%25\n  a + 1 \n-%3C a\n+== 0\n %7B%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-27_16-50-16",
+            "content": "@@ -195,15 +195,10 @@\n %7D %0A    %0A\n-    %0A\n %7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-27_17-04-40",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var c,a int\n\n    fmt.Scan(&c, &a)\n\n    if c == a + 1 || c > a + 1{\n        fmt.Println(\"1\")\n    } else if c / a + 1 < a{\n        fmt.Println(\"2\")\n    } \n    \n    \n}\n",
+            "lines": "15"
         }
     ]
 }

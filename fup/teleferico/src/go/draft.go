@@ -5,9 +5,11 @@ func main() {
 
     fmt.Scan(&c, &a)
 
-    if c == a + 1 {
+    if c == a + 1 || c > a + 1{
         fmt.Println("1")
-    } else if {
-    }
+    } else if c / a + 1 < a{
+        fmt.Println("2")
+    } 
+    
     
 }
