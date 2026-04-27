@@ -22,13 +22,7 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@for2
-- fup@list
-- eval1@eval1
-- fup@games
 - sandbox@sandbox
-- fup@for1
-- fup@if2
 flags:
   inbox: all
   panel: skills
@@ -36,5 +30,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: eval1@pares
-selected_index: 111
+selected: sandbox@user_002
+selected_index: 2

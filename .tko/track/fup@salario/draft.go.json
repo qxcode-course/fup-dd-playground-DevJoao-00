@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-27_17-21-56",
+            "content": "@@ -41,160 +41,35 @@\n     \n-var salario float64%0A%0A    fmt.Scan(&salario)%0A%0A    if salario %3C 1000 %7B%0A        salario:= salario + salario * 0.20 %0A         fmt.Println(salario)%0A    %7D%0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-27_17-26-49",
+            "content": "@@ -172,17 +172,11 @@\n rint\n-f(%22%25.2f%22,\n+ln(\n sala\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-27_17-27-17",
+            "content": "@@ -155,337 +155,8 @@\n 0 %0A \n-       fmt.Printf(%22%25.2f%22,salario)%0A    %7D else if salario %3C 1500 %7B%0A        salario:= salario + salario * 0.15 %0A        fmt.Printf(%22%25.2f%22,salario)%0A    %7D else if salario %3C 2000 %7B%0A        salario:= salario + salario * 0.10 %0A        fmt.Printf(%22%25.2f%22,salario)%0A    %7D else if salario %3E 2000 %7B%0A        salario:= salario + salario * 0.05 %0A\n     \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-27_17-29-19",
+            "content": "@@ -168,33 +168,32 @@\n t.Printf(%22%25.2f%22,\n- \n salario)%0A    %7D e\n@@ -177,32 +177,32 @@\n %22%25.2f%22,salario)%0A\n+\n     %7D else if sa\n@@ -244,17 +244,16 @@\n lario + \n-(\n salario \n@@ -258,17 +258,16 @@\n o * 0.15\n-)\n  %0A      \n@@ -278,33 +278,32 @@\n t.Printf(%22%25.2f%22,\n- \n salario)%0A    %7D e\n@@ -388,33 +388,32 @@\n t.Printf(%22%25.2f%22,\n- \n salario)%0A    %7D e\n@@ -480,16 +480,16 @@\n * 0.05 %0A\n+\n         \n@@ -506,17 +506,16 @@\n (%22%25.2f%22,\n- \n salario)\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-04-27_17-30-29",
+            "content": "@@ -102,17 +102,16 @@\n io %3C\n-=\n  1000 %7B%0A\n     \n@@ -102,24 +102,24 @@\n io %3C 1000 %7B%0A\n+\n         sala\n@@ -209,17 +209,16 @@\n alario %3C\n-=\n  1500 %7B%0A\n@@ -237,32 +237,33 @@\n rio:= salario + \n+(\n salario * 0.15 %0A\n@@ -260,16 +260,17 @@\n o * 0.15\n+)\n  %0A      \n@@ -291,32 +291,32 @@\n %25.2f%22, salario)%0A\n+\n     %7D else if sa\n@@ -322,17 +322,16 @@\n alario %3C\n-=\n  2000 %7B%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-04-27_17-31-21",
+            "content": "@@ -167,34 +167,32 @@\n fmt.Printf(%22%25.2f\n-/n\n %22, salario)%0A    \n@@ -179,32 +179,32 @@\n %25.2f%22, salario)%0A\n+\n     %7D else if sa\n@@ -279,34 +279,32 @@\n fmt.Printf(%22%25.2f\n-/n\n %22, salario)%0A    \n@@ -391,34 +391,32 @@\n fmt.Printf(%22%25.2f\n-/n\n %22, salario)%0A    \n@@ -486,16 +486,16 @@\n * 0.05 %0A\n+\n         \n@@ -514,10 +514,8 @@\n %25.2f\n-/n\n %22, s\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-04-27_17-32-27",
+            "content": "@@ -167,33 +167,33 @@\n fmt.Printf(%22%25.2f\n-%5C\n+/\n n%22, salario)%0A   \n@@ -281,33 +281,33 @@\n fmt.Printf(%22%25.2f\n-%5C\n+/\n n%22, salario)%0A   \n@@ -395,33 +395,33 @@\n fmt.Printf(%22%25.2f\n-%5C\n+/\n n%22, salario)%0A   \n@@ -520,9 +520,9 @@\n %25.2f\n-%5C\n+/\n n%22, \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-04-27_17-32-45",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var salario float64\n\n    fmt.Scan(&salario)\n\n    if salario <= 1000 {\n        salario:= salario + salario * 0.20 \n        fmt.Printf(\"%.2f\\n\", salario)\n    } else if salario <= 1500 {\n        salario:= salario + salario * 0.15 \n        fmt.Printf(\"%.2f\\n\", salario)\n    } else if salario <= 2000 {\n        salario:= salario + salario * 0.10 \n        fmt.Printf(\"%.2f\\n\", salario)\n    } else if salario > 2000 {\n        salario:= salario + salario * 0.05 \n        fmt.Printf(\"%.2f\\n\", salario)\n    }\n    \n}\n",
+            "lines": "22"
+        }
+    ]
+}
