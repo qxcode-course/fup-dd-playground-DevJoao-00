@@ -1,5 +1,22 @@
 package main
 import "fmt"
 func main() {
-    fmt.Println("Hello, World!")
+    var a,b int
+
+    fmt.Scan(&a, &b)
+
+        fmt.Print("[ ")
+
+    if a < b {
+        for i := a; i < b; i++ {
+            fmt.Printf("%d ", i)
+        }
+    } else if a > b {
+        for i := a; i > b; i-- {
+            fmt.Printf("%d ", i)
+        }
+    }
+
+        fmt.Println("]")
+
 }
