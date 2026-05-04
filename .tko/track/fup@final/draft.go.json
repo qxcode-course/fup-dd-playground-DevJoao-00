@@ -32,8 +32,88 @@
         },
         {
             "label": "2026-04-11_11-53-22",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nota1, nota2, notaf int\n\n    fmt.Scan(&nota1, &nota2, &notaf)\n\n    if (nota1 + nota2) / 2  >= 7 {\n        fmt.Println(\"aprovado\")\n    } else if  (nota1 + nota2) / 2 < 7 {\n        media := int(nota1 + nota2) + notaf / 2\n\n        if media >= 5 {\n        fmt.Println(\"aprovado na final\")\n        }   else {\n        fmt.Println(\"reprovado na final\")\n        }        \n\n    }\n}\n",
+            "content": "@@ -310,16 +310,17 @@\n ln(%22apro\n+v\n ado na f\n",
             "lines": "20"
+        },
+        {
+            "label": "2026-05-04_23-05-05",
+            "content": "@@ -111,17 +111,16 @@\n %0A    if \n-(\n (nota1 +\n@@ -130,17 +130,16 @@\n ta2) / 2\n-)\n   %3E= 7 %7B\n@@ -186,17 +186,16 @@\n lse if  \n-(\n (nota1 +\n@@ -205,17 +205,16 @@\n ta2) / 2\n-)\n  %3C 7 %7B%0A \n@@ -310,17 +310,16 @@\n ln(%22apro\n-v\n ado na f\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-04_23-06-33",
+            "content": "@@ -351,20 +351,8 @@\n lse \n-if media %3C 4\n %7B%0A  \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-04_23-07-05",
+            "content": "@@ -103,16 +103,133 @@\n &notaf)%0A\n+%0A    if ((nota1 + nota2) / 2)  %3E= 7 %7B%0A        fmt.Println(%22aprovado%22)%0A    %7D else if  ((nota1 + nota2) / 2) %3C 7 %7B%0A    \n     medi\n@@ -233,16 +233,20 @@\n edia := \n+int(\n nota1 + \n@@ -254,14 +254,27 @@\n ota2\n+) + notaf\n  / 2%0A%0A\n+    \n     \n@@ -281,25 +281,25 @@\n if media %3E= \n-7\n+5\n  %7B%0A        f\n@@ -314,23 +314,124 @@\n ln(%22aprovado\n-%22)\n+ na final%22)%0A        %7D   else if media %3C 4%7B%0A        fmt.Println(%22reprovado na final%22)%0A        %7D        %0A\n %0A    %7D%0A%7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-04_23-11-53",
+            "content": "@@ -191,66 +191,8 @@\n o%22)%0A\n-    %7D else if media %3C 7%7B%0A        fmt.Println(%22reprovado%22)%0A\n     \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-04_23-12-22",
+            "content": "@@ -253,123 +253,8 @@\n     \n-    media := media + notaf / 2%0A        if media %3E= 5 %7B%0A            fmt.Println(%22aprovado na final%22)%0A        %7D%0A    %7D \n+%7D\n %0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-04_23-14-52",
+            "content": "@@ -241,21 +241,135 @@\n reprovado%22)%0A\n+        media := media + notaf / 2%0A        if media %3E= 5 %7B%0A            fmt.Println(%22aprovado na final%22)%0A        %7D%0A\n     %7D %0A%7D%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-04_23-15-36",
+            "content": "@@ -213,9 +213,9 @@\n a %3C \n-4\n+7\n %7B%0A  \n@@ -251,25 +251,11 @@\n )%0A    %7D \n-else if media \n %0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-04_23-16-14",
+            "content": "@@ -251,11 +251,25 @@\n )%0A    %7D \n+else if media \n %0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-04_23-16-20",
+            "content": "@@ -210,17 +210,16 @@\n edia %3C 4\n- \n %7B%0A      \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-04_23-17-11",
+            "content": "@@ -65,15 +65,11 @@\n taf \n-float64\n+int\n %0A%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-04_23-17-20",
+            "content": "@@ -111,13 +111,8 @@\n af)%0A\n-    %0A\n     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-04_23-17-30",
+            "content": "@@ -107,16 +107,20 @@\n &notaf)%0A\n+    \n %0A    med\n@@ -223,11 +223,8 @@\n  %3C 4\n-.01\n  %7B%0A \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-04_23-18-06",
+            "content": "@@ -216,83 +216,15 @@\n dia \n-%3E= 4 && media %3C 7%7B%0A        media := media + notaf / 2%0A        if media %3E= 5\n+%3C 4.01 \n %7B%0A  \n@@ -225,28 +225,24 @@\n 1 %7B%0A        \n- \n-   \n fmt.Println(\n@@ -246,37 +246,19 @@\n ln(%22\n-a\n+re\n provado\n- na final%22)%0A        %7D\n+%22)\n %0A   \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-04_23-19-34",
+            "content": "@@ -338,84 +338,8 @@\n l%22)%0A\n-        %7D else if media %3C 5 %7B%0A            fmt.Println(%22reprovado na final%22)%0A\n     \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-04_23-20-18",
+            "content": "@@ -216,65 +216,8 @@\n dia \n-%3C 4%7B%0A        fmt.Println(%22reprovado%22)%0A    %7Delse if media \n %3E= 4\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-04_23-21-07",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nota1, nota2, notaf float64\n\n    fmt.Scan(&nota1, &nota2, &notaf)\n\n    media := nota1 + nota2 / 2\n\n    if media >= 7 {\n        fmt.Println(\"aprovado\")\n    } else if media < 4{\n        fmt.Println(\"reprovado\")\n    }else if media >= 4 && media < 7{\n        media := media + notaf / 2\n        if media >= 5{\n            fmt.Println(\"aprovado na final\")\n        } else if media < 5 {\n            fmt.Println(\"reprovado na final\")\n        }\n    } \n}\n",
+            "lines": "22"
         }
     ]
 }

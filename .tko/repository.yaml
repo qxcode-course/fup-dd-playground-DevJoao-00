@@ -23,7 +23,8 @@ sources:
   tasks: null
 expanded:
 - fup@if2
-- fup@list
+- sandbox@sandbox
+- fup@string
 - fup@for1
 flags:
   inbox: all
@@ -32,5 +33,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: sandbox@sandbox
-selected_index: 0
+selected: fup@xuxa
+selected_index: 35
