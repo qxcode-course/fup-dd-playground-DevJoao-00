@@ -9,6 +9,7 @@ func main() {
         fmt.Println("1")
     } else if c / a + 1 < a{
         fmt.Println("2")
+        
     } 
     
     

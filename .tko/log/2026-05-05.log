@@ -153,3 +153,37 @@
 2026-05-05 18:22:36, MOVE, v:1, k:fup@game10, mode:EDIT
 2026-05-05 18:26:00, EXEC, v:1, k:fup@game10, mode:FULL, rate:0, size:15
 2026-05-05 18:26:35, EXEC, v:1, k:fup@game10, mode:FULL, rate:14, size:16
+2026-05-05 18:27:25, MOVE, v:1, k:fup@game10, mode:BACK
+2026-05-05 18:27:16, MOVE, v:1, k:fup@game10, mode:EDIT
+2026-05-05 18:26:35, MOVE, v:1, k:fup@game10, mode:EDIT
+2026-05-05 18:27:45, MOVE, v:1, k:fup@teleferico, mode:PICK
+2026-05-05 18:27:46, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
+2026-05-05 18:28:19, MOVE, v:1, k:fup@teleferico, mode:BACK
+2026-05-05 22:59:07, MOVE, v:1, k:fup@game10, mode:PICK
+2026-05-05 22:59:10, EXEC, v:1, k:fup@game10, mode:FULL, rate:14, size:16
+2026-05-05 22:59:10, MOVE, v:1, k:fup@game10, mode:EDIT
+2026-05-05 22:59:43, MOVE, v:1, k:fup@game10, mode:EDIT
+2026-05-05 23:00:40, EXEC, v:1, k:fup@game10, mode:FULL, rate:14
+2026-05-05 23:02:09, EXEC, v:1, k:fup@game10, mode:FULL, rate:28, size:18
+2026-05-05 23:02:09, MOVE, v:1, k:fup@game10, mode:EDIT
+2026-05-05 23:02:06, MOVE, v:1, k:fup@game10, mode:EDIT
+2026-05-05 23:09:27, EXEC, v:1, k:fup@game10, mode:FULL, rate:28
+2026-05-05 23:09:27, MOVE, v:1, k:fup@game10, mode:EDIT
+2026-05-05 23:10:11, MOVE, v:1, k:fup@game10, mode:EDIT
+2026-05-05 23:10:18, EXEC, v:1, k:fup@game10, mode:FULL, rate:57, size:18
+2026-05-05 23:12:23, EXEC, v:1, k:fup@game10, mode:FULL, rate:57, size:19
+2026-05-05 23:13:34, EXEC, v:1, k:fup@game10, mode:FULL, rate:71, size:19
+2026-05-05 23:14:25, EXEC, v:1, k:fup@game10, mode:FULL, rate:100, size:19
+2026-05-05 23:15:01, SELF, v:1, k:fup@game10, self:1, rate:100, study:30
+2026-05-05 23:15:03, MOVE, v:1, k:fup@game10, mode:BACK
+2026-05-05 23:15:11, MOVE, v:1, k:fup@teleferico, mode:PICK
+2026-05-05 23:14:25, MOVE, v:1, k:fup@game10, mode:EDIT
+2026-05-05 23:14:25, MOVE, v:1, k:fup@game10, mode:EDIT
+2026-05-05 23:15:12, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-05-05 23:15:12, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
+2026-05-05 23:15:14, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
+2026-05-05 23:15:15, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
+2026-05-05 23:15:15, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
+2026-05-05 23:15:15, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
+2026-05-05 23:15:16, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
+2026-05-05 23:15:16, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62

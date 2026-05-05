@@ -22,8 +22,38 @@
         },
         {
             "label": "2026-05-05_18-26-35",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var N, D, A int\n\n    fmt.Scan(&N, &D, &A)\n\n    if N < 3 || N > 100{\n        return\n    }\n\n    if D > A {\n        A = (A + 1) % N\n    }\n    fmt.Println(A)\n}\n",
+            "content": "@@ -172,20 +172,16 @@\n N%0A    %7D%0A\n-    \n     fmt.\n",
             "lines": "16"
+        },
+        {
+            "label": "2026-05-05_22-59-10",
+            "content": "@@ -170,62 +170,8 @@\n %25 N%0A\n-    %7D else if D %3C A %7B%0A        A = (A + 1 %25 N + N) %25 N%0A\n     \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-05_23-02-09",
+            "content": "@@ -159,13 +159,13 @@\n  = (\n-D - A\n+A + 1\n ) %25 \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-05_23-10-18",
+            "content": "@@ -130,58 +130,12 @@\n   %7D%0A\n+%0A\n    \n- if D == A%7B%0A        fmt.Println(%220%22)%0A    %7D else\n  if \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-05_23-12-23",
+            "content": "@@ -149,26 +149,31 @@\n         \n-A = (D - A\n+fmt.Println(%220%22\n )%0A    %7D \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-05_23-13-34",
+            "content": "@@ -242,21 +242,21 @@\n    A = (\n-D - A\n+A + 1\n  %25 N + N\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-05_23-14-25",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var N, D, A int\n\n    fmt.Scan(&N, &D, &A)\n\n    if N < 3 || N > 100{\n        return\n    }\n    if D == A{\n        A = (D - A)\n    } else if D > A {\n        A = (D - A) % N\n    } else if D < A {\n        A = (D - A % N + N) % N\n    }\n        fmt.Println(A)\n}\n",
+            "lines": "19"
         }
     ]
 }

@@ -8,9 +8,12 @@ func main() {
     if N < 3 || N > 100{
         return
     }
-
-    if D > A {
-        A = (A + 1) % N
+    if D == A{
+        A = (D - A)
+    } else if D > A {
+        A = (D - A) % N
+    } else if D < A {
+        A = (D - A % N + N) % N
     }
-    fmt.Println(A)
+        fmt.Println(A)
 }

@@ -30,5 +30,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@game10
-selected_index: 14
+selected: fup@teleferico
+selected_index: 11
