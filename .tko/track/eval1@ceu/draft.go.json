@@ -27,8 +27,73 @@
         },
         {
             "label": "2026-04-13_17-54-34",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n\n    var N int\n    \n    fmt.Scan(&N)\n\n    for i:= 0; i <= 9; i++ {\n\n        fmt.Print(i)\n    }\n    fmt.Println(\"ceu ]\")\n}\n",
+            "content": "@@ -74,31 +74,8 @@\n &N)%0A\n-        fmt.Print(%22%5B %22)\n %0A   \n@@ -100,16 +100,17 @@\n ; i++ %7B%0A\n+%0A\n         \n@@ -122,16 +122,9 @@\n rint\n-f(%22%25d %22,\n+(\n i)%0A \n",
             "lines": "14"
+        },
+        {
+            "label": "2026-05-05_17-58-15",
+            "content": "@@ -154,111 +154,8 @@\n %22,i)\n-%0A%0A        if i == N%7B%0A            break%0A        %7D else if i %3E N%7B%0A            continue%0A        %7D%0A        \n %0A   \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_18-00-06",
+            "content": "@@ -123,16 +123,45 @@\n ; i++ %7B%0A\n+        fmt.Printf(%22%25d %22,i)%0A%0A\n         \n@@ -249,36 +249,8 @@\n   %7D%0A\n-        fmt.Printf(%22%25d %22,i)%0A\n     \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-05_18-00-47",
+            "content": "@@ -206,24 +206,30 @@\n ontinue%0A    \n+    %7D%0A\n         fmt.\n@@ -248,27 +248,8 @@\n ,i)%0A\n-        %7D%0A        %0A\n     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-05_18-00-59",
+            "content": "@@ -170,17 +170,56 @@\n       %7D \n-%0A\n+else if i %3E N%7B%0A            continue%0A    \n         \n@@ -250,14 +250,18 @@\n     \n+%7D\n %0A    \n-%7D\n+    \n %0A   \n@@ -257,32 +257,43 @@\n        %0A        \n+%0A    %7D%0A    \n fmt.Println(%22ceu\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-05_18-02-07",
+            "content": "@@ -123,25 +123,16 @@\n ; i++ %7B%0A\n-        %0A\n         \n@@ -175,24 +175,43 @@\n  %7D %0A        \n+fmt.Printf(%22%25d %22,i)\n %0A        %0A  \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-05_18-02-38",
+            "content": "@@ -127,36 +127,8 @@\n + %7B%0A\n-        fmt.Printf(%22%25d %22,i)%0A\n     \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-05_18-02-46",
+            "content": "@@ -151,16 +151,91 @@\n %25d %22,i)%0A\n+        %0A        if i == N%7B%0A            break%0A        %7D %0A        %0A        %0A\n     %7D%0A  \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-05_18-03-33",
+            "content": "@@ -127,63 +127,8 @@\n + %7B%0A\n-        if i == N%7B%0A            fmt.Print(%22%22)%0A        %7D%0A\n     \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_18-04-01",
+            "content": "@@ -158,16 +158,21 @@\n     \n-continue\n+fmt.Print(%22%22)\n %0A   \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-05_18-04-28",
+            "content": "@@ -228,15 +228,18 @@\n rintln(%22\n+ceu\n  %5D%22)%0A%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-05_18-04-43",
+            "content": "@@ -232,12 +232,8 @@\n ln(%22\n- ceu\n  %5D%22)\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-05_18-04-54",
+            "content": "@@ -228,16 +228,17 @@\n rintln(%22\n+ \n ceu %5D%22)%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-05_18-05-01",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n\n    var N int\n    \n    fmt.Scan(&N)\n        fmt.Print(\"[ \")\n    for i:= 0; i <= 9; i++ {\n        if i == N{\n            continue\n        }\n        fmt.Printf(\"%d \",i)\n    }\n        fmt.Println(\"ceu ]\")\n}\n",
+            "lines": "16"
         }
     ]
 }

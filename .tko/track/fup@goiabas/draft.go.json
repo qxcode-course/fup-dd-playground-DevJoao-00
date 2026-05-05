@@ -2,8 +2,68 @@
     "patches": [
         {
             "label": "2026-04-27_17-53-33",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var C, b, g, m  int\n\n    fmt.Scan(&C, &b, &g, &m)\n\n    if C\n}\n",
+            "content": "@@ -96,79 +96,11 @@\n     \n-frutas := b + g + m%0A%0A    if frutas %3C= C %7B%0A        fmt.Println(%221%22)%0A    %7D\n+if C\n %0A%7D%0A\n",
             "lines": "9"
+        },
+        {
+            "label": "2026-05-05_16-41-41",
+            "content": "@@ -163,78 +163,8 @@\n 1%22)%0A\n-    %7D else if frutas %3E C && frutas %25 2 == 0%7B%0A        fmt.Println(%222%22)%0A\n     \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-05_16-42-48",
+            "content": "@@ -233,78 +233,8 @@\n 2%22)%0A\n-    %7D else if frutas %3E C && frutas %25 3 == 0%7B%0A        fmt.Println(%223%22)%0A\n     \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-05_16-43-12",
+            "content": "@@ -303,78 +303,8 @@\n 3%22)%0A\n-    %7D else if frutas %3E C && frutas %25 4 == 0%7B%0A        fmt.Println(%224%22)%0A\n     \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-05_16-43-35",
+            "content": "@@ -198,21 +198,156 @@\n tas \n-%3C= frutas * 2\n+%25 2 == 0%7B%0A        fmt.Println(%222%22)%0A    %7D else if frutas %3E C && frutas %25 3 == 0%7B%0A        fmt.Println(%223%22)%0A    %7D else if frutas %3E C && frutas %25 4 == 0\n %7B%0A  \n@@ -357,28 +357,28 @@\n    fmt.Println(%22\n-2\n+4\n %22)%0A    %7D%0A%7D%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-05_16-45-31",
+            "content": "@@ -238,83 +238,8 @@\n 2%22)%0A\n-    %7D else if frutas %3E C && frutas %3C= frutas * 3%7B%0A        fmt.Println(%222%22)%0A\n     \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-05_16-45-51",
+            "content": "@@ -285,9 +285,9 @@\n s * \n-4\n+3\n %7B%0A  \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-05_16-46-00",
+            "content": "@@ -281,17 +281,17 @@\n rutas * \n-3\n+4\n %7B%0A      \n@@ -309,9 +309,9 @@\n ln(%22\n-3\n+2\n %22)%0A \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-05_16-46-11",
+            "content": "@@ -281,17 +281,17 @@\n rutas * \n-4\n+3\n %7B%0A      \n@@ -309,9 +309,9 @@\n ln(%22\n-4\n+3\n %22)%0A \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-05_16-46-41",
+            "content": "@@ -281,17 +281,17 @@\n rutas * \n-5\n+4\n %7B%0A      \n@@ -309,9 +309,9 @@\n ln(%22\n-5\n+4\n %22)%0A \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-05_16-46-51",
+            "content": "@@ -174,25 +174,33 @@\n lse \n-%7B%0A        tempo :\n+if frutas %3E C && frutas %3C\n = fr\n@@ -208,12 +208,12 @@\n tas \n-/ C%0A\n+* 2%7B\n %0A   \n@@ -221,57 +221,99 @@\n     \n-if frutas %25 C != 0%7B%0A            tempo++%0A        %7D\n+fmt.Println(%222%22)%0A    %7D else if frutas %3E C && frutas %3C= frutas * 5%7B%0A        fmt.Println(%225%22)\n %0A   \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-05_16-51-58",
+            "content": "@@ -263,39 +263,8 @@\n   %7D%0A\n-            fmt.Println(tempo)%0A\n     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-05_16-52-28",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var C, b, g, m  int\n\n    fmt.Scan(&C, &b, &g, &m)\n\n    frutas := b + g + m\n\n    if frutas <= C {\n        fmt.Println(\"1\")\n    } else {\n        tempo := frutas / C\n\n        if frutas % C != 0{\n            tempo++\n        }\n            fmt.Println(tempo)\n    }\n}\n",
+            "lines": "20"
         }
     ]
 }

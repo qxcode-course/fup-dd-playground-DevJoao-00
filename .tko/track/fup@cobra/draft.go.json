@@ -1,0 +1,129 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-05_16-53-21",
+            "content": "@@ -41,218 +41,35 @@\n     \n-var N, X, Y int %0A    var C string%0A    var S int%0A%0A    fmt.Scan(&N, &X, &Y, &C, &S)%0A%0A    if N %3E= X && N %3E= Y%7B%0A        if C == %22U%22 %7B%0A            X := X%0A            Y ++%0A%0A            fmt.Println(X,Y)%0A        %7D%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-05_17-03-48",
+            "content": "@@ -204,16 +204,11 @@\n   Y \n-:= Y + S\n+++%0A\n %0A   \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-05_17-04-54",
+            "content": "@@ -157,45 +157,22 @@\n     \n-switch C %7B%0A            case %22U%22:%0A    \n+if C == %22U%22 %7B%0A\n     \n@@ -194,28 +194,24 @@\n             \n-    \n Y := Y + S%0A \n@@ -213,36 +213,32 @@\n + S%0A            \n- \n-   \n fmt.Println(X,Y)\n@@ -242,118 +242,8 @@\n ,Y)%0A\n-            case %22R%22:%0A                X := X + S%0A                Y := Y%0A%0A                fmt.Println(X,Y)%0A    \n     \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-05_17-08-21",
+            "content": "@@ -236,9 +236,9 @@\n = Y \n--\n++\n  S%0A \n@@ -379,31 +379,8 @@\n ,Y)%0A\n-            case %22D%22:%0A%0A\n     \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-05_17-09-08",
+            "content": "@@ -401,213 +401,8 @@\n D%22:%0A\n-                X := X%0A                Y := Y + S%0A%0A                fmt.Println(X,Y)%0A            case %22L%22:%0A                X := X - S%0A                Y := Y%0A                %0A                fmt.Println(X,Y)\n %0A   \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-05_17-10-41",
+            "content": "@@ -120,24 +120,44 @@\n C, &S)%0A%0A    \n+if N %3E= X && N %3E= Y%7B\n %0A        swi\n@@ -623,9 +623,10 @@\n %7D%0A    %7D%0A\n+%7D\n %0A\n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-05-05_17-11-29",
+            "content": "@@ -120,16 +120,21 @@\n C, &S)%0A%0A\n+    %0A\n         \n@@ -286,16 +286,21 @@\n         \n+ X :=\n  X + S%0A \n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-05-05_17-13-01",
+            "content": "@@ -281,21 +281,16 @@\n         \n- X :=\n  X + S%0A \n",
+            "lines": "32"
+        },
+        {
+            "label": "2026-05-05_17-13-41",
+            "content": "@@ -286,17 +286,18 @@\n     \n-if X %3C\n+X := X +\n  S\n-%7B\n %0A   \n@@ -313,29 +313,15 @@\n     \n-X++%0A                %7D\n+Y := Y%0A\n %0A   \n",
+            "lines": "32"
+        },
+        {
+            "label": "2026-05-05_17-15-54",
+            "content": "@@ -320,38 +320,33 @@\n                 \n-Y := Y\n+%7D\n %0A               \n@@ -367,43 +367,8 @@\n ,Y)%0A\n-                %7D%0A                %0A\n     \n",
+            "lines": "32"
+        },
+        {
+            "label": "2026-05-05_17-16-21",
+            "content": "@@ -288,17 +288,16 @@\n   if X %3C\n-=\n  S%7B%0A    \n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-05-05_17-16-49",
+            "content": "@@ -314,17 +314,10 @@\n    X\n- := X + 1\n+++\n %0A   \n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-05-05_17-17-50",
+            "content": "@@ -266,16 +266,43 @@\n se %22R%22:%0A\n+                if X %3C= S%7B%0A\n         \n@@ -318,17 +318,17 @@\n  := X + \n-S\n+1\n %0A       \n@@ -343,17 +343,16 @@\n  Y := Y%0A\n-%0A\n         \n@@ -368,32 +368,67 @@\n mt.Println(X,Y)%0A\n+                %7D%0A                %0A\n             case\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-05-05_17-18-22",
+            "content": "@@ -128,55 +128,178 @@\n     \n-if C == %22U%22%7B%0A        if X %3C S%7B%0A            X++%0A\n+    switch C %7B%0A            case %22U%22:%0A                X := X%0A                Y := Y - S%0A                fmt.Println(X,Y)%0A            case %22R%22:%0A                X := X + S%0A \n     \n@@ -310,15 +310,22 @@\n     \n+   \n Y := Y%0A\n+%0A   \n     \n@@ -351,35 +351,155 @@\n n(X,\n- Y)%0A        %7D%0A\n+Y)%0A            case %22D%22:%0A                X := X%0A                Y := Y + S%0A%0A                fmt.Println(X,Y)%0A            case %22L%22:%0A  \n     \n-%7D\n+  \n         \n %0A%7D%0A%0A\n@@ -494,12 +494,113 @@\n         \n-%0A\n+X := X - S%0A                Y := Y%0A                %0A                fmt.Println(X,Y)%0A            %7D%0A    \n %7D%0A%0A\n",
+            "lines": "32"
+        },
+        {
+            "label": "2026-05-05_17-24-35",
+            "content": "@@ -172,17 +172,10 @@\n    X\n- := X + S\n+++\n %0A   \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-05_17-24-59",
+            "content": "@@ -128,44 +128,20 @@\n     \n-    switch C %7B%0A            case\n+if C ==\n  %22U%22\n-:\n+%7B\n %0A   \n@@ -149,152 +149,18 @@\n     \n-        Y = Y - S%0A            case %22R%22:%0A                X = X +\n+if X %3C\n  S\n+%7B\n %0A\n-            case %22D%22:%0A                Y = Y + S    %0A            case %22L%22:%0A    \n     \n@@ -178,9 +178,9 @@\n = X \n--\n++\n  S%0A \n@@ -194,39 +194,15 @@\n     \n- \n-   \n Y := Y%0A\n-                %0A   \n     \n@@ -224,16 +224,17 @@\n intln(X,\n+ \n Y)%0A     \n@@ -240,17 +240,23 @@\n     \n+%7D%0A\n     %7D\n-%0A\n+  \n     \n+  %0A\n %7D%0A%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-05_17-44-37",
+            "content": "@@ -323,24 +323,25 @@\n           X \n+:\n = X - S%0A    \n@@ -348,17 +348,43 @@\n         \n-%7D\n+    Y := Y%0A                \n %0A       \n@@ -409,15 +409,29 @@\n ln(X,Y)%0A\n+            %7D%0A\n     %7D%0A%0A\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-05_17-45-09",
+            "content": "@@ -185,19 +185,13 @@\n Y = \n-(\n Y - S\n-) %25 N\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-05_17-46-31",
+            "content": "@@ -339,25 +339,13 @@\n X = \n-(\n X - S\n-%25N + N) %25 N\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-05_17-47-17",
+            "content": "@@ -341,19 +341,17 @@\n = (X - S\n- %25 \n+%25\n N + N) %25\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-05_17-47-24",
+            "content": "@@ -239,19 +239,13 @@\n X = \n-(\n X + S\n-) %25 N\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-05_17-51-48",
+            "content": "@@ -343,24 +343,32 @@\n   X = (X - S\n+ %25 N + N\n ) %25 N%0A      \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-05_17-52-04",
+            "content": "@@ -351,16 +351,8 @@\n  - S\n- %25 N + N\n ) %25 \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-05_17-52-23",
+            "content": "@@ -183,32 +183,24 @@\n   Y = (Y - S\n- %25 N + N\n ) %25 N%0A      \n@@ -293,19 +293,13 @@\n Y = \n-(\n Y + S\n-) %25 N\n     \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-05_17-53-09",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var N, X, Y int \n    var C string\n    var S int\n\n    fmt.Scan(&N, &X, &Y, &C, &S)\n\n        switch C {\n            case \"U\":\n                Y = (Y - S % N + N) % N\n            case \"R\":\n                X = (X + S) % N\n            case \"D\":\n                Y = (Y + S) % N    \n            case \"L\":\n                X = (X - S % N + N) % N\n            }\n                fmt.Println(X,Y)\n    }\n\n",
+            "lines": "22"
+        }
+    ]
+}

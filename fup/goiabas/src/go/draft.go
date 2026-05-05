@@ -5,5 +5,16 @@ func main() {
 
     fmt.Scan(&C, &b, &g, &m)
 
-    if C
+    frutas := b + g + m
+
+    if frutas <= C {
+        fmt.Println("1")
+    } else {
+        tempo := frutas / C
+
+        if frutas % C != 0{
+            tempo++
+        }
+            fmt.Println(tempo)
+    }
 }
