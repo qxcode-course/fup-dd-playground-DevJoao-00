@@ -187,3 +187,76 @@
 2026-05-05 23:15:15, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
 2026-05-05 23:15:16, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
 2026-05-05 23:15:16, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
+2026-05-05 23:15:16, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-05-05 23:15:31, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-05-05 23:25:09, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-05-05 23:27:18, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:12, size:16
+2026-05-05 23:28:27, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62, size:17
+2026-05-05 23:30:13, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-05-05 23:28:27, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-05-05 23:30:32, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62, size:19
+2026-05-05 23:31:12, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62, size:19
+2026-05-05 23:33:35, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62, size:19
+2026-05-05 23:33:37, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
+2026-05-05 23:33:38, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
+2026-05-05 23:33:39, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
+2026-05-05 23:33:39, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
+2026-05-05 23:33:40, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
+2026-05-05 23:33:41, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62
+2026-05-05 23:34:28, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62, size:19
+2026-05-05 23:34:53, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62, size:19
+2026-05-05 23:34:52, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-05-05 23:34:53, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-05-05 23:35:18, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62, size:19
+2026-05-05 23:36:23, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:36:44, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:36:59, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:37:18, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:37:44, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:38:05, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:38:22, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:38:39, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:38:48, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:38:59, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:39:08, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:62, size:18
+2026-05-05 23:39:21, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:39:42, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:39:58, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:40:04, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:40:04, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-05-05 23:40:04, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-05-05 23:40:23, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:40:28, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:40:42, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:40:52, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50
+2026-05-05 23:41:58, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:50, size:18
+2026-05-05 23:43:35, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:12, size:19
+2026-05-05 23:44:58, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:12, size:19
+2026-05-05 23:45:13, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-05-05 23:44:58, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-05-05 23:45:23, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:12, size:18
+2026-05-05 23:45:45, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:87, size:18
+2026-05-05 23:45:55, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:87, size:18
+2026-05-05 23:45:55, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:87, size:18
+2026-05-05 23:46:07, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:87, size:18
+2026-05-05 23:46:38, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:75, size:18
+2026-05-05 23:46:51, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:75, size:20
+2026-05-05 23:47:07, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:87, size:20
+2026-05-05 23:47:16, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:87, size:20
+2026-05-05 23:47:22, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:87, size:20
+2026-05-05 23:47:28, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:87
+2026-05-05 23:47:29, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:87, size:20
+2026-05-05 23:47:30, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:87
+2026-05-05 23:47:30, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:87
+2026-05-05 23:47:30, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:87
+2026-05-05 23:47:48, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:87, size:18
+2026-05-05 23:49:13, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:75, size:18
+2026-05-05 23:49:21, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:75, size:18
+2026-05-05 23:49:33, EXEC, v:1, k:fup@teleferico, mode:FULL, rate:100, size:18
+2026-05-05 23:49:54, SELF, v:1, k:fup@teleferico, self:1, rate:100, study:60
+2026-05-05 23:49:56, MOVE, v:1, k:fup@teleferico, mode:BACK
+2026-05-05 23:49:32, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-05-05 23:49:33, MOVE, v:1, k:fup@teleferico, mode:EDIT
+2026-05-05 23:50:19, MOVE, v:1, k:fup@zigzag, mode:DOWN
+2026-05-05 23:50:20, MOVE, v:1, k:fup@zigzag, mode:PICK
+2026-05-05 23:50:21, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:5
