@@ -112,8 +112,33 @@
         },
         {
             "label": "2026-05-04_23-21-07",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nota1, nota2, notaf float64\n\n    fmt.Scan(&nota1, &nota2, &notaf)\n\n    media := nota1 + nota2 / 2\n\n    if media >= 7 {\n        fmt.Println(\"aprovado\")\n    } else if media < 4{\n        fmt.Println(\"reprovado\")\n    }else if media >= 4 && media < 7{\n        media := media + notaf / 2\n        if media >= 5{\n            fmt.Println(\"aprovado na final\")\n        } else if media < 5 {\n            fmt.Println(\"reprovado na final\")\n        }\n    } \n}\n",
+            "content": "@@ -323,16 +323,20 @@\n taf / 2%0A\n+    \n     if m\n@@ -387,24 +387,28 @@\n  na final%22)%0A\n+    \n     %7D else i\n@@ -486,9 +486,8 @@\n    %7D %0A%7D%0A\n-%0A\n",
             "lines": "22"
+        },
+        {
+            "label": "2026-05-05_16-34-53",
+            "content": "@@ -121,17 +121,16 @@\n edia := \n-(\n nota1 + \n@@ -134,17 +134,16 @@\n  + nota2\n-)\n  / 2%0A%0A  \n@@ -397,16 +397,30 @@\n   %7D else\n+ if media %3C 5 \n %7B%0A      \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-05_16-36-39",
+            "content": "@@ -403,21 +403,8 @@\n else\n- if media %3C 5\n %7B%0A  \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-05_16-37-00",
+            "content": "@@ -307,17 +307,16 @@\n edia := \n-(\n media + \n@@ -320,17 +320,16 @@\n  + notaf\n-)\n  / 2%0A   \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-05_16-37-16",
+            "content": "@@ -401,16 +401,29 @@\n   %7D else\n+ if media %3C 5\n %7B%0A      \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-05_16-37-39",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var nota1, nota2, notaf float64\n\n    fmt.Scan(&nota1, &nota2, &notaf)\n\n    media := (nota1 + nota2) / 2\n\n    if media >= 7 {\n        fmt.Println(\"aprovado\")\n    } else if media < 4{\n        fmt.Println(\"reprovado\")\n    }else if media >= 4 && media < 7{\n        media := (media + notaf) / 2\n    if media >= 5{\n            fmt.Println(\"aprovado na final\")\n    } else{\n            fmt.Println(\"reprovado na final\")\n        }\n    } \n}\n\n",
+            "lines": "23"
         }
     ]
 }

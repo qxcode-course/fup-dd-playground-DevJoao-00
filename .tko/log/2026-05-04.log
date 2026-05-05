@@ -153,3 +153,4 @@
 2026-05-04 23:31:57, MOVE, v:1, k:fup@xuxa, mode:DOWN
 2026-05-04 23:31:57, MOVE, v:1, k:fup@xuxa, mode:PICK
 2026-05-04 23:31:58, EXEC, v:1, k:fup@xuxa, mode:FULL, rate:0, size:5
+2026-05-04 23:32:29, MOVE, v:1, k:fup@xuxa, mode:BACK
