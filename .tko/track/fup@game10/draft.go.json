@@ -7,8 +7,23 @@
         },
         {
             "label": "2026-04-28_16-50-35",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Helo, World!\")\n}\n",
+            "content": "@@ -53,17 +53,16 @@\n tln(%22Hel\n-l\n o, World\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-05-05_18-09-07",
+            "content": "@@ -41,141 +41,35 @@\n     \n-var N, D, A int%0A%0A    fmt.Scan(&N, &D, &A)%0A%0A    if N %3C 3 %7C%7C N %3E 100%7B%0A        return%0A    %7D%0A%0A    if D %3E A %7B%0A        A = (A + 1) %25 N%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-05_18-26-00",
+            "content": "@@ -176,25 +176,6 @@\n   %7D%0A\n-    fmt.Println(A)%0A\n %7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-05_18-26-35",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var N, D, A int\n\n    fmt.Scan(&N, &D, &A)\n\n    if N < 3 || N > 100{\n        return\n    }\n\n    if D > A {\n        A = (A + 1) % N\n    }\n    fmt.Println(A)\n}\n",
+            "lines": "16"
         }
     ]
 }
