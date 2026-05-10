@@ -1,0 +1,134 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-10_16-36-18",
+            "content": "@@ -41,145 +41,35 @@\n     \n-var fn, qf int%0A%0A    fmt.Scan(&fn, &qf)%0A%0A    for i:= fn; fn %3C= qf; fn++%7B%0A        if i %25 2 == 0 %7B%0A            fmt.Println(i)%0A        %7D%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-10_16-39-54",
+            "content": "@@ -113,42 +113,8 @@\n ++%7B%0A\n-        for a := 0; a %3C= qf; a++%7B%0A\n     \n@@ -176,16 +176,10 @@\n %7D%0A    %7D%0A\n-    %7D%0A\n %7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-10_16-43-12",
+            "content": "@@ -196,12 +196,8 @@\n ln(i\n- + i\n )%0A  \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-10_16-43-28",
+            "content": "@@ -130,9 +130,9 @@\n  := \n-1\n+0\n ; a \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-10_16-44-39",
+            "content": "@@ -192,16 +192,20 @@\n rintln(i\n+ + i\n )%0A      \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-10_16-45-43",
+            "content": "@@ -109,16 +109,50 @@\n ; fn++%7B%0A\n+        for a := 1; a %3C= qf; a++%7B%0A\n         \n@@ -210,10 +210,16 @@\n %7D%0A    %7D%0A\n+    %7D%0A\n %7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-10_16-46-03",
+            "content": "@@ -80,42 +80,8 @@\n qf)%0A\n-    %0A    for a := 1; a %3C qf; a ++%7B\n %0A   \n@@ -86,17 +86,16 @@\n    for i\n- \n := fn; f\n@@ -176,16 +176,10 @@\n %7D%0A    %7D%0A\n-    %7D%0A\n %7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-10_16-47-47",
+            "content": "@@ -76,16 +76,20 @@\n n, &qf)%0A\n+    \n %0A    for\n@@ -197,12 +197,8 @@\n ln(i\n- + i\n )%0A  \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-10_16-47-58",
+            "content": "@@ -96,17 +96,16 @@\n = 1; a %3C\n-=\n  qf; a +\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-10_16-48-08",
+            "content": "@@ -77,16 +77,47 @@\n , &qf)%0A%0A\n+    for a := 1; a %3C= qf; a ++%7B%0A\n     for \n@@ -169,47 +169,8 @@\n 0 %7B%0A\n-            for a := 1; a %3C= qf; a ++%7B%0A\n     \n@@ -190,16 +190,20 @@\n rintln(i\n+ + i\n )%0A      \n@@ -220,9 +220,8 @@\n     %7D%0A%7D%0A\n-%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-10_16-52-05",
+            "content": "@@ -165,14 +165,16 @@\n  a %3C\n+=\n  qf; a\n+ \n ++%7B%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-10_16-53-52",
+            "content": "@@ -80,28 +80,8 @@\n qf)%0A\n-    if fn %25 2 == 0 %7B\n %0A   \n@@ -118,16 +118,31 @@\n         \n+if i %25 2 == 0 %7B\n %0A       \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-10_16-54-49",
+            "content": "@@ -76,20 +76,16 @@\n n, &qf)%0A\n-    \n     if f\n@@ -97,24 +97,16 @@\n  == 0 %7B%0A\n-        \n     for \n@@ -142,25 +142,8 @@\n     \n-   \n-     i = i + i\n %0A   \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-10_16-55-28",
+            "content": "@@ -101,16 +101,83 @@\n  == 0 %7B%0A\n+            for i := fn; fn %3C= qf; fn++%7B%0A                i = i + i%0A\n         \n@@ -229,17 +229,17 @@\n Println(\n-a\n+i\n )%0A      \n@@ -253,10 +253,12 @@\n  %7D%0A    %7D\n+%0A%7D\n %0A%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-10_16-56-37",
+            "content": "@@ -162,18 +162,17 @@\n Println(\n-fn\n+a\n )%0A      \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-10_16-56-57",
+            "content": "@@ -128,17 +128,16 @@\n = 1; a %3C\n-=\n  qf; a++\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-10_16-57-11",
+            "content": "@@ -143,37 +143,8 @@\n ++%7B%0A\n-                fn = fn + fn%0A\n     \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-10_16-57-30",
+            "content": "@@ -162,16 +162,21 @@\n  fn = fn\n+ + fn\n %0A       \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-10_16-57-40",
+            "content": "@@ -158,17 +158,16 @@\n      fn \n-:\n = fn%0A   \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-10_16-57-52",
+            "content": "@@ -157,18 +157,22 @@\n       fn\n-++\n+ := fn\n %0A       \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-10_16-58-07",
+            "content": "@@ -161,18 +161,10 @@\n   fn\n- := fn + 2\n+++\n %0A   \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-10_16-58-38",
+            "content": "@@ -155,48 +155,52 @@\n     \n-fmt.Println(fn)%0A             fn = fn + 2\n+    fn := fn + 2%0A            fmt.Println(fn)\n %0A   \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-10_16-59-26",
+            "content": "@@ -206,64 +206,8 @@\n   %7D%0A\n-    %7Delse %7B%0A        fn = fn + 3%0A        fmt.Println(fn)%0A\n     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-10_17-00-13",
+            "content": "@@ -227,37 +227,19 @@\n    f\n-or a := 1; a %3C= qf; a++%7B%0A    \n+n = fn + 3%0A\n     \n@@ -262,33 +262,8 @@\n fn)%0A\n-             fn = fn + 3%0A\n     \n@@ -270,10 +270,9 @@\n %7D%0A    %7D%0A\n-%7D\n %0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-10_17-00-46",
+            "content": "@@ -295,25 +295,25 @@\n   fn = fn + \n-2\n+3\n %0A    %7D%0A    %7D\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-10_17-01-00",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var fn, qf int\n\n    fmt.Scan(&fn, &qf)\n        if fn % 2 == 0 {\n            for a := 1; a <= qf; a++{\n            fmt.Println(fn)\n             fn = fn + 2\n        }\n    }else {\n        for a := 1; a <= qf; a++{\n            fmt.Println(fn)\n             fn = fn + 2\n    }\n    }\n}\n",
+            "lines": "18"
+        }
+    ]
+}

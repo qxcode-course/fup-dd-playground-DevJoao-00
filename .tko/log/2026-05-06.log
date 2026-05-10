@@ -1,0 +1,3 @@
+2026-05-06 00:01:21, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0
+2026-05-06 00:01:57, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-06 00:03:54, MOVE, v:1, k:fup@zigzag, mode:BACK

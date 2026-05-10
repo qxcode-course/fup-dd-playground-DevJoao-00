@@ -22,7 +22,10 @@ sources:
   quests: null
   tasks: null
 expanded:
+- fup@for_extra
 - fup@for2
+- fup@list
+- fup@string
 flags:
   inbox: all
   panel: skills
@@ -30,5 +33,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@zigzag
-selected_index: 7
+selected: fup@pedra
+selected_index: 53
