@@ -32,7 +32,172 @@
         },
         {
             "label": "2026-05-06_00-01-57",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n1, n2 int\n    fmt.Scan(&n1, &n2)\n\n    for i:= n1; i < n2; i++{\n        fmt.Println(i)\n        if i % 3 == 0 {\n            fmt.Println(\"zig\")\n        } else if i % 5 == 0{\n            fmt.Println(\"zag\")\n        } else if i % 3 == 0 && i % 5 == 0{\n            fmt.Println(\"zigzag\")\n        }\n    }\n\n}\n",
+            "content": "@@ -149,27 +149,149 @@\n %25 3 \n-!\n+=\n = 0 \n-%7C%7C\n+%7B%0A            fmt.Println(%22zig%22)%0A        %7D else if\n  i %25 5 \n-!= 0 \n+== 0%7B%0A            fmt.Println(%22zag%22)%0A        %7D else if i %25 3 == 0 && i %25 5 == 0\n %7B%0A  \n@@ -304,33 +304,40 @@\n     fmt.Println(\n-i\n+%22zigzag%22\n )%0A        %7D%0A    \n@@ -338,10 +338,11 @@\n %7D%0A    %7D%0A\n+%0A\n %7D%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_16-56-51",
+            "content": "@@ -105,16 +105,39 @@\n 2; i++%7B%0A\n+        fmt.Println(i)%0A\n         \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-11_16-57-06",
+            "content": "@@ -174,69 +174,8 @@\n (i)%0A\n-        %7D else if i %25 3 == 0%7B%0A            fmt.Println(%22zig%22)%0A\n     \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-11_16-57-36",
+            "content": "@@ -235,70 +235,8 @@\n g%22)%0A\n-        %7D else if i %25 5 == 0 %7B%0A            fmt.Println(%22zag%22)%0A\n     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-11_16-58-25",
+            "content": "@@ -297,87 +297,8 @@\n g%22)%0A\n-        %7D else if i %25 3 == 0 && i %25 5 == 0 %7B%0A            fmt.Println(%22zigzag%22)%0A\n     \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-11_16-59-07",
+            "content": "@@ -184,44 +184,58 @@\n   %7D \n-%0A        for e := n1; e %3C n2; e++ %7B \n+else if i %25 3 == 0%7B%0A            fmt.Println(%22zig%22)\n %0A   \n@@ -239,27 +239,30 @@\n         \n-   \n+%7D else\n  if i %25 \n 3 == 0%7B%0A\n@@ -245,38 +245,39 @@\n   %7D else if i %25 \n-3\n+5\n  == 0\n+ \n %7B%0A            fm\n@@ -280,33 +280,33 @@\n   fmt.Println(%22z\n-i\n+a\n g%22)%0A        %7D%0A  \n@@ -306,21 +306,87 @@\n    %7D\n-%0A    %7D\n+ else if i %25 3 == 0 && i %25 5 == 0 %7B%0A            fmt.Println(%22zigzag%22)\n %0A      \n+  %7D\n %0A   \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-00-44",
+            "content": "@@ -170,16 +170,27 @@\n ntln(i)%0A\n+        %7D %0A\n         \n@@ -248,36 +248,32 @@\n  0%7B%0A            \n-    \n fmt.Println(%22zig\n@@ -275,20 +275,16 @@\n (%22zig%22)%0A\n-    \n         \n@@ -281,28 +281,24 @@\n )%0A        %7D%0A\n-    \n     %7D%0A      \n@@ -293,25 +293,21 @@\n     %7D%0A      \n-  %7D \n %0A    %7D%0A%7D%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-02-54",
+            "content": "@@ -174,43 +174,8 @@\n (i)%0A\n-        %7D else if i %25 3 == 0 %7B%0A    \n     \n@@ -206,20 +206,16 @@\n  e++ %7B %0A\n-    \n         \n@@ -241,36 +241,32 @@\n                 \n-    \n fmt.Println(%22zig\n@@ -276,34 +276,26 @@\n             \n-    %7D%0A    \n+%7D%0A\n         %7D%0A  \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-11_17-04-14",
+            "content": "@@ -347,52 +347,8 @@\n   %7D%0A\n-        %7D else if i %25 5 == 0 %7B%0A            %0A\n     \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-04-57",
+            "content": "@@ -304,17 +304,21 @@\n Println(\n-e\n+%22zig%22\n )%0A      \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-11_17-05-25",
+            "content": "@@ -198,16 +198,17 @@\n %25 3 == 0\n+ \n %7B%0A      \n@@ -218,25 +218,34 @@\n    f\n-mt.Println(%22zig%22)\n+or e := n1; e %3C n2; e++ %7B \n %0A   \n@@ -249,30 +249,31 @@\n         \n-%7D else\n+       \n  if i %25 \n 5 == 0 %7B\n@@ -260,33 +260,40 @@\n      if i %25 \n-5\n+3\n  == 0\n- \n %7B%0A\n+        \n             \n@@ -308,14 +308,42 @@\n tln(\n-%22zag%22)\n+e)%0A                %7D%0A            %7D\n %0A   \n@@ -364,22 +364,8 @@\n  i %25\n- 3 == 0 && i %25\n  5 =\n@@ -386,21 +386,8 @@\n     \n-fmt.Println()\n %0A   \n@@ -388,21 +388,22 @@\n   %0A        %7D\n+ \n %0A    %7D%0A%7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-11_17-06-39",
+            "content": "@@ -95,17 +95,16 @@\n  n1; i %3C\n-=\n  n2; i++\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-08-34",
+            "content": "@@ -184,31 +184,18 @@\n    %7D\n-%0A    %7D   %0A       \n+ else\n  if \n-n1\n+i\n  %25 3\n@@ -250,18 +250,17 @@\n else if \n-n1\n+i\n  %25 5 == \n@@ -312,18 +312,17 @@\n else if \n-n1\n+i\n  %25 3 == \n@@ -326,18 +326,17 @@\n == 0 && \n-n1\n+i\n  %25 5 == \n@@ -375,10 +375,16 @@\n       %7D%0A\n+    %7D%0A\n %7D%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-09-56",
+            "content": "@@ -184,73 +184,40 @@\n    %7D\n- else if i %25 3 == 0%7B%0A            for zig := n1 ; zig %3C= n2; zig++\n+%0A    %7D   %0A        if n1 %25 3 == 0\n %7B%0A  \n@@ -249,22 +249,8 @@\n g%22)%0A\n-            %7D%0A\n     \n@@ -263,17 +263,18 @@\n else if \n-i\n+n1\n  %25 5 == \n@@ -322,25 +322,26 @@\n   %7D else if \n-i\n+n1\n  %25 3 == 0 &&\n@@ -341,17 +341,18 @@\n == 0 && \n-i\n+n1\n  %25 5 == \n@@ -391,16 +391,10 @@\n       %7D%0A\n-    %7D%0A\n %7D%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-11_17-11-07",
+            "content": "@@ -251,32 +251,8 @@\n ++%7B%0A\n-                zig = i%0A\n     \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-11_17-11-31",
+            "content": "@@ -243,24 +243,48 @@\n  n2; zig++%7B%0A\n+                zig = i%0A\n             \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-11_17-13-00",
+            "content": "@@ -282,26 +282,8 @@\n g%22)%0A\n-            break%0A\n     \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-11_17-13-09",
+            "content": "@@ -201,22 +201,8 @@\n 3 ==\n- 0 %7C%7C i %25 5 ==\n  0%7B%0A\n@@ -275,19 +275,16 @@\n tln(%22zig\n-zag\n %22)%0A     \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-11_17-13-43",
+            "content": "@@ -227,16 +227,49 @@\n         \n+for zig := n1 ; zig %3C= n2; zig++%7B\n %0A       \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-11_17-14-19",
+            "content": "@@ -258,24 +258,56 @@\n n(%22zigzag%22)%0A\n+            break%0A            %7D%0A\n         %7D el\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-11_17-14-21",
+            "content": "@@ -215,16 +215,29 @@\n 5 == 0%7B%0A\n+            %0A\n         \n@@ -280,25 +280,25 @@\n else if i %25 \n-3\n+5\n  == 0 %7B%0A    \n@@ -319,17 +319,17 @@\n intln(%22z\n-i\n+a\n g%22)%0A    \n@@ -337,32 +337,46 @@\n    %7D else if i %25\n+ 3 == 0 && i %25\n  5 == 0 %7B%0A      \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-11_17-14-53",
+            "content": "@@ -124,70 +124,8 @@\n  i %25\n- 3 == 0 %7B%0A            fmt.Println(%22zig%22)%0A        %7D else if i %25\n  3 !\n@@ -249,16 +249,78 @@\n igzag%22)%0A\n+        %7D else if i %25 3 == 0 %7B%0A            fmt.Println(%22zig%22)%0A\n         \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-16-10",
+            "content": "@@ -165,27 +165,30 @@\n g%22)%0A        \n-   \n+%7D else\n  if i %25 3 !=\n@@ -202,28 +202,24 @@\n  %25 5 != 0 %7B%0A\n-    \n             \n@@ -233,36 +233,32 @@\n ntln(i)%0A        \n-    \n %7D else if i %25 3 \n@@ -281,36 +281,32 @@\n  0%7B%0A            \n-    \n fmt.Println(%22zig\n@@ -315,28 +315,24 @@\n g%22)%0A        \n-  \n-  \n %7D else if i \n@@ -346,36 +346,32 @@\n 0 %7B%0A            \n-    \n fmt.Println()%0A  \n@@ -380,24 +380,9 @@\n     \n-    %7D%0A        %7D \n+%7D\n %0A   \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-17-11",
+            "content": "@@ -387,13 +387,8 @@\n tln(\n-%22zag%22\n )%0A  \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-11_17-17-29",
+            "content": "@@ -127,33 +127,15 @@\n %25 3 \n-!= 0 %7C%7C i %25 5 !\n+=\n = 0 %7B%0A\n-    \n     \n@@ -154,17 +154,21 @@\n Println(\n-i\n+%22zig%22\n )%0A      \n@@ -174,33 +174,47 @@\n        if i %25 3 \n-=\n+!= 0 %7C%7C i %25 5 !\n = 0 %7B%0A          \n@@ -223,37 +223,33 @@\n     fmt.Println(\n-%22zig%22\n+i\n )%0A            %7D \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-11_17-18-14",
+            "content": "@@ -123,23 +123,41 @@\n f i %25 3 \n-=\n+!= 0 %7C%7C i %25 5 !\n = 0 %7B%0A\n+    \n         \n@@ -176,13 +176,9 @@\n tln(\n-%22zig%22\n+i\n )%0A  \n@@ -183,17 +183,19 @@\n         \n-%7D\n+   \n  if i %25 \n@@ -196,37 +196,28 @@\n f i %25 3 \n-!\n+=\n = 0 \n-%7C%7C i %25 5 != 0 %7B%0A\n+%7B%0A     \n         \n@@ -211,33 +211,32 @@\n                 \n- \n fmt.Println(i)%0A \n@@ -223,35 +223,43 @@\n     fmt.Println(\n-i)%0A\n+%22zig%22)%0A    \n         %7D else i\n@@ -290,32 +290,36 @@\n  0%7B%0A            \n+  \n+  \n fmt.Println(%22zig\n@@ -324,32 +324,36 @@\n igzag%22)%0A        \n+   \n+ \n %7D else if i %25 5 \n@@ -351,32 +351,36 @@\n if i %25 5 == 0 %7B%0A\n+    \n             fmt.\n@@ -387,16 +387,21 @@\n Println(\n+%22zag%22\n )%0A      \n@@ -402,17 +402,32 @@\n         \n-%7D\n+    %7D%0A        %7D \n %0A    %7D%0A%7D\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-11_17-18-49",
+            "content": "@@ -162,37 +162,32 @@\n %22zig%22)%0A        %7D\n- else\n  if i %25 3 != 0 %7C\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-19-01",
+            "content": "@@ -266,10 +266,10 @@\n = 0 \n-&&\n+%7C%7C\n  i %25\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-19-26",
+            "content": "@@ -1,180 +1,55 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var n1, n2 int%0A    fmt.Scan(&n1, &n2)%0A%0A    for i:= n1; i %3C= n2; i++%7B%0A        if i %25 3 == 0 %7B%0A            fmt.Println(%22zig%22)%0A\n+@@ -157,24 +157,96 @@%0A ntln(%2522zig%2522)%250A%0A+\n         \n %7D el\n@@ -36,33 +36,35 @@\n 22)%250A%0A+        \n-%7D\n+%257D\n  else if i %25 3 =\n@@ -63,31 +63,44 @@\n  i %25\n+25\n  3 \n-=\n+!\n = 0 \n-&&\n+%257C%257C\n  i %25\n+25\n  5 \n-== 0%7B%0A\n+!= 0 %257B%250A\n     \n@@ -123,89 +123,60 @@\n tln(\n-%22zigzag%22)%0A        %7D else if i %25 5 == 0 %7B%0A            fmt.Println(%22zag%22)%0A        %7D\n+i)%250A%0A         %257D el%0A@@ -381,81 +381,8 @@%0A    %257D%0A-\n  els\n@@ -183,24 +183,26 @@\n e if i %25\n+25\n  3 != 0 \n %7C%7C i %25 5\n@@ -197,22 +197,28 @@\n = 0 \n-%7C%7C\n+%257C%257C\n  i %25\n+25\n  5 != 0 \n %7B%0A  \n@@ -217,10 +217,14 @@\n = 0 \n-%7B%0A\n+%257B%250A\n     \n@@ -245,25 +245,27 @@\n intln(i)\n-%0A\n+%250A\n         \n %7D %0A    %7D\n@@ -260,15 +260,17 @@\n     \n-%7D %0A    %7D%0A%7D\n+%257D %0A %250A   \n %0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-11_17-20-33",
+            "content": "@@ -175,70 +175,8 @@\n   %7D \n- else if i %25 5 == 0 %7B%0A            fmt.Println(%22zag%22)%0A        %7D\n else\n@@ -233,16 +233,78 @@\n tln(%22zig\n+zag%22)%0A        %7D else if i %25 5 == 0 %7B%0A            fmt.Println(%22\n zag%22)%0A  \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-21-07",
+            "content": "@@ -229,25 +229,24 @@\n %22)%0A        %7D\n- \n else if i %25 \n@@ -316,16 +316,44 @@\n  %7D else \n+if i %25 3 != 0 %7C%7C i %25 5 != 0 \n %7B%0A      \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-23-03",
+            "content": "@@ -129,86 +129,8 @@\n 3 ==\n- 0 && i %25 5 == 0%7B%0A            fmt.Println(%22zigzag%22)%0A        %7D else if i %25 3 ==\n  0 %7B\n@@ -239,16 +239,88 @@\n  %7D else \n+if i %25 3 == 0 && i %25 5 == 0%7B%0A            fmt.Println(%22zigzag%22)%0A        %7D\n  else %7B%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-24-00",
+            "content": "@@ -316,16 +316,23 @@\n   %7D else\n+  else \n %7B%0A      \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-24-01",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n1, n2 int\n    fmt.Scan(&n1, &n2)\n\n    for i:= n1; i <= n2; i++{\n        if i % 3 == 0 && i % 5 == 0{\n            fmt.Println(\"zigzag\")\n        } else if i % 3 == 0 {\n            fmt.Println(\"zig\")\n        }  else if i % 5 == 0 {\n            fmt.Println(\"zag\")\n        } else{\n            fmt.Println(i)\n        } \n    }\n}\n",
             "lines": "18"
         }
     ]

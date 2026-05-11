@@ -162,3 +162,5 @@
 2026-05-10 17:37:51, EXEC, v:1, k:fup@ceu, mode:FULL, rate:100, size:22
 2026-05-10 17:38:15, SELF, v:1, k:fup@ceu, self:1, rate:100, study:20
 2026-05-10 17:38:16, MOVE, v:1, k:fup@ceu, mode:BACK
+2026-05-10 17:37:50, MOVE, v:1, k:fup@ceu, mode:EDIT
+2026-05-10 17:37:51, MOVE, v:1, k:fup@ceu, mode:EDIT

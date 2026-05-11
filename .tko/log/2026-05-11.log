@@ -1,0 +1,264 @@
+2026-05-11 16:54:37, MOVE, v:1, k:fup@zigzag, mode:PICK
+2026-05-11 16:54:40, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0
+2026-05-11 16:56:51, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:13
+2026-05-11 16:57:06, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:12
+2026-05-11 16:57:36, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:14
+2026-05-11 16:57:36, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-11 16:58:18, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-11 16:58:25, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:16
+2026-05-11 16:59:07, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-11 17:00:44, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-11 17:02:54, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:17
+2026-05-11 17:02:54, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-11 17:02:54, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-11 17:04:14, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-11 17:04:57, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:20
+2026-05-11 17:05:25, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:20
+2026-05-11 17:06:39, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-11 17:06:35, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-11 17:06:39, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-11 17:08:34, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-11 17:09:56, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:19
+2026-05-11 17:11:07, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:20
+2026-05-11 17:11:31, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:21
+2026-05-11 17:12:01, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0
+2026-05-11 17:13:00, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:20
+2026-05-11 17:13:09, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:21
+2026-05-11 17:13:08, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-11 17:13:09, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-11 17:13:43, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:21
+2026-05-11 17:14:19, EXEC, v:1, k:fup@zigzag, mode:FULL, size:21, fail:COMP
+2026-05-11 17:14:21, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:19
+2026-05-11 17:14:23, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0
+2026-05-11 17:14:53, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-11 17:16:10, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-11 17:17:11, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:19
+2026-05-11 17:17:29, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:19
+2026-05-11 17:18:14, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:19
+2026-05-11 17:18:12, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-11 17:18:14, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-11 17:18:49, EXEC, v:1, k:fup@zigzag, mode:FULL, size:18, fail:COMP
+2026-05-11 17:18:51, EXEC, v:1, k:fup@zigzag, mode:FULL, fail:COMP
+2026-05-11 17:18:52, EXEC, v:1, k:fup@zigzag, mode:FULL, fail:COMP
+2026-05-11 17:18:53, EXEC, v:1, k:fup@zigzag, mode:FULL, fail:COMP
+2026-05-11 17:18:54, EXEC, v:1, k:fup@zigzag, mode:FULL, fail:COMP
+2026-05-11 17:18:54, EXEC, v:1, k:fup@zigzag, mode:FULL, fail:COMP
+2026-05-11 17:18:54, EXEC, v:1, k:fup@zigzag, mode:FULL, fail:COMP
+2026-05-11 17:18:54, EXEC, v:1, k:fup@zigzag, mode:FULL, fail:COMP
+2026-05-11 17:18:54, EXEC, v:1, k:fup@zigzag, mode:FULL, fail:COMP
+2026-05-11 17:18:55, EXEC, v:1, k:fup@zigzag, mode:FULL, fail:COMP
+2026-05-11 17:18:55, EXEC, v:1, k:fup@zigzag, mode:FULL, fail:COMP
+2026-05-11 17:18:55, EXEC, v:1, k:fup@zigzag, mode:FULL, fail:COMP
+2026-05-11 17:18:56, EXEC, v:1, k:fup@zigzag, mode:FULL, fail:COMP
+2026-05-11 17:19:02, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-11 17:19:26, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-11 17:20:16, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-11 17:20:16, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-11 17:20:33, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-11 17:21:07, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-11 17:23:03, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:0, size:18
+2026-05-11 17:23:02, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-11 17:23:03, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-11 17:24:00, EXEC, v:1, k:fup@zigzag, mode:FULL, size:18, fail:COMP
+2026-05-11 17:24:01, EXEC, v:1, k:fup@zigzag, mode:FULL, rate:100, size:18
+2026-05-11 17:24:27, SELF, v:1, k:fup@zigzag, self:1, rate:100, study:40
+2026-05-11 17:24:29, MOVE, v:1, k:fup@zigzag, mode:BACK
+2026-05-11 17:24:42, MOVE, v:1, k:fup@colorido, mode:DOWN
+2026-05-11 17:24:43, MOVE, v:1, k:fup@colorido, mode:PICK
+2026-05-11 17:24:44, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:5
+2026-05-11 17:25:36, MOVE, v:1, k:fup@colorido, mode:BACK
+2026-05-11 17:25:47, MOVE, v:1, k:fup@cobra, mode:PICK
+2026-05-11 17:25:48, EXEC, v:1, k:fup@cobra, mode:FULL, rate:100
+2026-05-11 17:25:50, EXEC, v:1, k:fup@cobra, mode:FULL, rate:100
+2026-05-11 17:25:53, EXEC, v:1, k:fup@cobra, mode:FULL, rate:100
+2026-05-11 17:25:58, EXEC, v:1, k:fup@cobra, mode:FULL, rate:100
+2026-05-11 17:25:59, EXEC, v:1, k:fup@cobra, mode:FULL, rate:100
+2026-05-11 17:24:00, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-11 17:24:01, MOVE, v:1, k:fup@zigzag, mode:EDIT
+2026-05-11 17:24:42, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:24:42, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:27:50, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:24:44, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:25:59, MOVE, v:1, k:fup@cobra, mode:EDIT
+2026-05-11 17:29:53, EXEC, v:1, k:fup@cobra, mode:FULL, rate:100
+2026-05-11 17:29:57, MOVE, v:1, k:fup@cobra, mode:BACK
+2026-05-11 17:30:04, MOVE, v:1, k:fup@colorido, mode:PICK
+2026-05-11 17:30:04, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:21
+2026-05-11 17:31:21, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:23
+2026-05-11 17:31:54, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:23
+2026-05-11 17:32:16, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:23
+2026-05-11 17:32:17, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:32:18, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:33:22, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:29:53, MOVE, v:1, k:fup@cobra, mode:EDIT
+2026-05-11 17:32:18, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:35:37, EXEC, v:1, k:fup@colorido, mode:FULL, size:17, fail:COMP
+2026-05-11 17:35:38, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:38, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:39, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:39, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:39, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:40, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:40, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:40, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:40, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:40, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:41, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:41, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:41, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:41, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:42, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:35:42, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:36:08, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:18
+2026-05-11 17:36:16, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:18
+2026-05-11 17:36:21, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:37:09, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:20
+2026-05-11 17:37:57, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:20
+2026-05-11 17:37:55, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:37:56, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:40:11, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:24
+2026-05-11 17:41:10, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:25
+2026-05-11 17:41:11, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:41:12, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:42:02, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:25
+2026-05-11 17:42:04, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:42:05, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:43:03, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:26
+2026-05-11 17:43:02, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:43:03, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:45:13, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:27
+2026-05-11 17:46:07, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:23
+2026-05-11 17:48:20, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:46:07, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:48:26, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:26
+2026-05-11 17:48:52, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:26
+2026-05-11 17:49:20, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:21
+2026-05-11 17:49:43, EXEC, v:1, k:fup@colorido, mode:FULL, size:22, fail:COMP
+2026-05-11 17:49:43, EXEC, v:1, k:fup@colorido, mode:FULL, size:22, fail:COMP
+2026-05-11 17:49:44, EXEC, v:1, k:fup@colorido, mode:FULL, size:22, fail:COMP
+2026-05-11 17:49:44, EXEC, v:1, k:fup@colorido, mode:FULL, size:22, fail:COMP
+2026-05-11 17:49:45, EXEC, v:1, k:fup@colorido, mode:FULL, size:22, fail:COMP
+2026-05-11 17:49:45, EXEC, v:1, k:fup@colorido, mode:FULL, size:22, fail:COMP
+2026-05-11 17:49:46, EXEC, v:1, k:fup@colorido, mode:FULL, size:22, fail:COMP
+2026-05-11 17:49:46, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:46, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:46, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:47, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:47, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:47, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:47, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:47, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:48, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:48, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:48, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:48, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:48, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:49, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:49, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:49, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:49, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:49, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:50, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:49:50, EXEC, v:1, k:fup@colorido, mode:FULL, fail:COMP
+2026-05-11 17:50:03, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:21
+2026-05-11 17:50:07, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:50:08, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:50:54, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:23
+2026-05-11 17:51:15, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:23
+2026-05-11 17:51:34, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:23
+2026-05-11 17:51:35, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:51:36, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:51:36, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:51:36, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:51:37, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:51:37, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:51:37, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:51:33, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:51:37, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:54:32, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:23
+2026-05-11 17:54:36, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:23
+2026-05-11 17:54:41, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:23
+2026-05-11 17:55:26, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:24
+2026-05-11 17:55:29, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:55:32, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:55:33, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:55:34, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:55:35, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:55:42, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:24
+2026-05-11 17:55:43, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:55:49, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:24
+2026-05-11 17:55:50, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:55:57, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:24
+2026-05-11 17:56:02, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:24
+2026-05-11 17:56:52, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:56:54, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:56:55, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:56:55, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:56:56, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:56:57, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:57:03, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:57:04, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:24
+2026-05-11 17:57:04, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:24
+2026-05-11 17:57:05, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:24
+2026-05-11 17:57:09, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:24
+2026-05-11 17:57:10, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:57:11, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:57:12, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:57:12, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:57:13, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:57:13, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:57:14, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:57:14, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:57:14, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:57:15, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:57:15, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:58:05, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:26
+2026-05-11 17:58:07, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:58:20, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:58:07, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 17:58:44, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:28
+2026-05-11 17:58:45, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:58:46, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:58:46, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:58:58, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:59:00, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:59:37, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 17:59:39, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:28
+2026-05-11 18:00:18, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:31
+2026-05-11 18:00:20, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 18:00:36, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:31
+2026-05-11 18:00:50, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:31
+2026-05-11 18:00:52, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 18:03:22, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 18:00:52, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 18:03:37, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:31
+2026-05-11 18:03:39, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 18:03:50, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 18:03:51, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:31
+2026-05-11 18:03:52, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 18:03:53, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 18:04:26, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:31
+2026-05-11 18:04:27, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 18:04:36, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 18:04:37, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:31
+2026-05-11 18:04:38, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:31
+2026-05-11 18:04:44, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0, size:31
+2026-05-11 18:04:45, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 18:04:45, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 18:04:48, EXEC, v:1, k:fup@colorido, mode:FULL, rate:0
+2026-05-11 18:04:49, EXEC, v:1, k:fup@colorido, mode:FULL, rate:100, size:31
+2026-05-11 18:04:50, EXEC, v:1, k:fup@colorido, mode:FULL, rate:100
+2026-05-11 18:05:23, SELF, v:1, k:fup@colorido, self:1, rate:100, study:30, concept:1
+2026-05-11 18:05:24, MOVE, v:1, k:fup@colorido, mode:BACK
+2026-05-11 18:06:56, MOVE, v:1, k:fup@fatores, mode:DOWN
+2026-05-11 18:06:57, MOVE, v:1, k:fup@fatores, mode:PICK
+2026-05-11 18:06:58, EXEC, v:1, k:fup@fatores, mode:FULL, rate:0, size:5
+2026-05-11 18:04:48, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 18:04:50, MOVE, v:1, k:fup@colorido, mode:EDIT
+2026-05-11 18:06:56, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-11 18:06:56, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-11 18:07:10, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-11 18:06:58, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-11 18:13:20, EXEC, v:1, k:fup@fatores, mode:FULL, rate:0, size:18
+2026-05-11 18:13:20, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-11 18:13:20, MOVE, v:1, k:fup@fatores, mode:EDIT

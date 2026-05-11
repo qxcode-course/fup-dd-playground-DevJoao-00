@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-11_18-06-58",
+            "content": "@@ -10,28 +10,21 @@\n ain%0A\n-%0A\n import \n-(%0A%09\n %22fmt%22%0A\n-)%0A%0A\n func\n@@ -41,117 +41,35 @@\n     \n-var N int%0A    var f int%0A%0A    fmt.Scan(&N)%0A    if N / f != 0%7B%0A        for f := 0; f %3C N; f++%7B%0A%0A        %7D%0A    %7D%0A\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-11_18-13-20",
+            "content": "package main\n\nimport (\n\t\"fmt\"\n)\n\nfunc main() {\n    var N int\n    var f int\n\n    fmt.Scan(&N)\n    if N / f != 0{\n        for f := 0; f < N; f++{\n\n        }\n    }\n\n}\n",
+            "lines": "18"
+        }
+    ]
+}

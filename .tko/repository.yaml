@@ -22,16 +22,13 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@for_extra
 - fup@for2
-- fup@list
-- fup@string
 flags:
   inbox: all
-  panel: skills
+  panel: graph
   show_panel: 'true'
-  task_graph_mode: executions
+  task_graph_mode: time
   show_time: 'true'
 lang: go
-selected: fup@pedra
-selected_index: 53
+selected: fup@fatores
+selected_index: 14
