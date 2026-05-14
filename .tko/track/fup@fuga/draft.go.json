@@ -2,8 +2,183 @@
     "patches": [
         {
             "label": "2026-05-14_14-14-59",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -41,55 +41,35 @@\n     \n-var H, P, F, D int%0A%0A    fmt.Scan(&H, &P, &F, &D\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-05-14_18-51-21",
+            "content": "@@ -89,248 +89,7 @@\n  &D)\n-%0A%0A    if H %3E= 0 && H %3C 16 && P %3E= 0 && P %3C 16 && F %3E= 0 && F %3C 16 && H != P && H != F && P != H%7B%0A        if F - H %3E F - P %7B%0A            fmt.Println(%22S%22)%0A        %7Delse %7B%0A            fmt.Println(%22N%22)%0A        %7D%0A    %7D else %7B%0A        return%0A    %7D\n %0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-05-14_19-03-08",
+            "content": "@@ -91,26 +91,8 @@\n D)%0A%0A\n-    dif := H - P%0A%0A\n     \n@@ -193,43 +193,72 @@\n     \n-for F %3E dif %7B%0A            F = F + D\n+ if F - H %3E F - P %7B%0A            fmt.Println(%22S%22)%0A        %7Delse %7B\n %0A   \n@@ -275,28 +275,29 @@\n mt.Println(%22\n-S\n+N\n %22)%0A\n+ \n        %7D%0A   \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-14_19-08-19",
+            "content": "@@ -276,26 +276,8 @@\n S%22)%0A\n-            break%0A\n     \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-14_19-08-33",
+            "content": "@@ -284,96 +284,18 @@\n     \n+    \n break%0A\n-       %7D%0A        if F %3C dif %7B%0A            F = F - D%0A            fmt.Println(%22N%22)%0A \n     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-14_19-10-59",
+            "content": "@@ -341,12 +341,8 @@\n  - D\n- + 1\n %0A   \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-14_19-11-18",
+            "content": "@@ -340,19 +340,13 @@\n F - \n-(\n D \n-* (- 1))\n++ 1\n %0A   \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-14_19-12-04",
+            "content": "@@ -326,35 +326,45 @@\n           F = F \n-+ D\n+- (D * (- 1))\n %0A            fmt\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-14_19-12-36",
+            "content": "@@ -215,31 +215,8 @@\n for \n-H != F%7B%0A            if \n F %3E \n@@ -225,36 +225,32 @@\n f %7B%0A            \n-  \n-  \n F = F + D%0A      \n@@ -235,36 +235,32 @@\n       F = F + D%0A\n-    \n             fmt.\n@@ -284,47 +284,22 @@\n     \n-  \n-          %0A            %7D%0A        %7D   \n+break%0A       %7D\n %0A   \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-14_19-16-36",
+            "content": "@@ -337,20 +337,37 @@\n        %7D\n-else\n+%0A        %7D   %0A       \n  if F %3C \n@@ -427,22 +427,8 @@\n N%22)%0A\n-        %7D   %0A%0A\n     \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-14_19-17-11",
+            "content": "@@ -302,16 +302,34 @@\n tln(%22S%22)\n+%0A                 \n    %0A    \n@@ -333,25 +333,24 @@\n            %7D\n- \n else if F %3C \n@@ -359,36 +359,32 @@\n f %7B%0A            \n-    \n F = F + D%0A      \n@@ -381,36 +381,32 @@\n + D%0A            \n-  \n-  \n fmt.Println(%22N%22)\n@@ -410,30 +410,8 @@\n N%22)%0A\n-                break%0A\n     \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-14_19-17-28",
+            "content": "@@ -303,38 +303,16 @@\n ln(%22S%22) \n-%0A                break\n   %0A     \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-14_19-17-36",
+            "content": "@@ -382,17 +382,17 @@\n   F = F \n--\n++\n  D%0A     \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-18-07",
+            "content": "@@ -91,22 +91,8 @@\n D)%0A%0A\n-    tam := 15%0A\n     \n@@ -384,21 +384,13 @@\n F = \n-(\n F - D\n-) %25 tam\n %0A   \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-18-43",
+            "content": "@@ -397,17 +397,17 @@\n  F = (F \n-+\n+-\n  D) %25 ta\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-05-14_19-18-50",
+            "content": "@@ -87,16 +87,30 @@\n F, &D)%0A%0A\n+    tam := 15%0A\n     dif \n@@ -398,19 +398,21 @@\n F = \n+(\n F + \n-(D - H)\n+D) %25 tam\n %0A   \n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-05-14_19-30-49",
+            "content": "@@ -387,17 +387,17 @@\n  F + (D \n-+\n+-\n  H)%0A    \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-31-12",
+            "content": "@@ -391,11 +391,11 @@\n  (D \n-- 6\n++ H\n )%0A  \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-31-53",
+            "content": "@@ -388,13 +388,15 @@\n F + \n+(\n D - 6\n+)\n %0A   \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-32-01",
+            "content": "@@ -346,16 +346,28 @@\n   %7D else\n+ if F %3C dif \n %7B%0A      \n@@ -376,16 +376,29 @@\n         \n+F = F + D - 6\n %0A       \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-32-28",
+            "content": "@@ -380,21 +380,55 @@\n         \n-%0A    \n+ fmt.Println(%22N%22)%0A                break\n %0A       \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-32-40",
+            "content": "@@ -384,37 +384,9 @@\n     \n- fmt.Println(%22N%22)%0A           \n+%0A\n     \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-32-40",
+            "content": "@@ -350,20 +350,8 @@\n else\n- if F %3C dif \n %7B%0A  \n@@ -368,17 +368,8 @@\n     \n-F = F + F\n %0A   \n@@ -413,22 +413,16 @@\n         \n- break\n %0A       \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-34-37",
+            "content": "@@ -1,504 +1,54 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var H, P, F, D int%0A%0A    fmt.Scan(&H, &P, &F, &D)%0A%0A    dif := H - P%0A%0A    if H %3E= 0 && H %3C 16 && P %3E= 0 && P %3C 16 && F %3E= 0 && F %3C 16 && H != P && H != F && P != H%7B%0A       for H != F%7B%0A            if F %3E dif %7B%0A                F = F + D%0A                fmt.Println(%22S%22) %0A                break  %0A            %7D else if F %3C dif %7B%0A                F = P%0A                fmt.Println(%22N%22)%0A                break%0A        %7D   %0A%0A        %7D%0A    %7D else %7B%0A        return%0A    %7D%0A%7D\n+@@ -380,17 +380,21 @@%0A     F = %0A-P%0A+F + F%0A %250A       \n %0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-14_19-34-51",
+            "content": "@@ -303,16 +303,38 @@\n ln(%22S%22) \n+%0A                break\n   %0A     \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-38-33",
+            "content": "@@ -362,18 +362,9 @@\n F = \n-F + D %25 16\n+P\n %0A   \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-14_19-40-40",
+            "content": "@@ -303,38 +303,16 @@\n ln(%22S%22) \n-%0A                break\n   %0A     \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-14_19-40-49",
+            "content": "@@ -384,20 +384,13 @@\n F = \n-(\n F + D\n- + 16)\n  %25 1\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-41-43",
+            "content": "@@ -268,20 +268,13 @@\n F = \n-(\n F + D\n-) %25 16\n %0A   \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-42-00",
+            "content": "@@ -327,16 +327,23 @@\n         \n+break  \n %0A       \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-42-10",
+            "content": "@@ -319,37 +319,32 @@\n                 \n-break\n %0A            %7D e\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-42-54",
+            "content": "@@ -267,17 +267,17 @@\n  F = (F \n--\n++\n  D) %25 16\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-43-18",
+            "content": "@@ -351,31 +351,12 @@\n   %7D \n-%0A%0A        %7D%0A           \n+else\n  if \n@@ -470,16 +470,27 @@\n     %7D   \n+%0A%0A        %7D\n %0A    %7D e\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_19-50-38",
+            "content": "@@ -471,16 +471,21 @@\n         \n+break\n %0A       \n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-05-14_19-50-40",
+            "content": "@@ -404,17 +404,33 @@\n     F = \n-P\n+(F + D + 16) %25 16\n %0A       \n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-05-14_19-50-56",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var H, P, F, D int\n\n    fmt.Scan(&H, &P, &F, &D)\n\n    dif := H - P\n\n    if H >= 0 && H < 16 && P >= 0 && P < 16 && F >= 0 && F < 16 && H != P && H != F && P != H{\n       for H != F{\n            if F > dif {\n                F = (F - D) % 16\n                fmt.Println(\"S\") \n                break\n            } \n\n        }\n            if F < dif {\n                F = P\n                fmt.Println(\"N\")\n                \n        }   \n    } else {\n        return\n    }\n}\n",
+            "lines": "27"
         }
     ]
 }
