@@ -1,18 +1,31 @@
 package main
-
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
+
     var N int
-    var f int
+    var f = 2
+    var c = 0
 
     fmt.Scan(&N)
-    if N / f != 0{
-        for c := 0; c < N; c++{
 
+    for N != 1{
+        if N % f == 0{
+            N = N / f
+            c++
+        } else {
+            if c > 0{
+                fmt.Printf("%d %d\n", f, c)
+                
+            }
+                f++
+                c = 0        
         }
     }
-
+        if c > 0 {
+            fmt.Printf("%d %d\n", f, c)
+        }
 }
+           
+    
+
