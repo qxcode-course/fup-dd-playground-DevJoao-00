@@ -1,0 +1,164 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-14_23-13-29",
+            "content": "@@ -41,139 +41,35 @@\n     \n-var C, M int%0A%0A    fmt.Scan(&C, &M)%0A%0A    for i := M; i %3C C; M++%7B%0A        if i == 0 %7B%0A            fmt.Println(%22vazio%22)%0A        %7D%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-14_23-25-15",
+            "content": "@@ -96,17 +96,17 @@\n  i %3C C; \n-i\n+M\n ++%7B%0A    \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-14_23-25-29",
+            "content": "@@ -1,173 +1,44 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var C, M int%0A%0A    fmt.Scan(&C, &M)%0A%0A    for i := M; i %3C C; i++%7B%0A        if i == 0 %7B%0A            fmt.Println(%22vazio%22)%0A\n+@@ -158,72 +158,8 @@%0A o%2522)%250A%0A-\n         \n %7D el\n@@ -33,17 +33,19 @@\n         \n-%7D\n+%257D\n  else if\n@@ -51,14 +51,20 @@\n f i \n-%3C C %7B%0A\n+%253C C %257B%250A\n     \n@@ -83,17 +83,19 @@\n Println(\n-%22\n+%2522\n ainda ca\n@@ -100,25 +100,18 @@\n cabe\n-%22)%0A        %7D%0A    %7D%0A%7D\n+%2522)%250A%0A     \n %0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2026-05-14_23-26-01",
+            "content": "@@ -77,59 +77,8 @@\n M)%0A%0A\n-    if C %3C 0%7B%0A        return%0A    %7D else %7B%0A        %0A\n     \n@@ -114,17 +114,17 @@\n    if i \n-%3C\n+=\n = 0 %7B%0A  \n@@ -236,10 +236,8 @@\n     %7D%0A%7D%0A\n-%7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-14_23-27-49",
+            "content": "@@ -115,16 +115,24 @@\n  else %7B%0A\n+        \n %0A    for\n@@ -273,69 +273,8 @@\n e%22)%0A\n-        %7D else if i == C %7B%0A            fmt.Println(%22lotado%22)%0A\n     \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-14_23-28-31",
+            "content": "@@ -326,80 +326,8 @@\n o%22)%0A\n-        %7D else if i == C * 2%7B%0A            fmt.Println(%22hora de partir%22)%0A\n     \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-14_23-29-16",
+            "content": "@@ -144,17 +144,16 @@\n C; i++%7B%0A\n-%0A\n         \n@@ -201,30 +201,8 @@\n o%22)%0A\n-            M = M + M%0A\n     \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-14_23-30-46",
+            "content": "@@ -1,443 +1,146 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var C, M int%0A%0A    fmt.Scan(&C, &M)%0A%0A    if C %3C 0%7B%0A        return%0A    %7D else %7B%0A%0A    for i := M; i %3C C; i++%7B%0A            M = M + M%0A        if i %3C= 0 %7B%0A            fmt.Println(%22vazio%22)%0A        %7D else if i %3C C %7B%0A            fmt.Println(%22ainda cabe%22)%0A        %7D else if i == C %7B%0A            fmt.Println(%22lotado%22)%0A        %7D else if i == C * 2%7B%0A            fmt.Println(%22hora de partir%22)%0A        %7D%0A    %7D%0A%7D%0A%7D\n+@@ -148,29 +148,8 @@%0A ++%257B%250A%0A-            M = M + M%0A %250A   %0A@@ -194,24 +194,46 @@%0A ln(%2522vazio%2522)%250A%0A+            M = M + M%250A%0A         %257D el\n %0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-14_23-31-06",
+            "content": "@@ -114,25 +114,16 @@\n %7D else %7B\n-%0A        \n %0A%0A    fo\n@@ -156,17 +156,21 @@\n     \n-C = C + i\n+    M = M + M\n %0A   \n@@ -177,19 +177,19 @@\n      if \n-C =\n+i %3C\n = 0 %7B%0A  \n@@ -241,18 +241,14 @@\n  if \n-C\n+i\n  %3C C \n-+ i \n %7B%0A  \n@@ -305,19 +305,15 @@\n  if \n-C\n+i\n  == C \n-+ i \n %7B%0A  \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-14_23-37-39",
+            "content": "@@ -371,25 +371,25 @@\n   %7D else if \n-C\n+i\n  == C * 2%7B%0A \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_23-37-51",
+            "content": "@@ -442,27 +442,8 @@\n    %7D\n-%0A%0A            break\n %0A   \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_23-38-19",
+            "content": "@@ -124,16 +124,17 @@\n        %0A\n+%0A\n     for \n@@ -153,16 +153,34 @@\n C; i++%7B%0A\n+        C = C + i%0A\n         \n@@ -438,16 +438,35 @@\n        %7D\n+%0A%0A            break\n %0A    %7D%0A%7D\n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-05-14_23-39-11",
+            "content": "@@ -225,18 +225,17 @@\n se if C \n-==\n+%3C\n  C + i %7B\n@@ -285,33 +285,34 @@\n     %7D else if C \n-%3C\n+==\n  C + i %7B%0A       \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-14_23-39-50",
+            "content": "@@ -253,38 +253,42 @@\n    fmt.Println(%22\n-lotado\n+ainda cabe\n %22)%0A        %7D els\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-14_23-40-16",
+            "content": "@@ -329,18 +329,14 @@\n ln(%22\n-ainda cabe\n+lotado\n %22)%0A \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-14_23-40-45",
+            "content": "@@ -132,45 +132,306 @@\n     \n-    for %7B%0A            %0A        %7D%0A    \n+for i := M; i %3C C; i++%7B%0A        if C == 0 %7B%0A            fmt.Println(%22vazio%22)%0A        %7D else if C == C + i %7B%0A            fmt.Println(%22lotado%22)%0A        %7D else if C %3C C + i %7B%0A            fmt.Println(%22ainda cabe%22)%0A        %7D else if C == C * 2%7B%0A            fmt.Println(%22hora de partir%22)%0A        %7D%0A    %7D%0A\n %7D%0A%7D%0A\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-14_23-41-58",
+            "content": "@@ -128,311 +128,49 @@\n    %0A\n-%0A    for %7B%0A        C = C - M%0A        if C %3C= 0 %7B%0A            fmt.Println(%22vazio%22)%0A        %7D else if C %3C C + M %7B%0A            fmt.Println(%22ainda cabe%22)%0A        %7D else if C == C + M %7B%0A            fmt.Println(%22lotado%22)%0A        %7D else if C == C * 2%7B%0A            fmt.Println(%22hora de partir%22)%0A        %7D%0A    %7D%0A\n+        for %7B%0A            %0A        %7D%0A    \n %7D%0A%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-14_23-43-44",
+            "content": "@@ -166,17 +166,17 @@\n    if C \n-=\n+%3C\n = 0 %7B%0A  \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_23-44-07",
+            "content": "@@ -423,37 +423,9 @@\n     \n-    break%0A        %7D%0A         \n+%7D\n %0A   \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_23-44-27",
+            "content": "@@ -1,520 +1,55 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var C, M int%0A%0A    fmt.Scan(&C, &M)%0A%0A    if C %3C 0%7B%0A        return%0A    %7D else %7B%0A        %0A%0A    for %7B%0A        C = C - M%0A        if C == 0 %7B%0A            fmt.Println(%22vazio%22)%0A            break%0A        %7D else if C %3C C + M %7B%0A            fmt.Println(%22ainda cabe%22)%0A            break%0A        %7D else if C == C + M %7B%0A            fmt.Println(%22lotado%22)%0A            break%0A        %7D else if C == C * 2%7B%0A            fmt.Println(%22hora de partir%22)%0A            break%0A        %7D%0A         %0A    %7D%0A%7D%0A%7D\n+@@ -343,22 +343,8 @@%0A o%2522)%250A%0A-            b%250A%0A     \n %0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2026-05-14_23-44-51",
+            "content": "@@ -206,16 +206,34 @@\n vazio%22)%0A\n+            break%0A\n         \n@@ -292,16 +292,34 @@\n  cabe%22)%0A\n+            break%0A\n         \n@@ -374,18 +374,34 @@\n lotado%22)\n+%0A\n   \n+          break\n %0A       \n@@ -464,22 +464,34 @@\n partir%22)\n+%0A\n       \n+      break\n %0A       \n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-05-14_23-45-47",
+            "content": "@@ -210,30 +210,8 @@\n o%22)%0A\n-            C = C + M%0A\n     \n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-05-14_23-46-23",
+            "content": "@@ -296,38 +296,16 @@\n  cabe%22)%0A\n-            C = C + M%0A\n         \n@@ -365,30 +365,8 @@\n o%22) \n-%0A            C = C - M\n  %0A  \n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-05-14_23-47-08",
+            "content": "@@ -54,18 +54,8 @@\n int%0A\n-    p := 0\n %0A   \n@@ -120,24 +120,25 @@\n  %7B%0A        %0A\n+%0A\n     for %7B%0A%0A \n@@ -135,25 +135,24 @@\n   for %7B%0A\n-%0A\n         \n p += M%0A \n@@ -147,12 +147,15 @@\n     \n-p +=\n+C = C -\n  M%0A \n@@ -160,25 +160,25 @@\n %0A        if \n-p\n+C\n  == 0 %7B%0A    \n@@ -206,16 +206,38 @@\n vazio%22)%0A\n+            C = C + M%0A\n         \n@@ -250,14 +250,18 @@\n  if \n-p\n+C\n  %3C C \n++ M \n %7B%0A  \n@@ -296,16 +296,38 @@\n  cabe%22)%0A\n+            C = C + M%0A\n         \n@@ -336,22 +336,27 @@\n else if \n-p\n+C\n  == C\n+ + M \n %7B%0A      \n@@ -384,16 +384,39 @@\n tado%22) %0A\n+            C = C - M %0A\n         \n@@ -425,17 +425,17 @@\n else if \n-p\n+C\n  == C * \n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-05-14_23-50-13",
+            "content": "@@ -160,17 +160,16 @@\n  p += M%0A\n-%0A\n         \n@@ -413,26 +413,8 @@\n ir%22)\n-%0A            break\n     \n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-05-14_23-50-23",
+            "content": "@@ -181,13 +181,10 @@\n  == \n-C * 2\n+0 \n %7B%0A  \n@@ -210,44 +210,15 @@\n ln(%22\n-hora de partir%22)%0A            break  \n+vazio%22)\n %0A   \n@@ -357,24 +357,26 @@\n else if \n- \n p == \n-0 \n+C * 2\n %7B%0A      \n@@ -394,23 +394,54 @@\n rintln(%22\n-vazio%22)\n+hora de partir%22)%0A            break    \n   %0A     \n",
+            "lines": "29"
+        },
+        {
+            "label": "2026-05-14_23-50-55",
+            "content": "@@ -153,17 +153,16 @@\n         \n- \n p += M%0A%0A\n@@ -337,10 +337,9 @@\n  == \n-0 \n+C\n %7B%0A  \n@@ -365,15 +365,17 @@\n ln(%22\n-vazi\n+lotad\n o%22)\n+ \n %0A   \n@@ -385,16 +385,28 @@\n   %7D else\n+ if  p == 0 \n %7B%0A      \n@@ -424,24 +424,25 @@\n rintln(%22\n-lotad\n+vazi\n o%22)\n+  \n %0A       \n@@ -447,18 +447,16 @@\n    %7D%0A   \n- %7D\n       %0A \n@@ -462,9 +462,10 @@\n     %7D%0A%7D%0A\n+%7D\n %0A\n",
+            "lines": "29"
+        },
+        {
+            "label": "2026-05-14_23-53-31",
+            "content": "@@ -37,303 +37,374 @@\n ) %7B%0A\n+    \n var C\n+, M\n  int%0A\n-%09fmt.Scan(&C)%0A%0A%09passageiros := 0%0A%0A%09for %7B%0A%09%09var M int%0A%09%09fmt.Scan(&M)%0A%0A%09%09passageiros += M%0A%0A%09%09if passageiros %3E= 2*C %7B%0A%09%09%09fmt.Println(%22hora de partir%22)%0A%09%09%09break%0A%09%09%7D else if passageiros == 0 %7B%0A%09%09%09fmt.Println(%22vazio%22)%0A%09%09%7D else if passageiros %3C C %7B%0A%09%09%09fmt.Println(%22ainda cabe%22)%0A%09%09\n+    p := 0%0A    fmt.Scan(&C, &M)%0A%0A    if C %3C 0%7B%0A        return%0A    %7D else %7B%0A        %0A    for %7B%0A%0A         p += M%0A%0A        if p == C * 2%7B%0A            fmt.Println(%22hora de partir%22)%0A            break  %0A        %7D else if p %3C C %7B%0A            fmt.Println(%22ainda cabe%22)%0A        %7D else if p == 0 %7B%0A            fmt.Println(%22vazio%22)%0A        \n %7D else\n- \n %7B%0A\n-%09%09%09\n+            \n fmt.\n@@ -425,13 +425,34 @@\n o%22)%0A\n-%09%09%7D%0A%09\n+        %7D%0A    %7D      %0A    \n %7D%0A%7D%0A\n",
+            "lines": "29"
+        },
+        {
+            "label": "2026-05-14_23-53-58",
+            "content": "@@ -42,11 +42,8 @@\n ar C\n-, M\n  int\n@@ -59,12 +59,8 @@\n n(&C\n-, &M\n )%0A%0A%09\n@@ -83,16 +83,43 @@\n %0A%0A%09for %7B\n+%0A%09%09var M int%0A%09%09fmt.Scan(&M)\n %0A%0A%09%09pass\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-05-14_23-54-26",
+            "content": "@@ -87,12 +87,19 @@\n = 0%0A\n-    \n+%0A%09for %7B%0A%0A%09%09\n pass\n@@ -112,24 +112,16 @@\n s += M%0A%0A\n-%09for %7B%0A%0A\n %09%09if pas\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-14_23-54-40",
+            "content": "@@ -38,16 +38,19 @@\n  %7B%0Avar C\n+, M\n  int%0A%09fm\n@@ -58,16 +58,20 @@\n .Scan(&C\n+, &M\n )%0A%0A%09pass\n@@ -87,46 +87,12 @@\n = 0%0A\n-%0A%09for %7B%0A%09%09var M int%0A%09%09fmt.Scan(&M)%0A%0A%09%09\n+    \n pass\n@@ -105,16 +105,24 @@\n s += M%0A%0A\n+%09for %7B%0A%0A\n %09%09if pas\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-14_23-54-55",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\nvar C int\n\tfmt.Scan(&C)\n\n\tpassageiros := 0\n\n\tfor {\n\t\tvar M int\n\t\tfmt.Scan(&M)\n\n\t\tpassageiros += M\n\n\t\tif passageiros >= 2*C {\n\t\t\tfmt.Println(\"hora de partir\")\n\t\t\tbreak\n\t\t} else if passageiros == 0 {\n\t\t\tfmt.Println(\"vazio\")\n\t\t} else if passageiros < C {\n\t\t\tfmt.Println(\"ainda cabe\")\n\t\t} else {\n\t\t\tfmt.Println(\"lotado\")\n\t\t}\n\t}\n}\n\n",
+            "lines": "27"
+        }
+    ]
+}

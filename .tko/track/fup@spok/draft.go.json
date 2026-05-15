@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-15_03-20-54",
+            "content": "@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -41,213 +41,35 @@\n     \n-var ID int%0A%0A    fmt.Scan(&ID)%0A%0A    num := ID%0A    inverso := 0%0A%0A    for%7B%0A        ud := ID %25 10%0A        inverso = inverso * 10 + ud%0A        ID = ID / 10%0A    %7D%0A        if num == inverso%7B%0A            %0A        %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-15_03-34-52",
+            "content": "@@ -193,17 +193,8 @@\n  10%0A\n-        %0A\n     \n@@ -238,69 +238,8 @@\n     \n-fmt.Println(%221%22)%0A        %7Delse %7B%0A            fmt.Println(%222%22)\n %0A   \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-15_03-36-18",
+            "content": "@@ -193,22 +193,8 @@\n  10%0A\n-        break%0A\n     \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-15_03-36-27",
+            "content": "@@ -315,17 +315,17 @@\n rintln(%22\n-0\n+2\n %22)%0A     \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-15_03-36-46",
+            "content": "@@ -185,24 +185,38 @@\n D = ID / 10%0A\n+        break%0A\n         %0A   \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-15_03-38-59",
+            "content": "@@ -192,58 +192,8 @@\n / 10\n-%0A%0A        if ID == 0 %7B%0A            break%0A        %7D\n %0A   \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-15_03-39-30",
+            "content": "package main\nimport \"fmt\"\n\nfunc main() {\n    var ID int\n\n    fmt.Scan(&ID)\n\n    num := ID\n    inverso := 0\n\n    for{\n        ud := ID % 10\n        inverso = inverso * 10 + ud\n        ID = ID / 10\n\n        if ID == 0 {\n            break\n        }\n        \n    }\n        if num == inverso{\n            fmt.Println(\"1\")\n        }else {\n            fmt.Println(\"0\")\n        }\n}\n",
+            "lines": "27"
+        }
+    ]
+}

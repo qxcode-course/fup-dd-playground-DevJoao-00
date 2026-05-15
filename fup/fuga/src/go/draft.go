@@ -5,20 +5,22 @@ func main() {
 
     fmt.Scan(&H, &P, &F, &D)
 
-    dif := H - P
-
     if H >= 0 && H < 16 && P >= 0 && P < 16 && F >= 0 && F < 16 && H != P && H != F && P != H{
        for H != F{
-            if F > dif {
-                F = (F - D) % 16
+
+        F = (F + D + 16) % 16
+
+            if F == H {
                 fmt.Println("S") 
                 break
             } 
 
-        }
-            if F < dif {
-                F = P
+             if F == P{
                 fmt.Println("N")
+                break
+
+        }
+           
                 
         }   
     } else {

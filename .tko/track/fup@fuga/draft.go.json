@@ -177,8 +177,38 @@
         },
         {
             "label": "2026-05-14_19-50-56",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var H, P, F, D int\n\n    fmt.Scan(&H, &P, &F, &D)\n\n    dif := H - P\n\n    if H >= 0 && H < 16 && P >= 0 && P < 16 && F >= 0 && F < 16 && H != P && H != F && P != H{\n       for H != F{\n            if F > dif {\n                F = (F - D) % 16\n                fmt.Println(\"S\") \n                break\n            } \n\n        }\n            if F < dif {\n                F = P\n                fmt.Println(\"N\")\n                \n        }   \n    } else {\n        return\n    }\n}\n",
+            "content": "@@ -380,13 +380,37 @@\n f F \n-=\n+%3C dif %7B%0A                F \n = P\n-%7B\n %0A   \n",
             "lines": "27"
+        },
+        {
+            "label": "2026-05-14_23-09-55",
+            "content": "@@ -271,16 +271,11 @@\n  (F \n-+\n+-\n  D\n- + 16\n ) %25 \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_23-10-24",
+            "content": "@@ -355,16 +355,25 @@\n    %7D %0A%0A \n+       %7D%0A\n         \n@@ -419,39 +419,16 @@\n tln(%22N%22)\n-%0A%0A        %7D%0A           \n %0A       \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-14_23-11-18",
+            "content": "@@ -219,25 +219,24 @@\n H != F%7B%0A\n-%0A\n         \n F = (F +\n@@ -231,29 +231,24 @@\n     \n-F = (F + D + 16) %25 16\n+    if F %3E dif %7B\n %0A   \n@@ -248,33 +248,32 @@\n f %7B%0A        \n-%0A\n         \n     if F %3E d\n@@ -260,32 +260,37 @@\n         \n-    if F %3E dif %7B\n+F = (F + D + 16) %25 16\n %0A       \n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-05-14_23-11-47",
+            "content": "@@ -87,16 +87,34 @@\n F, &D)%0A%0A\n+    dif := H - P%0A%0A\n     if H\n@@ -250,16 +250,24 @@\n 6) %25 16%0A\n+        \n %0A       \n@@ -280,12 +280,13 @@\n f F \n-== H\n+%3E dif\n  %7B%0A \n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-05-14_23-12-29",
+            "content": "@@ -385,38 +385,16 @@\n tln(%22N%22)\n-%0A                break\n %0A%0A      \n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-05-14_23-12-39",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var H, P, F, D int\n\n    fmt.Scan(&H, &P, &F, &D)\n\n    if H >= 0 && H < 16 && P >= 0 && P < 16 && F >= 0 && F < 16 && H != P && H != F && P != H{\n       for H != F{\n\n        F = (F + D + 16) % 16\n\n            if F == H {\n                fmt.Println(\"S\") \n                break\n            } \n\n             if F == P{\n                fmt.Println(\"N\")\n                break\n\n        }\n           \n                \n        }   \n    } else {\n        return\n    }\n}\n",
+            "lines": "29"
         }
     ]
 }
