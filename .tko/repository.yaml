@@ -27,5 +27,5 @@ flags:
   task_graph_mode: time
   show_time: 'true'
 lang: go
-selected: fup@baruel
-selected_index: 18
+selected: fup@dindin
+selected_index: 15

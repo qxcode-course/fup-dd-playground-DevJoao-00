@@ -148,3 +148,7 @@
 2026-05-18 17:50:58, MOVE, v:1, k:fup@baruel, mode:EDIT
 2026-05-18 17:48:56, MOVE, v:1, k:fup@baruel, mode:EDIT
 2026-05-18 17:53:53, MOVE, v:1, k:fup@baruel, mode:EDIT
+2026-05-18 18:19:46, MOVE, v:1, k:fup@baruel, mode:BACK
+2026-05-18 18:19:56, SELF, v:1, k:fup@dindin, self:1, rate:100, study:30, friend:Sena, concept:1
+2026-05-18 18:19:56, MOVE, v:1, k:fup@dindin, mode:PICK
+2026-05-18 18:19:57, EXEC, v:1, k:fup@dindin, mode:FULL, rate:100
