@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-18_17-43-02",
+            "content": "@@ -41,113 +41,35 @@\n     \n-var figmax int%0A%0A    fmt.Scan(&figmax)%0A%0A    figs := criarepreenchervetor()%0A%0A    fmt.Println(figmax, figs)%0A%0A\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-18_17-48-01",
+            "content": "@@ -76,16 +76,52 @@\n igmax)%0A%0A\n+    figs := criarepreenchervetor()%0A%0A\n     fmt.\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-18_17-48-55",
+            "content": "@@ -98,14 +98,20 @@\n n(figmax\n+, figs\n )%0A%0A%0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-18_17-48-56",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var figmax int\n\n    fmt.Scan(&figmax)\n\n    fmt.Println(figmax)\n\n\n}\n",
+            "lines": "11"
+        }
+    ]
+}
