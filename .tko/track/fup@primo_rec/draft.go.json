@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-19_17-56-45",
+            "content": "@@ -28,393 +28,48 @@\n unc \n-ehPrimo(n int, div int) int %7B%0A    // n%C3%BAmeros menores que 2 n%C3%A3o s%C3%A3o primos%0A    if n %3C 2 %7B%0A        return 0%0A    %7D%0A%0A    // terminou os testes%0A    if div == 1 %7B%0A        return 1%0A    %7D%0A%0A    // encontrou divisor%0A    if n%25div == 0 %7B%0A        return 0%0A    %7D%0A%0A    // chamada recursiva%0A    return ehPrimo(n, div-1)%0A%7D%0A%0Afunc main() %7B%0A    var N int%0A%0A    fmt.Scan(&N)%0A%0A    fmt.Println(ehPrimo(N, N-1)\n+main() %7B%0A    fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-19_17-58-46",
+            "content": "@@ -242,11 +242,9 @@\n if n\n- %25 \n+%25\n div \n",
+            "lines": "29"
+        },
+        {
+            "label": "2026-05-19_17-59-10",
+            "content": "package main\nimport \"fmt\"\nfunc ehPrimo(n int, div int) int {\n    // n\u00fameros menores que 2 n\u00e3o s\u00e3o primos\n    if n < 2 {\n        return 0\n    }\n\n    // terminou os testes\n    if div == 1 {\n        return 1\n    }\n\n    // encontrou divisor\n    if n % div == 0 {\n        return 0\n    }\n\n    // chamada recursiva\n    return ehPrimo(n, div-1)\n}\n\nfunc main() {\n    var N int\n\n    fmt.Scan(&N)\n\n    fmt.Println(ehPrimo(N, N-1))\n}\n",
+            "lines": "29"
+        }
+    ]
+}

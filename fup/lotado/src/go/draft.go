@@ -12,7 +12,7 @@ var C int
 
 		passageiros += M
 
-		if passageiros >= 2*C {
+		if passageiros >= 2 * C {
 			fmt.Println("hora de partir")
 			break
 		} else if passageiros == 0 {

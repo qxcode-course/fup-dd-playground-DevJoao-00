@@ -1,0 +1,99 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-19_17-35-43",
+            "content": "@@ -95,12 +95,8 @@\n et%5Bi\n- + 4\n %5D %3C \n@@ -101,16 +101,20 @@\n %3C vet %5Bi\n+ - 1\n %5D%7B%0A     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-19_17-37-53",
+            "content": "@@ -91,16 +91,20 @@\n if vet%5Bi\n+ + 4\n %5D %3C vet \n@@ -104,17 +104,17 @@\n  %3C vet %5B\n-5\n+i\n %5D%7B%0A     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-19_17-38-06",
+            "content": "@@ -104,9 +104,9 @@\n et %5B\n-4\n+5\n %5D%7B%0A \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-19_17-38-11",
+            "content": "@@ -131,19 +131,16 @@\n ntln(vet\n-%5Bi%5D\n )%0A      \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-19_17-38-27",
+            "content": "@@ -99,10 +99,15 @@\n %5D %3C \n-30\n+vet %5B4%5D\n %7B%0A  \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-19_17-39-06",
+            "content": "@@ -176,25 +176,8 @@\n ar N\n-1, N2, N3, N4, N5\n  int\n@@ -197,29 +197,8 @@\n n(&N\n-1, &N2, &N3, &N4, &N5\n )%0A%0A \n@@ -227,68 +227,8 @@\n 5)%0A%0A\n-    for i:= 0; i %3C 5; i++%7B%0A        fmt.Scan(&vet%5Bi%5D)%0A    %7D%0A%0A\n     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-19_17-41-31",
+            "content": "@@ -99,19 +99,10 @@\n %5D %3C \n-vet %5Bi + 1%5D\n+30\n %7B%0A  \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-19_17-42-16",
+            "content": "@@ -106,9 +106,9 @@\n  %5Bi \n--\n++\n  1%5D%7B\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-19_17-43-03",
+            "content": "@@ -52,29 +52,8 @@\n t)%7B%0A\n-    menor := vet%5B0%5D%0A%0A\n     \n@@ -64,23 +64,16 @@\n i:= \n-1\n+0\n ; i %3C \n-len(vet)\n+5\n ; i+\n@@ -95,21 +95,27 @@\n et%5Bi%5D %3C \n-menor\n+vet %5Bi - 1%5D\n %7B%0A      \n@@ -124,35 +124,27 @@\n     \n-menor = vet%5Bi%5D%0A            \n+fmt.Println(vet%5Bi%5D)\n %0A   \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-19_17-45-00",
+            "content": "@@ -157,16 +157,29 @@\n  vet%5Bi%5D%0A\n+            %0A\n         \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-19_17-45-06",
+            "content": "@@ -177,23 +177,8 @@\n   %7D%0A\n-        return%0A\n %7D%0Afu\n@@ -355,20 +355,8 @@\n     \n-fmt.Println(\n meno\n@@ -366,12 +366,11 @@\n lor(vet)\n-)\n %0A%7D%0A\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-19_17-48-54",
+            "content": "@@ -362,24 +362,36 @@\n %0A    %7D%0A%0A    \n+fmt.Println(\n menorValor(v\n@@ -393,11 +393,12 @@\n lor(vet)\n+)\n %0A%7D%0A\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-19_17-48-55",
+            "content": "@@ -173,16 +173,30 @@\n %7D%0A    %7D%0A\n+        return\n %0A%7D%0Afunc \n@@ -213,16 +213,33 @@\n    var N\n+1, N2, N3, N4, N5\n  int%0A%0A  \n@@ -251,16 +251,37 @@\n .Scan(&N\n+1, &N2, &N3, &N4, &N5\n )%0A%0A    v\n@@ -351,17 +351,17 @@\n an(&vet%5B\n-N\n+i\n %5D)%0A    %7D\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-19_17-49-53",
+            "content": "@@ -177,28 +177,8 @@\n   %7D%0A\n-        return menor\n %0A%7D%0Af\n@@ -299,17 +299,17 @@\n an(&vet%5B\n-i\n+N\n %5D)%0A    %7D\n@@ -318,20 +318,8 @@\n     \n-fmt.Println(\n meno\n@@ -329,12 +329,11 @@\n lor(vet)\n-)\n %0A%7D%0A\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-19_17-51-56",
+            "content": "@@ -188,16 +188,21 @@\n  return \n+menor\n %0A%7D%0Afunc \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-19_17-52-08",
+            "content": "@@ -50,13 +50,8 @@\n int)\n- int \n %7B%0A  \n@@ -188,21 +188,16 @@\n  return \n-menor\n %0A%7D%0Afunc \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-19_17-53-20",
+            "content": "@@ -227,17 +227,9 @@\n var \n-a,b,c,d,e\n+N\n  int\n@@ -248,25 +248,9 @@\n an(&\n-a, &b, &c, &d, &e\n+N\n )%0A%0A \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-19_17-54-07",
+            "content": "@@ -287,25 +287,22 @@\n  := \n-%5B%5Dint %7Ba,b,c,d,e%7D\n+make(%5B%5Dint, 5)\n %0A%0A  \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-19_17-54-55",
+            "content": "package main\nimport \"fmt\"\n\nfunc menorValor(vet[] int) int {\n    menor := vet[0]\n\n    for i:= 1; i < len(vet); i++{\n        if vet[i] < menor{\n            menor = vet[i]\n        }\n    }\n        return menor\n}\nfunc main() {\n    var a,b,c,d,e int\n\n    fmt.Scan(&a, &b, &c, &d, &e)\n\n    vet := []int {a,b,c,d,e}\n\n    for i:= 0; i < 5; i++{\n        fmt.Scan(&vet[i])\n    }\n\n    fmt.Println(menorValor(vet))\n}\n",
+            "lines": "26"
+        }
+    ]
+}

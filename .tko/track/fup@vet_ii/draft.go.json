@@ -2,8 +2,153 @@
     "patches": [
         {
             "label": "2026-04-15_00-16-26",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -41,94 +41,35 @@\n     \n-var N int%0A%0A    fmt.Scan(&N)%0A%0A    inteiros := make(%5B%5Dint, N) %0A%0A    fmt.Println(inteiros\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-05-19_16-53-08",
+            "content": "@@ -50,28 +50,8 @@\n  int\n-%0A    var valores int\n %0A%0A  \n@@ -67,18 +67,8 @@\n n(&N\n-, &valores\n )%0A%0A \n@@ -100,95 +100,10 @@\n , N)\n-%0A    %0A    for i := valores; i %3C= valores; i++%7B%0A        fmt.Scan(inteiros%5Bi%5D)%0A    %7D%0A   \n  \n+%0A\n %0A   \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-19_16-59-20",
+            "content": "@@ -159,17 +159,23 @@\n s; i %3C= \n-N\n+valores\n ; i++%7B%0A \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-19_16-59-38",
+            "content": "@@ -1,228 +1,98 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var N int%0A    var valores int%0A%0A    fmt.Scan(&N, &valores)%0A%0A    inteiros := make(%5B%5Dint, N)%0A    %0A    for i := valores; i %3C= N; i++%7B%0A        fmt.Scan(inteiros%5Bi%5D)%0A        break%0A    %7D%0A\n+@@ -201,22 +201,8 @@%0A i%255D)%250A%0A-        break%250A%0A     %0A@@ -208,20 +208,16 @@%0A  %257D%250A    %250A%0A-\n     \n@@ -101,31 +101,9 @@\n     \n-  \n- \n fmt.\n-Println(inteiros)%0A%7D\n %0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-19_16-59-55",
+            "content": "@@ -193,23 +193,17 @@\n nteiros%5B\n-valores\n+i\n %5D)%0A     \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-19_17-00-12",
+            "content": "@@ -149,9 +149,15 @@\n  := \n-0\n+valores\n ; i \n@@ -193,17 +193,23 @@\n nteiros%5B\n-i\n+valores\n %5D)%0A     \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-19_17-01-09",
+            "content": "@@ -1,246 +1,49 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var N int%0A    var valores int%0A%0A    fmt.Scan(&N, &valores)%0A%0A    inteiros := make(%5B%5Dint, N)%0A    %0A    for i := 0; i %3C N; i++%7B%0A        fmt.Scan(inteiros%5Bi%5D)%0A        break%0A    %7D%0A    %0A        fmt.Println()%0A%7D\n+@@ -151,16 +151,17 @@%0A = 0; i %253C%0A+=%0A  N; i++%257B\n %0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2026-05-19_17-01-27",
+            "content": "@@ -239,19 +239,8 @@\n tln(\n-inteiros%5B1%5D\n )%0A%7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-19_17-01-46",
+            "content": "@@ -202,38 +202,20 @@\n     \n-fmt.Print(inteiros%5Bi%5D)\n+break\n %0A    %7D%0A\n-%0A\n     \n@@ -243,12 +243,15 @@\n inteiros\n+%5B1%5D\n )%0A%7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-19_17-02-31",
+            "content": "@@ -182,33 +182,32 @@\n an(inteiros%5Bi%5D)%0A\n-%0A\n         fmt.Prin\n@@ -224,67 +224,8 @@\n %5Bi%5D)\n-%0A%0A        if i %3C N - 1%7B%0A            fmt.Print(%22%22)%0A        %7D\n %0A   \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-19_17-03-30",
+            "content": "@@ -1,333 +1,51 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var N int%0A    var valores int%0A%0A    fmt.Scan(&N, &valores)%0A%0A    inteiros := make(%5B%5Dint, N)%0A    %0A    for i := 0; i %3C N; i++%7B%0A        fmt.Scan(inteiros%5Bi%5D)%0A%0A        fmt.Print(inteiros%5Bi%5D)%0A%0A        if i %3C N - 1%7B%0A            fmt.Print(%22 %22)%0A        %7D%0A    %7D%0A%0A    %0A        fmt.Println(inteiros)%0A%7D\n+@@ -268,17 +268,16 @@%0A .Print(%2522%0A- %0A %2522)%250A     \n %0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2026-05-19_17-03-38",
+            "content": "@@ -300,11 +300,34 @@\n  %0A      \n+  fmt.Println(inteiros)\n %0A%7D%0A\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-19_17-03-39",
+            "content": "@@ -1,225 +1,433 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var N int%0A    var valores int%0A    %0A    fmt.Scan(&N, &valores)%0A%0A    inteiros := make(%5B%5Dint, N) %0A%0A    for i := 0; i %3C N; i ++%7B%0A        fmt.Scan(&inteiros%5Bvalores%5D)%0A    %7D%0A    %0A    \n+@@ -67,20 +67,16 @@%0A res int%250A%0A-    %0A %250A    fmt%0A@@ -126,18 +126,21 @@%0A %255Dint, N)%0A- %0A %250A%0A+    %0A %250A    for%0A@@ -156,17 +156,16 @@%0A i %253C N; i%0A- %0A ++%257B%250A    %0A@@ -177,17 +177,16 @@%0A mt.Scan(%0A-&%0A inteiros%0A@@ -190,24 +190,111 @@%0A ros%255B%0A-valores%255D)%0A+i%255D)%250A%250A        fmt.Print(inteiros%255Bi%255D)%250A%250A        if i %253C N - 1%257B%250A            fmt.Print(%2522 %2522)%250A        %257D%0A %250A    %257D%250A%0A+%250A%0A     %0A@@ -302,28 +302,9 @@%0A     %0A-\n fmt.\n@@ -448,6 +448,19 @@\n os)%0A\n-%7D\n++  %0A %250A%257D%250A\n %0A\n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-05-19_17-05-31",
+            "content": "@@ -189,17 +189,23 @@\n nteiros%5B\n-i\n+valores\n %5D)%0A    %7D\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-19_17-05-41",
+            "content": "@@ -158,12 +158,8 @@\n  %3C N\n- - 1\n ; i \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-19_17-05-49",
+            "content": "@@ -50,16 +50,37 @@\n  int%0A   \n+ var valores int%0A    \n %0A    fmt\n@@ -87,16 +87,26 @@\n .Scan(&N\n+, &valores\n )%0A%0A    i\n@@ -154,16 +154,20 @@\n 0; i %3C N\n+ - 1\n ; i ++%7B%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-19_17-06-28",
+            "content": "@@ -201,13 +201,8 @@\n iros\n-, %22 %22\n )%0A%7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-19_17-06-37",
+            "content": "@@ -190,24 +190,19 @@\n rint\n-f(%22%25d %22,\n+ln(\n inteiros\n )%0A%7D%0A\n@@ -197,12 +197,17 @@\n inteiros\n+, %22 %22\n )%0A%7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-19_17-06-57",
+            "content": "@@ -1,8 +1,28 @@\n+@@ -1,205 +1,45 @@%0A-\n package \n@@ -29,22 +29,30 @@\n main\n-%0A\n+%250A\n import \n-%22fmt%22%0A\n+%2522fmt%2522%250A\n func\n@@ -59,18 +59,22 @@\n  main() \n-%7B%0A\n+%257B%250A\n     var \n@@ -82,13 +82,17 @@\n  int\n-%0A   %0A\n+%250A   %250A\n     \n@@ -103,18 +103,22 @@\n Scan(&N)\n-%0A%0A\n+%250A%250A\n     inte\n@@ -134,18 +134,22 @@\n ake(\n-%5B%5D\n+%255B%255D\n int, N) \n %0A%0A  \n@@ -148,10 +148,14 @@\n  N) \n-%0A%0A\n+%250A%250A\n     \n@@ -172,17 +172,19 @@\n ; i \n-%3C\n+%253C\n  N; i ++\n %7B%0A  \n@@ -183,10 +183,14 @@\n i ++\n-%7B%0A\n+%257B%250A\n     \n@@ -215,24 +215,36 @@\n iros\n-%5Bi%5D)%0A    %7D%0A\n+%255Bi%255D)%250A    %257D%250A\n     \n-%0A\n+%250A\n     \n@@ -258,23 +258,116 @@\n ntf(\n-%22%25d %22, inteiros)%0A%7D\n+%2522%2525d %2522,%0A+@@ -194,17 +194,16 @@%250A f(%252522%252525d %252522,%250A- %250A%0A  int%0A@@ -47,8 +47,5 @@%0A iros%0A-)%250A%257D%0A %250A\n %0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-19_17-07-09",
+            "content": "@@ -209,26 +209,6 @@\n os)%0A\n-    fmt.Println(%22%22)%0A\n %7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-19_17-07-19",
+            "content": "@@ -222,14 +222,13 @@\n rintln(%22\n- \n %22)%0A%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-19_17-07-27",
+            "content": "@@ -1,229 +1,64 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var N int%0A   %0A    fmt.Scan(&N)%0A%0A    inteiros := make(%5B%5Dint, N) %0A%0A    for i := 0; i %3C N; i ++%7B%0A        fmt.Scan(&inteiros%5Bi%5D)%0A    %7D%0A    %0A    fmt.Println(inteiros)%0A    fmt.Println(%22 %22)%0A%7D\n+@@ -186,19 +186,25 @@%0A mt.Print%0A-ln(%0A+f(%2522%2525d %2522, %0A inteiros\n %0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-19_17-07-37",
+            "content": "@@ -186,16 +186,18 @@\n mt.Print\n+ln\n (inteiro\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-19_17-07-44",
+            "content": "@@ -1,228 +1,47 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var N int%0A   %0A    fmt.Scan(&N)%0A%0A    inteiros := make(%5B%5Dint, N) %0A%0A    for i := 0; i %3C N; i ++%7B%0A        fmt.Scan(&inteiros%5Bi%5D)%0A    %7D%0A    %0A    fmt.Print(inteiros )%0A    fmt.Println(%22 %22)%0A%7D\n+@@ -195,17 +195,16 @@%0A inteiros%0A- %0A )%250A    fm\n %0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2026-05-19_17-07-50",
+            "content": "@@ -168,16 +168,20 @@\n )%0A    %7D%0A\n+    \n %0A    fmt\n@@ -191,48 +191,19 @@\n int(\n-%22%5B %22)%0A%0A    for i := 0; i %3C N; i ++%7B%0A    \n+inteiros )%0A\n     \n@@ -215,31 +215,14 @@\n rint\n-(inteiros%5Bi%5D, %22 %22)%0A    %7D\n+ln(%22 %22)\n %0A%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-19_17-09-36",
+            "content": "@@ -264,34 +264,7 @@\n    %7D\n-%0A%0A    fm.Println(%22 %0A    %5D%22)\n %0A%7D%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-19_17-10-02",
+            "content": "@@ -279,14 +279,19 @@\n intln(%22 \n+%0A    \n %5D%22)%0A%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-19_17-10-03",
+            "content": "@@ -264,25 +264,24 @@\n    %7D%0A%0A    fm\n-t\n .Println(%22 %5D\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-19_17-10-07",
+            "content": "@@ -279,14 +279,15 @@\n rintln(%22\n+ \n %5D%22)%0A%7D%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-19_17-10-12",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var N int\n   \n    fmt.Scan(&N)\n\n    inteiros := make([]int, N) \n\n    for i := 0; i < N; i ++{\n        fmt.Scan(&inteiros[i])\n    }\n\n    fmt.Print(\"[ \")\n\n    for i := 0; i < N; i ++{\n        fmt.Print(inteiros[i], \" \")\n    }\n\n    fmt.Println(\"]\")\n}\n",
+            "lines": "21"
         }
     ]
 }
