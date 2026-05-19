@@ -152,3 +152,4 @@
 2026-05-18 18:19:56, SELF, v:1, k:fup@dindin, self:1, rate:100, study:30, friend:Sena, concept:1
 2026-05-18 18:19:56, MOVE, v:1, k:fup@dindin, mode:PICK
 2026-05-18 18:19:57, EXEC, v:1, k:fup@dindin, mode:FULL, rate:100
+2026-05-18 18:20:12, MOVE, v:1, k:fup@dindin, mode:BACK
