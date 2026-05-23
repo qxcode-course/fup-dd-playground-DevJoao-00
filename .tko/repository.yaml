@@ -20,7 +20,7 @@ sources:
   quests: null
 expanded:
 - fup@list
-- fup@rec
+- fup@mat
 flags:
   inbox: all
   panel: skills
@@ -28,5 +28,5 @@ flags:
   task_graph_mode: time
   show_time: 'true'
 lang: go
-selected: fup@palindromo
-selected_index: 60
+selected: fup@jedi
+selected_index: 32
