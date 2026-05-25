@@ -1,0 +1,104 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-24_19-15-56",
+            "content": "@@ -41,145 +41,35 @@\n     \n-var n int%0A%0A    fmt.Scan(&n)%0A%0A    cal := make(%5B%5Dint, n)%0A%0A    for i := 0; i %3C n; i ++%7B%0A        fmt.Scan(&cal%5Bi%5D)%0A    %7D%0A%0A    fmt.Println(cal\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-24_19-25-12",
+            "content": "@@ -159,32 +159,8 @@\n  %7D%0A%0A\n-    media := cal%5Bi%5D / n%0A\n     \n@@ -175,13 +175,11 @@\n tln(\n-media\n+cal\n )%0A%7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-24_19-26-24",
+            "content": "@@ -148,24 +148,27 @@\n cal%5Bi%5D)%0A    \n+%7D%0A%0A\n     media :=\n@@ -208,16 +208,4 @@\n )%0A%7D%0A\n-    %7D%0A%0A    %0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-24_19-26-44",
+            "content": "@@ -96,22 +96,8 @@\n  n)%0A\n-    media := 0\n %0A   \n@@ -162,16 +162,17 @@\n   media \n+:\n = cal%5Bi%5D\n@@ -176,20 +176,16 @@\n %5Bi%5D / n%0A\n-    \n     fmt.\n@@ -203,15 +203,15 @@\n ia)%0A\n+%7D%0A\n     %7D\n-%0A%7D\n %0A%0A  \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-24_19-27-50",
+            "content": "@@ -201,42 +201,8 @@\n     \n-%0A        media += media%0A    %7D%0A    \n fmt.\n@@ -216,16 +216,22 @@\n (media)%0A\n+    %7D%0A\n %7D%0A%0A    %0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-24_19-28-59",
+            "content": "@@ -193,20 +193,46 @@\n / n%0A\n-%0A    %7D%0A\n+        %0A        media += media\n %0A    \n+%7D%0A\n     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-24_19-29-19",
+            "content": "@@ -126,17 +126,16 @@\n = 0; i %3C\n-=\n  n; i ++\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-24_19-29-37",
+            "content": "@@ -126,16 +126,17 @@\n = 0; i %3C\n+=\n  n; i ++\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-24_19-29-46",
+            "content": "@@ -166,44 +166,8 @@\n i%5D)%0A\n-    %7D %0A%0A    for j := 0; j %3C n; j++%7B%0A\n     \n@@ -186,15 +186,16 @@\n cal%5B\n-j\n+i\n %5D / n%0A\n+%0A\n     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-24_19-31-44",
+            "content": "@@ -162,16 +162,52 @@\n cal%5Bi%5D)%0A\n+    %7D %0A%0A    for j := 0; j %3C n; j++%7B%0A\n         \n@@ -218,17 +218,17 @@\n a = cal%5B\n-i\n+j\n %5D / n%0A  \n@@ -233,19 +233,10 @@\n     \n-    %0A%0A    \n %7D\n+%0A\n %0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-24_19-34-00",
+            "content": "@@ -185,16 +185,19 @@\n  cal%5Bi%5D \n+/ n\n %0A       \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-24_19-34-04",
+            "content": "@@ -223,18 +223,11 @@\n rint\n-f(%22%25.2f%22, \n+ln(\n medi\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-24_19-35-36",
+            "content": "@@ -100,19 +100,19 @@\n     \n-som\n+medi\n a := 0%0A\n-%0A\n     \n@@ -131,16 +131,9 @@\n i %3C \n-len(cal)\n+n\n ; i \n@@ -174,73 +174,39 @@\n     \n-som\n+medi\n a \n-+\n = \n-(\n cal%5Bi%5D\n-)\n  %0A    \n-%7D%0A%0A\n     \n-media := float64 (soma) / float64(n)\n+%0A%0A    %7D\n %0A   \n@@ -223,11 +223,18 @@\n rint\n-ln(\n+f(%22%25.2f%22, \n medi\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-24_19-41-02",
+            "content": "@@ -264,18 +264,11 @@\n rint\n-f(%22%25.1f%22, \n+ln(\n medi\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-24_19-41-36",
+            "content": "@@ -267,17 +267,16 @@\n tf(%22%25.1f\n- \n %22, media\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-24_19-42-05",
+            "content": "@@ -281,33 +281,8 @@\n dia)\n-%0A%0A        fmt.Println(%22%22)\n %0A%7D%0A%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-24_19-42-32",
+            "content": "@@ -276,17 +276,16 @@\n %22, media\n- \n )%0A%0A     \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-24_19-42-59",
+            "content": "@@ -278,16 +278,41 @@\n  media )\n+%0A%0A        fmt.Println(%22%22)\n %0A%7D%0A%0A    \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-24_19-43-05",
+            "content": "@@ -271,10 +271,9 @@\n %25.1f\n-%5Cn\n+ \n %22, m\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-24_19-44-35",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n\n    fmt.Scan(&n)\n\n    cal := make([]int, n)\n    soma := 0\n\n    for i := 0; i < len(cal); i ++{\n        fmt.Scan(&cal[i])\n        soma += (cal[i]) \n    }\n\n    media := float64 (soma) / float64(n)\n        fmt.Printf(\"%.1f\\n\", media )\n}\n\n    \n",
+            "lines": "20"
+        }
+    ]
+}

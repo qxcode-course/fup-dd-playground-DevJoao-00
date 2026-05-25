@@ -17,8 +17,13 @@
         },
         {
             "label": "2026-05-18_17-48-56",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var figmax int\n\n    fmt.Scan(&figmax)\n\n    fmt.Println(figmax)\n\n\n}\n",
+            "content": "@@ -51,18 +51,8 @@\n gmax\n-, figatual\n  int\n@@ -77,80 +77,34 @@\n gmax\n-, &figatual) %0A%0A    album := make(%5B%5Dint, 0)%0A    repet := make(%5B%5Dint, 0)%0A%0A\n+)%0A%0A    fmt.Println(figmax)\n %0A%0A%0A%7D\n",
             "lines": "11"
+        },
+        {
+            "label": "2026-05-24_19-46-13",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var figmax, figatual int\n\n    fmt.Scan(&figmax, &figatual) \n\n    album := make([]int, 0)\n    repet := make([]int, 0)\n\n\n\n\n}\n",
+            "lines": "14"
         }
     ]
 }

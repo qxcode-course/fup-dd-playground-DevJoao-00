@@ -10,11 +10,12 @@ func main() {
    for i := 0; i < animais; i++{
       fmt.Scan(&animal[i])
 
-      if animal[i] == "v" {
+      switch animal[i] {
+      case "v":
          total += 4
-      } else if animal[i] == "g"{
+      case "g":
          total += 2
-      } else {
+      default:
          total += 4
       }
    }

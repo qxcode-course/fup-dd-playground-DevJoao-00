@@ -1,0 +1,88 @@
+2026-05-24 19:15:52, MOVE, v:1, k:fup@dieta, mode:DOWN
+2026-05-24 19:15:53, MOVE, v:1, k:fup@dieta, mode:PICK
+2026-05-24 19:15:56, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:5
+2026-05-24 19:15:30, MOVE, v:1, k:fup@patas, mode:EDIT
+2026-05-24 19:15:52, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-24 19:15:52, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-24 19:19:11, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-24 19:15:56, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-24 19:25:12, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:15
+2026-05-24 19:25:00, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-24 19:25:12, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-24 19:26:24, EXEC, v:1, k:fup@dieta, mode:FULL, size:16, fail:COMP
+2026-05-24 19:26:44, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:17
+2026-05-24 19:27:50, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:17
+2026-05-24 19:28:59, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:19
+2026-05-24 19:29:19, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:19
+2026-05-24 19:29:37, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:19
+2026-05-24 19:29:39, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:29:40, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:29:46, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:19
+2026-05-24 19:29:45, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-24 19:29:46, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-24 19:31:44, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:21
+2026-05-24 19:34:00, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:19
+2026-05-24 19:34:04, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:19
+2026-05-24 19:35:23, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-24 19:34:04, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-24 19:35:36, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:19
+2026-05-24 19:35:37, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:40:23, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-24 19:35:37, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-24 19:41:02, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:20
+2026-05-24 19:41:36, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:20
+2026-05-24 19:41:46, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:41:47, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:41:47, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:41:48, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:42:05, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:20
+2026-05-24 19:42:06, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:42:32, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:22
+2026-05-24 19:42:33, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:42:33, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:42:36, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:42:36, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:42:37, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:42:37, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:42:38, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:42:38, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:42:39, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:42:39, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:42:40, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:42:40, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:42:59, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:22
+2026-05-24 19:43:00, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:43:05, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0, size:20
+2026-05-24 19:43:06, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:43:07, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:43:07, EXEC, v:1, k:fup@dieta, mode:FULL, rate:0
+2026-05-24 19:44:35, EXEC, v:1, k:fup@dieta, mode:FULL, rate:100, size:20
+2026-05-24 19:44:58, SELF, v:1, k:fup@dieta, self:1, rate:100, study:20, concept:1
+2026-05-24 19:44:58, EXEC, v:1, k:fup@dieta, mode:FULL, rate:100
+2026-05-24 19:44:59, EXEC, v:1, k:fup@dieta, mode:FULL, rate:100
+2026-05-24 19:44:59, EXEC, v:1, k:fup@dieta, mode:FULL, rate:100
+2026-05-24 19:45:00, MOVE, v:1, k:fup@dieta, mode:BACK
+2026-05-24 19:44:32, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-24 19:44:59, MOVE, v:1, k:fup@dieta, mode:EDIT
+2026-05-24 19:46:12, MOVE, v:1, k:fup@baruel, mode:PICK
+2026-05-24 19:46:13, EXEC, v:1, k:fup@baruel, mode:FULL, size:14, fail:COMP
+2026-05-24 19:46:15, EXEC, v:1, k:fup@baruel, mode:FULL, fail:COMP
+2026-05-24 19:52:03, MOVE, v:1, k:fup@baruel, mode:BACK
+2026-05-24 19:52:14, MOVE, v:1, k:fup@repetidos, mode:DOWN
+2026-05-24 19:52:14, MOVE, v:1, k:fup@repetidos, mode:PICK
+2026-05-24 19:52:15, EXEC, v:1, k:fup@repetidos, mode:FULL, rate:0, size:5
+2026-05-24 19:52:16, EXEC, v:1, k:fup@repetidos, mode:FULL, rate:0
+2026-05-24 19:52:17, EXEC, v:1, k:fup@repetidos, mode:FULL, rate:0
+2026-05-24 19:54:46, EXEC, v:1, k:fup@repetidos, mode:FULL, rate:0, size:9
+2026-05-24 19:52:14, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-05-24 19:52:14, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-05-24 19:54:46, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-05-24 19:55:21, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-05-24 20:01:21, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-05-24 20:23:43, EXEC, v:1, k:fup@repetidos, mode:FULL, rate:100, size:18
+2026-05-24 20:24:00, SELF, v:1, k:fup@repetidos, self:1, rate:100, study:10
+2026-05-24 20:24:02, MOVE, v:1, k:fup@repetidos, mode:BACK
+2026-05-24 20:24:14, MOVE, v:1, k:fup@batraquios, mode:DOWN
+2026-05-24 20:24:15, MOVE, v:1, k:fup@batraquios, mode:PICK
+2026-05-24 20:24:16, EXEC, v:1, k:fup@batraquios, mode:FULL, rate:0, size:5
+2026-05-24 20:24:26, MOVE, v:1, k:fup@batraquios, mode:BACK

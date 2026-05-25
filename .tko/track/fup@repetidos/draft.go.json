@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-24_19-52-15",
+            "content": "@@ -41,47 +41,35 @@\n     \n-var p, n int%0A%0A    fmt.Scan(&p, &n)%0A%0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-24_19-54-46",
+            "content": "@@ -81,187 +81,7 @@\n     \n-vet := make(%5B%5Dint, n)%0A    repet := 0%0A    for i := 0; i %3C n; i++ %7B%0A        fmt.Scan(&vet%5Bi%5D)%0A%0A        if vet%5Bi%5D == p%7B%0A            repet ++%0A        %7D%0A    %7D%0A        fmt.Println(repet)\n %0A%7D%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-24_20-23-43",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var p, n int\n\n    fmt.Scan(&p, &n)\n\n    vet := make([]int, n)\n    repet := 0\n    for i := 0; i < n; i++ {\n        fmt.Scan(&vet[i])\n\n        if vet[i] == p{\n            repet ++\n        }\n    }\n        fmt.Println(repet)\n}\n",
+            "lines": "18"
+        }
+    ]
+}
