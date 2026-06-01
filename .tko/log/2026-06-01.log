@@ -1,0 +1,10 @@
+2026-06-01 16:50:33, MOVE, v:1, k:fup@tres, mode:PICK
+2026-06-01 16:50:44, EXEC, v:1, k:fup@tres, mode:FULL, rate:100
+2026-06-01 16:50:54, SELF, v:1, k:fup@tres, self:1, rate:100
+2026-06-01 16:50:55, EXEC, v:1, k:fup@tres, mode:FULL, rate:100
+2026-06-01 16:50:56, MOVE, v:1, k:fup@tres, mode:BACK
+2026-06-01 16:51:06, SELF, v:1, k:fup@resto, self:1, rate:100, friend:nao
+2026-06-01 16:51:12, SELF, v:1, k:fup@media, self:1, rate:100
+2026-06-01 16:51:17, MOVE, v:1, k:fup@data, mode:DOWN
+2026-06-01 16:51:18, MOVE, v:1, k:fup@data, mode:PICK
+2026-06-01 16:51:19, EXEC, v:1, k:fup@data, mode:FULL, rate:0, size:5

@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-26_17-21-40",
+            "content": "@@ -176,40 +176,9 @@\n     \n-    %0A        %7D%0A            break\n+%7D\n %0A   \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-26_17-22-11",
+            "content": "@@ -195,24 +195,29 @@\n             \n+break\n %0A    %7D%0A     \n@@ -314,22 +314,8 @@\n := 0\n-%0A    var N int\n %0A%0A  \n@@ -329,12 +329,8 @@\n can(\n-&N, \n &qtd\n@@ -360,19 +360,16 @@\n Fatores(\n-N, \n qtd))%0A%7D%0A\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-26_17-23-54",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -24,78 +24,34 @@\n t%22%0A%0A\n-type Fator struct %7B%0A%09num int%0A%09qtd int%0A%7D%0A%0A\n func \n-calc_f\n+CalcF\n atores(\n-num\n+N\n  int) %5B%5D\n Fato\n@@ -50,163 +50,97 @@\n ) %5B%5D\n+ \n Fator\n- \n %7B%0A\n-%09var fatores %5B%5DFator%0A%0A%09div := 2%0A%0A%09for num %3E 1 %7B%0A%09%09cont := 0%0A%0A%09%09for num%25div == 0 %7B%0A%09%09%09cont++%0A%09%09%09num /= div%0A%09%09%7D%0A%0A%09%09if cont %3E 0 %7B%0A%09%09%09fatores =\n+%0A    for i := 1; i %3C= N; i++ %7B%0A        if N %25 i == 0 %7B%0A            return\n  append(\n fato\n@@ -139,23 +139,30 @@\n end(\n-f\n+CalcF\n atores\n+(N)\n , Fator%7B\n %0A%09%09%09\n@@ -161,80 +161,129 @@\n tor%7B\n-%0A%09%09%09%09num: div,%0A%09%09%09%09qtd: cont,%0A%09%09%09%7D)%0A%09%09%7D%0A%0A%09%09div++%0A%09%7D%0A%0A%09\n+N, i%7D)%0A            %0A        %7D%0A            %0A    %7D%0A        \n return \n-f\n+%5B%5DF\n ator\n-es\n+%7B%7D%0A%7D%0Atype Fator struct%7B%0A     N int%0A     qtd int\n %0A%7D%0A\n-%0A\n func\n@@ -296,21 +296,41 @@\n ) %7B%0A\n-%09\n+%0A    qtd := 0%0A    \n var \n-n\n+N\n  int%0A%0A\n-%09\n+    \n fmt.\n@@ -339,99 +339,53 @@\n an(&\n-n)%0A%0A%09fatores := calc_fatores(n)%0A%0A%09for _, f := range fatores %7B%0A%09%09fmt.Println(f.num, f.\n+N, &qtd)%0A%0A    fmt.Println(CalcFatores(N, \n qtd)\n-%0A%09%7D\n+)\n %0A%7D%0A\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-05-26_17-25-11",
+            "content": "@@ -173,11 +173,9 @@\n  num\n- %25 \n+%25\n div \n",
+            "lines": "46"
+        },
+        {
+            "label": "2026-05-26_17-38-14",
+            "content": "package main\n\nimport \"fmt\"\n\ntype Fator struct {\n\tnum int\n\tqtd int\n}\n\nfunc calc_fatores(num int) []Fator {\n\tvar fatores []Fator\n\n\tdiv := 2\n\n\tfor num > 1 {\n\t\tcont := 0\n\n\t\tfor num % div == 0 {\n\t\t\tcont++\n\t\t\tnum /= div\n\t\t}\n\n\t\tif cont > 0 {\n\t\t\tfatores = append(fatores, Fator{\n\t\t\t\tnum: div,\n\t\t\t\tqtd: cont,\n\t\t\t})\n\t\t}\n\n\t\tdiv++\n\t}\n\n\treturn fatores\n}\n\nfunc main() {\n\tvar n int\n\n\tfmt.Scan(&n)\n\n\tfatores := calc_fatores(n)\n\n\tfor _, f := range fatores {\n\t\tfmt.Println(f.num, f.qtd)\n\t}\n}\n",
+            "lines": "46"
+        }
+    ]
+}

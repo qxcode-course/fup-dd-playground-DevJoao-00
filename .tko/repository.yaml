@@ -19,9 +19,11 @@ sources:
   writeable: false
   quests: null
 expanded:
-- fup@struct
 - fup@mat
+- fup@string
 - fup@list
+- fup@struct
+- fup@base
 flags:
   inbox: all
   panel: skills
@@ -29,5 +31,5 @@ flags:
   task_graph_mode: time
   show_time: 'true'
 lang: go
-selected: fup@batraquios
-selected_index: 17
+selected: fup@data
+selected_index: 12

@@ -2,8 +2,43 @@
     "patches": [
         {
             "label": "2026-05-24_20-24-16",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -41,162 +41,35 @@\n     \n-var n,m int%0A%0A    fmt.Scan(&n, &m)%0A%0A    vetn := make(%5B%5D int, n)%0A   %0A%0A    for i := 0; i %3C n; i++ %7B%0A        fmt.Scan(&vetn%5Bi%5D)%0A    %7D%0A        fmt.Println(vetn\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-05-25_17-01-20",
+            "content": "@@ -162,12 +162,8 @@\n tn%5Bi\n- - 1\n %5D)%0A \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-25_17-02-37",
+            "content": "@@ -159,17 +159,17 @@\n &vetn%5Bi \n-+\n+-\n  1%5D)%0A   \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-25_17-02-45",
+            "content": "@@ -158,16 +158,20 @@\n (&vetn%5Bi\n+ + 1\n %5D)%0A    %7D\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-25_17-02-53",
+            "content": "@@ -107,32 +107,8 @@\n %0A   \n- vetm := make(%5B%5D int, m)\n %0A%0A  \n@@ -164,83 +164,8 @@\n %5Bi%5D)\n-%0A%0A        for j := 0; j %3C m; j++ %7B%0A            fmt.Scan(&vetm%5Bj%5D)%0A        %7D\n %0A   \n@@ -197,32 +197,6 @@\n tn)%0A\n-        fmt.Println(vetm)%0A\n %7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-25_17-04-26",
+            "content": "@@ -198,24 +198,8 @@\n     \n-%0A    %7D%0A    %0A    \n for \n@@ -260,16 +260,22 @@\n       %7D%0A\n+    %7D%0A\n         \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-25_17-04-57",
+            "content": "@@ -153,17 +153,9 @@\n i %3C \n-len(vetn)\n+n\n ; i+\n@@ -184,16 +184,26 @@\n vetn%5Bi%5D)\n+%0A%0A        \n %0A    %7D%0A \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-25_17-05-42",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n,m int\n\n    fmt.Scan(&n, &m)\n\n    vetn := make([] int, n)\n    vetm := make([] int, m)\n\n    for i := 0; i < len(vetn); i++ {\n        fmt.Scan(&vetn[i])\n    }\n    \n    for j := 0; j < m; j++ {\n            fmt.Scan(&vetm[j])\n        }\n        fmt.Println(vetn)\n        fmt.Println(vetm)\n}\n",
+            "lines": "20"
         }
     ]
 }

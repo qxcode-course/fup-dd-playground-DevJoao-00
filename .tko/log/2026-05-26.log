@@ -1,0 +1,49 @@
+2026-05-26 17:04:44, MOVE, v:1, k:fup@operacoes, mode:PICK
+2026-05-26 17:04:47, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:40, size:20
+2026-05-26 17:06:19, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:40, size:21
+2026-05-26 17:06:53, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0, size:21
+2026-05-26 17:06:55, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0
+2026-05-26 17:06:55, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0
+2026-05-26 17:06:56, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0
+2026-05-26 17:06:57, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0
+2026-05-26 17:06:57, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0
+2026-05-26 17:06:58, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0
+2026-05-26 17:06:58, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:0
+2026-05-26 17:07:18, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:40, size:21
+2026-05-26 17:07:20, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:40
+2026-05-26 17:07:20, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:40
+2026-05-26 17:07:20, MOVE, v:1, k:fup@operacoes, mode:EDIT
+2026-05-26 17:07:17, MOVE, v:1, k:fup@operacoes, mode:EDIT
+2026-05-26 17:08:54, EXEC, v:1, k:fup@operacoes, mode:FULL, rate:100, size:21
+2026-05-26 17:09:13, SELF, v:1, k:fup@operacoes, self:1, rate:100, study:10
+2026-05-26 17:09:15, MOVE, v:1, k:fup@operacoes, mode:BACK
+2026-05-26 17:09:27, MOVE, v:1, k:fup@fatores_struct, mode:DOWN
+2026-05-26 17:09:27, MOVE, v:1, k:fup@fatores_struct, mode:PICK
+2026-05-26 17:09:28, EXEC, v:1, k:fup@fatores_struct, mode:FULL, rate:0, size:5
+2026-05-26 17:09:28, EXEC, v:1, k:fup@fatores_struct, mode:FULL, rate:0, size:5
+2026-05-26 17:08:52, MOVE, v:1, k:fup@operacoes, mode:EDIT
+2026-05-26 17:08:54, MOVE, v:1, k:fup@operacoes, mode:EDIT
+2026-05-26 17:09:27, MOVE, v:1, k:fup@fatores_struct, mode:EDIT
+2026-05-26 17:09:27, MOVE, v:1, k:fup@fatores_struct, mode:EDIT
+2026-05-26 17:12:21, MOVE, v:1, k:fup@fatores_struct, mode:EDIT
+2026-05-26 17:09:28, MOVE, v:1, k:fup@fatores_struct, mode:EDIT
+2026-05-26 17:17:29, MOVE, v:1, k:fup@fatores_struct, mode:EDIT
+2026-05-26 17:21:40, EXEC, v:1, k:fup@fatores_struct, mode:FULL, rate:0, size:24
+2026-05-26 17:22:11, EXEC, v:1, k:fup@fatores_struct, mode:FULL, rate:0, size:26
+2026-05-26 17:22:22, MOVE, v:1, k:fup@fatores_struct, mode:EDIT
+2026-05-26 17:22:10, MOVE, v:1, k:fup@fatores_struct, mode:EDIT
+2026-05-26 17:23:54, EXEC, v:1, k:fup@fatores_struct, mode:FULL, size:27, fail:COMP
+2026-05-26 17:25:11, EXEC, v:1, k:fup@fatores_struct, mode:FULL, rate:100, size:46
+2026-05-26 17:25:28, MOVE, v:1, k:fup@fatores_struct, mode:EDIT
+2026-05-26 17:25:11, MOVE, v:1, k:fup@fatores_struct, mode:EDIT
+2026-05-26 17:38:14, SELF, v:1, k:fup@fatores_struct, self:1, rate:100, study:60, concept:1
+2026-05-26 17:38:14, EXEC, v:1, k:fup@fatores_struct, mode:FULL, rate:100, size:46
+2026-05-26 17:38:16, MOVE, v:1, k:fup@fatores_struct, mode:BACK
+2026-05-26 17:39:07, MOVE, v:1, k:fup@cartas, mode:DOWN
+2026-05-26 17:39:08, MOVE, v:1, k:fup@cartas, mode:PICK
+2026-05-26 17:39:08, EXEC, v:1, k:fup@cartas, mode:FULL, rate:0, size:5
+2026-05-26 17:39:09, EXEC, v:1, k:fup@cartas, mode:FULL, rate:0
+2026-05-26 17:39:09, EXEC, v:1, k:fup@cartas, mode:FULL, rate:0
+2026-05-26 17:39:18, MOVE, v:1, k:fup@cartas, mode:PICK
+2026-05-26 17:39:19, EXEC, v:1, k:fup@cartas, mode:FULL, rate:0
+2026-05-26 17:39:19, MOVE, v:1, k:fup@cartas, mode:EDIT

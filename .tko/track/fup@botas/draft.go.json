@@ -1,0 +1,54 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-25_17-34-36",
+            "content": "@@ -41,190 +41,35 @@\n     \n-var n int%0A%0A    fmt.Scan(&n)%0A%0A    M := make(%5B%5Dint, n)%0A    L := make(%5B%5Dstring, n)%0A%0A    for i:=0; i %3C n; i++%7B%0A        fmt.Scan(&M%5Bi%5D)%0A        fmt.Scan(&L%5Bi%5D)%0A    %7D%0A        fmt.Println(M\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-25_17-56-02",
+            "content": "@@ -223,11 +223,8 @@\n ln(M\n-, L\n )%0A%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-25_17-56-20",
+            "content": "@@ -121,22 +121,8 @@\n  n)%0A\n-    pares := 0\n %0A   \n@@ -200,99 +200,10 @@\n     \n-    %0A            if M%5Bi%5D == M%5Bi + 1%5D && L%5Bi%5D == L%5Bi + 1%5D%7B%0A                pares ++%0A        \n+%7D%0A\n     \n@@ -222,26 +222,12 @@\n tln(\n-pares)%0A    %7D%0A    %0A%7D\n+M, L)\n %0A%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-25_17-59-44",
+            "content": "@@ -313,19 +313,8 @@\n     \n-%0A    %7D%0A    \n fmt.\n@@ -328,12 +328,23 @@\n (pares)%0A\n+    %7D%0A    %0A\n %7D%0A%7D%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-25_17-59-55",
+            "content": "@@ -202,24 +202,33 @@\n Scan(&L%5Bi%5D)%0A\n+        %0A\n             \n@@ -234,23 +234,44 @@\n  if \n-len(M)\n+M%5Bi%5D\n  == M%5Bi\n-%5D\n  \n++ 1%5D && L%5Bi%5D == L%5Bi + 1%5D\n %7B%0A  \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-25_18-03-18",
+            "content": "@@ -150,22 +150,17 @@\n =0; i %3C \n-len(M)\n+n\n ; i++%7B%0A \n@@ -286,20 +286,16 @@\n  %0A    %7D%0A\n-    \n     fmt.\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-25_18-03-54",
+            "content": "@@ -240,10 +240,12 @@\n  == \n-40\n+M%5Bi%5D\n  %7B%0A \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-25_18-04-19",
+            "content": "@@ -241,9 +241,9 @@\n == 4\n-5\n+0\n  %7B%0A \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-25_18-04-30",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -37,20 +37,27 @@\n ) %7B%0A\n-%09\n+    \n var \n-N\n+n\n  int%0A\n-%09\n+%0A    \n fmt.\n@@ -66,20 +66,17 @@\n an(&\n-N)%0A%0A%09direita\n+n)%0A%0A    M\n  := \n@@ -91,21 +91,16 @@\n nt, \n-61)%0A%09esquerda\n+n)%0A    L\n  := \n@@ -110,343 +110,199 @@\n e(%5B%5D\n+str\n in\n-t, 61)%0A%0A%09\n+g, n)%0A    pares := 0%0A    \n for i\n- \n :=\n- \n 0; i %3C \n-N\n+len(M)\n ; i++\n- \n %7B%0A\n-%09%09var M int%0A%09%09var L string%0A%0A%09%09fmt.Scan(&M, &L)%0A%0A%09%09if L == %22D%22 %7B%0A%09%09%09direita%5BM%5D++%0A%09%09%7D else %7B%0A%09%09%09esquerda%5BM%5D++%0A%09%09%7D%0A%09%7D%0A%0A%09pares := 0%0A%0A%09for tamanho := 30; tamanho %3C= 60; tamanho++ %7B%0A%09%09if direita%5Btamanho%5D %3C esquerda%5Btamanho%5D %7B%0A%09%09%09pares += direita%5Btamanho%5D%0A%09%09%7D else %7B%0A%09%09%09pares += esquerda%5Btamanho%5D%0A%09%09%7D%0A%09%7D%0A%0A%09\n+        fmt.Scan(&M%5Bi%5D)%0A        fmt.Scan(&L%5Bi%5D)%0A            if len(M) == 45 %7B%0A                pares ++%0A                %0A    %7D%0A        \n fmt.\n@@ -318,8 +318,10 @@\n ares)%0A%7D%0A\n+%7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-25_18-09-01",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar N int\n\tfmt.Scan(&N)\n\n\tdireita := make([]int, 61)\n\tesquerda := make([]int, 61)\n\n\tfor i := 0; i < N; i++ {\n\t\tvar M int\n\t\tvar L string\n\n\t\tfmt.Scan(&M, &L)\n\n\t\tif L == \"D\" {\n\t\t\tdireita[M]++\n\t\t} else {\n\t\t\tesquerda[M]++\n\t\t}\n\t}\n\n\tpares := 0\n\n\tfor tamanho := 30; tamanho <= 60; tamanho++ {\n\t\tif direita[tamanho] < esquerda[tamanho] {\n\t\t\tpares += direita[tamanho]\n\t\t} else {\n\t\t\tpares += esquerda[tamanho]\n\t\t}\n\t}\n\n\tfmt.Println(pares)\n}\n",
+            "lines": "36"
+        }
+    ]
+}

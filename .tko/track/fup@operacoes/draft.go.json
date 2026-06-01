@@ -27,8 +27,33 @@
         },
         {
             "label": "2026-04-07_13-48-15",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n1 int \n    var n2 int\n\n    fmt.Scan(&n1, &n2)\n\n    soma := n1 + n2\n    sub := n1 - n2\n    mult := n1 * n2\n    div := n1 / n2\n    rest := n1 % n2\n\n    fmt.Println(soma)\n    fmt.Println(sub)\n    fmt.Println(mult)\n    fmt.Printf(\"%.2f\\n\", float32(div))\n    fmt.Println(rest)\n}\n",
+            "content": "@@ -287,10 +287,10 @@\n loat\n-64\n+32\n (div\n",
             "lines": "20"
+        },
+        {
+            "label": "2026-05-26_17-04-47",
+            "content": "@@ -287,10 +287,10 @@\n loat\n-32\n+64\n (div\n@@ -314,11 +314,10 @@\n n(rest)%0A\n-%0A\n %7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-26_17-06-19",
+            "content": "@@ -282,12 +282,21 @@\n n%22, \n+float32(\n div)\n+)\n %0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-26_17-06-53",
+            "content": "@@ -163,24 +163,15 @@\n  := \n-float64(\n n1 / n2\n-)\n %0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-26_17-07-18",
+            "content": "@@ -173,20 +173,11 @@\n 4(n1\n-)\n  / \n-float64(\n n2)%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-26_17-08-54",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n1 int \n    var n2 int\n\n    fmt.Scan(&n1, &n2)\n\n    soma := n1 + n2\n    sub := n1 - n2\n    mult := n1 * n2\n    div := float64(n1) / float64(n2)\n    rest := n1 % n2\n\n    fmt.Println(soma)\n    fmt.Println(sub)\n    fmt.Println(mult)\n    fmt.Printf(\"%.2f\\n\", div)\n    fmt.Println(rest)\n\n}\n",
+            "lines": "21"
         }
     ]
 }
