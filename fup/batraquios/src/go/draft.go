@@ -8,7 +8,7 @@ func main() {
     vetn := make([] int, n)
     vetm := make([] int, m)
 
-    for i := 0; i < len(vetn); i++ {
+    for i := 0; i < n; i++ {
         fmt.Scan(&vetn[i])
     }
     

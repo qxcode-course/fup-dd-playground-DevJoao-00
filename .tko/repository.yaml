@@ -19,11 +19,11 @@ sources:
   writeable: false
   quests: null
 expanded:
-- fup@mat
-- fup@string
-- fup@list
 - fup@struct
+- fup@mat
 - fup@base
+- fup@list
+- fup@string
 flags:
   inbox: all
   panel: skills
@@ -31,5 +31,5 @@ flags:
   task_graph_mode: time
   show_time: 'true'
 lang: go
-selected: fup@data
-selected_index: 12
+selected: fup@opala
+selected_index: 13

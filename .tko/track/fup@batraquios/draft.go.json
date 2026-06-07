@@ -37,7 +37,17 @@
         },
         {
             "label": "2026-05-25_17-05-42",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n,m int\n\n    fmt.Scan(&n, &m)\n\n    vetn := make([] int, n)\n    vetm := make([] int, m)\n\n    for i := 0; i < len(vetn); i++ {\n        fmt.Scan(&vetn[i])\n    }\n    \n    for j := 0; j < m; j++ {\n            fmt.Scan(&vetm[j])\n        }\n        fmt.Println(vetn)\n        fmt.Println(vetm)\n}\n",
+            "content": "@@ -228,17 +228,9 @@\n j %3C \n-len(vetm)\n+m\n ; j+\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-01_17-29-05",
+            "content": "@@ -149,17 +149,25 @@\n  0; i %3C \n-n\n+len(vetn)\n ; i++ %7B%0A\n@@ -224,17 +224,25 @@\n  0; j %3C \n-m\n+len(vetm)\n ; j++ %7B%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-01_17-29-27",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n,m int\n\n    fmt.Scan(&n, &m)\n\n    vetn := make([] int, n)\n    vetm := make([] int, m)\n\n    for i := 0; i < n; i++ {\n        fmt.Scan(&vetn[i])\n    }\n    \n    for j := 0; j < m; j++ {\n            fmt.Scan(&vetm[j])\n        }\n        fmt.Println(vetn)\n        fmt.Println(vetm)\n}\n",
             "lines": "20"
         }
     ]
