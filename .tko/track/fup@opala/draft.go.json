@@ -2,8 +2,113 @@
     "patches": [
         {
             "label": "2026-06-07_15-04-18",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -41,159 +41,35 @@\n     \n-var v,t,c int%0A%0A    fmt.Scan(&v, &t, &c)%0A%0A    tempo := t / 60%0A    dist := v * tempo%0A    desemp := float64(dist) * float64(c)%0A%0A        fmt.Println(desemp\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-06-07_15-09-47",
+            "content": "@@ -183,17 +183,11 @@\n rint\n-f(%22%25.2f%22,\n+ln(\n dese\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-06-07_15-10-31",
+            "content": "@@ -97,17 +97,16 @@\n = t / 60\n-0\n %0A    dis\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-06-07_15-10-57",
+            "content": "@@ -97,16 +97,17 @@\n = t / 60\n+0\n %0A    dis\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-06-07_15-11-07",
+            "content": "@@ -98,17 +98,16 @@\n  t / 60%0A\n-%0A\n     dist\n@@ -124,13 +124,8 @@\n mpo%0A\n-    %0A\n     \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-06-07_15-11-51",
+            "content": "@@ -98,16 +98,17 @@\n  t / 60%0A\n+%0A\n     dist\n@@ -121,16 +121,21 @@\n * tempo%0A\n+    %0A\n     dese\n@@ -144,16 +144,34 @@\n  := \n+float64(\n dist\n+)\n  * \n-c\n+float64(c)\n %0A%0A  \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-06-07_15-13-28",
+            "content": "@@ -138,24 +138,16 @@\n  := \n-float64(\n dist * c\n )%0A%0A \n@@ -142,17 +142,16 @@\n dist * c\n-)\n %0A%0A      \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-06-07_15-13-51",
+            "content": "@@ -134,24 +134,16 @@\n semp := \n-float64(\n float64(\n@@ -150,22 +150,12 @@\n dist\n-)\n  * \n-float64(c)\n+c\n )%0A%0A \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-06-07_15-14-18",
+            "content": "@@ -1,197 +1,101 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var v,t,c int%0A%0A    fmt.Scan(&v, &t, &c)%0A%0A    t\n+@@ -134,16 +134,24 @@%0A s\n emp\n-o\n  := \n-t / 60%0A    dist := v * tempo%0A    desemp := float64(dist) * float64(c)%0A%0A        fmt.Print(desemp)%0A%7D\n+%0A+float64(%0A float64(%0A@@ -168,16 +168,17 @@%0A oat64(c)%0A+)%0A %250A%250A      \n %0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-06-07_15-20-37",
+            "content": "@@ -82,16 +82,31 @@\n c)%0A%0A    \n+tempo := t / 60\n %0A    dis\n@@ -118,16 +118,13 @@\n v * \n-(t / 60)\n+tempo\n %0A   \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-06-07_15-21-57",
+            "content": "@@ -74,24 +74,29 @@\n v, &t, &c)%0A%0A\n+    %0A\n     dist := \n@@ -171,19 +171,9 @@\n rint\n-f(%22%25.2f/n%22,\n+(\n dese\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-06-07_15-22-56",
+            "content": "@@ -173,9 +173,9 @@\n %25.2f\n-%5C\n+/\n n%22,d\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-07_15-23-04",
+            "content": "@@ -131,17 +131,17 @@\n 4(dist) \n-/\n+*\n  float64\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-07_15-23-23",
+            "content": "@@ -1,89 +1,34 @@\n-package main%0Aimport %22fmt%22%0Afunc main() %7B%0A    var v,t,c int%0A%0A    fmt.Scan(&v, &t, &c)%0A%0A\n+@@ -82,79 +82,8 @@%0A c)%250A%250A%0A-\n     \n@@ -32,17 +32,19 @@\n    if v \n-%3C\n+%253C\n = 0 && t\n@@ -44,17 +44,19 @@\n  0 && t \n-%3C\n+%253C\n = 0 && c\n@@ -60,14 +60,20 @@\n & c \n-%3C= 0%7B%0A\n+%253C= 0%257B%250A\n     \n@@ -86,29 +86,37 @@\n turn\n-%0A\n+%250A\n     \n-%7D\n+%257D\n  else\n-%7B%0A\n+%257B%250A\n         \n %0A   \n@@ -115,116 +115,63 @@\n     \n+%250A\n %0A    \n-dist := v * (t / 60)%0A    desemp := float64(dist) / float64(c)%0A%0A        fmt.Printf(%22%25.2f%5Cn%22,desemp)%0A    %7D%0A%7D\n+ %0A@@ -185,12 +185,6 @@%0A mp)%250A%0A-    %257D%250A%0A %257D%250A\n %0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-06-07_15-27-32",
+            "content": "@@ -244,17 +244,16 @@\n %25.2f%5Cn%22,\n- \n desemp)%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-06-07_15-28-01",
+            "content": "@@ -81,58 +81,104 @@\n &c)%0A\n-        %0A    dist := float64(v) * float64(\n+%0A    if v %3C= 0 && t %3C= 0 && c %3C= 0%7B%0A        return%0A    %7D else%7B%0A        %0A    dist := v * \n (t / 60)\n )%0A  \n@@ -173,17 +173,16 @@\n (t / 60)\n-)\n %0A    des\n@@ -253,10 +253,16 @@\n desemp)%0A\n+    %7D%0A\n %7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-06-07_15-28-52",
+            "content": "@@ -123,17 +123,17 @@\n t64(\n+(\n t\n-)\n  / 60\n-.0\n+))\n %0A   \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-07_15-30-33",
+            "content": "@@ -143,20 +143,29 @@\n semp := \n+float64(\n dist\n+)\n  / float\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-07_15-30-52",
+            "content": "@@ -111,17 +111,16 @@\n 64(v) * \n-(\n float64(\n@@ -128,17 +128,16 @@\n ) / 60.0\n-)\n %0A    des\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-07_15-31-19",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -47,12 +47,10 @@\n r v,\n- \n t,\n- \n c in\n@@ -77,17 +77,25 @@\n &t, &c)%0A\n+        \n %0A\n-\n     dist\n@@ -164,16 +164,20 @@\n t64(c)%0A%0A\n+    \n     fmt.\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-07_15-32-32",
+            "content": "@@ -51,30 +51,15 @@\n v, t\n+, c\n  int\n-%0A    var c float64\n %0A%0A  \n@@ -148,17 +148,26 @@\n  dist / \n-c\n+float64(c)\n %0A%0A    fm\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-06-07_15-34-51",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n    var v, t int\n    var c float64\n\n    fmt.Scan(&v, &t, &c)\n\n    dist := float64(v) * (float64(t) / 60.0)\n    desemp := dist / c\n\n    fmt.Printf(\"%.2f\\n\", desemp)\n}\n",
+            "lines": "15"
         }
     ]
 }

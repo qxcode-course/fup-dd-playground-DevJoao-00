@@ -47,8 +47,98 @@
         },
         {
             "label": "2026-06-01_17-29-27",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n,m int\n\n    fmt.Scan(&n, &m)\n\n    vetn := make([] int, n)\n    vetm := make([] int, m)\n\n    for i := 0; i < n; i++ {\n        fmt.Scan(&vetn[i])\n    }\n    \n    for j := 0; j < m; j++ {\n            fmt.Scan(&vetm[j])\n        }\n        fmt.Println(vetn)\n        fmt.Println(vetm)\n}\n",
+            "content": "@@ -185,28 +185,31 @@\n etn%5Bi%5D)%0A    \n+%7D%0A\n     \n+%0A\n     for j :=\n@@ -233,28 +233,24 @@\n             \n-    \n fmt.Scan(&ve\n@@ -268,131 +268,60 @@\n     \n-        %0A                if vetn%5Bi%5D == vetm%5Bj%5D%7B%0A                    fmt.Println(%22sim%22)%0A                %7D%0A            %7D%0A    %7D\n+%7D%0A        fmt.Println(vetn)%0A        fmt.Println(vetm)\n %0A%7D%0A\n",
             "lines": "20"
+        },
+        {
+            "label": "2026-06-07_20-06-10",
+            "content": "@@ -373,54 +373,8 @@\n    %7D\n- else %7B%0A                    fmt.Println(%22nao%22)\n %0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-06-07_20-07-08",
+            "content": "@@ -373,63 +373,14 @@\n    %7D\n-%0A                %0A                if vetn%5Bi%5D != vetm%5Bj%5D\n+ else \n %7B%0A  \n@@ -428,20 +428,16 @@\n         \n-    \n %7D%0A    %7D%0A\n@@ -438,10 +438,8 @@\n     %7D%0A%7D%0A\n-%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-06-07_20-07-52",
+            "content": "@@ -297,30 +297,139 @@\n  if \n-len(vetn) == len(\n+vetn%5Bi%5D == vetm%5Bj%5D%7B%0A                    fmt.Println(%22sim%22)%0A                %7D%0A                %0A                if vetn%5Bi%5D != \n vetm\n-)\n+%5Bj%5D\n %7B%0A  \n@@ -451,35 +451,35 @@\n    fmt.Println(%22\n-sim\n+nao\n %22)%0A             \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-06-07_20-08-43",
+            "content": "@@ -294,12 +294,10 @@\n     \n-a :=\n+if\n  len\n@@ -306,65 +306,21 @@\n etn)\n-%0A                b := len(vetm)%0A                if a == b\n+ == len(vetm)\n %7B%0A  \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-06-07_20-10-03",
+            "content": "@@ -294,29 +294,79 @@\n     \n-if vetn%5Bi%5D == vetm%5Bj%5D\n+a := len(vetn)%0A                b := len(vetm)%0A                if a == b\n %7B%0A  \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-06-07_20-10-18",
+            "content": "@@ -300,19 +300,19 @@\n  vet\n-m%5Bj\n+n%5Bi\n %5D == vet\n n%5Bi%5D\n@@ -307,19 +307,19 @@\n %5D == vet\n-n%5Bi\n+m%5Bj\n %5D%7B%0A     \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-06-07_20-11-29",
+            "content": "@@ -300,23 +300,19 @@\n  vet\n-n%5Bi - 1\n+m%5Bj\n %5D == vet\n m%5Bj%5D\n@@ -307,19 +307,19 @@\n %5D == vet\n-m%5Bj\n+n%5Bi\n %5D%7B%0A     \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-06-07_20-12-41",
+            "content": "@@ -318,10 +318,8 @@\n tm%5Bj\n--1\n %5D%7B%0A \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-06-07_20-13-05",
+            "content": "@@ -299,16 +299,20 @@\n f vetn%5Bi\n+ - 1\n %5D == vet\n@@ -314,16 +314,18 @@\n = vetm%5Bj\n+-1\n %5D%7B%0A     \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-06-07_20-13-14",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -37,24 +37,29 @@\n ) %7B%0A\n-%09\n+    \n var n,\n- \n m int%0A%0A\n-%09\n+    \n fmt.\n@@ -69,16 +69,23 @@\n n(&n\n-)%0A%0A%09vet1\n+, &m)%0A%0A    vetn\n  := \n@@ -95,16 +95,17 @@\n e(%5B%5D\n+ \n int, n)%0A\n %0A%09fo\n@@ -104,80 +104,16 @@\n  n)%0A\n-%0A%09for i := 0; i %3C n; i++ %7B%0A%09%09fmt.Scan(&vet1%5Bi%5D)%0A%09%7D%0A%0A%09fmt.Scan(&m)%0A%0A%09vet2\n+    vetm\n  := \n@@ -119,16 +119,17 @@\n  make(%5B%5D\n+ \n int, m)%0A\n@@ -129,17 +129,20 @@\n nt, m)%0A%0A\n-%09\n+    \n for i :=\n@@ -153,17 +153,17 @@\n i %3C \n-m\n+n\n ; i++ %7B%0A\n %09%09fm\n@@ -158,18 +158,24 @@\n ; i++ %7B%0A\n-%09%09\n+        \n fmt.Scan\n@@ -183,103 +183,126 @@\n &vet\n-2\n+n\n %5Bi%5D)%0A\n-%09%7D%0A%0A%09\n+            \n for \n-i\n+j\n  := 0; \n-i %3C n; i\n+j %3C m; j\n ++ %7B%0A\n-%09%09encontrou := false%0A%0A%09%09for j := 0; j %3C m; j++ %7B%0A%09%09%09\n+                fmt.Scan(&vetm%5Bj%5D)%0A                %0A                \n if vet\n-1\n+n\n %5Bi%5D \n@@ -311,132 +311,77 @@\n  vet\n-2\n+m\n %5Bj%5D\n- \n %7B%0A\n-%09%09%09%09encontrou = true%0A%09%09%09%09break%0A%09%09%09%7D%0A%09%09%7D%0A%0A%09%09if !encontrou %7B%0A%09%09%09fmt.Println(%22n%C3%A3o%22)%0A%09%09%09return%0A%09%09%7D%0A%09%7D%0A%0A%09fmt.Println(%22sim%22)\n+                    fmt.Println(%22sim%22)%0A                %7D%0A    %7D%0A%7D\n %0A%7D%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-06-07_20-18-02",
+            "content": "@@ -410,17 +410,17 @@\n intln(%22n\n-a\n+%C3%A3\n o%22)%0A%09%09%09r\n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-07_20-18-10",
+            "content": "@@ -93,30 +93,8 @@\n  n)%0A\n-vet2 := make(%5B%5Dint, m)\n %0A%09fo\n@@ -157,16 +157,38 @@\n n(&m)%0A%0A%09\n+vet2 := make(%5B%5Dint, m)\n %0A%0A%09for i\n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-07_20-18-24",
+            "content": "@@ -93,12 +93,8 @@\n  n)%0A\n-    \n vet2\n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-07_20-18-25",
+            "content": "@@ -89,16 +89,42 @@\n int, n)%0A\n+    vet2 := make(%5B%5Dint, m)\n %0A%09for i \n@@ -183,38 +183,16 @@\n n(&m)%0A%0A%09\n-vet2 := make(%5B%5Dint, m)\n %0A%0A%09for i\n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-07_20-18-39",
+            "content": "@@ -6,16 +6,17 @@\n ge main%0A\n+%0A\n import %22\n@@ -20,16 +20,17 @@\n t %22fmt%22%0A\n+%0A\n func mai\n@@ -68,29 +68,8 @@\n &n)%0A\n-    fmt.Scan(&m)%0A    \n %0A%09ve\n@@ -142,16 +142,28 @@\n %5D)%0A%09%7D%0A%0A%09\n+fmt.Scan(&m)\n %0A%0A%09vet2 \n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-07_20-19-00",
+            "content": "@@ -62,16 +62,37 @@\n can(&n)%0A\n+    fmt.Scan(&m)%0A    \n %0A%09vet1 :\n@@ -161,28 +161,16 @@\n %5D)%0A%09%7D%0A%0A%09\n-fmt.Scan(&m)\n %0A%0A%09vet2 \n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-06-07_20-19-09",
+            "content": "@@ -378,16 +378,17 @@\n %7D%0A%0A%09%09if \n+!\n encontro\n@@ -393,16 +393,8 @@\n rou \n-== false\n %7B%0A%09%09\n",
+            "lines": "39"
+        },
+        {
+            "label": "2026-06-07_20-19-58",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n\tvar n, m int\n\n\tfmt.Scan(&n)\n\n\tvet1 := make([]int, n)\n\n\tfor i := 0; i < n; i++ {\n\t\tfmt.Scan(&vet1[i])\n\t}\n\n\tfmt.Scan(&m)\n\n\tvet2 := make([]int, m)\n\n\tfor i := 0; i < m; i++ {\n\t\tfmt.Scan(&vet2[i])\n\t}\n\n\tfor i := 0; i < n; i++ {\n\t\tencontrou := false\n\n\t\tfor j := 0; j < m; j++ {\n\t\t\tif vet1[i] == vet2[j] {\n\t\t\t\tencontrou = true\n\t\t\t\tbreak\n\t\t\t}\n\t\t}\n\n\t\tif encontrou == false{\n\t\t\tfmt.Println(\"nao\")\n\t\t\treturn\n\t\t}\n\t}\n\n\tfmt.Println(\"sim\")\n}\n",
+            "lines": "39"
         }
     ]
 }

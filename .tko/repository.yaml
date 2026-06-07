@@ -20,10 +20,8 @@ sources:
   quests: null
 expanded:
 - fup@struct
-- fup@mat
 - fup@base
 - fup@list
-- fup@string
 flags:
   inbox: all
   panel: skills
@@ -31,5 +29,5 @@ flags:
   task_graph_mode: time
   show_time: 'true'
 lang: go
-selected: fup@opala
-selected_index: 13
+selected: fup@fila
+selected_index: 36
