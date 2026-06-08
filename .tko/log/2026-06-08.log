@@ -1,0 +1,15 @@
+2026-06-08 16:54:46, MOVE, v:1, k:sandbox@user_004, mode:PICK
+2026-06-08 16:54:50, EXEC, v:1, k:sandbox@user_004, mode:LOCK, rate:0, size:5
+2026-06-08 16:54:59, EXEC, v:1, k:sandbox@user_004, mode:LOCK, rate:0, size:5
+2026-06-08 16:55:00, EXEC, v:1, k:sandbox@user_004, mode:LOCK, rate:0
+2026-06-08 16:59:15, EXEC, v:1, k:sandbox@user_004, mode:LOCK, rate:0, size:18
+2026-06-08 16:59:16, EXEC, v:1, k:sandbox@user_004, mode:LOCK, rate:0
+2026-06-08 16:59:19, EXEC, v:1, k:sandbox@user_004, mode:LOCK, rate:0
+2026-06-08 16:59:26, EXEC, v:1, k:sandbox@user_004, mode:LOCK, rate:0
+2026-06-08 16:59:27, EXEC, v:1, k:sandbox@user_004, mode:LOCK, rate:0
+2026-06-08 16:59:30, EXEC, v:1, k:sandbox@user_004, mode:FREE
+2026-06-08 16:54:44, MOVE, v:1, k:sandbox@user_004, mode:EDIT
+2026-06-08 16:59:30, MOVE, v:1, k:sandbox@user_004, mode:EDIT
+2026-06-08 16:59:07, MOVE, v:1, k:sandbox@user_004, mode:EDIT
+2026-06-08 17:03:19, MOVE, v:1, k:sandbox@user_004, mode:EDIT
+2026-06-08 17:04:29, MOVE, v:1, k:sandbox@user_004, mode:EDIT

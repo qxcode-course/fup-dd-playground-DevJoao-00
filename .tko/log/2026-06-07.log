@@ -189,3 +189,56 @@
 2026-06-07 20:21:07, MOVE, v:1, k:fup@fila, mode:DOWN
 2026-06-07 20:21:08, MOVE, v:1, k:fup@fila, mode:PICK
 2026-06-07 20:21:09, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:5
+2026-06-07 20:20:00, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-07 20:19:57, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-07 20:21:07, MOVE, v:1, k:fup@fila, mode:EDIT
+2026-06-07 20:21:07, MOVE, v:1, k:fup@fila, mode:EDIT
+2026-06-07 20:21:09, MOVE, v:1, k:fup@fila, mode:EDIT
+2026-06-07 20:24:50, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:12
+2026-06-07 20:25:43, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:15
+2026-06-07 20:27:48, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:20
+2026-06-07 20:28:04, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:20
+2026-06-07 20:28:27, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:20
+2026-06-07 20:28:25, MOVE, v:1, k:fup@fila, mode:EDIT
+2026-06-07 20:28:27, MOVE, v:1, k:fup@fila, mode:EDIT
+2026-06-07 20:28:44, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:20
+2026-06-07 20:28:45, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:29:05, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:20
+2026-06-07 20:29:07, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:30:20, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:24
+2026-06-07 20:30:21, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:30:22, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:30:23, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:33:19, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:21
+2026-06-07 20:33:20, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:33:21, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:33:30, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:21
+2026-06-07 20:33:29, MOVE, v:1, k:fup@fila, mode:EDIT
+2026-06-07 20:33:29, MOVE, v:1, k:fup@fila, mode:EDIT
+2026-06-07 20:33:34, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:21
+2026-06-07 20:33:35, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:34:56, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:26
+2026-06-07 20:34:57, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:34:58, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:34:59, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:35:00, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:35:14, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:26
+2026-06-07 20:35:14, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:26
+2026-06-07 20:35:23, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:26
+2026-06-07 20:35:51, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:27
+2026-06-07 20:35:52, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:35:58, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:36:17, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:27
+2026-06-07 20:36:17, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:27
+2026-06-07 20:37:13, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:26
+2026-06-07 20:37:15, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:37:15, MOVE, v:1, k:fup@fila, mode:EDIT
+2026-06-07 20:37:12, MOVE, v:1, k:fup@fila, mode:EDIT
+2026-06-07 20:39:18, EXEC, v:1, k:fup@fila, mode:FULL, rate:0
+2026-06-07 20:41:07, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:26
+2026-06-07 20:42:11, EXEC, v:1, k:fup@fila, mode:FULL, rate:0, size:27
+2026-06-07 20:42:42, EXEC, v:1, k:fup@fila, mode:FULL, rate:100, size:29
+2026-06-07 20:43:30, SELF, v:1, k:fup@fila, self:1, rate:100, study:30
+2026-06-07 20:43:32, MOVE, v:1, k:fup@fila, mode:BACK
+2026-06-07 20:42:42, MOVE, v:1, k:fup@fila, mode:EDIT
+2026-06-07 20:42:53, MOVE, v:1, k:fup@fila, mode:EDIT

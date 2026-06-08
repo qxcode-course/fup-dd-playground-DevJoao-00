@@ -19,8 +19,9 @@ sources:
   writeable: false
   quests: null
 expanded:
-- fup@struct
 - fup@base
+- sandbox@sandbox
+- fup@struct
 - fup@list
 flags:
   inbox: all
@@ -29,5 +30,5 @@ flags:
   task_graph_mode: time
   show_time: 'true'
 lang: go
-selected: fup@fila
-selected_index: 36
+selected: sandbox@user_004
+selected_index: 34

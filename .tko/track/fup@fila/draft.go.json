@@ -2,8 +2,98 @@
     "patches": [
         {
             "label": "2026-06-07_20-21-09",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -41,85 +41,35 @@\n     \n-var n int%0A%0A    fmt.Scan(&n)%0A%0A    fila := make(%5B%5Dint, n)%0A%0A    fmt.Println(fila\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-06-07_20-24-50",
+            "content": "@@ -98,83 +98,8 @@\n  n)%0A\n-    %0A        for i:=0; i %3C n; i++%7B%0A            fmt.Scan(&fila%5Bi%5D)%0A        %7D\n %0A   \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-07_20-25-43",
+            "content": "@@ -160,25 +160,24 @@\n ila%5Bi%5D)%0A\n-%0A\n         \n     if f\n@@ -172,145 +172,30 @@\n     \n-    if fila%5Bi%5D %25 2 == 0%7B%0A                impares := append(fila)%0A                 fmt.Println(impares)%0A            %7D%0A        %7D%0A           \n+%7D%0A    fmt.Println(fila)\n %0A%7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-06-07_20-27-47",
+            "content": "@@ -210,16 +210,18 @@\n         \n+im\n pares :=\n@@ -263,16 +263,18 @@\n Println(\n+im\n pares)%0A \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-07_20-28-04",
+            "content": "@@ -223,11 +223,14 @@\n  := \n-l\n+app\n en\n+d\n (fil\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-07_20-28-27",
+            "content": "@@ -219,23 +219,25 @@\n ares := \n+len(\n fila\n-%5Bi%5D\n+)\n %0A       \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-07_20-28-44",
+            "content": "@@ -257,16 +257,11 @@\n rint\n-f(%22%25d %22,\n+ln(\n pare\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-07_20-29-05",
+            "content": "@@ -164,134 +164,8 @@\n i%5D)%0A\n-            if fila%5Bi%5D %25 2 != 0%7B%0A                impares := fila%5Bi%5D%0A                fmt.Printf(%22%25d%5Cn%22, impares)%0A%0A            %7D\n %0A   \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-07_20-30-20",
+            "content": "@@ -112,20 +112,18 @@\n    for i\n- \n :=\n- \n 0; i %3C n\n@@ -172,42 +172,126 @@\n     \n-%7D%0A%0A        for _, p := range fila%7B\n+    if fila%5Bi%5D %25 2 != 0%7B%0A                impares := fila%5Bi%5D%0A                fmt.Printf(%22%25d%5Cn%22, impares)%0A%0A            %7D\n %0A   \n@@ -302,17 +302,23 @@\n      if \n-p\n+fila%5Bi%5D\n  %25 2 == \n@@ -318,19 +318,52 @@\n %25 2 == 0\n- \n %7B%0A\n+                pares := fila%5Bi%5D%0A \n         \n@@ -388,14 +388,16 @@\n (%22%25d\n-%5Cn%22, p\n+ %22,pares\n )%0A  \n@@ -417,17 +417,16 @@\n        %7D\n- \n %0A       \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-06-07_20-33-19",
+            "content": "@@ -263,16 +263,18 @@\n intf(%22%25d\n+%5Cn\n %22, p)%0A  \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-06-07_20-33-30",
+            "content": "@@ -263,17 +263,16 @@\n intf(%22%25d\n- \n %22, p)%0A  \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-06-07_20-33-34",
+            "content": "@@ -177,141 +177,8 @@\n  %7D%0A%0A\n-        for _, i := range fila%7B%0A            if i %25 2 != 0 %7B%0A                fmt.Printf(%22%25d %22, i)%0A            %7D%0A        %7D   %0A        %0A\n     \n@@ -205,16 +205,16 @@\n e fila%7B%0A\n+\n         \n@@ -284,16 +284,16 @@\n       %7D%0A\n-\n         \n@@ -293,11 +293,24 @@\n        %7D\n+ %0A           \n %0A%7D%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-06-07_20-34-56",
+            "content": "@@ -1,438 +1,45 @@\n-package main%0Aimport %22fmt%22%0A%0Afunc main() %7B%0A    var n int%0A%0A    fmt.Scan(&n)%0A%0A    fila := make(%5B%5Dint, n)%0A    %0A        for i := 0; i %3C n; i++%7B%0A            fmt.Scan(&fila%5Bi%5D)%0A        %7D%0A%0A        for _, i := range fila%7B%0A            if i %25 2 != 0 %7B%0A                fmt.Printf(%22%25d %5Cn%22, i)%0A            %7D%0A        %7D   %0A        %0A        for _, p := range fila%7B%0A            if p %25 2 == 0 %7B%0A                fmt.Printf(%22%25d %22, p)%0A            %7D%0A        %7D%0A%7D\n+@@ -268,10 +268,8 @@%0A %2522%2525d %0A-%255Cn%0A %2522, i\n %0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2026-06-07_20-35-23",
+            "content": "@@ -268,46 +268,16 @@\n %22%25d \n+%5Cn\n %22, i)%0A\n-                fmt.Println(%22%22)%0A\n     \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-06-07_20-35-51",
+            "content": "@@ -1,437 +1,57 @@\n-package main%0Aimport %22fmt%22%0A%0Afunc main() %7B%0A    var n int%0A%0A    fmt.Scan(&n)%0A%0A    fila := make(%5B%5Dint, n)%0A    %0A        for i := 0; i %3C n; i++%7B%0A            fmt.Scan(&fila%5Bi%5D)%0A        %7D%0A%0A        for _, i := range fila%7B%0A            if i %25 2 != 0 %7B%0A                fmt.Printf(%22%25d%5Cn%22, i)%0A            %7D%0A        %7D   %0A        %0A        for _, p := range fila%7B%0A            if p %25 2 == 0 %7B%0A                fmt.Printf(%22%25d %22, p)%0A            %7D%0A        %7D%0A%7D\n+@@ -299,13 +299,12 @@%0A rint%0A-f(%2522%255Cn%0A+ln(%2522%0A %2522)%250A \n %0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-07_20-37-13",
+            "content": "@@ -176,31 +176,8 @@\n   %7D%0A\n-        fmt.Print(%22%5B %22)\n %0A   \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-06-07_20-41-06",
+            "content": "@@ -286,17 +286,18 @@\n intf(%22%25d\n- \n+%5Cn\n %22, i)%0A  \n@@ -325,37 +325,8 @@\n    %0A\n-            fmt.Println(%22%5D%22)%0A\n     \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-06-07_20-42-11",
+            "content": "@@ -361,40 +361,8 @@\n     \n-    %0A            fmt.Print(%22%5B %22)\n %0A   \n@@ -483,35 +483,6 @@\n   %7D%0A\n-            fmt.Println(%22%5D%22)%0A\n %7D%0A\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-06-07_20-42-42",
+            "content": "package main\nimport \"fmt\"\n\nfunc main() {\n    var n int\n\n    fmt.Scan(&n)\n\n    fila := make([]int, n)\n    \n        for i := 0; i < n; i++{\n            fmt.Scan(&fila[i])\n        }\n        fmt.Print(\"[ \")\n        for _, i := range fila{\n            if i % 2 != 0 {\n                fmt.Printf(\"%d \", i)\n            }\n        }   \n            fmt.Println(\"]\")\n            \n            fmt.Print(\"[ \")\n        for _, p := range fila{\n            if p % 2 == 0 {\n                fmt.Printf(\"%d \", p)\n            }\n        }\n            fmt.Println(\"]\")\n}\n",
+            "lines": "29"
         }
     ]
 }

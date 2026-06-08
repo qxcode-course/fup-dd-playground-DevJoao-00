@@ -67,8 +67,23 @@
         },
         {
             "label": "2026-03-10_17-59-01",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b float64\n    fmt.Scan(&a)\n    fmt.Scan(&b)\n    fmt.Println(a, b)\n    fmt.Println(a + b)\n}\n",
+            "content": "@@ -41,35 +41,102 @@\n     \n-fmt.Println(%22Hello, World!%22\n+var a, b float64%0A    fmt.Scan(&a)%0A    fmt.Scan(&b)%0A    fmt.Println(a, b)%0A    fmt.Println(a + b\n )%0A%7D%0A\n",
             "lines": "9"
+        },
+        {
+            "label": "2026-06-08_16-54-49",
+            "content": "@@ -60,15 +60,16 @@\n llo, Wor\n+l\n d!%22)%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-08_16-54-59",
+            "content": "@@ -23,203 +23,52 @@\n mt%22%0A\n-%0Afunc soma(a,b int) int%7B%0A    soma := 0%0A%0A    for i := a; i %3C= b; i ++%7B%0A        soma += i%0A    %7D%0A        return soma%0A%7D%0Afunc main() %7B%0A    var a, b int%0A%0A    fmt.Scan(&a, &b)%0A%0A    fmt.Println(soma(a,b)\n+func main() %7B%0A    fmt.Println(%22Hello, Word!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-08_16-59-15",
+            "content": "package main\nimport \"fmt\"\n\nfunc soma(a,b int) int{\n    soma := 0\n\n    for i := a; i <= b; i ++{\n        soma += i\n    }\n        return soma\n}\nfunc main() {\n    var a, b int\n\n    fmt.Scan(&a, &b)\n\n    fmt.Println(soma(a,b))\n}\n",
+            "lines": "18"
         }
     ]
 }
