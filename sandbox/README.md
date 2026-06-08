@@ -12,4 +12,7 @@ Sinta-se à vontade para organizar seus rascunhos em subpastas dentro do sandbox
 - [ ] `@user_002 🛠️ 👤 type=make xp=1 tier=1 loss=part :self` [dia27](user_002/README.md)
 - [ ] `@user_003 🛠️ 👤 type=make xp=1 tier=1 loss=part :self` [string](user_003/README.md)
 
-- [ ] `@user_004 👤 xp=1                                 ` [revisao](user_004/README.md)
+- [ ] `@user_004 🛠️ 👤 type=make xp=1 tier=1 loss=part :self` [revisao](user_004/README.md)
+- [ ] `@user_005 🛠️ 👤 type=make xp=1 tier=1 loss=part :self` [revisao2](user_005/README.md)
+- [ ] `@user_006 🛠️ 👤 type=make xp=1 tier=1 loss=part :self` [revisao 3](user_006/README.md)
+- [ ] `@user_007 👤 xp=1                                 ` [revisao4](user_007/README.md)

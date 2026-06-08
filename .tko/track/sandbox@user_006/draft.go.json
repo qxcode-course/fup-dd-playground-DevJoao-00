@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-08_17-39-48",
+            "content": "package main\nimport \"fmt\"\n\nfunc desp(Pessoas[]int)int{\n    cont := 0\n\n    for i := 0; i < len(Pessoas); i++{\n        if i == 0 && Pessoas[i] == 0 && Pessoas[i - 1] == 0{\n            cont ++\n        }\n    }   \n        return cont\n}\nfunc main() {\n    var n int\n\n    fmt.Scan(&n)\n    vet := make([]int, n)\n\n    for i:= 0; i < n; i++{\n    fmt.Scan(&vet[i])\n\n\n    }\n    fmt.Println(desp(vet))\n}\n",
+            "lines": "26"
+        }
+    ]
+}
