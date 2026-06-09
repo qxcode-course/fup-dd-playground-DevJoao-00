@@ -19,10 +19,8 @@ sources:
   writeable: false
   quests: null
 expanded:
-- fup@list
 - fup@struct
-- sandbox@sandbox
-- fup@base
+- fup@list
 flags:
   inbox: all
   panel: skills
@@ -30,5 +28,5 @@ flags:
   task_graph_mode: time
   show_time: 'true'
 lang: go
-selected: sandbox@user_005
-selected_index: 5
+selected: fup@troco
+selected_index: 22
