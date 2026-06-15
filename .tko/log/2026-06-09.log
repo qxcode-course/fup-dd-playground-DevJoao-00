@@ -1,3 +1,10 @@
 2026-06-09 17:06:28, MOVE, v:1, k:fup@troco, mode:DOWN
 2026-06-09 17:06:29, MOVE, v:1, k:fup@troco, mode:PICK
 2026-06-09 17:06:32, EXEC, v:1, k:fup@troco, mode:FULL, rate:0, size:5
+2026-06-09 17:07:28, EXEC, v:1, k:fup@troco, mode:FULL, rate:0
+2026-06-09 17:07:37, MOVE, v:1, k:fup@troco, mode:PICK
+2026-06-09 17:07:38, EXEC, v:1, k:fup@troco, mode:FULL, rate:0
+2026-06-09 17:07:38, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-09 17:17:27, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-09 17:22:31, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-09 17:25:04, MOVE, v:1, k:fup@troco, mode:EDIT

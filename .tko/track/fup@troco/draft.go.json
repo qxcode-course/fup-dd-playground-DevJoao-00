@@ -2,8 +2,48 @@
     "patches": [
         {
             "label": "2026-06-09_17-06-32",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -41,406 +41,35 @@\n     \n-var troco float64%0A%0A    fmt.Scan(&troco)%0A%0A    vet := %5B%5Dfloat64%7B100.00, 50.00, 20.00, 10.00, 5.00, 2.00, 1.00, 0.50, 0.25, 0.10, 0.05%7D%0A        %0A    for _, moeda := range vet%7B%0A        qtd := int(troco / moeda)%0A%0A        if qtd %3E 0 %7B%0A            fmt.Printf(%22%25d de %25.2f%5Cn%22, qtd, moeda)%0A            troco = troco - float64(qtd)*moeda%0A        %7D%0A    %7D%0A%0A    if troco %3E 0 %7B%0A        fmt.Println(%22falta%22, )%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-06-14_18-34-46",
+            "content": "@@ -429,21 +429,16 @@\n falta%22, \n-troco\n )%0A    %7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-06-14_18-35-00",
+            "content": "@@ -425,9 +425,9 @@\n ln(%22\n-F\n+f\n alta\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-06-14_18-35-12",
+            "content": "@@ -52,18 +52,18 @@\n co float\n-32\n+64\n %0A%0A    fm\n@@ -96,18 +96,18 @@\n  %5B%5Dfloat\n-32\n+64\n %7B100.00,\n@@ -354,10 +354,10 @@\n loat\n-32\n+64\n (qtd\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-06-14_18-42-57",
+            "content": "@@ -52,18 +52,18 @@\n co float\n-64\n+32\n %0A%0A    fm\n@@ -82,50 +82,8 @@\n o)%0A%0A\n-    troco = float64(troco * 100) / 100.0%0A%0A\n     \n@@ -100,63 +100,79 @@\n loat\n-64\n+32\n %7B100\n+.\n 00, 50\n+.\n 00, 20\n+.\n 00, 10\n+.\n 00, 5\n+.\n 00, 2\n+.\n 00, 1\n+.\n 00, \n+0.\n 50, \n+0.\n 25, \n+0.\n 10, \n+0.0\n 5%7D%0A \n@@ -354,10 +354,10 @@\n loat\n-64\n+32\n (qtd\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-06-14_18-46-16",
+            "content": "@@ -148,73 +148,57 @@\n %7B100\n-.\n 00, 50\n-.\n 00, 20\n-.\n 00, 10\n-.\n 00, 5\n-.\n 00, 2\n-.\n 00, 1\n-.\n 00, \n-0.\n 50, \n-0.\n 25, \n-0.\n 10, \n-0.0\n 5%7D%0A \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-06-14_18-46-50",
+            "content": "@@ -399,19 +399,17 @@\n t64(qtd)\n- * \n+*\n moeda%0A  \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-06-14_18-47-20",
+            "content": "@@ -465,23 +465,17 @@\n rint\n-f\n+ln\n (%22Falta\n- %25.2f%5Cn\n %22, t\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-06-14_18-47-56",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var troco float64\n\n    fmt.Scan(&troco)\n\n    troco = float64(troco * 100) / 100.0\n\n    vet := []float64{100.00, 50.00, 20.00, 10.00, 5.00, 2.00, 1.00, 0.50, 0.25, 0.10, 0.05}\n        \n    for _, moeda := range vet{\n        qtd := int(troco / moeda)\n\n        if qtd > 0 {\n            fmt.Printf(\"%d de %.2f\\n\", qtd, moeda)\n            troco = troco - float64(qtd) * moeda\n        }\n    }\n\n    if troco > 0 {\n        fmt.Printf(\"Falta %.2f\\n\", troco)\n    }\n}\n",
+            "lines": "24"
         }
     ]
 }

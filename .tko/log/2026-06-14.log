@@ -1,0 +1,53 @@
+2026-06-14 18:17:43, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-14 18:19:14, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-14 18:29:08, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-14 18:34:09, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-14 18:34:43, MOVE, v:1, k:fup@troco, mode:PICK
+2026-06-14 18:34:46, EXEC, v:1, k:fup@troco, mode:FULL, rate:40, size:22
+2026-06-14 18:35:00, EXEC, v:1, k:fup@troco, mode:FULL, rate:40, size:22
+2026-06-14 18:35:12, EXEC, v:1, k:fup@troco, mode:FULL, rate:40, size:22
+2026-06-14 18:35:11, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-14 18:35:12, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-14 18:42:29, EXEC, v:1, k:fup@troco, mode:FULL, rate:40
+2026-06-14 18:42:57, EXEC, v:1, k:fup@troco, mode:FULL, rate:40, size:22
+2026-06-14 18:44:10, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-14 18:42:57, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-14 18:46:16, EXEC, v:1, k:fup@troco, mode:FULL, rate:0, size:24
+2026-06-14 18:46:18, EXEC, v:1, k:fup@troco, mode:FULL, rate:0
+2026-06-14 18:46:50, EXEC, v:1, k:fup@troco, mode:FULL, rate:40, size:24
+2026-06-14 18:47:20, EXEC, v:1, k:fup@troco, mode:FULL, rate:40, size:24
+2026-06-14 18:47:56, EXEC, v:1, k:fup@troco, mode:FULL, rate:100, size:24
+2026-06-14 18:47:54, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-14 18:47:55, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-14 18:51:18, SELF, v:1, k:fup@troco, self:1, rate:100, study:20
+2026-06-14 18:51:20, MOVE, v:1, k:fup@troco, mode:BACK
+2026-06-14 18:55:37, MOVE, v:1, k:fup@parkour, mode:DOWN
+2026-06-14 18:55:37, MOVE, v:1, k:fup@parkour, mode:PICK
+2026-06-14 18:55:38, EXEC, v:1, k:fup@parkour, mode:FULL, rate:0, size:5
+2026-06-14 18:55:49, EXEC, v:1, k:fup@parkour, mode:FULL, size:47, fail:COMP
+2026-06-14 18:55:50, EXEC, v:1, k:fup@parkour, mode:FULL, fail:COMP
+2026-06-14 18:55:51, EXEC, v:1, k:fup@parkour, mode:FULL, fail:COMP
+2026-06-14 18:55:51, EXEC, v:1, k:fup@parkour, mode:FULL, fail:COMP
+2026-06-14 18:55:51, EXEC, v:1, k:fup@parkour, mode:FULL, fail:COMP
+2026-06-14 18:55:52, EXEC, v:1, k:fup@parkour, mode:FULL, fail:COMP
+2026-06-14 18:55:52, EXEC, v:1, k:fup@parkour, mode:FULL, fail:COMP
+2026-06-14 18:55:52, EXEC, v:1, k:fup@parkour, mode:FULL, fail:COMP
+2026-06-14 18:56:00, EXEC, v:1, k:fup@parkour, mode:FULL, size:47, fail:COMP
+2026-06-14 18:56:01, EXEC, v:1, k:fup@parkour, mode:FULL, fail:COMP
+2026-06-14 18:56:01, EXEC, v:1, k:fup@parkour, mode:FULL, fail:COMP
+2026-06-14 18:56:02, EXEC, v:1, k:fup@parkour, mode:FULL, fail:COMP
+2026-06-14 18:56:12, EXEC, v:1, k:fup@parkour, mode:FULL, rate:0, size:47
+2026-06-14 18:56:13, EXEC, v:1, k:fup@parkour, mode:FULL, rate:0
+2026-06-14 18:56:14, EXEC, v:1, k:fup@parkour, mode:FULL, rate:0
+2026-06-14 18:56:15, EXEC, v:1, k:fup@parkour, mode:FULL, rate:0
+2026-06-14 18:56:22, EXEC, v:1, k:fup@parkour, mode:FULL, rate:0
+2026-06-14 18:56:23, EXEC, v:1, k:fup@parkour, mode:FULL, rate:100, size:46
+2026-06-14 18:55:37, MOVE, v:1, k:fup@parkour, mode:EDIT
+2026-06-14 18:55:37, MOVE, v:1, k:fup@parkour, mode:EDIT
+2026-06-14 18:56:23, MOVE, v:1, k:fup@parkour, mode:EDIT
+2026-06-14 18:56:22, MOVE, v:1, k:fup@parkour, mode:EDIT
+2026-06-14 19:03:18, EXEC, v:1, k:fup@parkour, mode:FULL, rate:75, size:44
+2026-06-14 19:03:19, EXEC, v:1, k:fup@parkour, mode:FULL, rate:75
+2026-06-14 19:03:29, EXEC, v:1, k:fup@parkour, mode:FULL, rate:100, size:43
+2026-06-14 19:03:28, MOVE, v:1, k:fup@parkour, mode:EDIT
+2026-06-14 19:03:29, MOVE, v:1, k:fup@parkour, mode:EDIT

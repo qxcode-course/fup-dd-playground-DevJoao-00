@@ -28,5 +28,5 @@ flags:
   task_graph_mode: time
   show_time: 'true'
 lang: go
-selected: fup@troco
-selected_index: 22
+selected: fup@parkour
+selected_index: 25
