@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-15_16-40-50",
+            "content": "@@ -41,235 +41,35 @@\n     \n-var N int%0A%0A    fmt.Scan(&N)%0A%0A    pares := make(%5B%5Dint, N)%0A%0A    cont := 0%0A    for i := 0; i %3C N; i++ %7B%0A        fmt.Scan(&pares%5Bi%5D)%0A%0A        if pares%5Bi%5D != pares%5Bi-1%5D %7B%0A            cont ++%0A        %7D%0A%0A    %7D%0A        fmt.Println(cont\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-15_16-46-08",
+            "content": "@@ -202,9 +202,9 @@\n s%5Bi-\n-2\n+1\n %5D %7B%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-15_16-46-20",
+            "content": "@@ -197,17 +197,17 @@\n  pares%5Bi\n-+\n+-\n 2%5D %7B%0A   \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-15_16-46-28",
+            "content": "@@ -201,15 +201,10 @@\n es%5Bi\n- * (-1)\n++2\n %5D %7B%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-15_16-47-03",
+            "content": "@@ -191,16 +191,26 @@\n %5Bi%5D \n-%25 2 == 0\n+!= pares%5Bi * (-1)%5D\n  %7B%0A \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-15_16-49-57",
+            "content": "@@ -171,49 +171,8 @@\n %5D)%0A%0A\n-        pares = append(pares, pares%5Bi%5D)%0A%0A\n     \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-06-15_16-50-37",
+            "content": "@@ -239,10 +239,9 @@\n  == \n--1\n+0\n  %7B%0A \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-06-15_16-50-52",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var N int\n\n    fmt.Scan(&N)\n\n    pares := make([]int, N)\n\n    cont := 0\n    for i := 0; i < N; i++ {\n        fmt.Scan(&pares[i])\n\n        pares = append(pares, pares[i])\n\n        if pares[i] % 2 == -1 {\n            cont ++\n        }\n\n    }\n        fmt.Println(cont)\n}\n",
+            "lines": "22"
+        }
+    ]
+}

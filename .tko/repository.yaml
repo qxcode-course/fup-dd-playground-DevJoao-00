@@ -19,8 +19,8 @@ sources:
   writeable: false
   quests: null
 expanded:
-- fup@struct
 - fup@list
+- fup@struct
 flags:
   inbox: all
   panel: skills
@@ -28,5 +28,5 @@ flags:
   task_graph_mode: time
   show_time: 'true'
 lang: go
-selected: fup@parkour
-selected_index: 25
+selected: fup@casais
+selected_index: 23

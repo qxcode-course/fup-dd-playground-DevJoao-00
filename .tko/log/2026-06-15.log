@@ -1,0 +1,32 @@
+2026-06-15 16:40:15, MOVE, v:1, k:fup@parkour, mode:PICK
+2026-06-15 16:40:18, EXEC, v:1, k:fup@parkour, mode:FULL, rate:100
+2026-06-15 16:40:20, MOVE, v:1, k:fup@parkour, mode:BACK
+2026-06-15 16:40:34, SELF, v:1, k:fup@parkour, self:1, rate:100, study:30
+2026-06-15 16:40:49, MOVE, v:1, k:fup@casais, mode:DOWN
+2026-06-15 16:40:49, MOVE, v:1, k:fup@casais, mode:PICK
+2026-06-15 16:40:50, EXEC, v:1, k:fup@casais, mode:FULL, rate:0, size:5
+2026-06-15 16:40:18, MOVE, v:1, k:fup@parkour, mode:EDIT
+2026-06-15 16:40:48, MOVE, v:1, k:fup@casais, mode:EDIT
+2026-06-15 16:40:49, MOVE, v:1, k:fup@casais, mode:EDIT
+2026-06-15 16:40:49, MOVE, v:1, k:fup@casais, mode:EDIT
+2026-06-15 16:40:50, MOVE, v:1, k:fup@casais, mode:EDIT
+2026-06-15 16:45:07, MOVE, v:1, k:fup@casais, mode:EDIT
+2026-06-15 16:46:08, EXEC, v:1, k:fup@casais, mode:FULL, rate:0, size:20
+2026-06-15 16:46:20, EXEC, v:1, k:fup@casais, mode:FULL, rate:0, size:20
+2026-06-15 16:46:21, EXEC, v:1, k:fup@casais, mode:FULL, rate:0
+2026-06-15 16:46:28, EXEC, v:1, k:fup@casais, mode:FULL, rate:0, size:20
+2026-06-15 16:46:29, EXEC, v:1, k:fup@casais, mode:FULL, rate:0
+2026-06-15 16:47:03, EXEC, v:1, k:fup@casais, mode:FULL, rate:0, size:20
+2026-06-15 16:47:05, EXEC, v:1, k:fup@casais, mode:FULL, rate:0
+2026-06-15 16:47:05, EXEC, v:1, k:fup@casais, mode:FULL, rate:0
+2026-06-15 16:47:06, EXEC, v:1, k:fup@casais, mode:FULL, rate:0
+2026-06-15 16:47:06, EXEC, v:1, k:fup@casais, mode:FULL, rate:0
+2026-06-15 16:49:57, EXEC, v:1, k:fup@casais, mode:FULL, rate:25, size:20
+2026-06-15 16:49:56, MOVE, v:1, k:fup@casais, mode:EDIT
+2026-06-15 16:49:57, MOVE, v:1, k:fup@casais, mode:EDIT
+2026-06-15 16:50:37, EXEC, v:1, k:fup@casais, mode:FULL, rate:25, size:22
+2026-06-15 16:50:52, EXEC, v:1, k:fup@casais, mode:FULL, rate:100, size:22
+2026-06-15 16:50:49, MOVE, v:1, k:fup@casais, mode:EDIT
+2026-06-15 16:50:52, MOVE, v:1, k:fup@casais, mode:EDIT
+2026-06-15 17:04:44, SELF, v:1, k:fup@casais, self:1, rate:100, study:10
+2026-06-15 17:04:45, MOVE, v:1, k:fup@casais, mode:BACK
