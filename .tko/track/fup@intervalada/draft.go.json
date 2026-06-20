@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-20_15-36-55",
+            "content": "@@ -41,35 +41,35 @@\n     \n-var n int %0A%0A    fmt.Scan(&n\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-20_19-18-29",
+            "content": "@@ -69,122 +69,7 @@\n (&n)\n-%0A%0A    vet := make(%5B%5Dint, n)%0A%0A    for i := 0; i %3C= n; i++ %7B%0A        fmt.Scan(&vet%5Bi%5D)%0A    %7D%0A        fmt.Println(vet)\n %0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-06-20_19-27-57",
+            "content": "@@ -113,16 +113,17 @@\n = 0; i %3C\n+=\n  n; i++ \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-06-20_19-28-09",
+            "content": "@@ -131,16 +131,33 @@\n         \n+fmt.Scan(&vet%5Bi%5D)\n %0A    %7D%0A \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-06-20_19-29-26",
+            "content": "@@ -46,16 +46,8 @@\n ar n\n-, li, ls\n  int\n@@ -68,16 +68,8 @@\n n(&n\n-,&li,&ls\n )%0A%0A \n@@ -135,25 +135,8 @@\n     \n-fmt.Scan(&vet%5Bi%5D)\n %0A   \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-06-20_19-32-18",
+            "content": "@@ -112,22 +112,8 @@\n , n)\n-%0A    cont := 0\n %0A%0A  \n@@ -168,80 +168,8 @@\n %5Bi%5D)\n-%0A%0A        if vet%5Bi%5D %3E= li && vet%5Bi%5D %3C= ls %7B%0A            cont++%0A        %7D\n %0A   \n@@ -195,11 +195,10 @@\n tln(\n-con\n+ve\n t)%0A%7D\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-06-20_19-33-17",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n, li, ls int \n\n    fmt.Scan(&n,&li,&ls)\n\n    vet := make([]int, n)\n    cont := 0\n\n    for i := 0; i < n; i++ {\n        fmt.Scan(&vet[i])\n\n        if vet[i] >= li && vet[i] <= ls {\n            cont++\n        }\n    }\n        fmt.Println(cont)\n}\n",
+            "lines": "19"
+        }
+    ]
+}

@@ -24,9 +24,11 @@ expanded:
 flags:
   inbox: all
   panel: skills
-  show_panel: 'true'
   task_graph_mode: time
   show_time: 'true'
+audit:
+  enabled: false
+  interval_seconds: null
 lang: go
-selected: fup@casais
-selected_index: 23
+selected: fup@unhas
+selected_index: 34

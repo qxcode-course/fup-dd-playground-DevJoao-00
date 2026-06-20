@@ -1,0 +1,31 @@
+2026-06-20 15:33:59, MOVE, v:1, k:fup@casais, mode:PICK
+2026-06-20 15:34:02, EXEC, v:1, k:fup@casais, mode:FULL, rate:100
+2026-06-20 15:35:06, MOVE, v:1, k:fup@casais, mode:BACK
+2026-06-20 15:35:16, MOVE, v:1, k:fup@pizza, mode:DOWN
+2026-06-20 15:35:17, MOVE, v:1, k:fup@pizza, mode:PICK
+2026-06-20 15:35:18, EXEC, v:1, k:fup@pizza, mode:FULL, rate:0, size:5
+2026-06-20 15:36:37, MOVE, v:1, k:fup@pizza, mode:BACK
+2026-06-20 15:36:54, MOVE, v:1, k:fup@intervalada, mode:DOWN
+2026-06-20 15:36:54, MOVE, v:1, k:fup@intervalada, mode:PICK
+2026-06-20 15:36:55, EXEC, v:1, k:fup@intervalada, mode:FULL, rate:0, size:5
+2026-06-20 19:18:26, MOVE, v:1, k:fup@intervalada, mode:PICK
+2026-06-20 19:18:29, EXEC, v:1, k:fup@intervalada, mode:FULL, rate:0, size:7
+2026-06-20 19:18:28, MOVE, v:1, k:fup@intervalada, mode:EDIT
+2026-06-20 19:20:29, MOVE, v:1, k:fup@intervalada, mode:EDIT
+2026-06-20 19:25:47, MOVE, v:1, k:fup@intervalada, mode:EDIT
+2026-06-20 19:27:57, EXEC, v:1, k:fup@intervalada, mode:FULL, rate:0, size:14
+2026-06-20 19:28:09, EXEC, v:1, k:fup@intervalada, mode:FULL, rate:0, size:14
+2026-06-20 19:29:03, EXEC, v:1, k:fup@intervalada, mode:FULL, rate:0
+2026-06-20 19:29:26, EXEC, v:1, k:fup@intervalada, mode:FULL, rate:0, size:14
+2026-06-20 19:29:27, EXEC, v:1, k:fup@intervalada, mode:FULL, rate:0
+2026-06-20 19:32:18, EXEC, v:1, k:fup@intervalada, mode:FULL, rate:0, size:14
+2026-06-20 19:32:17, MOVE, v:1, k:fup@intervalada, mode:EDIT
+2026-06-20 19:32:18, MOVE, v:1, k:fup@intervalada, mode:EDIT
+2026-06-20 19:33:17, EXEC, v:1, k:fup@intervalada, mode:FULL, rate:100, size:19
+2026-06-20 19:35:57, SELF, v:1, k:fup@intervalada, self:1, rate:100, study:10
+2026-06-20 19:35:59, MOVE, v:1, k:fup@intervalada, mode:BACK
+2026-06-20 19:33:14, MOVE, v:1, k:fup@intervalada, mode:EDIT
+2026-06-20 19:33:17, MOVE, v:1, k:fup@intervalada, mode:EDIT
+2026-06-20 19:37:58, MOVE, v:1, k:fup@unhas, mode:DOWN
+2026-06-20 19:37:58, MOVE, v:1, k:fup@unhas, mode:PICK
+2026-06-20 19:37:59, EXEC, v:1, k:fup@unhas, mode:FULL, rate:0, size:5
