@@ -14,7 +14,6 @@ func main() {
         if vet[i] >= li && vet[i] <= ls {
             cont++
         }
-        
     }
         fmt.Println(cont)
 }

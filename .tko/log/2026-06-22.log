@@ -1,0 +1,22 @@
+2026-06-22 14:25:56, MOVE, v:1, k:fup@unhas, mode:PICK
+2026-06-22 14:26:00, EXEC, v:1, k:fup@unhas, mode:FULL, rate:88
+2026-06-22 14:26:28, EXEC, v:1, k:fup@unhas, mode:FULL, rate:88, size:22
+2026-06-22 14:27:04, EXEC, v:1, k:fup@unhas, mode:FULL, rate:22, size:23
+2026-06-22 14:27:23, EXEC, v:1, k:fup@unhas, mode:FULL, rate:88, size:22
+2026-06-22 14:27:23, MOVE, v:1, k:fup@unhas, mode:EDIT
+2026-06-22 14:27:21, MOVE, v:1, k:fup@unhas, mode:EDIT
+2026-06-22 14:38:17, EXEC, v:1, k:fup@unhas, mode:FULL, rate:88, size:28
+2026-06-22 14:38:35, EXEC, v:1, k:fup@unhas, mode:FULL, rate:100, size:29
+2026-06-22 14:38:46, EXEC, v:1, k:fup@unhas, mode:FULL, rate:100, size:29
+2026-06-22 14:38:52, EXEC, v:1, k:fup@unhas, mode:FULL, rate:100, size:29
+2026-06-22 14:39:00, EXEC, v:1, k:fup@unhas, mode:FULL, rate:88, size:29
+2026-06-22 14:39:07, EXEC, v:1, k:fup@unhas, mode:FULL, rate:100, size:29
+2026-06-22 14:39:06, MOVE, v:1, k:fup@unhas, mode:EDIT
+2026-06-22 14:39:07, MOVE, v:1, k:fup@unhas, mode:EDIT
+2026-06-22 14:45:58, SELF, v:1, k:fup@unhas, self:1, rate:100, study:30
+2026-06-22 14:45:59, MOVE, v:1, k:fup@unhas, mode:BACK
+2026-06-22 14:47:15, MOVE, v:1, k:fup@mercantil, mode:DOWN
+2026-06-22 14:47:15, MOVE, v:1, k:fup@mercantil, mode:PICK
+2026-06-22 14:47:13, MOVE, v:1, k:fup@unhas, mode:EDIT
+2026-06-22 14:47:15, MOVE, v:1, k:fup@mercantil, mode:EDIT
+2026-06-22 14:51:51, EXEC, v:1, k:fup@mercantil, mode:FULL, rate:0, size:5

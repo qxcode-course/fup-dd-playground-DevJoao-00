@@ -19,8 +19,8 @@ sources:
   writeable: false
   quests: null
 expanded:
-- fup@list
 - fup@struct
+- fup@list
 flags:
   inbox: all
   panel: skills
@@ -30,5 +30,5 @@ audit:
   enabled: false
   interval_seconds: null
 lang: go
-selected: fup@unhas
-selected_index: 34
+selected: fup@mercantil
+selected_index: 32
