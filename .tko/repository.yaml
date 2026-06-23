@@ -30,5 +30,5 @@ audit:
   enabled: false
   interval_seconds: null
 lang: go
-selected: fup@mercantil
-selected_index: 32
+selected: fup@blackjack
+selected_index: 33

@@ -2,8 +2,53 @@
     "patches": [
         {
             "label": "2026-06-22_14-51-51",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -41,139 +41,35 @@\n     \n-var rodada int%0A%0A    fmt.Scan(&rodada)%0A%0A    produtos := make(%5B%5Dfloat64, rodada)%0A%0A    for _, i := range produtos%7B%0A        %0A    %7D%0A%0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-06-23_13-21-14",
+            "content": "@@ -120,265 +120,60 @@\n da)%0A\n-    chute := make(%5B%5Dfloat64, rodada)%0A%0A    for i := 0; i %3C rodada; i++%7B%0A        fmt.Scan(&chute%5Bi%5D) %0A        %0A        for _, i := range produtos%7B%0A            if i == chute%5B1%5D%7B%0A                fmt.Println(%22primeiro%22)%0A        %7D%0A    %7D%0A    %7D%0A        fmt.Println()\n+%0A    for _, i := range produtos%7B%0A        %0A    %7D%0A%0A    \n %0A%7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-06-23_13-27-12",
+            "content": "@@ -334,31 +334,8 @@\n ro%22)\n-%0A%0A                break\n %0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-06-23_13-27-24",
+            "content": "@@ -150,24 +150,86 @@\n 4, rodada)%0A%0A\n+    for i := 0; i %3C rodada; i++%7B%0A        fmt.Scan(&chute%5Bi%5D) %0A\n         %0A   \n@@ -370,10 +370,38 @@\n %7D%0A    %7D%0A\n+    %7D%0A        fmt.Println()%0A\n %7D%0A\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-06-23_13-27-52",
+            "content": "@@ -157,410 +157,43 @@\n da)%0A\n-    escolhas := make(%5B%5Dstring, rodada)%0A%0A        for i := 0; i %3C rodada; i++%7B%0A            fmt.Scan(&produtos%5Bi%5D)%0A        %7D%0A%0A        for i := 0; i %3C rodada; i++%7B%0A            fmt.Scan(&chute%5Bi%5D)%0A        %7D%0A        %0A        for i := 0; i %3C rodada; i++%7B%0A            fmt.Scan(&escolhas%5Bi%5D)%0A        %7D%0A%0A        jog1 := 0%0A        jog2 := 0%0A%0A            for i := 0; i %3C rodada; i++%7B%0A                if chute%5Bi%5D ==\n+%0A        %0A        for _, i := range\n  pro\n@@ -189,35 +189,32 @@\n = range produtos\n-%5Bi%5D\n %7B%0A              \n@@ -215,516 +215,99 @@\n     \n-        jog1++%0A                        continue%0A                %7D%0A%0A                if escolhas%5Bi%5D == %22M%22%7B%0A                    if chute%5Bi%5D %3E produtos%5Bi%5D%7B%0A                        jog2++%0A                    %7D else %7B%0A                        jog1++%0A                    %7D%0A                %7D%0A            %7D%0A%0A            if jog1 %3E jog2%7B%0A                fmt.Println(%22primeiro%22)%0A            %7D else if jog1 %3C jog2 %7B%0A                fmt.Println(%22segundo%22)%0A            %7D else%7B%0A                fmt.Println(%22empate%22)%0A        \n+if i == chute%5B1%5D%7B%0A                fmt.Println(%22primeiro%22)%0A%0A                break%0A        %7D%0A\n     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-06-23_13-38-07",
+            "content": "@@ -869,224 +869,8 @@\n   %7D%0A\n-                if escolhas%5Bi%5D == %22m%22%7B%0A                    if chute%5Bi%5D %3C produtos%5Bi%5D%7B%0A                        jog2++%0A                    %7Delse %7B%0A                        jog1++%0A                    %7D%0A                %7D%0A\n     \n",
+            "lines": "49"
+        },
+        {
+            "label": "2026-06-23_13-39-49",
+            "content": "@@ -1116,17 +1116,17 @@\n if jog1 \n-%3C\n+%3E\n  jog2%7B%0A \n@@ -1187,25 +1187,25 @@\n lse if jog1 \n-%3E\n+%3C\n  jog2 %7B%0A    \n",
+            "lines": "56"
+        },
+        {
+            "label": "2026-06-23_13-40-34",
+            "content": "@@ -1116,17 +1116,17 @@\n if jog1 \n-%3E\n+%3C\n  jog2%7B%0A \n@@ -1187,25 +1187,25 @@\n lse if jog1 \n-%3C\n+%3E\n  jog2 %7B%0A    \n",
+            "lines": "56"
+        },
+        {
+            "label": "2026-06-23_13-40-40",
+            "content": "@@ -714,27 +714,27 @@\n  if \n-produtos%5Bi%5D %3E chute\n+chute%5Bi%5D %3E produtos\n %5Bi%5D%7B\n@@ -931,27 +931,27 @@\n  if \n-produtos%5Bi%5D %3C chute\n+chute%5Bi%5D %3C produtos\n %5Bi%5D%7B\n",
+            "lines": "56"
+        },
+        {
+            "label": "2026-06-23_13-43-07",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var rodada int\n\n    fmt.Scan(&rodada)\n\n    produtos := make([]float64, rodada)\n    chute := make([]float64, rodada)\n    escolhas := make([]string, rodada)\n\n        for i := 0; i < rodada; i++{\n            fmt.Scan(&produtos[i])\n        }\n\n        for i := 0; i < rodada; i++{\n            fmt.Scan(&chute[i])\n        }\n        \n        for i := 0; i < rodada; i++{\n            fmt.Scan(&escolhas[i])\n        }\n\n        jog1 := 0\n        jog2 := 0\n\n            for i := 0; i < rodada; i++{\n                if chute[i] == produtos[i]{\n                    jog1++\n                        continue\n                }\n\n                if escolhas[i] == \"M\"{\n                    if produtos[i] > chute[i]{\n                        jog2++\n                    } else {\n                        jog1++\n                    }\n                }\n                if escolhas[i] == \"m\"{\n                    if produtos[i] < chute[i]{\n                        jog2++\n                    }else {\n                        jog1++\n                    }\n                }\n            }\n\n            if jog1 > jog2{\n                fmt.Println(\"primeiro\")\n            } else if jog1 < jog2 {\n                fmt.Println(\"segundo\")\n            } else{\n                fmt.Println(\"empate\")\n            }\n}\n",
+            "lines": "56"
         }
     ]
 }

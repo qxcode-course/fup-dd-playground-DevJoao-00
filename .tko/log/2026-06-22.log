@@ -20,3 +20,5 @@
 2026-06-22 14:47:13, MOVE, v:1, k:fup@unhas, mode:EDIT
 2026-06-22 14:47:15, MOVE, v:1, k:fup@mercantil, mode:EDIT
 2026-06-22 14:51:51, EXEC, v:1, k:fup@mercantil, mode:FULL, rate:0, size:5
+2026-06-22 17:18:16, MOVE, v:1, k:fup@mercantil, mode:PICK
+2026-06-22 17:18:19, EXEC, v:1, k:fup@mercantil, mode:FULL, rate:0
