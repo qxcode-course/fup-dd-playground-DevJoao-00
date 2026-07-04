@@ -38,3 +38,5 @@
 2026-06-23 13:43:07, EXEC, v:1, k:fup@mercantil, mode:FULL, rate:100, size:56
 2026-06-23 13:43:18, SELF, v:1, k:fup@mercantil, self:1, rate:100, study:25
 2026-06-23 13:43:19, MOVE, v:1, k:fup@mercantil, mode:BACK
+2026-06-23 13:43:04, MOVE, v:1, k:fup@mercantil, mode:EDIT
+2026-06-23 13:43:07, MOVE, v:1, k:fup@mercantil, mode:EDIT

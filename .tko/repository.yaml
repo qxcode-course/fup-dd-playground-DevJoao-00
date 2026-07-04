@@ -20,7 +20,6 @@ sources:
   quests: null
 expanded:
 - fup@struct
-- fup@list
 flags:
   inbox: all
   panel: skills
@@ -30,5 +29,5 @@ audit:
   enabled: false
   interval_seconds: null
 lang: go
-selected: fup@blackjack
-selected_index: 33
+selected: fup@idosa
+selected_index: 15
