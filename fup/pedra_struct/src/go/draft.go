@@ -5,7 +5,8 @@ type Jogada struct {
 }
 
 func calc_pontuacao(jogada Jogada) (bool, int) {
-	if jogada.p1 < 10 || jogada.p2 < 10 {
+	if
+	 jogada.p1 < 10 || jogada.p2 < 10 {
 		return false, 0
 	}
 

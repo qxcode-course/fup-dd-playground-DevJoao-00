@@ -19,6 +19,7 @@ sources:
   writeable: false
   quests: null
 expanded:
+- fup@games
 - fup@struct
 flags:
   inbox: all
@@ -29,5 +30,5 @@ audit:
   enabled: false
   interval_seconds: null
 lang: go
-selected: fup@idosa
-selected_index: 15
+selected: fup@pr_jokenpo
+selected_index: 17
