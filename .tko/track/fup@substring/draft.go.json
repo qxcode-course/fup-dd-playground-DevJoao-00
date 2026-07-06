@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_19-15-24",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var txt string\n    var init, quant int\n\n    fmt.Scan(&txt, &init, &quant)\n\n    if init < 0 || init >= len(txt) || quant <= 0{\n        fmt.Println(\"\")\n\n        return\n    }\n\n    fim := init + quant\n\n    if fim > len(txt) {\n        fim = len(txt)\n    }\n        fmt.Println(txt[init:fim])\n}\n",
+            "lines": "21"
+        }
+    ]
+}

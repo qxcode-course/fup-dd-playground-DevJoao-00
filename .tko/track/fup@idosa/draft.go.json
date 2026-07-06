@@ -7,8 +7,13 @@
         },
         {
             "label": "2026-07-04_23-08-41",
-            "content": "package main\nimport \"fmt\"\n\ntype Fator struct {\n\tnum int\n\tqtd int\n}\n\nfunc calc_fatores(num int) []Fator {\n\tvar fatores []Fator\n\n\tdivisor := 2\n\n\tfor num > 1 {\n\t\tcont := 0\n\n\t\tfor num%divisor == 0 {\n\t\t\tcont++\n\t\t\tnum = num / divisor\n\t\t}\n\n\t\tif cont > 0 {\n\t\t\tf := Fator{divisor, cont}\n\t\t\tfatores = append(fatores, f)\n\t\t}\n\n\t\tdivisor++\n\t}\n\n\treturn fatores\n}\n\nfunc main() {\n\tvar n int\n\tfmt.Scan(&n)\n\n\tfatores := calc_fatores(n)\n\n\tfor i := 0; i < len(fatores); i++ {\n\t\tfmt.Println(fatores[i].num, fatores[i].qtd)\n\t}\n}\n",
+            "content": "@@ -29,480 +29,432 @@\n ype \n-Pessoa\n+Fator\n  struct\n+ \n %7B%0A%09n\n-ome string%0A%09idade int%0A%09sexo string%0A%7D%0Afunc main()%7B%0A%09var n int%0A%0A%09fmt.Scan(&n)%0A%0A%09pessoas := make(%5B%5DPessoa, n)%0A%0A%09for i := 0; i %3C n; i++%7B%0A%09%09fmt.Scan(&pessoas%5Bi%5D.nome, &pessoas%5Bi%5D.idade, &pessoas%5Bi%5D.sexo)%0A%09%7D%0A%0A%09maiorIdade := -1%0A%09nome\n+um int%0A%09qtd int%0A%7D%0A%0Afunc calc_fatores(num int) %5B%5DFator %7B%0A%09var fatores %5B%5DFator%0A%0A%09divisor := 2%0A%0A%09for num %3E 1 %7B%0A%09%09cont\n  := \n-%22%22\n+0\n %0A%0A\n+%09\n %09for \n-i := 0; i %3C n; i\n+num%25divisor == 0 %7B%0A%09%09%09cont\n ++\n-%7B\n %0A%09%09\n-if pessoas%5Bi%5D.sexo == %22f%22 && pessoas%5Bi%5D.idade %3E maiorIdade%7B%0A%09%09%09maiorIdade = pessoas%5Bi%5D.idade%0A%09%09%09nome = pessoas%5Bi%5D.nome%0A%09%09%7D%0A%09%7D%0A%0A%09%09if maiorIdade == -1%7B%0A%09%09%09fmt.Println(%22nao tem mulher%22)%0A%09%09%7D else\n+%09num = num / divisor%0A%09%09%7D%0A%0A%09%09if cont %3E 0 %7B%0A%09%09%09f := Fator%7Bdivisor, cont%7D%0A%09%09%09fatores = append(fatores, f)%0A%09%09%7D%0A%0A%09%09divisor++%0A%09%7D%0A%0A%09return fatores%0A%7D%0A%0Afunc main() %7B%0A%09var n int%0A%09fmt.Scan(&n)%0A%0A%09fatores := calc_fatores(n)%0A%0A%09for i := 0; i %3C len(fatores); i++ \n %7B%0A\n-%09\n %09%09fm\n@@ -467,18 +467,41 @@\n tln(\n-nome\n+fatores%5Bi%5D.num, fatores%5Bi%5D.qtd\n )%0A\n-%09\n %09%7D%0A%7D%0A\n-%0A%0A\n",
             "lines": "42"
+        },
+        {
+            "label": "2026-07-06_19-31-16",
+            "content": "package main\nimport \"fmt\"\n\ntype Pessoa struct{\n\tnome string\n\tidade int\n\tsexo string\n}\nfunc main(){\n\tvar n int\n\n\tfmt.Scan(&n)\n\n\tpessoas := make([]Pessoa, n)\n\n\tfor i := 0; i < n; i++{\n\t\tfmt.Scan(&pessoas[i].nome, &pessoas[i].idade, &pessoas[i].sexo)\n\t}\n\n\tmaiorIdade := -1\n\tnome := \"\"\n\n\tfor i := 0; i < n; i++{\n\t\tif pessoas[i].sexo == \"f\" && pessoas[i].idade > maiorIdade{\n\t\t\tmaiorIdade = pessoas[i].idade\n\t\t\tnome = pessoas[i].nome\n\t\t}\n\t}\n\n\t\tif maiorIdade == -1{\n\t\t\tfmt.Println(\"nao tem mulher\")\n\t\t} else{\n\t\t\tfmt.Println(nome)\n\t\t}\n}\n\n\n",
+            "lines": "37"
         }
     ]
 }

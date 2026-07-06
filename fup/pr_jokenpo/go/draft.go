@@ -1,5 +1,4 @@
 package main
-
 import (
 	"fmt"
 	"math/rand"
@@ -11,14 +10,12 @@ func main() {
 
 	jogarNovamente := 1
 
-	// jogadas[i] contém os índices que a jogada i vence
-	// 0-Pedra 1-Papel 2-Tesoura 3-Lagarto 4-Spock
 	vence := [][]int{
-		{3, 2}, // Pedra vence Lagarto e Tesoura
-		{0, 4}, // Papel vence Pedra e Spock
-		{1, 3}, // Tesoura vence Papel e Lagarto
-		{4, 1}, // Lagarto vence Spock e Papel
-		{2, 0}, // Spock vence Tesoura e Pedra
+		{3, 2}, 
+		{0, 4}, 
+		{1, 3}, 
+		{4, 1}, 
+		{2, 0}, 
 	}
 
 	jogadas := []string{"PEDRA", "PAPEL", "TESOURA", "LAGARTO", "SPOCK"}
@@ -80,7 +77,7 @@ func main() {
 	fmt.Println("\nObrigado por jogar!")
 }
 
-// venceu verifica se a jogada do jogador vence a jogada do pc
+
 func venceu(vence [][]int, jogador, pc int) bool {
 	for _, v := range vence[jogador] {
 		if v == pc {

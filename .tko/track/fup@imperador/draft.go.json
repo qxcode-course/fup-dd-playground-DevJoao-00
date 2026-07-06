@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-05_05-10-58",
+            "content": "@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -37,752 +37,39 @@\n ) %7B%0A\n-%09var n int%0A%09fmt.Scan(&n)%0A%0A%09var arena %5B100%5D%5B100%5Dstring%0A%0A%09linhaLeao := -1%0A%09colunaLeao := -1%0A%0A%09for i := 0; i %3C n; i++ %7B%0A%09%09for j := 0; j %3C n; j++ %7B%0A%09%09%09fmt.Scan(&arena%5Bi%5D%5Bj%5D)%0A%0A%09%09%09if arena%5Bi%5D%5Bj%5D == %22L%22 %7B%0A%09%09%09%09linhaLeao = i%0A%09%09%09%09colunaLeao = j%0A%09%09%09%7D%0A%09%09%7D%0A%09%7D%0A%0A%09pontosG := 0%0A%09pontosC := 0%0A%0A%09for i := 0; i %3C n; i++ %7B%0A%09%09for j := 0; j %3C n; j++ %7B%0A%0A%09%09%09%0A%09%09%09if i == linhaLeao %7C%7C j == colunaLeao %7B%0A%09%09%09%09continue%0A%09%09%09%7D%0A%0A%09%09%09switch arena%5Bi%5D%5Bj%5D %7B%0A                case %22G%22:%0A%09%09%09%09    pontosG += 2%0A%09%09%09    case %22C%22:%0A%09%09%09%09    if i+j == n-1 %7B%0A%09%09%09%09    %09pontosC += 2%0A%09%09%09%09     %7Delse%7B%0A%09%09%09%09%09    pontosC++%0A%09%09%09%09    %7D%0A%09%09%09%7D%0A%09%09%7D%0A%09%7D%0A%0A%09if pontosG %3E pontosC %7B%0A%09%09fmt.Println(%22Gladiadores%22)%0A%09%7D else if pontosC %3E pontosG %7B%0A%09%09fmt.Println(%22Condenados a morte%22)%0A%09%7D else %7B%0A%09%09fmt.Println(%22Ninguem%22)%0A%09%7D\n+    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-05_05-13-38",
+            "content": "package main\nimport \"fmt\"\n\nfunc main() {\n\tvar n int\n\tfmt.Scan(&n)\n\n\tvar arena [100][100]string\n\n\tlinhaLeao := -1\n\tcolunaLeao := -1\n\n\tfor i := 0; i < n; i++ {\n\t\tfor j := 0; j < n; j++ {\n\t\t\tfmt.Scan(&arena[i][j])\n\n\t\t\tif arena[i][j] == \"L\" {\n\t\t\t\tlinhaLeao = i\n\t\t\t\tcolunaLeao = j\n\t\t\t}\n\t\t}\n\t}\n\n\tpontosG := 0\n\tpontosC := 0\n\n\tfor i := 0; i < n; i++ {\n\t\tfor j := 0; j < n; j++ {\n\n\t\t\t\n\t\t\tif i == linhaLeao || j == colunaLeao {\n\t\t\t\tcontinue\n\t\t\t}\n\n\t\t\tswitch arena[i][j] {\n                case \"G\":\n\t\t\t\t    pontosG += 2\n\t\t\t    case \"C\":\n\t\t\t\t    if i+j == n-1 {\n\t\t\t\t    \tpontosC += 2\n\t\t\t\t     }else{\n\t\t\t\t\t    pontosC++\n\t\t\t\t    }\n\t\t\t}\n\t\t}\n\t}\n\n\tif pontosG > pontosC {\n\t\tfmt.Println(\"Gladiadores\")\n\t} else if pontosC > pontosG {\n\t\tfmt.Println(\"Condenados a morte\")\n\t} else {\n\t\tfmt.Println(\"Ninguem\")\n\t}\n}\n",
+            "lines": "55"
+        }
+    ]
+}

@@ -29,3 +29,25 @@
 2026-07-05 05:07:28, EXEC, v:1, k:fup@pr_jokenpo, mode:LOCK, rate:0, size:91
 2026-07-05 05:07:36, EXEC, v:1, k:fup@pr_jokenpo, mode:LOCK, rate:0
 2026-07-05 05:07:38, MOVE, v:1, k:fup@pr_jokenpo, mode:BACK
+2026-07-05 05:08:50, MOVE, v:1, k:fup@bingo, mode:DOWN
+2026-07-05 05:08:51, MOVE, v:1, k:fup@bingo, mode:PICK
+2026-07-05 05:07:34, MOVE, v:1, k:fup@pr_jokenpo, mode:EDIT
+2026-07-05 05:05:51, MOVE, v:1, k:fup@pr_jokenpo, mode:EDIT
+2026-07-05 05:08:50, MOVE, v:1, k:fup@bingo, mode:EDIT
+2026-07-05 05:09:50, EXEC, v:1, k:fup@bingo, mode:FULL, rate:100, size:33
+2026-07-05 05:09:56, EXEC, v:1, k:fup@bingo, mode:FULL, rate:100
+2026-07-05 05:09:57, EXEC, v:1, k:fup@bingo, mode:FULL, rate:100
+2026-07-05 05:10:06, SELF, v:1, k:fup@bingo, self:1, rate:100, study:20
+2026-07-05 05:10:07, MOVE, v:1, k:fup@bingo, mode:BACK
+2026-07-05 05:10:56, MOVE, v:1, k:fup@imperador, mode:DOWN
+2026-07-05 05:10:57, MOVE, v:1, k:fup@imperador, mode:PICK
+2026-07-05 05:10:58, EXEC, v:1, k:fup@imperador, mode:FULL, rate:0, size:5
+2026-07-05 05:13:38, EXEC, v:1, k:fup@imperador, mode:FULL, rate:100, size:55
+2026-07-05 05:13:56, SELF, v:1, k:fup@imperador, self:1, rate:100, study:30
+2026-07-05 05:13:57, MOVE, v:1, k:fup@imperador, mode:BACK
+2026-07-05 05:12:43, MOVE, v:1, k:fup@bingo, mode:EDIT
+2026-07-05 05:09:57, MOVE, v:1, k:fup@bingo, mode:EDIT
+2026-07-05 05:10:56, MOVE, v:1, k:fup@imperador, mode:EDIT
+2026-07-05 05:13:36, MOVE, v:1, k:fup@imperador, mode:EDIT
+2026-07-05 05:13:38, MOVE, v:1, k:fup@imperador, mode:EDIT
+2026-07-05 05:12:44, MOVE, v:1, k:fup@pr_jokenpo, mode:EDIT

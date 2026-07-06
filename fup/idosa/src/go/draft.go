@@ -1,42 +1,37 @@
 package main
 import "fmt"
 
-type Fator struct {
-	num int
-	qtd int
+type Pessoa struct{
+	nome string
+	idade int
+	sexo string
 }
-
-func calc_fatores(num int) []Fator {
-	var fatores []Fator
-
-	divisor := 2
-
-	for num > 1 {
-		cont := 0
-
-		for num%divisor == 0 {
-			cont++
-			num = num / divisor
-		}
-
-		if cont > 0 {
-			f := Fator{divisor, cont}
-			fatores = append(fatores, f)
-		}
-
-		divisor++
-	}
-
-	return fatores
-}
-
-func main() {
+func main(){
 	var n int
+
 	fmt.Scan(&n)
 
-	fatores := calc_fatores(n)
+	pessoas := make([]Pessoa, n)
 
-	for i := 0; i < len(fatores); i++ {
-		fmt.Println(fatores[i].num, fatores[i].qtd)
+	for i := 0; i < n; i++{
+		fmt.Scan(&pessoas[i].nome, &pessoas[i].idade, &pessoas[i].sexo)
 	}
+
+	maiorIdade := -1
+	nome := ""
+
+	for i := 0; i < n; i++{
+		if pessoas[i].sexo == "f" && pessoas[i].idade > maiorIdade{
+			maiorIdade = pessoas[i].idade
+			nome = pessoas[i].nome
+		}
+	}
+
+		if maiorIdade == -1{
+			fmt.Println("nao tem mulher")
+		} else{
+			fmt.Println(nome)
+		}
 }
+
+

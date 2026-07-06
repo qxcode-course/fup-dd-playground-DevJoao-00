@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_19-04-13",
+            "content": "@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -41,199 +41,35 @@\n     \n-var c byte%0A%0A    fmt.Scanf(%22%25c%22, &c)%0A%0A    if c %3E= 'a' && c %3C= 'z'%7B%0A        c = c - ('a' - 'A')%0A    %7D else if c %3E= 'A' && c %3C= 'Z' %7B%0A        c = c + ('a' - 'A')%0A    %7D%0A%0A    fmt.Printf(%22%25c%5Cn%22, c)%0A\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-06_19-09-14",
+            "content": "package main\nimport \"fmt\"\n\nfunc main() {\n    var c byte\n\n    fmt.Scanf(\"%c\", &c)\n\n    if c >= 'a' && c <= 'z'{\n        c = c - ('a' - 'A')\n    } else if c >= 'A' && c <= 'Z' {\n        c = c + ('a' - 'A')\n    }\n\n    fmt.Printf(\"%c\\n\", c)\n\n}\n",
+            "lines": "17"
+        }
+    ]
+}
