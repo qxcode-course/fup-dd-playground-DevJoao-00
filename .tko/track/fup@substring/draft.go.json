@@ -2,6 +2,21 @@
     "patches": [
         {
             "label": "2026-07-06_19-15-24",
+            "content": "@@ -10,111 +10,125 @@\n ain%0A\n-%0A\n import \n-(%0A%09%22bufio%22%0A%09%22fmt%22%0A%09%22os%22%0A)%0A%0Afunc substring(s string,\n+%22fmt%22%0Afunc main() %7B%0A    var txt string%0A    var\n  ini\n-cio\n+t\n , quant\n-idade int) string %7B%0A%09\n+ int%0A%0A    fmt.Scan(&txt, &init, &quant)%0A%0A    \n if ini\n-cio\n+t\n  %3C 0\n@@ -138,19 +138,17 @@\n  ini\n-cio\n+t\n  %3E= len(\n s) %7C\n@@ -143,17 +143,19 @@\n  %3E= len(\n-s\n+txt\n ) %7C%7C qua\n@@ -160,38 +160,66 @@\n uant\n-idade\n  %3C= 0\n- \n %7B%0A\n-%09%09return %22%22%0A%09%7D%0A%0A%09\n+        fmt.Println(%22%22)%0A%0A        return%0A    %7D%0A%0A    \n fim \n@@ -228,19 +228,17 @@\n  ini\n-cio\n+t\n  + quant\n idad\n@@ -237,15 +237,14 @@\n uant\n-idade%0A%09\n+%0A%0A    \n if f\n@@ -256,15 +256,23 @@\n len(\n-s\n+txt\n ) %7B%0A\n-%09%09\n+        \n fim \n@@ -281,278 +281,52 @@\n len(\n-s)%0A%09%7D%0A%0A%09return s%5Binicio:fim%5D%0A%7D%0A%0Afunc main() %7B%0A%09leitor := bufio.NewReader(os.Stdin)%0A%0A%09var texto string%0A%09fmt.Fscanln(leitor, &texto)%0A%0A%09var inicio, quantidade int%0A%09fmt.Fscan(leitor, &inicio)%0A%09fmt.Fscan(leitor, &quantidade)%0A%0A%09fmt.Println(substring(texto, inicio, quantidade)\n+txt)%0A    %7D%0A        fmt.Println(txt%5Binit:fim%5D\n )%0A%7D%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-07-06_19-38-06",
+            "content": "@@ -18,13 +18,33 @@\n ort \n-%22fmt%22\n+(%0A%09%22bufio%22%0A%09%22fmt%22%0A%09%22os%22%0A)\n %0A%0Afu\n@@ -280,24 +280,64 @@\n ) %7B%0A\n+%09leitor := bufio.NewReader(os.Stdin)%0A%0A\n %09var t\n+e\n xt\n+o\n  string%0A\n %09var\n@@ -332,16 +332,46 @@\n  string%0A\n+%09fmt.Fscanln(leitor, &texto)%0A%0A\n %09var ini\n@@ -394,35 +394,27 @@\n int%0A\n-%0A\n %09fmt.\n-S\n+Fs\n can(\n-&txt)%0A%09fmt.Scan(\n+leitor, \n &ini\n@@ -427,13 +427,22 @@\n fmt.\n-S\n+Fs\n can(\n+leitor, \n &qua\n@@ -475,18 +475,20 @@\n string(t\n+e\n xt\n+o\n , inicio\n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-07-06_19-38-16",
+            "content": "@@ -6,16 +6,17 @@\n ge main%0A\n+%0A\n import %22\n@@ -24,112 +24,77 @@\n mt%22%0A\n+%0A\n func \n-main() %7B%0A    var txt string%0A    var\n+substring(s string,\n  ini\n-t\n+cio\n , quant\n- int%0A%0A    fmt.Scan(&txt, &init, &quant)%0A%0A    \n+idade int) string %7B%0A%09\n if ini\n-t\n+cio\n  %3C 0\n@@ -104,17 +104,19 @@\n  ini\n-t\n+cio\n  %3E= len(\n txt)\n@@ -111,19 +111,17 @@\n  %3E= len(\n-txt\n+s\n ) %7C%7C qua\n@@ -126,66 +126,38 @@\n uant\n+idade\n  %3C= 0\n+ \n %7B%0A\n-        fmt.Println(%22%22)%0A%0A        return%0A    %7D%0A%0A    \n+%09%09return %22%22%0A%09%7D%0A%0A%09\n fim \n@@ -166,17 +166,19 @@\n  ini\n-t\n+cio\n  + quant\n %0A%0A  \n@@ -177,14 +177,15 @@\n uant\n-%0A%0A    \n+idade%0A%09\n if f\n@@ -197,23 +197,15 @@\n len(\n-txt\n+s\n ) %7B%0A\n-        \n+%09%09\n fim \n@@ -214,27 +214,159 @@\n len(\n-txt)%0A    %7D%0A        \n+s)%0A%09%7D%0A%0A%09return s%5Binicio:fim%5D%0A%7D%0A%0Afunc main() %7B%0A%09var txt string%0A%09var inicio, quantidade int%0A%0A%09fmt.Scan(&txt)%0A%09fmt.Scan(&inicio)%0A%09fmt.Scan(&quantidade)%0A%0A%09\n fmt.\n@@ -377,21 +377,42 @@\n tln(\n+substring(\n txt\n-%5Binit:fim%5D\n+, inicio, quantidade)\n )%0A%7D%0A\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-07-06_19-38-22",
             "content": "package main\nimport \"fmt\"\nfunc main() {\n    var txt string\n    var init, quant int\n\n    fmt.Scan(&txt, &init, &quant)\n\n    if init < 0 || init >= len(txt) || quant <= 0{\n        fmt.Println(\"\")\n\n        return\n    }\n\n    fim := init + quant\n\n    if fim > len(txt) {\n        fim = len(txt)\n    }\n        fmt.Println(txt[init:fim])\n}\n",
             "lines": "21"
         }

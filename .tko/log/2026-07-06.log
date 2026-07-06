@@ -56,3 +56,48 @@
 2026-07-06 19:31:31, MOVE, v:1, k:fup@idosa, mode:BACK
 2026-07-06 19:31:15, MOVE, v:1, k:fup@idosa, mode:EDIT
 2026-07-06 19:31:16, MOVE, v:1, k:fup@idosa, mode:EDIT
+2026-07-06 19:33:34, SELF, v:1, k:fup@idosa, self:1, rate:100, study:20
+2026-07-06 19:38:05, MOVE, v:1, k:fup@substring, mode:PICK
+2026-07-06 19:38:06, EXEC, v:1, k:fup@substring, mode:FULL, rate:71, size:33
+2026-07-06 19:38:07, EXEC, v:1, k:fup@substring, mode:FULL, rate:71
+2026-07-06 19:38:16, EXEC, v:1, k:fup@substring, mode:FULL, rate:71, size:27
+2026-07-06 19:38:22, EXEC, v:1, k:fup@substring, mode:FULL, rate:71, size:21
+2026-07-06 19:38:35, MOVE, v:1, k:fup@substring, mode:BACK
+2026-07-06 19:38:38, MOVE, v:1, k:fup@leds, mode:DOWN
+2026-07-06 19:38:38, MOVE, v:1, k:fup@leds, mode:PICK
+2026-07-06 19:38:40, EXEC, v:1, k:fup@leds, mode:FULL, rate:0, size:5
+2026-07-06 19:38:21, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-06 19:38:22, MOVE, v:1, k:fup@substring, mode:EDIT
+2026-07-06 19:38:38, MOVE, v:1, k:fup@leds, mode:EDIT
+2026-07-06 19:38:40, MOVE, v:1, k:fup@leds, mode:EDIT
+2026-07-06 19:41:12, MOVE, v:1, k:fup@leds, mode:EDIT
+2026-07-06 19:49:30, EXEC, v:1, k:fup@leds, mode:FULL, rate:0, size:21
+2026-07-06 19:49:44, EXEC, v:1, k:fup@leds, mode:FULL, rate:100, size:21
+2026-07-06 19:49:51, SELF, v:1, k:fup@leds, self:1, rate:100, study:15
+2026-07-06 19:49:54, MOVE, v:1, k:fup@leds, mode:BACK
+2026-07-06 19:49:43, MOVE, v:1, k:fup@leds, mode:EDIT
+2026-07-06 19:49:44, MOVE, v:1, k:fup@leds, mode:EDIT
+2026-07-06 19:54:27, MOVE, v:1, k:fup@permutacao, mode:DOWN
+2026-07-06 19:54:27, MOVE, v:1, k:fup@permutacao, mode:PICK
+2026-07-06 19:55:12, EXEC, v:1, k:fup@permutacao, mode:FULL, rate:100, size:53
+2026-07-06 19:54:27, MOVE, v:1, k:fup@permutacao, mode:EDIT
+2026-07-06 19:55:18, MOVE, v:1, k:fup@permutacao, mode:EDIT
+2026-07-06 19:55:12, MOVE, v:1, k:fup@permutacao, mode:EDIT
+2026-07-06 20:01:44, MOVE, v:1, k:fup@permutacao, mode:EDIT
+2026-07-06 20:06:46, MOVE, v:1, k:fup@permutacao, mode:EDIT
+2026-07-06 20:08:12, EXEC, v:1, k:fup@permutacao, mode:FULL, rate:100, size:52
+2026-07-06 20:08:24, SELF, v:1, k:fup@permutacao, self:1, rate:100, study:30
+2026-07-06 20:08:26, MOVE, v:1, k:fup@permutacao, mode:BACK
+2026-07-06 20:08:54, SELF, v:1, k:fup@imperador, self:1, rate:100, study:25
+2026-07-06 20:08:10, MOVE, v:1, k:fup@permutacao, mode:EDIT
+2026-07-06 20:08:12, MOVE, v:1, k:fup@permutacao, mode:EDIT
+2026-07-06 20:14:48, MOVE, v:1, k:fup@coluna, mode:DOWN
+2026-07-06 20:14:48, MOVE, v:1, k:fup@coluna, mode:PICK
+2026-07-06 20:15:08, MOVE, v:1, k:fup@coluna, mode:PICK
+2026-07-06 20:15:10, EXEC, v:1, k:fup@coluna, mode:FULL, rate:0, size:5
+2026-07-06 20:15:10, MOVE, v:1, k:fup@coluna, mode:EDIT
+2026-07-06 20:19:58, MOVE, v:1, k:fup@coluna, mode:EDIT
+2026-07-06 20:23:52, EXEC, v:1, k:fup@coluna, mode:FULL, size:31, fail:COMP
+2026-07-06 20:24:25, EXEC, v:1, k:fup@coluna, mode:FULL, rate:100, size:32
+2026-07-06 20:24:32, SELF, v:1, k:fup@coluna, self:1, rate:100, study:25
+2026-07-06 20:24:39, MOVE, v:1, k:fup@coluna, mode:BACK

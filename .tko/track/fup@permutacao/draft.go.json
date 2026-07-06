@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-06_19-55-12",
+            "content": "@@ -6,16 +6,17 @@\n ge main%0A\n+%0A\n import %22\n@@ -32,16 +32,18 @@\n c invert\n+er\n (s %5B%5Dbyt\n@@ -57,20 +57,17 @@\n  int) %7B%0A\n-    \n+%09\n for i %3C \n@@ -70,24 +70,18 @@\n i %3C j %7B%0A\n-        \n+%09%09\n s%5Bi%5D, s%5B\n@@ -100,37 +100,21 @@\n %5Bi%5D%0A\n-%0A        i++%0A        j--%0A    \n+%09%09i++%0A%09%09j--%0A%09\n %7D%0A%7D%0A\n@@ -123,22 +123,29 @@\n unc prox\n+ima\n Permut\n+acao\n (s %5B%5Dbyt\n@@ -151,22 +151,20 @@\n te) bool\n+ \n %7B%0A\n-    \n+%09\n n := len\n@@ -168,20 +168,17 @@\n len(s)%0A%0A\n-    \n+%09\n i := n -\n@@ -184,17 +184,9 @@\n - 2%0A\n-    %0A    \n+%09\n for \n@@ -210,38 +210,25 @@\n  s%5Bi\n- + \n++\n 1%5D\n+ \n %7B%0A\n-        i--%0A    %7D%0A%0A    \n+%09%09i--%0A%09%7D%0A%0A%09\n if i\n@@ -234,24 +234,18 @@\n i %3C 0 %7B%0A\n-        \n+%09%09\n return f\n@@ -249,27 +249,21 @@\n n false%0A\n-    %7D%0A%0A    \n+%09%7D%0A%0A%09\n j := n -\n@@ -265,21 +265,17 @@\n = n - 1%0A\n-%0A    \n+%09\n for s%5Bj%5D\n@@ -289,31 +289,19 @@\n %5D %7B%0A\n-        j--%0A    %7D%0A%0A    \n+%09%09j--%0A%09%7D%0A%0A%09\n s%5Bi%5D\n@@ -325,41 +325,33 @@\n i%5D%0A%0A\n-    \n+%09\n invert\n+er\n (s, i\n- + \n++\n 1, n\n- - \n+-\n 1)%0A%0A\n-    \n+%09\n retu\n@@ -360,16 +360,17 @@\n  true%0A%7D%0A\n+%0A\n func mai\n@@ -375,20 +375,17 @@\n ain() %7B%0A\n-    \n+%09\n var fich\n@@ -393,20 +393,17 @@\n  string%0A\n-    \n+%09\n var n in\n@@ -405,20 +405,17 @@\n  n int%0A%0A\n-    \n+%09\n fmt.Scan\n@@ -425,19 +425,26 @@\n icha\n-, \n+)%0A%09fmt.Scan(\n &n)%0A%0A\n-    \n+%09\n s :=\n@@ -459,20 +459,17 @@\n ficha)%0A%0A\n-    \n+%09\n for i :=\n@@ -486,26 +486,21 @@\n  i++\n+ \n %7B%0A\n-        \n+%09%09\n if !prox\n Perm\n@@ -499,61 +499,45 @@\n prox\n+ima\n Permut\n+acao\n (s)\n+ \n %7B%0A\n-            break%0A        %7D%0A    %7D%0A        \n+%09%09%09break%0A%09%09%7D%0A%09%7D%0A%0A%09\n fmt.\n",
+            "lines": "53"
+        },
+        {
+            "label": "2026-07-06_20-08-12",
+            "content": "package main\nimport \"fmt\"\n\nfunc invert(s []byte, i, j int) {\n    for i < j {\n        s[i], s[j] = s[j], s[i]\n\n        i++\n        j--\n    }\n}\n\nfunc proxPermut(s []byte) bool{\n    n := len(s)\n\n    i := n - 2\n    \n    for i >= 0 && s[i] >= s[i + 1]{\n        i--\n    }\n\n    if i < 0 {\n        return false\n    }\n\n    j := n - 1\n\n    for s[j] <= s[i] {\n        j--\n    }\n\n    s[i], s[j] = s[j], s[i]\n\n    invert(s, i + 1, n - 1)\n\n    return true\n}\nfunc main() {\n    var ficha string\n    var n int\n\n    fmt.Scan(&ficha, &n)\n\n    s := []byte(ficha)\n\n    for i := 0; i < n; i++{\n        if !proxPermut(s){\n            break\n        }\n    }\n        fmt.Println(string(s))\n}\n",
+            "lines": "52"
+        }
+    ]
+}
