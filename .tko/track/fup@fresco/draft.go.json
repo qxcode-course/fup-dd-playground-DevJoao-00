@@ -2,8 +2,48 @@
     "patches": [
         {
             "label": "2026-07-07_17-29-40",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -17,342 +17,59 @@\n ort \n-(%0A    %22fmt%22%0A    %22bufio%22%0A    %22os%22%0A    %22strings%22%0A)%0A%0Afunc vogal (x byte) bool%7B%0A    return x == 'a' %7C%7C x == 'e' %7C%7C x == 'i' %7C%7C x == 'o' %7C%7C x == 'u'%0A%7D %0A%0Afunc main() %7B%0A    reader := bufio.NewReader(os.Stdin)%0A%0A    frase, _ := reader.ReadString('%5Cn')%0A    frase = strings.TrimSpace(frase)%0A%0A    sep := strings.Fields(frase)%0A%0A    fmt.Println(sep\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-07-07_18-19-54",
+            "content": "@@ -351,11 +351,8 @@\n (sep\n-%5B0%5D\n )%0A%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_18-21-21",
+            "content": "@@ -355,58 +355,7 @@\n %5B0%5D)\n-%0A%0A    for i := 0; i %3C len(sep); i++%7B%0A        %0A    %7D\n %0A%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_18-22-19",
+            "content": "@@ -400,281 +400,13 @@\n     \n-if vogal(sep%5Bi-1%5D%5Blen(p%5Bi-1%5D)-1%5D) && vogal(sep%5Bi%5D%5B0%5D) %7B%0A%09%09%09j := 0%0A%09%09%09for j %3C len(sep%5Bi%5D) && vogal(sep%5Bi%5D%5Bj%5D) %7B%0A%09%09%09%09j++%0A%09%09%09%7D%0A%09%09%09if j %3E 0 %7B%0A%09%09%09%09fmt.Print(sep%5Bi%5D%5Bj-1:%5D)%0A%09%09%09%7D else %7B%0A%09%09%09%09fmt.Print(sep%5Bi%5D)%0A%09%09%09%7D%0A%09%09%7D else %7B%0A%09%09%09fmt.Print(%22 %22, sep%5Bi%5D)%0A%09%09%7D%0A%09%7D%0A%09    fmt.Println(%22%22)\n %0A    \n+%7D\n %0A%7D%0A\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-07-07_18-23-36",
+            "content": "@@ -418,18 +418,16 @@\n -1%5D%5Blen(\n-se\n p%5Bi-1%5D)-\n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-07-07_18-23-48",
+            "content": "@@ -337,24 +337,26 @@\n    fmt.Print\n+ln\n (sep%5B0%5D)%0A%0A  \n@@ -366,17 +366,17 @@\n or i := \n-1\n+0\n ; i %3C le\n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-07-07_18-25-12",
+            "content": "@@ -646,173 +646,12 @@\n %09%09%7D%0A\n-%0A%0A        if vogFim+vogIni %3E= 3 %7B%0A%09%09%09%09resp = resp%5B:fim%5D + resp%5Blen(resp)-1:%5D + p%5Bi%5D%5Bini:%5D%0A%09%09%09%7D else %7B%0A%09%09%09%09resp += p%5Bi%5D%0A%09%09%09%7D%0A%09%09%7D else %7B%0A%09%09%09resp += %22 %22 + p%5Bi%5D%0A%09%09%7D%0A    \n+%09%7D%0A%09\n     \n@@ -670,17 +670,11 @@\n %22%22)%0A\n-%09%7D%0A%09   %0A\n     \n+%0A%7D\n %0A\n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-07-07_18-29-31",
+            "content": "@@ -642,20 +642,181 @@\n i%5D)%0A%09%09%7D%0A\n-%09%7D%0A%09\n+%0A%0A        if vogFim+vogIni %3E= 3 %7B%0A%09%09%09%09resp = resp%5B:fim%5D + resp%5Blen(resp)-1:%5D + p%5Bi%5D%5Bini:%5D%0A%09%09%09%7D else %7B%0A%09%09%09%09resp += p%5Bi%5D%0A%09%09%09%7D%0A%09%09%7D else %7B%0A%09%09%09resp += %22 %22 + p%5Bi%5D%0A%09%09%7D%0A    \n     fmt.\n@@ -831,11 +831,17 @@\n %22%22)%0A\n+%09%7D%0A%09   %0A\n     \n-%0A%7D\n %0A\n",
+            "lines": "50"
+        },
+        {
+            "label": "2026-07-07_18-29-53",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"bufio\"\n    \"os\"\n    \"strings\"\n)\n\nfunc vogal (x byte) bool{\n    return x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u'\n} \n\nfunc main() {\n    reader := bufio.NewReader(os.Stdin)\n\n    frase, _ := reader.ReadString('\\n')\n    frase = strings.TrimSpace(frase)\n\n    sep := strings.Fields(frase)\n\n    fmt.Print(sep[0])\n\n    for i := 1; i < len(sep); i++{\n        if vogal(sep[i-1][len(sep[i-1])-1]) && vogal(sep[i][0]) {\n\t\t\tj := 0\n\t\t\tfor j < len(sep[i]) && vogal(sep[i][j]) {\n\t\t\t\tj++\n\t\t\t}\n\t\t\tif j > 0 {\n\t\t\t\tfmt.Print(sep[i][j-1:])\n\t\t\t} else {\n\t\t\t\tfmt.Print(sep[i])\n\t\t\t}\n\t\t} else {\n\t\t\tfmt.Print(\" \", sep[i])\n\t\t}\n\t}\n\t    fmt.Println(\"\")\n    \n}\n",
+            "lines": "40"
         }
     ]
 }

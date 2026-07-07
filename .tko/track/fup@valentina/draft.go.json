@@ -1,0 +1,94 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-07_19-23-23",
+            "content": "@@ -41,317 +41,35 @@\n     \n-var c1, c2 rune%0A    var op string%0A%0A    fmt.Scanf(%22%25c%5Cn%22, &c1)%0A    fmt.Scanln(&op)%0A    fmt.Scanf(%22%25c%22, c2)%0A%0A    x := int(c1 - 'a')%0A    y := int(c2 - 'a')%0A%0A    var resp int%0A%0A    if op == %22+%22%7B%0A        resp = (x+y) %25 26%0A    %7D else %7B%0A        resp = (x-y + 26) %25 26%0A    %7D%0A        fmt.Printf(%22%25c%5Cn%22, rune(resp + 'a')\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-07_19-30-40",
+            "content": "@@ -343,15 +343,15 @@\n resp\n-)\n  + 'a')\n+)\n %0A%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-31-13",
+            "content": "@@ -286,17 +286,17 @@\n  = (x-y \n--\n++\n  26) %25 2\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-31-31",
+            "content": "@@ -244,19 +244,17 @@\n esp = (x\n- + \n++\n y) %25 26%0A\n@@ -287,14 +287,12 @@\n = (x\n- - y +\n+-y -\n  26)\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-31-59",
+            "content": "@@ -296,16 +296,16 @@\n y + \n-3\n 2\n+6\n ) %25 \n-3\n 2\n+6\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-32-09",
+            "content": "@@ -248,26 +248,26 @@\n = (x + y) %25 \n-3\n 2\n+6\n %0A    %7D else \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-32-18",
+            "content": "@@ -257,9 +257,9 @@\n  %25 3\n-0\n+2\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-32-28",
+            "content": "@@ -256,10 +256,10 @@\n ) %25 \n-29\n+30\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-32-36",
+            "content": "@@ -257,9 +257,9 @@\n  %25 2\n-8\n+9\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-32-45",
+            "content": "@@ -256,10 +256,10 @@\n ) %25 \n-40\n+28\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-32-51",
+            "content": "@@ -252,17 +252,17 @@\n  + y) %25 \n-1\n+4\n 0%0A    %7D \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-32-57",
+            "content": "@@ -253,17 +253,17 @@\n + y) %25 1\n-1\n+0\n %0A    %7D e\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-33-02",
+            "content": "@@ -256,9 +256,10 @@\n ) %25 \n-9\n+11\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-33-10",
+            "content": "@@ -256,9 +256,9 @@\n ) %25 \n-8\n+9\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-33-18",
+            "content": "@@ -256,10 +256,9 @@\n ) %25 \n-26\n+8\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-33-27",
+            "content": "@@ -139,17 +139,16 @@\n f(%22%25c%22, \n-&\n c2)%0A%0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-33-50",
+            "content": "@@ -297,16 +297,16 @@\n y + \n+3\n 2\n-6\n ) %25 \n+3\n 2\n-6\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-07_19-34-03",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var c1, c2 rune\n    var op string\n\n    fmt.Scanf(\"%c\\n\", &c1)\n    fmt.Scanln(&op)\n    fmt.Scanf(\"%c\", &c2)\n\n    x := int(c1 - 'a')\n    y := int(c2 - 'a')\n\n    var resp int\n\n    if op == \"+\"{\n        resp = (x + y) % 26\n    } else {\n        resp = (x - y + 26) % 26\n    }\n        fmt.Printf(\"%c\\n\", rune(resp) + 'a')\n}\n",
+            "lines": "22"
+        }
+    ]
+}

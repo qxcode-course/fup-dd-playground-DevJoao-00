@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-07_18-47-27",
+            "content": "@@ -262,12 +262,8 @@\n ras)\n- - 1\n ; i+\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-07-07_18-47-36",
+            "content": "@@ -238,17 +238,17 @@\n or i := \n-1\n+0\n ; i %3C le\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-07-07_18-47-50",
+            "content": "@@ -242,9 +242,9 @@\n  := \n-0\n+1\n ; i \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-07-07_18-47-58",
+            "content": "@@ -375,35 +375,8 @@\n    %7D\n-%0A        fmt.Println(%22sim%22)\n %0A%0A%7D%0A\n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-07-07_18-48-22",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"bufio\"\n    \"os\"\n    \"strings\"\n)\nfunc main() {\n    reader := bufio.NewReader(os.Stdin)\n\n    txt, _:= reader.ReadString('\\n')\n    txt = strings.TrimSpace(txt)\n\n    palavras := strings.Fields(txt)\n\n    for i := 0; i < len(palavras) - 1; i++{\n        if palavras[i] > palavras[i+1]{\n\n            fmt.Println(\"nao\")\n        return\n        }\n    }\n        fmt.Println(\"sim\")\n\n}\n",
+            "lines": "25"
+        }
+    ]
+}

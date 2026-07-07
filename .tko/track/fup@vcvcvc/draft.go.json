@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-07_19-44-21",
+            "content": "@@ -534,31 +534,6 @@\n   %7D%0A\n-        fmt.Println(%22 %22)%0A\n %7D%0A\n",
+            "lines": "32"
+        },
+        {
+            "label": "2026-07-07_19-44-35",
+            "content": "@@ -551,13 +551,14 @@\n rintln(%22\n+ \n %22)%0A%7D%0A\n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-07-07_19-44-41",
+            "content": "package main\n\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"os\"\n)\n\nfunc vogal(c rune) bool{\n    return c == 'a' || c == 'e'|| c == 'i'|| c == 'o'|| c == 'u'|| \n    c == 'A'|| c == 'E'|| c == 'I'|| c == 'O'|| c == 'U'\n}\n\nfunc main() {\n\treader := bufio.NewReader(os.Stdin)\n\n    frase, _ := reader.ReadString('\\n')\n\n    for _, i := range frase{\n        if i == '\\n'{\n            break\n        }\n\n        if i == ' '{\n            fmt.Print(\" \")\n        } else if vogal(i){\n            fmt.Print(\"v\")\n        } else {\n            fmt.Print(\"c\")\n        }\n    }\n        fmt.Println(\"\")\n}\n",
+            "lines": "33"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-07_19-59-54",
+            "content": "@@ -41,185 +41,34 @@\n     \n- %0A    var mat %5B2%5D%5B3%5Dint%0A%0A    soma := 0%0A%0A    for i := 0; i %3C 2; i++%7B%0A        for j := 0; j %3C 3; j++%7B%0A            fmt.Scan(&mat%5Bi%5D%5Bj%5D)%0A            soma += mat%5Bi%5D%5Bj%5D%0A        %7D%0A    %7D\n+fmt.Println(%22Helo, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-07_20-04-27",
+            "content": "@@ -220,32 +220,6 @@\n   %7D%0A\n-        fmt.Println(soma)%0A\n %7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-07-07_20-04-45",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n     \n    var mat [2][3]int\n\n    soma := 0\n\n    for i := 0; i < 2; i++{\n        for j := 0; j < 3; j++{\n            fmt.Scan(&mat[i][j])\n            soma += mat[i][j]\n        }\n    }\n        fmt.Println(soma)\n}\n",
+            "lines": "16"
+        }
+    ]
+}
