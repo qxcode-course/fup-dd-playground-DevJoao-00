@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"os"
 )
-
 type Aluno struct {
 	nome        string
 	n1, n2, n3 float64
@@ -18,34 +17,34 @@ func main() {
 	fmt.Fscan(entrada, &n)
 	entrada.ReadByte() 
 
-	alunos := make([]Aluno, n)
+	estudante := make([]Aluno, n)
 
-	for i := 0; i < n; i++ {
+	for i := 0; i < n; i++{
 		nome, _ := entrada.ReadString('\n')
 		nome = nome[:len(nome)-1]
 
-		alunos[i].nome = nome
+		estudante[i].nome = nome
 
-		fmt.Fscan(entrada, &alunos[i].n1, &alunos[i].n2, &alunos[i].n3)
+		fmt.Fscan(entrada, &estudante[i].n1, &estudante[i].n2, &estudante[i].n3)
 		entrada.ReadByte()
 
-		alunos[i].media = (alunos[i].n1 + alunos[i].n2 + alunos[i].n3) / 3
+		estudante[i].media = (estudante[i].n1 + estudante[i].n2 + estudante[i].n3) / 3
 	}
 
 	for i := 0; i < n-1; i++ {
 		for j := 0; j < n-1-i; j++ {
-			if alunos[j].media < alunos[j+1].media {
-				alunos[j], alunos[j+1] = alunos[j+1], alunos[j]
+			if estudante[j].media < estudante[j+1].media {
+				estudante[j], estudante[j+1] = estudante[j+1], estudante[j]
 			}
 		}
 	}
 
 	for i := 0; i < n; i++ {
-		fmt.Printf("%d: %s\n", i, alunos[i].nome)
-		fmt.Printf("   Media: %.2f\n", alunos[i].media)
+		fmt.Printf("%d: %s\n", i, estudante[i].nome)
+		fmt.Printf("   Media: %.2f\n", estudante[i].media)
 		fmt.Printf("   N1: %.2f, N2: %.2f, N3: %.2f\n",
-			alunos[i].n1,
-			alunos[i].n2,
-			alunos[i].n3)
+			estudante[i].n1,
+			estudante[i].n2,
+			estudante[i].n3)
 	}
 }

@@ -22,8 +22,118 @@
         },
         {
             "label": "2026-05-24_19-46-13",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var figmax, figatual int\n\n    fmt.Scan(&figmax, &figatual) \n\n    album := make([]int, 0)\n    repet := make([]int, 0)\n\n\n\n\n}\n",
+            "content": "@@ -106,203 +106,32 @@\n     \n-repet := make(%5B%5Dint, 0)%0A    album := make(%5B%5Dbool, figmax + 1)%0A%0A      var ant int%0A%0A      for i := 0; i %3C figmax; i++%7B%0A        var x int%0A        fmt.Scan(&x)%0A%0A        if i %3E 0 && x == ant%7B%0A        \n+album := make(%5B%5Dint, 0)%0A\n     \n@@ -140,208 +140,25 @@\n pet \n+:\n = \n-append(repet, x)%0A        %7D else%7B%0A            album%5Bx%5D = true%0A        %7D%0A            ant = x%0A      %7D%0A        fmt.Print(%22%5B %22)%0A%0A        for _, v := range repet%7B%0A            fmt.Printf(%22%25d%22, v)%0A        %7D\n+make(%5B%5Dint, 0)\n %0A%0A%0A%0A\n",
             "lines": "14"
+        },
+        {
+            "label": "2026-07-07_13-48-45",
+            "content": "@@ -487,17 +487,23 @@\n mt.Print\n-(\n+f(%22%25d%22,\n  v)%0A    \n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-07-07_13-48-56",
+            "content": "@@ -492,13 +492,10 @@\n int(\n+ \n v\n-, %22%22\n )%0A  \n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-07-07_13-49-06",
+            "content": "@@ -492,17 +492,16 @@\n int(v, %22\n- \n %22)%0A     \n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-07-07_13-49-18",
+            "content": "@@ -491,17 +491,15 @@\n rint\n-f(%22%25d %22,v\n+(v, %22 %22\n )%0A  \n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-07-07_13-49-46",
+            "content": "@@ -512,37 +512,8 @@\n   %7D%0A\n-            fmt.Println(%22%5D%22)%0A\n %0A%0A%0A%0A\n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-07-07_13-50-37",
+            "content": "@@ -158,16 +158,20 @@\n , figmax\n+ + 1\n )%0A%0A     \n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-07-07_13-50-50",
+            "content": "@@ -162,12 +162,8 @@\n gmax\n- + 1\n )%0A%0A \n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-07-07_13-50-55",
+            "content": "@@ -543,183 +543,8 @@\n )%0A%0A%0A\n-            fmt.Print(%22%5B %22)%0A%0A            for i := 0; i %3C= figmax; i++%7B%0A                if !album%5Bi%5D%7B%0A                    fmt.Printf(%22%25d%22, i)%0A                %7D%0A            %7D%0A%0A%0A\n %0A%0A%7D%0A\n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-07-07_13-52-50",
+            "content": "@@ -209,21 +209,19 @@\n  i %3C fig\n-atual\n+max\n ; i++%7B%0A \n",
+            "lines": "43"
+        },
+        {
+            "label": "2026-07-07_13-53-27",
+            "content": "@@ -718,39 +718,10 @@\n   %7D%0A\n-                fmt.Println(%22%5D%22)\n+%0A%0A%0A\n %0A%7D%0A\n",
+            "lines": "43"
+        },
+        {
+            "label": "2026-07-07_13-54-01",
+            "content": "@@ -743,15 +743,14 @@\n rintln(%22\n- \n %5D%22)%0A%7D%0A\n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-07-07_13-54-06",
+            "content": "@@ -676,17 +676,16 @@\n intf(%22%25d\n- \n %22, i)%0A  \n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-07-07_13-54-20",
+            "content": "@@ -740,18 +740,19 @@\n mt.Println(%22\n+ \n %5D%22)%0A%7D%0A\n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-07-07_13-54-28",
+            "content": "@@ -439,32 +439,8 @@\n %22)%0A%0A\n-    if len(album) %3E 0%7B%0A%0A\n     \n@@ -510,22 +510,16 @@\n       %7D%0A\n-    %7D%0A\n         \n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-07-07_13-56-43",
+            "content": "@@ -450,42 +450,20 @@\n len(\n-repet\n+album\n ) %3E 0%7B%0A\n-        fmt.Print(%22 %22)\n %0A   \n@@ -604,36 +604,8 @@\n %22)%0A%0A\n-            vazio := false%0A%0A\n     \n@@ -676,92 +676,8 @@\n i%5D%7B%0A\n-                    if !vazio%7B%0A                    fmt.Print(%22 %22)%0A                %7D%0A\n     \n@@ -717,34 +717,42 @@\n  i)%0A            \n-%7D%0A\n+    %7D%0A    \n         %7D%0A      \n",
+            "lines": "43"
+        },
+        {
+            "label": "2026-07-07_14-00-03",
+            "content": "@@ -430,16 +430,17 @@\n Print(%22%5B\n+ \n %22)%0A%0A    \n",
+            "lines": "48"
+        },
+        {
+            "label": "2026-07-07_14-00-14",
+            "content": "@@ -783,16 +783,17 @@\n .Print(%22\n+ \n %22)%0A     \n",
+            "lines": "48"
+        },
+        {
+            "label": "2026-07-07_14-00-22",
+            "content": "@@ -790,41 +790,8 @@\n %22%22)%0A\n-                    vazio = true%0A\n     \n",
+            "lines": "48"
+        },
+        {
+            "label": "2026-07-07_14-00-37",
+            "content": "@@ -670,17 +670,17 @@\n or i := \n-1\n+0\n ; i %3C= f\n",
+            "lines": "49"
+        },
+        {
+            "label": "2026-07-07_14-01-27",
+            "content": "@@ -468,32 +468,33 @@\n      fmt.Print(%22\n+ \n %22)%0A        for _\n",
+            "lines": "49"
+        },
+        {
+            "label": "2026-07-07_14-01-45",
+            "content": "@@ -422,33 +422,32 @@\n     fmt.Print(%22%5B\n- \n %22)%0A%0A    if len(r\n",
+            "lines": "49"
+        },
+        {
+            "label": "2026-07-07_14-01-58",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var figmax, figatual int\n\n    fmt.Scan(&figmax, &figatual) \n\n    repet := make([]int, 0)\n    album := make([]bool, figmax + 1)\n\n      var ant int\n\n      for i := 0; i < figatual; i++{\n        var x int\n        fmt.Scan(&x)\n\n        if i > 0 && x == ant{\n            repet = append(repet, x)\n        } else{\n            album[x] = true\n        }\n            ant = x\n      }\n        fmt.Print(\"[ \")\n\n    if len(repet) > 0{\n        fmt.Print(\"\")\n        for _, v := range repet{\n            fmt.Printf(\"%d \",v)\n        }\n    }\n            fmt.Println(\"]\")\n\n\n            fmt.Print(\"[ \")\n\n            vazio := false\n\n            for i := 1; i <= figmax; i++{\n                if !album[i]{\n                    if !vazio{\n                    fmt.Print(\"\")\n                    vazio = true\n                }\n                    fmt.Printf(\"%d \", i)\n            }\n        }\n                fmt.Println(\"]\")\n}\n",
+            "lines": "49"
         }
     ]
 }

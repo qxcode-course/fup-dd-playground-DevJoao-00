@@ -7,8 +7,48 @@
         },
         {
             "label": "2026-07-04_23-06-40",
-            "content": "package main\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"os\"\n)\n\ntype Aluno struct {\n\tnome        string\n\tn1, n2, n3 float64\n\tmedia       float64\n}\n\nfunc main() {\n\tentrada := bufio.NewReader(os.Stdin)\n\n\tvar n int\n\tfmt.Fscan(entrada, &n)\n\tentrada.ReadByte() \n\n\talunos := make([]Aluno, n)\n\n\tfor i := 0; i < n; i++ {\n\t\tnome, _ := entrada.ReadString('\\n')\n\t\tnome = nome[:len(nome)-1]\n\n\t\talunos[i].nome = nome\n\n\t\tfmt.Fscan(entrada, &alunos[i].n1, &alunos[i].n2, &alunos[i].n3)\n\t\tentrada.ReadByte()\n\n\t\talunos[i].media = (alunos[i].n1 + alunos[i].n2 + alunos[i].n3) / 3\n\t}\n\n\tfor i := 0; i < n-1; i++ {\n\t\tfor j := 0; j < n-1-i; j++ {\n\t\t\tif alunos[j].media < alunos[j+1].media {\n\t\t\t\talunos[j], alunos[j+1] = alunos[j+1], alunos[j]\n\t\t\t}\n\t\t}\n\t}\n\n\tfor i := 0; i < n; i++ {\n\t\tfmt.Printf(\"%d: %s\\n\", i, alunos[i].nome)\n\t\tfmt.Printf(\"   Media: %.2f\\n\", alunos[i].media)\n\t\tfmt.Printf(\"   N1: %.2f, N2: %.2f, N3: %.2f\\n\",\n\t\t\talunos[i].n1,\n\t\t\talunos[i].n2,\n\t\t\talunos[i].n3)\n\t}\n}\n",
+            "content": "@@ -938,28 +938,6 @@\n %0A%09%7D%0A\n-%09%09println(%22usiofhds%22)%0A\n %7D%0A\n",
             "lines": "51"
+        },
+        {
+            "label": "2026-07-07_14-04-08",
+            "content": "@@ -936,21 +936,17 @@\n 3)%0A%09%7D%0A%09%09\n-fmt.P\n+p\n rintln(%22\n",
+            "lines": "52"
+        },
+        {
+            "label": "2026-07-07_14-04-20",
+            "content": "@@ -581,17 +581,17 @@\n or j := \n-1\n+0\n ; j %3C n-\n@@ -934,10 +934,36 @@\n .n3)%0A%09%7D%0A\n+%09%09fmt.Println(%22usiofhds%22)%0A\n %7D%0A\n",
+            "lines": "52"
+        },
+        {
+            "label": "2026-07-07_14-04-57",
+            "content": "@@ -581,17 +581,17 @@\n or j := \n-0\n+1\n ; j %3C n-\n",
+            "lines": "51"
+        },
+        {
+            "label": "2026-07-07_14-05-02",
+            "content": "@@ -1,420 +1,183 @@\n-package main%0Aimport (%0A%09%22bufio%22%0A%09%22fmt%22%0A%09%22os%22%0A)%0A%0Atype Aluno struct %7B%0A%09nome        string%0A%09n1, n2, n3 float64%0A%09media       float64%0A%7D%0A%0Afunc main() %7B%0A%09entrada := bufio.NewReader(os.Stdin)%0A%0A%09var n int%0A%09fmt.Fscan(entrada, &n)%0A%09entrada.ReadByte() %0A%0A%09estudante := make(%5B%5DAluno, n)%0A%0A%09for i := 0; i %3C n; i++ %7B%0A%09%09nome, _ := entrada.ReadString('%5Cn')%0A%09%09nome = nome%5B:len(nome)-1%5D%0A%0A%09%09estudante%5Bi%5D.nome = nome%0A%0A%09%09fmt.Fscan(entrad\n+@@ -235,25 +235,22 @@%0A te() %250A%250A%2509%0A-estudante%0A+alunos%0A  := make%0A@@ -354,33 +354,30 @@%0A nome)-1%255D%250A%250A%2509%2509%0A-estudante%0A+alunos%0A %255Bi%255D.nome = n%0A@@ -407,53 +407,44 @@%0A \n a, &\n+%0A-\n estu\n@@ -181,19 +181,23 @@\n studante\n-%5Bi%5D\n+%255Bi%255D\n .n1, &es\n@@ -203,19 +203,23 @@\n studante\n-%5Bi%5D\n+%255Bi%255D\n .n2, &es\n@@ -229,62 +229,167 @@\n ante\n-%5Bi%5D.n3)%0A%09%09entrada.ReadByte()%0A%0A%09%09estudante%5Bi%5D.media\n+%0A+alunos%255Bi%255D.n1, &alunos%255Bi%255D.n2, &alunos%0A %255Bi%255D.%0A@@ -471,25 +471,22 @@%0A te()%250A%250A%2509%2509%0A-estudante%0A+alunos%0A %255Bi%255D.medi%0A@@ -494,53 +494,44 @@%0A \n  = (\n+%0A-\n estu\n@@ -393,19 +393,23 @@\n studante\n-%5Bi%5D\n+%255Bi%255D\n .n1 + es\n@@ -415,19 +415,23 @@\n studante\n-%5Bi%5D\n+%255Bi%255D\n .n2 + es\n@@ -441,89 +441,108 @@\n ante\n-%5Bi%5D.n3) / 3%0A%09%7D%0A%0A%09for i := 0; i %3C n-1; i++ %7B%0A%09%09for j := 0; j %3C n-1-i; j++ %7B%0A%09%09%09\n+%0A+alunos%255Bi%255D.n1 + alunos%255Bi%255D.n2 + alunos%0A %255Bi%255D.%0A@@ -607,25 +607,22 @@%0A %257B%250A%2509%2509%2509\n if \n+%0A-\n estu\n@@ -550,47 +550,135 @@\n ante\n-%5Bj%5D.media %3C estudante%5Bj+1%5D.media %7B%0A%09%09%09%09\n+%0A+alunos%0A %255Bj%255D.medi%0A@@ -625,25 +625,22 @@%0A media %253C %0A-estudante%0A+alunos%0A %255Bj+1%255D.me%0A@@ -653,64 +653,52 @@%0A %2509%2509%2509%2509%0A-\n estu\n@@ -682,19 +682,23 @@\n studante\n-%5Bj%5D\n+%255Bj%255D\n , estuda\n@@ -700,21 +700,25 @@\n studante\n-%5Bj+1%5D\n+%255Bj+1%255D\n  = estud\n@@ -725,13 +725,17 @@\n ante\n-%5Bj+1%5D\n+%255Bj+1%255D\n , es\n@@ -745,79 +745,116 @@\n ante\n-%5Bj%5D%0A%09%09%09%7D%0A%09%09%7D%0A%09%7D%0A%0A%09for i := 0; i %3C n; i++ %7B%0A%09%09fmt.Printf(%22%25d: %25s%5Cn%22\n+%0A+alunos%255Bj%255D, alunos%255Bj+1%255D = alunos%255Bj+1%255D, alunos%0A %255Bj%255D%250A%0A@@ -764,25 +764,22 @@%0A %255Cn%2522\n , i, \n+%0A-\n estu\n@@ -862,173 +862,86 @@\n ante\n-%5Bi%5D.nome)%0A%09%09fmt.Printf(%22   Media: %25.2f%5Cn%22, estudante%5Bi%5D.media)%0A%09%09fmt.Printf(%22   N1: %25.2f, N2: %25.2f, N3: %25.2f%5Cn%22,%0A%09%09%09alunos%5Bi%5D.n1,%0A%09%09%09alunos%5Bi%5D.n2,%0A%09%09%09alunos%5Bi%5D.n3)%0A%09%7D%0A%7D\n+%0A+alunos%0A %255Bi%255D.nome%0A@@ -817,17 +817,14 @@%0A n%2522, %0A-estudante%0A+alunos%0A %255Bi%255D.\n %0A\n",
+            "lines": "50"
+        },
+        {
+            "label": "2026-07-07_14-07-07",
+            "content": "@@ -930,33 +930,30 @@\n %25.2f%5Cn%22,%0A%09%09%09\n-estudante\n+alunos\n %5Bi%5D.n1,%0A%09%09%09e\n@@ -947,33 +947,30 @@\n s%5Bi%5D.n1,%0A%09%09%09\n-estudante\n+alunos\n %5Bi%5D.n2,%0A%09%09%09e\n@@ -968,25 +968,22 @@\n .n2,%0A%09%09%09\n-estudante\n+alunos\n %5Bi%5D.n3)%0A\n",
+            "lines": "51"
+        },
+        {
+            "label": "2026-07-07_14-07-29",
+            "content": "@@ -39,16 +39,17 @@\n %09%22os%22%0A)%0A\n+%0A\n type Alu\n@@ -289,16 +289,17 @@\n %3C n; i++\n+ \n %7B%0A%09%09nome\n@@ -842,16 +842,17 @@\n Printf(%22\n+ \n   Media:\n",
+            "lines": "51"
+        },
+        {
+            "label": "2026-07-07_14-08-40",
+            "content": "@@ -842,17 +842,16 @@\n intf(%22  \n- \n Media: %25\n",
+            "lines": "50"
+        },
+        {
+            "label": "2026-07-07_14-08-48",
+            "content": "package main\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"os\"\n)\ntype Aluno struct {\n\tnome        string\n\tn1, n2, n3 float64\n\tmedia       float64\n}\n\nfunc main() {\n\tentrada := bufio.NewReader(os.Stdin)\n\n\tvar n int\n\tfmt.Fscan(entrada, &n)\n\tentrada.ReadByte() \n\n\testudante := make([]Aluno, n)\n\n\tfor i := 0; i < n; i++{\n\t\tnome, _ := entrada.ReadString('\\n')\n\t\tnome = nome[:len(nome)-1]\n\n\t\testudante[i].nome = nome\n\n\t\tfmt.Fscan(entrada, &estudante[i].n1, &estudante[i].n2, &estudante[i].n3)\n\t\tentrada.ReadByte()\n\n\t\testudante[i].media = (estudante[i].n1 + estudante[i].n2 + estudante[i].n3) / 3\n\t}\n\n\tfor i := 0; i < n-1; i++ {\n\t\tfor j := 0; j < n-1-i; j++ {\n\t\t\tif estudante[j].media < estudante[j+1].media {\n\t\t\t\testudante[j], estudante[j+1] = estudante[j+1], estudante[j]\n\t\t\t}\n\t\t}\n\t}\n\n\tfor i := 0; i < n; i++ {\n\t\tfmt.Printf(\"%d: %s\\n\", i, estudante[i].nome)\n\t\tfmt.Printf(\"   Media: %.2f\\n\", estudante[i].media)\n\t\tfmt.Printf(\"   N1: %.2f, N2: %.2f, N3: %.2f\\n\",\n\t\t\testudante[i].n1,\n\t\t\testudante[i].n2,\n\t\t\testudante[i].n3)\n\t}\n}\n",
+            "lines": "50"
         }
     ]
 }

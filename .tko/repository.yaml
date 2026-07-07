@@ -19,17 +19,11 @@ sources:
   writeable: false
   quests: null
 expanded:
-- fup@if2
-- fup@games
-- fup@for1
-- fup@string
-- sandbox@sandbox
-- fup@base
-- fup@if1
 - fup@mat
-- fup@list
+- fup@games
 - eval1@eval1
-- fup@for2
+- fup@list
+- fup@string
 - fup@struct
 flags:
   inbox: all
@@ -40,5 +34,5 @@ audit:
   enabled: false
   interval_seconds: null
 lang: go
-selected: fup@coluna
-selected_index: 202
+selected: fup@estudante
+selected_index: 126
