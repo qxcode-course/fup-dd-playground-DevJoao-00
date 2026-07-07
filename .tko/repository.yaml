@@ -24,7 +24,7 @@ expanded:
 - fup@string
 flags:
   inbox: all
-  panel: logs
+  panel: skills
   task_graph_mode: time
   show_time: 'true'
 audit:
