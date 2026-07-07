@@ -1,0 +1,79 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-07_16-44-20",
+            "content": "@@ -17,246 +17,59 @@\n ort \n-(%0A    %22fmt%22%0A    %22bufio%22%0A    %22os%22%0A)%0Afunc main() %7B%0A     reader := bufio.NewReader(os.Stdin)%0A%0A    frase, _ := reader.ReadString('%5Cn')%0A%0A    for _, i := range frase%7B%0A        if i %3E= 'a' && i %3C= 'z'%7B%0A            fmt.Print(i + 26)%0A        %7D%0A    %7D\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-07_16-49-35",
+            "content": "@@ -237,10 +237,10 @@\n i + \n-3\n 2\n+6\n )%0A  \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-07-07_16-49-57",
+            "content": "@@ -235,9 +235,9 @@\n t(i \n--\n++\n  32)\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-07-07_16-50-12",
+            "content": "@@ -232,15 +232,9 @@\n rint\n-f(%22%25c%22,\n+(\n i - \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-07-07_16-50-32",
+            "content": "@@ -247,85 +247,8 @@\n 32)%0A\n-        %7D else if i %3E= 'A' && i %3C= 'Z'%7B%0A            fmt.Printf(%22%25c%22, i + 26)%0A\n     \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-07-07_16-51-35",
+            "content": "@@ -321,9 +321,9 @@\n  + 2\n-7\n+6\n )%0A  \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-07-07_16-51-45",
+            "content": "@@ -316,18 +316,18 @@\n c%22, i + \n-3\n 2\n+7\n )%0A      \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-07-07_16-51-53",
+            "content": "@@ -309,17 +309,16 @@\n intf(%22%25c\n- \n %22, i + 3\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-07-07_16-52-04",
+            "content": "@@ -233,17 +233,16 @@\n intf(%22%25c\n- \n %22,i - 32\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-07-07_16-52-11",
+            "content": "@@ -233,16 +233,17 @@\n intf(%22%25c\n+ \n %22,i - 32\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-07-07_16-52-19",
+            "content": "@@ -325,49 +325,8 @@\n 32)%0A\n-        %7Delse %7B%0A            fmt.Print(c)%0A\n     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-07-07_16-52-51",
+            "content": "@@ -359,17 +359,17 @@\n t.Print(\n-i\n+c\n )%0A      \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-07-07_16-52-52",
+            "content": "@@ -358,23 +358,17 @@\n mt.Print\n-f(%22%25c%22,\n+(\n i)%0A     \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-07-07_16-53-11",
+            "content": "@@ -309,16 +309,17 @@\n intf(%22%25c\n+ \n %22, i + 3\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-07-07_16-53-20",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"bufio\"\n    \"os\"\n)\nfunc main() {\n     reader := bufio.NewReader(os.Stdin)\n\n    frase, _ := reader.ReadString('\\n')\n\n    for _, i := range frase{\n        if i >= 'a' && i <= 'z'{\n            fmt.Printf(\"%c\",i - 32)\n        } else if i >= 'A' && i <= 'Z'{\n            fmt.Printf(\"%c\", i + 32)\n        }else {\n            fmt.Printf(\"%c\",i)\n        }\n    }\n}\n",
+            "lines": "21"
+        }
+    ]
+}

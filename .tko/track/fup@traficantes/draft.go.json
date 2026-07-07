@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-07_17-03-41",
+            "content": "@@ -17,490 +17,59 @@\n ort \n-(%0A    %22fmt%22%0A    %22os%22%0A    %22bufio%22%0A    %22strings%22%0A)%0Afunc main() %7B%0A    reader := bufio.NewReader(os.Stdin)%0A%0A    texto, _ := reader.ReadString('%5Cn')%0A    antiga, _ := reader.ReadString('%5Cn')%0A    nova, _ := reader.ReadString('%5Cn')%0A%0A    for i := 0; i %3C len(texto); i++%7B%0A        if i %3C= len(texto) - len(antiga) && texto%5Bi:i + len(antiga)%5D == antiga%7B%0A            fmt.Print(nova)%0A            i += len(antiga)%0A        %7D else %7B%0A            fmt.Printf(%22%25c%22, texto%5Bi%5D)%0A            %0A        %7D%0A    %7D\n+%22fmt%22%0Afunc main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-07_17-27-03",
+            "content": "@@ -242,114 +242,8 @@\n ')%0A%0A\n-    texto = strings.TrimSpace(texto)%0A%09antiga = strings.TrimSpace(antiga)%0A%09nova = strings.TrimSpace(nova)%0A%0A\n     \n@@ -468,16 +468,28 @@\n xto%5Bi%5D)%0A\n+            \n %0A       \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-07-07_17-27-30",
+            "content": "@@ -376,16 +376,19 @@\n texto); \n+i++\n %7B%0A      \n@@ -578,23 +578,8 @@\n i%5D)%0A\n-            i++\n %0A   \n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-07-07_17-27-42",
+            "content": "@@ -607,30 +607,6 @@\n   %7D%0A\n-        fmt.Println(%22%22)%0A\n %7D%0A\n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-07-07_17-28-01",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"os\"\n    \"bufio\"\n    \"strings\"\n)\nfunc main() {\n    reader := bufio.NewReader(os.Stdin)\n\n    texto, _ := reader.ReadString('\\n')\n    antiga, _ := reader.ReadString('\\n')\n    nova, _ := reader.ReadString('\\n')\n\n    texto = strings.TrimSpace(texto)\n\tantiga = strings.TrimSpace(antiga)\n\tnova = strings.TrimSpace(nova)\n\n    for i := 0; i < len(texto); {\n        if i <= len(texto) - len(antiga) && texto[i:i + len(antiga)] == antiga{\n            fmt.Print(nova)\n            i += len(antiga)\n        } else {\n            fmt.Printf(\"%c\", texto[i])\n            i++\n        }\n    }\n        fmt.Println(\"\")\n}\n",
+            "lines": "29"
+        }
+    ]
+}

@@ -31,5 +31,5 @@ func main() {
 		fmt.Scan(&restaurantes[i].nome, &restaurantes[i].ponto)
 	}
 
-	fmt.Println(melhorRestaurante(restaurantes))
+	fmt.Println(melhorRestaurante(restaurantes,))
 }

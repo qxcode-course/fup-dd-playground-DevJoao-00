@@ -19,12 +19,8 @@ sources:
   writeable: false
   quests: null
 expanded:
-- fup@mat
-- fup@games
-- eval1@eval1
-- fup@list
 - fup@string
-- fup@struct
+- fup@mat
 flags:
   inbox: all
   panel: skills
@@ -34,5 +30,5 @@ audit:
   enabled: false
   interval_seconds: null
 lang: go
-selected: fup@estudante
-selected_index: 126
+selected: fup@fresco
+selected_index: 16
